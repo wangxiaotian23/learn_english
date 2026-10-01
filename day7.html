@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 7 · 周会总结与复盘 Weekly Report &amp; Retro</title>
+<style>
+  :root { --primary:#2563eb; --primary-dark:#1e40af; --bg:#f8fafc; --card:#fff; --text:#1e293b; --muted:#64748b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .container { max-width:860px; margin:0 auto; padding:16px 16px 60px; }
+  nav.top { display:flex; justify-content:space-between; align-items:center; padding:10px 0; font-size:14px; }
+  nav.top a { color:var(--primary); text-decoration:none; padding:6px 14px; border:1px solid #dbeafe; border-radius:8px; background:var(--card); }
+  nav.top a:hover { background:#eff6ff; }
+  header.hero { background:linear-gradient(135deg,var(--primary-dark),var(--primary)); color:#fff; border-radius:16px; padding:32px; margin:8px 0 28px; }
+  header.hero .day { font-size:13px; letter-spacing:2px; text-transform:uppercase; opacity:.85; }
+  header.hero h1 { font-size:26px; margin:6px 0 8px; }
+  header.hero p { opacity:.92; font-size:15px; }
+  h2.section { font-size:19px; margin:32px 0 14px; padding-left:12px; border-left:4px solid var(--primary); }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:18px 22px; margin-bottom:14px; }
+  ol.goals li { margin:6px 0 6px 18px; font-size:15px; }
+  .sent { border-left:4px solid var(--primary); padding:12px 16px; margin:12px 0; background:var(--card); border-radius:0 10px 10px 0; border-top:1px solid #e2e8f0; border-right:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0; }
+  .sent .en { font-size:16px; font-weight:600; color:var(--primary-dark); }
+  .sent .zh { font-size:14px; color:var(--text); margin-top:4px; }
+  .sent .scene { display:inline-block; font-size:12px; background:#dbeafe; color:var(--primary-dark); border-radius:999px; padding:1px 10px; margin-top:8px; }
+  .dialog { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:20px 22px; margin-bottom:14px; }
+  .dialog h3 { font-size:15px; color:var(--muted); font-weight:500; margin-bottom:14px; }
+  .line { margin:10px 0; display:flex; flex-direction:column; }
+  .line .who { font-size:12px; color:var(--muted); margin-bottom:2px; }
+  .line .en { font-size:15px; padding:8px 14px; border-radius:10px; background:#eff6ff; align-self:flex-start; max-width:92%; }
+  .line.me .en { background:#ecfdf5; align-self:flex-end; }
+  .line .zh { font-size:13px; color:var(--muted); padding:0 14px; }
+  .line.me .zh { text-align:right; }
+  .tip-box { background:#fffbeb; border:1px solid #fde68a; border-radius:12px; padding:16px 20px; font-size:14px; margin-bottom:14px; }
+  .tip-box strong { color:#b45309; }
+  ul.tasks li { margin:8px 0 8px 20px; font-size:15px; }
+  table.schedule { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; font-size:14px; }
+  table.schedule th, table.schedule td { padding:10px 14px; text-align:left; border-bottom:1px solid #e2e8f0; }
+  table.schedule th { background:var(--primary); color:#fff; font-weight:500; }
+  table.schedule tr:last-child td { border-bottom:none; }
+  table.checklist { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; font-size:14px; }
+  table.checklist th, table.checklist td { padding:10px 14px; text-align:left; border-bottom:1px solid #e2e8f0; }
+  table.checklist th { background:#059669; color:#fff; font-weight:500; }
+  table.checklist tr:last-child td { border-bottom:none; }
+  nav.bottom { display:flex; justify-content:space-between; margin-top:36px; }
+  nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
+  nav.bottom a:hover { background:#eff6ff; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="top">
+    <a href="day6.html">← Day 6</a>
+    <a href="index.html">返回目录</a>
+    <a href="index.html">完成 🎉</a>
+  </nav>
+
+  <header class="hero">
+    <div class="day">Day 7</div>
+    <h1>周会总结与复盘 <span style="font-weight:400">Weekly Report &amp; Retro</span></h1>
+    <p>最后一天：练口头周报和回顾会（retro）的表达，然后用文末的自测清单检验这一周的成果。练完这一周，下周就是实战。</p>
+  </header>
+
+  <h2 class="section">今日目标</h2>
+  <div class="card">
+    <ol class="goals">
+      <li>能用「成果 → 数据 → 计划 → 风险」结构做 2 分钟口头周报。</li>
+      <li>掌握 retro 的三段表达：做得好的、需要改进的、下次行动。</li>
+      <li>完成一周自测清单，确定下周的实战场景。</li>
+    </ol>
+  </div>
+
+  <h2 class="section">核心句型</h2>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 口头周报（Weekly Update）</h2>
+  <div class="sent"><div class="en">This week, the team shipped three features and closed eleven tickets.</div><div class="zh">本周团队上线了三个功能，关闭了十一个工单。</div><span class="scene">数字开头，最有说服力</span></div>
+  <div class="sent"><div class="en">The highlight of the week was getting the new search feature into production.</div><div class="zh">本周的亮点是新搜索功能上线生产环境。</div><span class="scene">the highlight of the week = 本周亮点</span></div>
+  <div class="sent"><div class="en">We're currently at 90% completion, and we're on track to finish by next Friday.</div><div class="zh">目前完成度 90%，有望下周五之前完成。</div><span class="scene">on track = 进度正常</span></div>
+  <div class="sent"><div class="en">The migration is slightly behind schedule due to the vendor outage earlier this week.</div><div class="zh">由于本周初供应商故障，迁移进度稍有延迟。</div><span class="scene">behind schedule + 说明原因</span></div>
+  <div class="sent"><div class="en">To get back on track, we're bringing in one more engineer next week.</div><div class="zh">为了赶上进度，我们下周会增派一名工程师。</div><span class="scene">落后时给出行动 · get back on track</span></div>
+  <div class="sent"><div class="en">One risk to flag: if the load test surfaces issues, we may need to push the launch by a few days.</div><div class="zh">有一个风险要提：如果压测发现问题，上线可能要推迟几天。</div><span class="scene">提前预警 · flag a risk</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 回顾会（Retrospective）</h2>
+  <div class="sent"><div class="en">What went well: the pairing sessions really sped up the onboarding.</div><div class="zh">做得好的：结对环节大大加快了新人上手速度。</div><span class="scene">What went well = 做得好的</span></div>
+  <div class="sent"><div class="en">What didn't go so well: we spent too long on requirements that changed anyway.</div><div class="zh">不太好的：我们在后来反正会变的需求上花了太多时间。</div><span class="scene">What didn't go well = 需改进</span></div>
+  <div class="sent"><div class="en">Going forward, let's agree on a cutoff for requirement changes within a sprint.</div><div class="zh">往后，我们约定一个迭代内需求变更的截止点吧。</div><span class="scene">going forward = 往后（提行动）</span></div>
+  <div class="sent"><div class="en">My action item is to document the deployment process by Wednesday.</div><div class="zh">我的行动项是周三之前把部署流程写成文档。</div><span class="scene">action item = 行动项（要认领）</span></div>
+  <div class="sent"><div class="en">Can we make retro action items visible on the board so they don't get lost?</div><div class="zh">能不能把 retro 的行动项放到看板上，免得被遗忘？</div><span class="scene">让改进落地</span></div>
+
+  <h2 class="section">情景对话</h2>
+
+  <div class="dialog">
+    <h3>场景一：周五周会，你代表小组做口头周报</h3>
+    <div class="line"><span class="who">Manager</span><span class="en">OK, let's do the weekly round-up. Alex, can you give us the platform team update?</span><span class="zh">好，我们来过一遍本周总结。Alex，你来说说平台团队的情况？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sure. This week we shipped the new search feature and closed eleven tickets. The highlight was definitely the search launch — it went out on Wednesday with zero incidents, and early metrics show a thirty percent increase in search usage.</span><span class="zh">好的。本周我们上线了新搜索功能，关闭了十一个工单。亮点肯定是搜索上线——周三发布，零故障，早期数据显示搜索使用量增长了 30%。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">The data migration is slightly behind schedule — we're at 80% instead of the planned 90% — mainly due to the vendor outage on Tuesday. To get back on track, we're moving the remaining cleanup scripts to a separate workstream so they don't block the main path.</span><span class="zh">数据迁移稍有延迟——目前完成 80%，原计划是 90%——主要是周二供应商故障导致的。为了赶上进度，我们把剩下的清理脚本挪到单独的工作流，不再阻塞主路径。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Looking ahead: the load test is scheduled for Tuesday. One risk to flag — if it surfaces issues, the launch may need to slip by a few days. We'll know more by Wednesday and will update everyone then.</span><span class="zh">展望下周：压测定在周二。提一个风险——如果压测发现问题，上线可能要推迟几天。周三前会有更明确的结论，届时同步给大家。</span></div>
+    <div class="line"><span class="who">Manager</span><span class="en">That's a solid update — clear numbers and a plan for the risk. Thanks, Alex.</span><span class="zh">汇报很扎实——数字清楚，风险也有预案。谢谢 Alex。</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景二：迭代回顾会（retro），你主动发言</h3>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Retro time. Let's start with what went well this sprint.</span><span class="zh">回顾会时间。先说说这个迭代做得好的地方。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">I'll start — the pairing sessions on the migration really worked. New team members got up to speed twice as fast as usual, and we caught two design issues early because four eyes were on the code.</span><span class="zh">我先说——迁移的结对方式很有效。新人上手速度比平时快了一倍，而且因为多双眼睛盯着代码，我们提前发现了两个设计问题。</span></div>
+    <div class="line"><span class="who">Kevin</span><span class="en">Agreed. On the "didn't go so well" side: mid-sprint requirement changes. We rebuilt the export UI twice because the spec kept moving.</span><span class="zh">同意。不太好的方面：迭代中途需求变更。需求一直变，导出界面我们重做了两次。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Yeah, that cost us at least two days. Going forward, could we agree on a cutoff point — say, no requirement changes in the last three days of a sprint unless it's a production issue?</span><span class="zh">是的，那至少让我们损失了两天。往后我们能不能定一个截止点——比如迭代最后三天不接受需求变更，除非是生产问题？</span></div>
+    <div class="line"><span class="who">PM</span><span class="en">That's reasonable. I'll commit to finalizing specs earlier — that's on me as much as anyone.</span><span class="zh">合理。我承诺更早把需求定稿——这方面我的责任不比任何人小。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Appreciate that. My action item: I'll draft the cutoff rule and share it in the channel by Monday. And can we track retro action items on the board? Last sprint's items quietly disappeared.</span><span class="zh">谢谢。我的行动项：周一之前把截止规则写出来发到频道。另外能把 retro 的行动项放到看板上吗？上个迭代的行动项就悄悄消失了。</span></div>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Good call. I'll add a column for them today. Great retro, everyone.</span><span class="zh">好主意。我今天就在看板上加一列。这次回顾会很有收获，大家。</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景三：综合实战——把一周所学串成一天</h3>
+    <div class="line"><span class="who">同事（路上偶遇）</span><span class="en">Morning! How was your weekend?</span><span class="zh">（Day 6）早上好！周末怎么样？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Great, thanks — went hiking on Saturday. You?</span><span class="zh">（Day 6）很好，谢谢——周六去徒步了。你呢？</span></div>
+    <div class="line"><span class="who">站会上</span><span class="en">Yesterday I finished the export tests; today I'm on the load test prep. No blockers.</span><span class="zh">（Day 1）昨天完成导出测试；今天准备压测。无阻塞。</span></div>
+    <div class="line"><span class="who">评审时</span><span class="en">Good catch! I'll fix that right away. / Might it be cleaner to extract this into a helper?</span><span class="zh">（Day 3）发现得好，马上改。／抽成工具函数会不会更清晰？</span></div>
+    <div class="line"><span class="who">周会上</span><span class="en">The highlight of the week was the search launch — usage is up thirty percent.</span><span class="zh">（Day 7）本周亮点是搜索上线——使用量增长 30%。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">That's my week! Anyway, I should get going — great running into you. Let's grab a coffee sometime and catch up properly.</span><span class="zh">（Day 6 收尾）我这周就是这样！好了，先走了——很高兴碰到你。改天喝杯咖啡好好聊。</span></div>
+  </div>
+
+  <h2 class="section">发音与连读提示</h2>
+  <div class="tip-box">
+    <strong>1. "went well" 连读：</strong>went 的 /t/ 与 well 的 /w/ 连读成 /went-wel/。"What went well" 是 retro 三问的第一问，一定要说顺。<br><br>
+    <strong>2. "on track / off track / back on track"：</strong>track 读 /træk/，这组短语是周报进度描述的核心，配上数字使用效果最好。<br><br>
+    <strong>3. 周报的节奏：</strong>数字（thirty percent、eleven tickets）放慢加重；连接句（looking ahead、to sum up）加快，让听众知道你在切换章节。
+  </div>
+
+  <h2 class="section">练习任务</h2>
+  <div class="card">
+    <ul class="tasks">
+      <li><strong>2 分钟周报：</strong>用你本周的真实工作内容，按「成果 → 数据 → 计划 → 风险」录一段 2 分钟周报。</li>
+      <li><strong>retro 三段练习：</strong>对上周的工作，各说出 1 个 went well、1 个 didn't go well、1 个 action item。</li>
+      <li><strong>听自己的第一份录音：</strong>回听 Day 1 的模拟汇报录音，对比今天的，感受一周的变化。</li>
+    </ul>
+  </div>
+
+  <h2 class="section">高频 IT 词汇 · 50 个</h2>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 成果与价值</h2>
+  <table class="schedule">
+    <tr><td>achievement</td><td>成果</td><td>accomplishment</td><td>成就</td></tr>
+    <tr><td>contribution</td><td>贡献</td><td>impact</td><td>影响</td></tr>
+    <tr><td>improvement</td><td>改进</td><td>optimization</td><td>优化</td></tr>
+    <tr><td>efficiency</td><td>效率</td><td>productivity</td><td>生产力</td></tr>
+    <tr><td>quality</td><td>质量</td><td>metric</td><td>指标</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 数据与汇报</h2>
+  <table class="schedule">
+    <tr><td>data-driven</td><td>数据驱动的</td><td>baseline</td><td>基线</td></tr>
+    <tr><td>benchmark</td><td>基准测试</td><td>trend</td><td>趋势</td></tr>
+    <tr><td>insight</td><td>洞察</td><td>takeaway</td><td>要点</td></tr>
+    <tr><td>summary</td><td>总结</td><td>highlight</td><td>亮点</td></tr>
+    <tr><td>presentation</td><td>演示 / 汇报</td><td>visibility</td><td>曝光度 / 能见度</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 职业发展</h2>
+  <table class="schedule">
+    <tr><td>advancement</td><td>晋升</td><td>career path</td><td>职业路径</td></tr>
+    <tr><td>skill set</td><td>技能组合</td><td>strength</td><td>优势</td></tr>
+    <tr><td>weakness</td><td>短板</td><td>goal</td><td>目标</td></tr>
+    <tr><td>objective</td><td>（具体）目标</td><td>growth</td><td>成长</td></tr>
+    <tr><td>upskill</td><td>提升技能</td><td>learning</td><td>学习</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">④ 协作与影响力</h2>
+  <table class="schedule">
+    <tr><td>cross-functional</td><td>跨职能的</td><td>collaboration</td><td>协作</td></tr>
+    <tr><td>communication</td><td>沟通</td><td>initiative</td><td>主动倡议</td></tr>
+    <tr><td>accountability</td><td>责任（担责）</td><td>trust</td><td>信任</td></tr>
+    <tr><td>reputation</td><td>声誉</td><td>networking</td><td>人脉经营</td></tr>
+    <tr><td>referral</td><td>内推</td><td>advocacy</td><td>支持 / 背书</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">⑤ 求职与改进</h2>
+  <table class="schedule">
+    <tr><td>resume</td><td>简历</td><td>interview</td><td>面试</td></tr>
+    <tr><td>offer</td><td>录用通知</td><td>negotiation</td><td>谈判</td></tr>
+    <tr><td>self-review</td><td>自评</td><td>lesson learned</td><td>经验教训</td></tr>
+    <tr><td>best practice</td><td>最佳实践</td><td>process</td><td>流程</td></tr>
+    <tr><td>streamline</td><td>精简提效</td><td>automate</td><td>自动化</td></tr>
+  </table>
+
+  <h2 class="section" id="checklist">一周自测清单</h2>
+  <div class="card">
+    <p style="margin-bottom:12px;">下面每项试着不看书口头说出来。说得出就打勾，说不出的回去复习对应天数。</p>
+    <table class="checklist">
+      <tr><th>自测项</th><th>来源</th></tr>
+      <tr><td>60 秒完成 yesterday–today–blockers 三段式站会汇报</td><td>Day 1</td></tr>
+      <tr><td>用四段结构描述一个 bug（现象/复现/报错/影响）</td><td>Day 2</td></tr>
+      <tr><td>用 "Just to clarify..." 和 "play back" 各造一句确认理解的话</td><td>Day 2</td></tr>
+      <tr><td>对同一问题说出 nit / 建议 / must-fix 三种强度的反馈</td><td>Day 3</td></tr>
+      <tr><td>用「感谢 + 理由 + 条件」礼貌坚持自己的技术方案</td><td>Day 3</td></tr>
+      <tr><td>对某个观点说出同意、部分同意、委婉反对三档表达</td><td>Day 4</td></tr>
+      <tr><td>用 "To sum up..." 总结一次会议并确认对齐</td><td>Day 4</td></tr>
+      <tr><td>用 "Think of it like..." 给一个技术概念造类比</td><td>Day 5</td></tr>
+      <tr><td>完整说出 Demo 开场、过渡、收尾三句</td><td>Day 5</td></tr>
+      <tr><td>完成「问周末 → 分享 → 回问」三部曲对话</td><td>Day 6</td></tr>
+      <tr><td>30 秒 networking 自我介绍（名字 + 团队 + 亮点）</td><td>Day 6</td></tr>
+      <tr><td>按「成果 → 数据 → 计划 → 风险」说出 2 分钟周报</td><td>Day 7</td></tr>
+      <tr><td>说出 retro 三段：went well / didn't go well / action item</td><td>Day 7</td></tr>
+    </table>
+  </div>
+
+  <h2 class="section">下一周怎么继续</h2>
+  <div class="tip-box">
+    <strong>实战循环：</strong>这周学的句型不用再「学」，只用「用」——每天上班至少用出 3 个句型，用一次在心里打个勾。<br><br>
+    <strong>输入保持：</strong>每天 10 分钟英语技术内容（YouTube 技术演讲、播客如 <em>Soft Skills Engineering</em>），重点听母语者怎么「接话」和「软化语气」。<br><br>
+    <strong>复盘节奏：</strong>每周五花 15 分钟做一次口头周报（Day 7 结构），这就是你雷打不动的每周实战。
+  </div>
+
+  <nav class="bottom">
+    <a href="day6.html">← Day 6 · 职场社交</a>
+    <a href="index.html">返回目录 · 一周完成 🎉</a>
+  </nav>
+</div>
+</body>
+</html>

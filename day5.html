@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 5 · 讲解方案与演示 Demo & Presentation</title>
+<style>
+  :root { --primary:#2563eb; --primary-dark:#1e40af; --bg:#f8fafc; --card:#fff; --text:#1e293b; --muted:#64748b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .container { max-width:860px; margin:0 auto; padding:16px 16px 60px; }
+  nav.top { display:flex; justify-content:space-between; align-items:center; padding:10px 0; font-size:14px; }
+  nav.top a { color:var(--primary); text-decoration:none; padding:6px 14px; border:1px solid #dbeafe; border-radius:8px; background:var(--card); }
+  nav.top a:hover { background:#eff6ff; }
+  header.hero { background:linear-gradient(135deg,var(--primary-dark),var(--primary)); color:#fff; border-radius:16px; padding:32px; margin:8px 0 28px; }
+  header.hero .day { font-size:13px; letter-spacing:2px; text-transform:uppercase; opacity:.85; }
+  header.hero h1 { font-size:26px; margin:6px 0 8px; }
+  header.hero p { opacity:.92; font-size:15px; }
+  h2.section { font-size:19px; margin:32px 0 14px; padding-left:12px; border-left:4px solid var(--primary); }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:18px 22px; margin-bottom:14px; }
+  ol.goals li { margin:6px 0 6px 18px; font-size:15px; }
+  .sent { border-left:4px solid var(--primary); padding:12px 16px; margin:12px 0; background:var(--card); border-radius:0 10px 10px 0; border-top:1px solid #e2e8f0; border-right:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0; }
+  .sent .en { font-size:16px; font-weight:600; color:var(--primary-dark); }
+  .sent .zh { font-size:14px; color:var(--text); margin-top:4px; }
+  .sent .scene { display:inline-block; font-size:12px; background:#dbeafe; color:var(--primary-dark); border-radius:999px; padding:1px 10px; margin-top:8px; }
+  .dialog { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:20px 22px; margin-bottom:14px; }
+  .dialog h3 { font-size:15px; color:var(--muted); font-weight:500; margin-bottom:14px; }
+  .line { margin:10px 0; display:flex; flex-direction:column; }
+  .line .who { font-size:12px; color:var(--muted); margin-bottom:2px; }
+  .line .en { font-size:15px; padding:8px 14px; border-radius:10px; background:#eff6ff; align-self:flex-start; max-width:92%; }
+  .line.me .en { background:#ecfdf5; align-self:flex-end; }
+  .line .zh { font-size:13px; color:var(--muted); padding:0 14px; }
+  .line.me .zh { text-align:right; }
+  .tip-box { background:#fffbeb; border:1px solid #fde68a; border-radius:12px; padding:16px 20px; font-size:14px; margin-bottom:14px; }
+  .tip-box strong { color:#b45309; }
+  ul.tasks li { margin:8px 0 8px 20px; font-size:15px; }
+  table.schedule { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; font-size:14px; }
+  table.schedule th, table.schedule td { padding:10px 14px; text-align:left; border-bottom:1px solid #e2e8f0; }
+  table.schedule th { background:var(--primary); color:#fff; font-weight:500; }
+  table.schedule tr:last-child td { border-bottom:none; }
+  nav.bottom { display:flex; justify-content:space-between; margin-top:36px; }
+  nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
+  nav.bottom a:hover { background:#eff6ff; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="top">
+    <a href="day4.html">← Day 4</a>
+    <a href="index.html">返回目录</a>
+    <a href="day6.html">Day 6 →</a>
+  </nav>
+
+  <header class="hero">
+    <div class="day">Day 5</div>
+    <h1>讲解方案与演示 <span style="font-weight:400">Demo &amp; Presentation</span></h1>
+    <p>今天练「把复杂讲简单」：向非技术人员解释技术方案，以及 Demo 演示时的开场、过渡和应对提问。</p>
+  </header>
+
+  <h2 class="section">今日目标</h2>
+  <div class="card">
+    <ol class="goals">
+      <li>掌握用类比（analogy）向非技术人员解释技术概念的句型。</li>
+      <li>学会 Demo 的标准流程句型：开场 → 演示 → 过渡 → 收尾。</li>
+      <li>演示中出 bug 时不慌场，能从容应对。</li>
+    </ol>
+  </div>
+
+  <h2 class="section">核心句型</h2>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 向非技术人员解释技术（用类比）</h2>
+  <div class="sent"><div class="en">Think of it like a post office: the message queue holds letters until the recipient is ready to pick them up.</div><div class="zh">把它想象成邮局：消息队列把信件存着，等收件人方便时再取。</div><span class="scene">Think of it like... 万能类比开头</span></div>
+  <div class="sent"><div class="en">In simple terms, the cache is a notepad where we keep answers we've already calculated.</div><div class="zh">简单来说，缓存就是一个便签本，记着我们已经算过的答案。</div><span class="scene">In simple terms = 简单来说</span></div>
+  <div class="sent"><div class="en">The short version is: users will see results twice as fast, and we'll cut server costs by a third.</div><div class="zh">长话短说：用户看到结果的速度翻倍，服务器成本降低三分之一。</div><span class="scene">The short version is... 给结论</span></div>
+  <div class="sent"><div class="en">I'll skip the technical details — the key takeaway is that this scales to ten times our current traffic.</div><div class="zh">技术细节我就跳过了——关键要点是它能支撑十倍于现在的流量。</div><span class="scene">key takeaway = 关键要点</span></div>
+  <div class="sent"><div class="en">What that means for the business is faster releases and fewer outages.</div><div class="zh">这对业务意味着更快的发布速度和更少的故障。</div><span class="scene">翻译成业务价值 · What that means for...</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② Demo 演示流程</h2>
+  <div class="sent"><div class="en">Thanks everyone. Today I'll walk you through the new reporting dashboard.</div><div class="zh">谢谢大家。今天我来带大家看一下新的报表仪表盘。</div><span class="scene">开场 · walk you through</span></div>
+  <div class="sent"><div class="en">I'll keep it to about ten minutes, and then we'll have time for questions.</div><div class="zh">我会控制在十分钟左右，之后留时间给大家提问。</div><span class="scene">预告时长与 Q&amp;A</span></div>
+  <div class="sent"><div class="en">Let's start with the most common use case: a manager checking weekly sales.</div><div class="zh">我们从最常见的场景开始：经理查看每周销售。</div><span class="scene">从典型场景切入</span></div>
+  <div class="sent"><div class="en">As you can see here, the report generates in under two seconds.</div><div class="zh">正如你在这里看到的，报表两秒内就生成了。</div><span class="scene">演示中 · As you can see</span></div>
+  <div class="sent"><div class="en">Now, moving on to the export feature — this is where it gets interesting.</div><div class="zh">接下来看导出功能——有意思的部分来了。</div><span class="scene">过渡句 · moving on to</span></div>
+  <div class="sent"><div class="en">And that brings us to the end of the demo. To recap, we saw three things today...</div><div class="zh">演示到这里就结束了。回顾一下，我们今天看了三件事……</div><span class="scene">收尾 · to recap</span></div>
+  <div class="sent"><div class="en">That's a great question. The short answer is yes — let me show you the details after the demo.</div><div class="zh">这个问题很好。简短的回答是肯定的——细节我在演示结束后给你看。</div><span class="scene">Q&amp;A 应对 · 不被问题带跑节奏</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ Demo 翻车自救</h2>
+  <div class="sent"><div class="en">Looks like the staging environment is a bit slow today — bear with me for a second.</div><div class="zh">测试环境今天好像有点慢——稍等一下。</div><span class="scene">环境慢 · bear with me</span></div>
+  <div class="sent"><div class="en">Of course it breaks during the demo! Let me try that one more time.</div><div class="zh">偏偏演示的时候出问题！让我再试一次。</div><span class="scene">自嘲化解尴尬（英语区会议很受用）</span></div>
+  <div class="sent"><div class="en">While this loads, let me show you the architecture diagram instead.</div><div class="zh">趁它加载的时间，我先给大家看架构图。</div><span class="scene">用备胎内容填充等待</span></div>
+
+  <h2 class="section">情景对话</h2>
+
+  <div class="dialog">
+    <h3>场景一：向管理层汇报技术方案（把技术翻译成价值）</h3>
+    <div class="line me"><span class="who">你</span><span class="en">Thanks for making time. In the next ten minutes I'll cover the migration plan, the cost, and the risks — and you can interrupt me anytime.</span><span class="zh">感谢大家抽时间。接下来十分钟我会讲迁移计划、成本和风险——随时可以打断我。</span></div>
+    <div class="line"><span class="who">CTO</span><span class="en">Sounds good. Start with why we need this at all.</span><span class="zh">好。先说为什么我们需要做这件事。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sure. Right now, every deployment requires thirty minutes of downtime. That's thirty minutes where customers can't place orders. Think of it like renovating a store while customers are still inside — the new monolith design forces us to close the whole store every time.</span><span class="zh">好的。现在每次部署需要 30 分钟停机。也就是客户有 30 分钟不能下单。把它想象成顾客还在店里的时候装修店面——现在的单体架构让我们每次都得把整家店关了。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">The proposed design splits the system into independent services. In simple terms: we renovate one aisle at a time, and the store stays open.</span><span class="zh">提议的方案是把系统拆成独立服务。简单来说：我们一次装修一个货架，店始终营业。</span></div>
+    <div class="line"><span class="who">CTO</span><span class="en">I like the analogy. What does the migration look like in terms of effort?</span><span class="zh">这个类比很好。迁移的工作量是什么情况？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Roughly three engineers for two months. The short version is: we'll cut deployment downtime from thirty minutes to under one, and we can scale the checkout service independently during sales events.</span><span class="zh">大约三个工程师两个月。长话短说：部署停机从 30 分钟降到 1 分钟以内，而且大促期间可以单独扩展结账服务。</span></div>
+    <div class="line"><span class="who">CTO</span><span class="en">What are the risks?</span><span class="zh">风险呢？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">The main risk is data consistency during the transition. I'll skip the technical details, but the key takeaway is: we'll run both systems in parallel for two weeks and compare results before switching over. That gives us a safety net.</span><span class="zh">主要风险是过渡期的数据一致性。技术细节我就跳过了，关键要点是：我们会让两套系统并行运行两周，对比结果之后再切换。这相当于加了安全网。</span></div>
+    <div class="line"><span class="who">CTO</span><span class="en">Good. Send me the one-pager and we'll green-light it this week.</span><span class="zh">好。给我发一页纸的摘要，这周我们就批准。</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景二：产品 Demo 现场演示（含翻车自救）</h3>
+    <div class="line me"><span class="who">你</span><span class="en">Thanks everyone for joining. I'll keep it to ten minutes, then we'll have time for questions. Let's start with the most common use case.</span><span class="zh">感谢大家参加。我会控制在十分钟内，之后留时间提问。我们从最常见的场景开始。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Here I'm logged in as a sales manager. I want last week's numbers, so I click "Weekly Report"... and, as you can see, it generates in under two seconds. Previously this took about thirty.</span><span class="zh">这里我以销售经理身份登录。我想要上周的数据，点「周报」……正如你看到的，两秒内就生成了。以前大概要 30 秒。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Now, moving on to the export feature — this is where it gets interesting. I'll click "Export to Excel"... hmm, looks like the staging environment is being slow today. Bear with me for a second.</span><span class="zh">接下来看导出功能——有意思的来了。我点「导出到 Excel」……嗯，测试环境今天有点慢。稍等一下。</span></div>
+    <div class="line"><span class="who">Attendee</span><span class="en">No worries. While we wait — does the export include the charts too?</span><span class="zh">没关系。等它的时候顺便问下——导出也包含图表吗？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Great question — the short answer is yes. Charts come through as images, and I'll show you the details after the demo. Meanwhile, let me switch to the architecture slide while this loads.</span><span class="zh">好问题——简短的回答是包含。图表会以图片形式导出，细节我演示完给你看。趁它加载，我先切到架构页。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">...and it's back. Of course it breaks during the demo! There we go — the export completed, charts included.</span><span class="zh">……回来了。偏偏演示的时候卡一下！好了——导出完成，图表也包含在内。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">And that brings us to the end. To recap: reports now load in two seconds, exports include charts, and everything works on mobile. That's about ten minutes — what questions do you have?</span><span class="zh">演示到这里结束。回顾一下：报表现在 2 秒加载、导出含图表、移动端全支持。正好十分钟——大家有什么问题？</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景三：演讲后 Q&amp;A（被问到没准备的问题）</h3>
+    <div class="line"><span class="who">Audience</span><span class="en">How does this hold up if we onboard a client with ten times the data volume?</span><span class="zh">如果我们接入一个数据量大十倍的客户，这个方案还撑得住吗？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">That's a great question, and honestly, I don't have exact numbers for that scale. What I can say is the architecture is horizontally scalable — we add nodes rather than bigger machines. I'd want to run a load test before promising anything. Can I follow up with you by email this week?</span><span class="zh">问得很好，说实话，这个量级我没有精确数据。我能说的是架构支持横向扩展——我们加节点而不是换更大的机器。在给出承诺之前我想先做一次压测。这周我邮件回复你可以吗？</span></div>
+    <div class="line"><span class="who">Audience</span><span class="en">Sure, that works.</span><span class="zh">可以，没问题。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Appreciate it. Any other questions? ... Looks like we're done. Thanks again, everyone — I'll share the slides in the channel.</span><span class="zh">谢谢。还有其他问题吗？……看来没有了。再次感谢大家——幻灯片我会发到频道里。</span></div>
+  </div>
+
+  <h2 class="section">发音与连读提示</h2>
+  <div class="tip-box">
+    <strong>1. "walk you through" 连读：</strong>walk you 常连成 /wɔːkju/，through 读长音 /θruː/，整句别一个词一个词地蹦。<br><br>
+    <strong>2. "bear with me" 不是 "bare with me"：</strong>意思是「请稍等/包容一下」。重音在 bear，语调平稳，配上自然的手势效果最好。<br><br>
+    <strong>3. 演讲节奏：</strong>关键数字（two seconds、thirty minutes）放慢并加重；过渡句（moving on to...）可以加快，形成节奏对比，听众更容易抓住重点。
+  </div>
+
+  <h2 class="section">练习任务</h2>
+  <div class="card">
+    <ul class="tasks">
+      <li><strong>类比练习：</strong>选你工作中一个技术概念（缓存、消息队列、负载均衡……），用 "Think of it like..." 造一个生活化类比并说出来。</li>
+      <li><strong>90 秒 Demo 模拟：</strong>对着屏幕录屏或空讲：开场 → 一个功能 → 过渡 → 收尾，完整走一遍今天的流程句型。</li>
+      <li><strong>翻车演练：</strong>故意在演示中途「卡住」，练习说 "Bear with me" 和用备胎内容填充。</li>
+      <li><strong>价值翻译：</strong>把一个技术改进（如「加了索引」）翻译成业务语言："What that means for the business is..."</li>
+    </ul>
+  </div>
+
+  <h2 class="section">高频 IT 词汇 · 50 个</h2>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 架构与系统</h2>
+  <table class="schedule">
+    <tr><td>architecture</td><td>架构</td><td>monolith</td><td>单体架构</td></tr>
+    <tr><td>microservices</td><td>微服务</td><td>service</td><td>服务</td></tr>
+    <tr><td>API</td><td>接口</td><td>endpoint</td><td>端点</td></tr>
+    <tr><td>protocol</td><td>协议</td><td>gateway</td><td>网关</td></tr>
+    <tr><td>proxy</td><td>代理</td><td>distributed system</td><td>分布式系统</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 数据与通信</h2>
+  <table class="schedule">
+    <tr><td>request</td><td>请求</td><td>response</td><td>响应</td></tr>
+    <tr><td>payload</td><td>数据负载</td><td>HTTP</td><td>超文本传输协议</td></tr>
+    <tr><td>REST</td><td>REST 风格接口</td><td>GraphQL</td><td>GraphQL 查询语言</td></tr>
+    <tr><td>WebSocket</td><td>长连接协议</td><td>serialization</td><td>序列化</td></tr>
+    <tr><td>pagination</td><td>分页</td><td>idempotency</td><td>幂等性</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 存储与中间件</h2>
+  <table class="schedule">
+    <tr><td>database</td><td>数据库</td><td>schema</td><td>表结构</td></tr>
+    <tr><td>migration</td><td>数据迁移</td><td>index</td><td>索引</td></tr>
+    <tr><td>query</td><td>查询</td><td>cache</td><td>缓存</td></tr>
+    <tr><td>message queue</td><td>消息队列</td><td>event</td><td>事件</td></tr>
+    <tr><td>stream</td><td>流</td><td>NoSQL</td><td>非关系型数据库</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">④ 规模与可靠性</h2>
+  <table class="schedule">
+    <tr><td>scalability</td><td>可扩展性</td><td>availability</td><td>可用性</td></tr>
+    <tr><td>reliability</td><td>可靠性</td><td>fault tolerance</td><td>容错</td></tr>
+    <tr><td>load balancing</td><td>负载均衡</td><td>replica</td><td>副本</td></tr>
+    <tr><td>sharding</td><td>分片</td><td>concurrency</td><td>并发</td></tr>
+    <tr><td>scale out</td><td>水平扩展</td><td>failover</td><td>故障转移</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">⑤ 环境与运维</h2>
+  <table class="schedule">
+    <tr><td>cloud</td><td>云</td><td>server</td><td>服务器</td></tr>
+    <tr><td>instance</td><td>实例</td><td>container</td><td>容器</td></tr>
+    <tr><td>staging</td><td>测试 / 预发环境</td><td>production</td><td>生产环境</td></tr>
+    <tr><td>config</td><td>配置</td><td>monitoring</td><td>监控</td></tr>
+    <tr><td>dashboard</td><td>仪表盘</td><td>alert</td><td>告警</td></tr>
+  </table>
+
+  <h2 class="section">今日时间安排</h2>
+  <table class="schedule">
+    <tr><th>时长</th><th>任务</th></tr>
+    <tr><td>15 分钟</td><td>跟读场景一、二，模仿演讲节奏</td></tr>
+    <tr><td>15 分钟</td><td>类比练习 + 业务价值翻译练习</td></tr>
+    <tr><td>10 分钟</td><td>90 秒 Demo 完整模拟 + 录音回听</td></tr>
+  </table>
+
+  <nav class="bottom">
+    <a href="day4.html">← Day 4 · 会议</a>
+    <a href="day6.html">Day 6 · 职场社交 →</a>
+  </nav>
+</div>
+</body>
+</html>

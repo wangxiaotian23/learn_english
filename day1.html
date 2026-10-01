@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 1 · 每日站会 Daily Standup</title>
+<style>
+  :root { --primary:#2563eb; --primary-dark:#1e40af; --bg:#f8fafc; --card:#fff; --text:#1e293b; --muted:#64748b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .container { max-width:860px; margin:0 auto; padding:16px 16px 60px; }
+  nav.top { display:flex; justify-content:space-between; align-items:center; padding:10px 0; font-size:14px; }
+  nav.top a { color:var(--primary); text-decoration:none; padding:6px 14px; border:1px solid #dbeafe; border-radius:8px; background:var(--card); }
+  nav.top a:hover { background:#eff6ff; }
+  header.hero { background:linear-gradient(135deg,var(--primary-dark),var(--primary)); color:#fff; border-radius:16px; padding:32px; margin:8px 0 28px; }
+  header.hero .day { font-size:13px; letter-spacing:2px; text-transform:uppercase; opacity:.85; }
+  header.hero h1 { font-size:26px; margin:6px 0 8px; }
+  header.hero p { opacity:.92; font-size:15px; }
+  h2.section { font-size:19px; margin:32px 0 14px; padding-left:12px; border-left:4px solid var(--primary); }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:18px 22px; margin-bottom:14px; }
+  ol.goals li { margin:6px 0 6px 18px; font-size:15px; }
+  .sent { border-left:4px solid var(--primary); padding:12px 16px; margin:12px 0; background:var(--card); border-radius:0 10px 10px 0; border-top:1px solid #e2e8f0; border-right:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0; }
+  .sent .en { font-size:16px; font-weight:600; color:var(--primary-dark); }
+  .sent .zh { font-size:14px; color:var(--text); margin-top:4px; }
+  .sent .scene { display:inline-block; font-size:12px; background:#dbeafe; color:var(--primary-dark); border-radius:999px; padding:1px 10px; margin-top:8px; }
+  .dialog { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:20px 22px; margin-bottom:14px; }
+  .dialog h3 { font-size:15px; color:var(--muted); font-weight:500; margin-bottom:14px; }
+  .line { margin:10px 0; display:flex; flex-direction:column; }
+  .line .who { font-size:12px; color:var(--muted); margin-bottom:2px; }
+  .line .en { font-size:15px; padding:8px 14px; border-radius:10px; background:#eff6ff; align-self:flex-start; max-width:92%; }
+  .line.me .en { background:#ecfdf5; align-self:flex-end; }
+  .line .zh { font-size:13px; color:var(--muted); padding:0 14px; }
+  .line.me .zh { text-align:right; }
+  .tip-box { background:#fffbeb; border:1px solid #fde68a; border-radius:12px; padding:16px 20px; font-size:14px; margin-bottom:14px; }
+  .tip-box strong { color:#b45309; }
+  ul.tasks li { margin:8px 0 8px 20px; font-size:15px; }
+  table.schedule { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; font-size:14px; }
+  table.schedule th, table.schedule td { padding:10px 14px; text-align:left; border-bottom:1px solid #e2e8f0; }
+  table.schedule th { background:var(--primary); color:#fff; font-weight:500; }
+  table.schedule tr:last-child td { border-bottom:none; }
+  nav.bottom { display:flex; justify-content:space-between; margin-top:36px; }
+  nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
+  nav.bottom a:hover { background:#eff6ff; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="top">
+    <a href="index.html">← 返回目录</a>
+    <a href="day2.html">Day 2 →</a>
+  </nav>
+
+  <header class="hero">
+    <div class="day">Day 1</div>
+    <h1>每日站会 <span style="font-weight:400">Daily Standup</span></h1>
+    <p>站会是 IT 职场每天必开口的场景。今天掌握 yesterday–today–blockers 三段式汇报，这是最值得先练熟的一套句型。</p>
+  </header>
+
+  <h2 class="section">今日目标</h2>
+  <div class="card">
+    <ol class="goals">
+      <li>能用三句话流畅汇报：昨天做了什么、今天打算做什么、有没有阻塞。</li>
+      <li>掌握描述「进度」和「阻塞」的核心句型各 5 个以上。</li>
+      <li>能听懂并回应别人的简短追问（如 "When can it be done?"）。</li>
+    </ol>
+  </div>
+
+  <h2 class="section">核心句型</h2>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 汇报昨天（Yesterday）</h2>
+  <div class="sent"><div class="en">Yesterday, I finished implementing the login API.</div><div class="zh">昨天我完成了登录接口的开发。</div><span class="scene">已完成 · finished / completed / wrapped up</span></div>
+  <div class="sent"><div class="en">I spent most of the day debugging the payment issue.</div><div class="zh">我昨天大部分时间在排查支付问题。</div><span class="scene">花时间做某事 · spent...doing</span></div>
+  <div class="sent"><div class="en">I was working on the reporting module, and it's about 80% done.</div><div class="zh">我在做报表模块，大概完成了 80%。</div><span class="scene">进行中 + 进度百分比</span></div>
+  <div class="sent"><div class="en">I picked up the ticket from the backlog and got it code-reviewed.</div><div class="zh">我领了待办里的工单，并完成了代码评审。</div><span class="scene">领任务 · picked up a ticket</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 汇报今天（Today）</h2>
+  <div class="sent"><div class="en">Today, I'm going to work on the search feature.</div><div class="zh">今天我打算做搜索功能。</div><span class="scene">be going to + 动词</span></div>
+  <div class="sent"><div class="en">My focus today is to get the bug fix deployed to staging.</div><div class="zh">今天的重点是把修复部署到测试环境。</div><span class="scene">聚焦 · My focus today is...</span></div>
+  <div class="sent"><div class="en">I plan to finish the code review by end of day.</div><div class="zh">我计划在今天下班前完成代码评审。</div><span class="scene">截止时间 · by end of day (EOD)</span></div>
+  <div class="sent"><div class="en">I'll continue with the migration and hopefully wrap it up tomorrow.</div><div class="zh">我会继续做迁移，希望明天能收尾。</div><span class="scene">继续做 · continue with</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 汇报阻塞（Blockers）</h2>
+  <div class="sent"><div class="en">No blockers on my side.</div><div class="zh">我这边没有阻塞。</div><span class="scene">一切正常 · 最常用短句</span></div>
+  <div class="sent"><div class="en">I'm blocked on the API — it hasn't been deployed to the test environment yet.</div><div class="zh">我被接口卡住了——它还没部署到测试环境。</div><span class="scene">被阻塞 · be blocked on...</span></div>
+  <div class="sent"><div class="en">I'm waiting on the design team to confirm the specs.</div><div class="zh">我在等设计团队确认需求细节。</div><span class="scene">等待他人 · waiting on someone</span></div>
+  <div class="sent"><div class="en">I might need help from the backend team to figure out the root cause.</div><div class="zh">我可能需要后端团队帮忙找出根本原因。</div><span class="scene">求助 · need help to...</span></div>
+  <div class="sent"><div class="en">Could we sync after standup? I'd like to walk you through the details.</div><div class="zh">站会后我们能对一下吗？我想给你讲一下细节。</div><span class="scene">把深入讨论移出站会</span></div>
+
+  <h2 class="section">情景对话</h2>
+  <div class="dialog">
+    <h3>场景一：常规站会，按 yesterday–today–blockers 汇报</h3>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Morning, everyone. Let's get started — quick round of updates. Alex, do you want to kick us off?</span><span class="zh">早上好。我们开始吧，快速过一轮进展。Alex，你先来说？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sure. Yesterday I finished implementing the login API and opened a pull request. I also paired with Kevin in the morning to debug the flaky integration tests — turns out it was a race condition in the test setup, and we fixed it.</span><span class="zh">好的。昨天我完成了登录接口开发并提了 PR。上午还和 Kevin 结对排查了不稳定的集成测试——发现是测试环境搭建里的竞态条件，已经修好了。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Today I'm going to work on the token refresh logic, and if time permits, I'll start writing unit tests for the login flow.</span><span class="zh">今天我打算做 token 刷新逻辑，如果时间够，就开始给登录流程写单元测试。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">No blockers on my side, but the PR is still waiting for a review — Tom, do you think you can get to it today?</span><span class="zh">我这边没有阻塞，不过 PR 还在等评审——Tom，你今天能看一下吗？</span></div>
+    <div class="line"><span class="who">Tom</span><span class="en">Yeah, I'll take a look right after standup. Should be quick since you left good commit messages.</span><span class="zh">可以，站会后我就看。你提交信息写得很清楚，应该很快。</span></div>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Great. When can we expect it to be merged?</span><span class="zh">很好。预计什么时候能合进去？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Probably by end of day, as long as the review doesn't turn up anything major.</span><span class="zh">大概今天下班前，只要评审没有发现大问题。</span></div>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Sounds good. Thanks, Alex. Next up...</span><span class="zh">好的，谢谢 Alex。下一位……</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景二：有阻塞时的汇报，包含追问和求助</h3>
+    <div class="line me"><span class="who">你</span><span class="en">Quick update from me. Yesterday I spent most of the day debugging the payment failure on production. It turns out the third-party sandbox has been down since Tuesday, so I couldn't reproduce the issue locally.</span><span class="zh">我简单汇报一下。昨天大部分时间在排查生产环境的支付失败。发现第三方沙箱从周二就挂了，所以我一直没法在本地复现。</span></div>
+    <div class="line"><span class="who">Tech Lead</span><span class="en">Do we have a support ticket open with the vendor?</span><span class="zh">我们给供应商开工单了吗？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Yes, I raised one yesterday afternoon, but we haven't heard back yet. So I'm blocked on that for now — I can't verify the fix until the sandbox is back up.</span><span class="zh">开了，我昨天下午提的工单，但还没有回复。所以这块我被卡住了——沙箱恢复之前没法验证修复。</span></div>
+    <div class="line"><span class="who">Tech Lead</span><span class="en">Got it. In the meantime, could you look into adding better error logging around the payment flow? That way we'll have more data when it happens again.</span><span class="zh">了解了。那这段时间能不能给支付流程加上更完善的错误日志？这样下次出问题我们就有更多数据。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sure, I can do that. I'll also write up a short summary of what we know so far and post it in the channel, so everyone's on the same page.</span><span class="zh">可以。我还会把我们目前的发现写个简短总结发到频道里，让大家信息同步。</span></div>
+    <div class="line"><span class="who">Tech Lead</span><span class="en">Perfect. And if the vendor doesn't respond by tomorrow, ping me — I have a contact on their side.</span><span class="zh">很好。如果明天供应商还没回复，喊我一声——我那边有他们的联系人。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Will do. Could we also sync with Lisa after standup? She owns the monitoring dashboard, and I'd like to walk her through the error patterns we're seeing.</span><span class="zh">好的。站会后能和 Lisa 对一下吗？监控面板是她负责的，我想给她讲一下我们看到的报错规律。</span></div>
+    <div class="line"><span class="who">Tech Lead</span><span class="en">Yeah, go ahead and set up a quick 15-minute call.</span><span class="zh">可以，你们约个 15 分钟的短会就行。</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景三：进度落后的汇报（诚实 + 有预案）</h3>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Alex, you're up. How's the search feature coming along?</span><span class="zh">Alex，到你了。搜索功能进展怎么样？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">To be honest, it's a bit behind. I underestimated the work needed for the indexing part. The basic search works, but relevance tuning is taking longer than expected.</span><span class="zh">说实话，进度有点落后。我低估了索引部分的工作量。基础搜索已经能跑，但相关性调优比预期慢。</span></div>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">How far behind are we talking?</span><span class="zh">大概会晚多少？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Originally I said this Friday. Realistically, I can have a working version by Friday, but the polished version won't be ready until next Wednesday.</span><span class="zh">原来说这周五。实际一点，周五我能交一个可用版本，但打磨完成的版本要到下周三。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">One option is to descope the advanced filters and ship the core search first. I'd like to hear your thoughts.</span><span class="zh">一个办法是把高级筛选移出本期范围，先上核心搜索。想听听大家的意见。</span></div>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Good thinking. Let's discuss it in the grooming session this afternoon — no need to solve it here.</span><span class="zh">思路不错。我们下午的需求梳理会上再讨论——不用在站会上解决。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sounds good. I'll add it to the agenda.</span><span class="zh">好的，我把它加到议程里。</span></div>
+  </div>
+
+  <div class="tip-box" style="margin-top:14px;">
+    <strong>对话里的高频「接话」表达：</strong><br>
+    · <em>Turns out (that)...</em> —— 结果发现是……（排查问题必备）<br>
+    · <em>Got it. / Understood.</em> —— 了解了（比 "OK" 更显专业）<br>
+    · <em>Will do.</em> —— 好的，照办（回应任务指派）<br>
+    · <em>so everyone's on the same page</em> —— 让大家信息一致<br>
+    · <em>no need to solve it here</em> —— 站会只同步信息，深入讨论另外约时间
+  </div>
+
+  <h2 class="section">发音与连读提示</h2>
+  <div class="tip-box">
+    <strong>1. "going to" 在口语中读作 /ɡənə/（gonna）：</strong> "I'm gonna work on the search feature." 正式汇报中用 going to 完整读也没问题，但听力中必须认识 gonna。<br><br>
+    <strong>2. "blocked on" 连读：</strong> blocked 结尾的 /t/ 很轻，几乎只做口型；on 弱读为 /ən/。读作 "blockt-on" 一气呵成。<br><br>
+    <strong>3. 意群停顿：</strong> "Yesterday, / I finished implementing the login API." 逗号处停半拍，句末降调，显得从容不慌。
+  </div>
+
+  <h2 class="section">练习任务</h2>
+  <div class="card">
+    <ul class="tasks">
+      <li><strong>跟读：</strong>把上面 13 个句型每句大声读 3 遍，先慢速读准，再用正常语速。</li>
+      <li><strong>替换造句：</strong>把例句中的功能名换成你项目里的真实任务，说出你「真实的昨天和今天」各 3 句。</li>
+      <li><strong>模拟汇报：</strong>设定 timer 60 秒，用三段式完成一次完整的自我站会，录音。</li>
+      <li><strong>回听：</strong>重点检查：有没有说出来才卡壳的词？把它写下来，明天站会前再读一遍。</li>
+    </ul>
+  </div>
+
+  <h2 class="section">高频 IT 词汇 · 50 个</h2>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 敏捷与任务</h2>
+  <table class="schedule">
+    <tr><td>sprint</td><td>冲刺（一个迭代周期）</td><td>backlog</td><td>待办列表</td></tr>
+    <tr><td>ticket</td><td>工单</td><td>epic</td><td>史诗（大型需求）</td></tr>
+    <tr><td>user story</td><td>用户故事</td><td>iteration</td><td>迭代</td></tr>
+    <tr><td>milestone</td><td>里程碑</td><td>deliverable</td><td>交付物</td></tr>
+    <tr><td>deadline</td><td>截止日期</td><td>ETA</td><td>预计完成时间</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 工作量与优先级</h2>
+  <table class="schedule">
+    <tr><td>bandwidth</td><td>精力 / 余力</td><td>capacity</td><td>产能</td></tr>
+    <tr><td>priority</td><td>优先级</td><td>assignee</td><td>负责人</td></tr>
+    <tr><td>blocker</td><td>阻塞项</td><td>dependency</td><td>依赖</td></tr>
+    <tr><td>scope</td><td>范围</td><td>estimate</td><td>估算</td></tr>
+    <tr><td>story point</td><td>故事点</td><td>velocity</td><td>团队速率</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 发布与上线</h2>
+  <table class="schedule">
+    <tr><td>release</td><td>发布</td><td>deploy</td><td>部署</td></tr>
+    <tr><td>rollout</td><td>灰度 / 逐步上线</td><td>rollback</td><td>回滚</td></tr>
+    <tr><td>go-live</td><td>正式上线</td><td>feature flag</td><td>功能开关</td></tr>
+    <tr><td>maintenance window</td><td>维护窗口</td><td>handoff</td><td>交接</td></tr>
+    <tr><td>launch</td><td>上线 / 发布</td><td>deprecate</td><td>弃用</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">④ 会议与同步</h2>
+  <table class="schedule">
+    <tr><td>standup</td><td>站会</td><td>retrospective</td><td>回顾会</td></tr>
+    <tr><td>sync</td><td>同步会</td><td>one-on-one</td><td>一对一沟通</td></tr>
+    <tr><td>status update</td><td>进展同步</td><td>agenda</td><td>议程</td></tr>
+    <tr><td>minutes</td><td>会议纪要</td><td>action item</td><td>行动项</td></tr>
+    <tr><td>follow-up</td><td>跟进</td><td>stakeholder</td><td>利益相关方</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">⑤ 进度表达</h2>
+  <table class="schedule">
+    <tr><td>on track</td><td>进度正常</td><td>behind schedule</td><td>进度落后</td></tr>
+    <tr><td>ahead of schedule</td><td>进度提前</td><td>carry over</td><td>顺延到下个迭代</td></tr>
+    <tr><td>wrap up</td><td>收尾</td><td>kick off</td><td>启动</td></tr>
+    <tr><td>overdue</td><td>逾期</td><td>postpone</td><td>推迟</td></tr>
+    <tr><td>reschedule</td><td>改期</td><td>timeline</td><td>时间线</td></tr>
+  </table>
+
+  <h2 class="section">今日时间安排</h2>
+  <table class="schedule">
+    <tr><th>时长</th><th>任务</th></tr>
+    <tr><td>15 分钟</td><td>跟读全部句型 + 两段对话</td></tr>
+    <tr><td>15 分钟</td><td>用自己的项目内容替换造句（至少 8 句）</td></tr>
+    <tr><td>10 分钟</td><td>60 秒完整模拟汇报 + 录音回听</td></tr>
+  </table>
+
+  <nav class="bottom">
+    <a href="index.html">← 返回目录</a>
+    <a href="day2.html">Day 2 · 技术讨论与提问 →</a>
+  </nav>
+</div>
+</body>
+</html>

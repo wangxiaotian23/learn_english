@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 6 · 职场社交 Small Talk</title>
+<style>
+  :root { --primary:#2563eb; --primary-dark:#1e40af; --bg:#f8fafc; --card:#fff; --text:#1e293b; --muted:#64748b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .container { max-width:860px; margin:0 auto; padding:16px 16px 60px; }
+  nav.top { display:flex; justify-content:space-between; align-items:center; padding:10px 0; font-size:14px; }
+  nav.top a { color:var(--primary); text-decoration:none; padding:6px 14px; border:1px solid #dbeafe; border-radius:8px; background:var(--card); }
+  nav.top a:hover { background:#eff6ff; }
+  header.hero { background:linear-gradient(135deg,var(--primary-dark),var(--primary)); color:#fff; border-radius:16px; padding:32px; margin:8px 0 28px; }
+  header.hero .day { font-size:13px; letter-spacing:2px; text-transform:uppercase; opacity:.85; }
+  header.hero h1 { font-size:26px; margin:6px 0 8px; }
+  header.hero p { opacity:.92; font-size:15px; }
+  h2.section { font-size:19px; margin:32px 0 14px; padding-left:12px; border-left:4px solid var(--primary); }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:18px 22px; margin-bottom:14px; }
+  ol.goals li { margin:6px 0 6px 18px; font-size:15px; }
+  .sent { border-left:4px solid var(--primary); padding:12px 16px; margin:12px 0; background:var(--card); border-radius:0 10px 10px 0; border-top:1px solid #e2e8f0; border-right:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0; }
+  .sent .en { font-size:16px; font-weight:600; color:var(--primary-dark); }
+  .sent .zh { font-size:14px; color:var(--text); margin-top:4px; }
+  .sent .scene { display:inline-block; font-size:12px; background:#dbeafe; color:var(--primary-dark); border-radius:999px; padding:1px 10px; margin-top:8px; }
+  .dialog { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:20px 22px; margin-bottom:14px; }
+  .dialog h3 { font-size:15px; color:var(--muted); font-weight:500; margin-bottom:14px; }
+  .line { margin:10px 0; display:flex; flex-direction:column; }
+  .line .who { font-size:12px; color:var(--muted); margin-bottom:2px; }
+  .line .en { font-size:15px; padding:8px 14px; border-radius:10px; background:#eff6ff; align-self:flex-start; max-width:92%; }
+  .line.me .en { background:#ecfdf5; align-self:flex-end; }
+  .line .zh { font-size:13px; color:var(--muted); padding:0 14px; }
+  .line.me .zh { text-align:right; }
+  .tip-box { background:#fffbeb; border:1px solid #fde68a; border-radius:12px; padding:16px 20px; font-size:14px; margin-bottom:14px; }
+  .tip-box strong { color:#b45309; }
+  ul.tasks li { margin:8px 0 8px 20px; font-size:15px; }
+  table.schedule { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; font-size:14px; }
+  table.schedule th, table.schedule td { padding:10px 14px; text-align:left; border-bottom:1px solid #e2e8f0; }
+  table.schedule th { background:var(--primary); color:#fff; font-weight:500; }
+  table.schedule tr:last-child td { border-bottom:none; }
+  nav.bottom { display:flex; justify-content:space-between; margin-top:36px; }
+  nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
+  nav.bottom a:hover { background:#eff6ff; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="top">
+    <a href="day5.html">← Day 5</a>
+    <a href="index.html">返回目录</a>
+    <a href="day7.html">Day 7 →</a>
+  </nav>
+
+  <header class="hero">
+    <div class="day">Day 6</div>
+    <h1>职场社交 <span style="font-weight:400">Small Talk</span></h1>
+    <p>技术能力决定你能不能进会议室，闲聊能力决定别人记不记得你。今天练电梯闲聊、茶水间对话和会议前的暖场——外国人最自然的开场方式是聊周末。</p>
+  </header>
+
+  <h2 class="section">今日目标</h2>
+  <div class="card">
+    <ol class="goals">
+      <li>掌握「周末三部曲」：问周末 → 分享自己的 → 回问对方，形成循环对话。</li>
+      <li>学会接话技巧（回应 + 追问），让对话不会三句就死。</li>
+      <li>能优雅地结束对话并留下好印象。</li>
+    </ol>
+  </div>
+
+  <h2 class="section">核心句型</h2>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 开场（周一最常用：聊周末）</h2>
+  <div class="sent"><div class="en">Morning! How was your weekend?</div><div class="zh">早上好！周末过得怎么样？</div><span class="scene">周一万能开场</span></div>
+  <div class="sent"><div class="en">Did you do anything fun over the weekend?</div><div class="zh">周末有没有做什么好玩的事？</div><span class="scene">更轻快的版本</span></div>
+  <div class="sent"><div class="en">Any plans for the long weekend?</div><div class="zh">小长假有什么安排吗？</div><span class="scene">周五问计划 · plans for the weekend</span></div>
+  <div class="sent"><div class="en">Getting ready for the holidays?</div><div class="zh">在为假期做准备吗？</div><span class="scene">节日季通用</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 分享与接话（回应 + 追问）</h2>
+  <div class="sent"><div class="en">I mostly took it easy — caught up on some sleep and went for a hike on Sunday.</div><div class="zh">我主要就是休息——补了点觉，周日去徒步了。</div><span class="scene">take it easy = 放松休息</span></div>
+  <div class="sent"><div class="en">Oh nice! Where did you go hiking?</div><div class="zh">不错啊！去哪里徒步了？</div><span class="scene">接话公式：评价 + 追问</span></div>
+  <div class="sent"><div class="en">That sounds exhausting — in a good way! How long have you been into rock climbing?</div><div class="zh">听起来很累——累得值！你玩攀岩多久了？</div><span class="scene">How long have you been into...? 问爱好</span></div>
+  <div class="sent"><div class="en">Same here, honestly. I can't remember the last time I watched a full movie.</div><div class="zh">说实话我也一样。我都记不清上次看完一整部电影是什么时候了。</div><span class="scene">表达共鸣 · Same here</span></div>
+  <div class="sent"><div class="en">No way! I've been meaning to try that place. Is it good?</div><div class="zh">不会吧！我一直想去那家试试。好吃吗？</div><span class="scene">No way! = 不会吧（惊讶，非否定）</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 工作话题的闲聊与收尾</h2>
+  <div class="sent"><div class="en">How's that migration project coming along?</div><div class="zh">迁移项目进展怎么样？</div><span class="scene">关心对方项目 · come along</span></div>
+  <div class="sent"><div class="en">Busy, but the good kind of busy, you know?</div><div class="zh">挺忙的，但是是那种良性的忙，你懂的？</div><span class="scene">被问近况时的标准回答</span></div>
+  <div class="sent"><div class="en">Anyway, I should get going — great running into you!</div><div class="zh">好了，我该走了——很高兴碰到你！</div><span class="scene">优雅收尾 · great running into you</span></div>
+  <div class="sent"><div class="en">Let's grab a coffee sometime next week and catch up properly.</div><div class="zh">下周找时间喝杯咖啡，好好聊聊。</div><span class="scene">留下后续 · grab a coffee</span></div>
+  <div class="sent"><div class="en">Say hi to the team for me!</div><div class="zh">替我向你们团队问好！</div><span class="scene">礼貌结束语 · say hi to...for me</span></div>
+
+  <h2 class="section">情景对话</h2>
+
+  <div class="dialog">
+    <h3>场景一：周一早上的咖啡机旁（经典周末三部曲）</h3>
+    <div class="line"><span class="who">Emma</span><span class="en">Morning! How was your weekend?</span><span class="zh">早上好！周末怎么样？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Pretty good, thanks! I finally checked out that new ramen place downtown. A bit pricey, but totally worth it. How about you?</span><span class="zh">挺好的，谢谢！我终于去吃了市中心那家新拉面店。有点贵，但绝对值。你呢？</span></div>
+    <div class="line"><span class="who">Emma</span><span class="en">Oh nice, I've been meaning to try that one! I mostly stayed in and binge-watched a series. Felt guilty on Sunday night, but honestly, I needed the rest.</span><span class="zh">哦不错，我一直想去试试！我基本宅在家刷剧。周日晚上还有点负罪感，但说实话，我确实需要休息。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">No guilt needed — rest is productive! What series were you watching?</span><span class="zh">不用负罪感——休息也是生产力！你在看什么剧？</span></div>
+    <div class="line"><span class="who">Emma</span><span class="en">This sci-fi show about a tech company gone wrong. You'd probably love it — very "AI taking over" vibes.</span><span class="zh">一部关于科技公司失控的科幻剧。你可能会喜欢——很有「AI 统治世界」的味道。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Ha, given what we do for a living, that hits close to home. What's it called?</span><span class="zh">哈，以我们的职业来说，这可太贴近现实了。叫什么名字？</span></div>
+    <div class="line"><span class="who">Emma</span><span class="en">I'll send you the name. Anyway, I should get going — standup starts in five. Great chatting with you!</span><span class="zh">我把名字发你。好了，我得走了——五分钟后站会。和你聊天很开心！</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">You too! Enjoy your coffee.</span><span class="zh">我也是！咖啡慢慢喝。</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景二：线上会议前五分钟（视频会议暖场）</h3>
+    <div class="line"><span class="who">David</span><span class="en">Hey, we've got a few minutes. How's the office looking these days? Still working from home?</span><span class="zh">嘿，还有几分钟。最近办公室怎么样？还在居家办公吗？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Mostly, yes — I go in on Tuesdays and Thursdays. To be honest, the commute on those days is brutal. How about you, are you back full-time?</span><span class="zh">大部分时候是——我周二周四去办公室。说实话，那两天的通勤太折磨了。你呢，全职回办公室了吗？</span></div>
+    <div class="line"><span class="who">David</span><span class="en">Full-time, unfortunately. But my team's all in the office, so at least the standups are less awkward than over Zoom.</span><span class="zh">很遗憾，是全职。不过我们团队都在办公室，至少站会没有 Zoom 上那么尴尬。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Ha, true — nothing like someone talking while muted for two minutes to start the day.</span><span class="zh">哈哈，确实——没有什么比有人静音讲了两年话更能开启一天了。</span></div>
+    <div class="line"><span class="who">David</span><span class="en">OK, looks like more people are joining. Let's get started?</span><span class="zh">好了，看起来人差不多齐了。我们开始吧？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sounds good.</span><span class="zh">好的。</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景三：行业聚会 / 跨团队活动（networking）</h3>
+    <div class="line me"><span class="who">你</span><span class="en">Hi, I'm Alex from the payments team. I don't think we've met — I'm Alex.</span><span class="zh">你好，我是支付团队的 Alex。我们好像还没见过——我叫 Alex。</span></div>
+    <div class="line"><span class="who">Rachel</span><span class="en">Hi Alex, I'm Rachel, from the data platform team. Nice to meet you!</span><span class="zh">你好 Alex，我是 Rachel，数据平台团队的。很高兴认识你！</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Nice to meet you too. So you're on the data platform side — we've actually been using your event pipeline for the fraud detection project. It's been rock solid.</span><span class="zh">我也很高兴认识你。你是数据平台这边的——我们的反欺诈项目其实一直在用你们的事件管道。一直很稳。</span></div>
+    <div class="line"><span class="who">Rachel</span><span class="en">Oh good to hear! That pipeline went through a rough patch last year, so it's nice to know it's holding up. How's the fraud detection coming along?</span><span class="zh">那太好了！那条管道去年出过一阵问题，知道它现在很稳我很欣慰。反欺诈项目进展如何？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Making good progress — we cut false positives by forty percent last quarter. Anyway, I should let you mingle, but I'd love to pick your brain about the streaming metrics sometime. Could I shoot you an email?</span><span class="zh">进展不错——上个季度误报率降低了 40%。好了，不打扰你社交了，不过改天很想请教一下流式指标的问题。我能给你发个邮件吗？</span></div>
+    <div class="line"><span class="who">Rachel</span><span class="en">Absolutely, just ping me on Slack. It was great meeting you, Alex!</span><span class="zh">当然，Slack 上找我就行。很高兴认识你，Alex！</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">You too. Enjoy the rest of the event!</span><span class="zh">我也是。活动玩得开心！</span></div>
+  </div>
+
+  <h2 class="section">发音与连读提示</h2>
+  <div class="tip-box">
+    <strong>1. "How was your weekend?" 连读：</strong>how was 连成 /haʊwəz/，your 弱读 /jər/。整句轻松上扬，是全英语世界最常用的开场白。<br><br>
+    <strong>2. "I've been meaning to..."：</strong>meaning to 连读成 /ˈmiːnɪntə/，表示「一直想做但还没做」，非常地道的拖延表达。<br><br>
+    <strong>3. "No way!" 语调：</strong>表达惊讶时重读且上扬，不是否定的「不行」。注意和 "No, way." 两个词分开说时的区别。
+  </div>
+
+  <h2 class="section">练习任务</h2>
+  <div class="card">
+    <ul class="tasks">
+      <li><strong>三部曲演练：</strong>自问自答完成「问周末 → 分享 → 回问」各 3 轮，录音。</li>
+      <li><strong>接话练习：</strong>准备 3 个「评价 + 追问」组合（如 "Oh nice! Where was that?"），用于任何话题。</li>
+      <li><strong>自我介绍：</strong>准备并说出 30 秒的 networking 自我介绍：名字 + 团队 + 一句工作亮点。</li>
+      <li><strong>实战：</strong>本周选一个真实场合（线上会前闲聊、电梯偶遇），至少用一次今天的开场句型。</li>
+    </ul>
+  </div>
+
+  <h2 class="section">高频 IT 词汇 · 50 个</h2>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 人与角色</h2>
+  <table class="schedule">
+    <tr><td>coworker</td><td>同事</td><td>colleague</td><td>同事（较正式）</td></tr>
+    <tr><td>teammate</td><td>队友 / 组员</td><td>manager</td><td>经理</td></tr>
+    <tr><td>lead</td><td>组长 / 技术负责人</td><td>mentor</td><td>导师</td></tr>
+    <tr><td>intern</td><td>实习生</td><td>new hire</td><td>新员工</td></tr>
+    <tr><td>peer</td><td>同级同事</td><td>direct report</td><td>直属下级</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 入职与职业变动</h2>
+  <table class="schedule">
+    <tr><td>onboarding</td><td>入职引导</td><td>offboarding</td><td>离职流程</td></tr>
+    <tr><td>notice</td><td>离职通知（期）</td><td>resignation</td><td>辞职</td></tr>
+    <tr><td>promotion</td><td>升职</td><td>raise</td><td>加薪</td></tr>
+    <tr><td>bonus</td><td>奖金</td><td>performance review</td><td>绩效评估</td></tr>
+    <tr><td>reference</td><td>（背景调查）推荐</td><td>recognition</td><td>认可 / 表彰</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 办公方式</h2>
+  <table class="schedule">
+    <tr><td>work from home</td><td>居家办公（WFH）</td><td>remote work</td><td>远程办公</td></tr>
+    <tr><td>hybrid</td><td>混合办公</td><td>commute</td><td>通勤</td></tr>
+    <tr><td>flexible hours</td><td>弹性工时</td><td>overtime</td><td>加班</td></tr>
+    <tr><td>nine-to-five</td><td>朝九晚五</td><td>core hours</td><td>核心工作时间</td></tr>
+    <tr><td>timesheet</td><td>工时表</td><td>on-call</td><td>值班（待命）</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">④ 请假与团队活动</h2>
+  <table class="schedule">
+    <tr><td>day off</td><td>休假日</td><td>sick leave</td><td>病假</td></tr>
+    <tr><td>annual leave</td><td>年假</td><td>public holiday</td><td>法定假日</td></tr>
+    <tr><td>PTO</td><td>带薪休假</td><td>coffee break</td><td>咖啡休息</td></tr>
+    <tr><td>lunch break</td><td>午休</td><td>team building</td><td>团建</td></tr>
+    <tr><td>happy hour</td><td>下班小聚</td><td>retreat</td><td>外出团建 / 静修会</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">⑤ 办公场所与氛围</h2>
+  <table class="schedule">
+    <tr><td>break room</td><td>休息室</td><td>kitchen</td><td>茶水间</td></tr>
+    <tr><td>elevator</td><td>电梯</td><td>lobby</td><td>大堂</td></tr>
+    <tr><td>badge</td><td>工牌</td><td>meeting room</td><td>会议室</td></tr>
+    <tr><td>standing desk</td><td>升降桌</td><td>dress code</td><td>着装要求</td></tr>
+    <tr><td>vibe</td><td>氛围</td><td>work-life balance</td><td>工作生活平衡</td></tr>
+  </table>
+
+  <h2 class="section">今日时间安排</h2>
+  <table class="schedule">
+    <tr><th>时长</th><th>任务</th></tr>
+    <tr><td>15 分钟</td><td>跟读三个对话，模仿轻松语调</td></tr>
+    <tr><td>15 分钟</td><td>周末三部曲 + 接话组合练习</td></tr>
+    <tr><td>10 分钟</td><td>30 秒 networking 自我介绍 + 录音</td></tr>
+  </table>
+
+  <nav class="bottom">
+    <a href="day5.html">← Day 5 · Demo</a>
+    <a href="day7.html">Day 7 · 周会总结与复盘 →</a>
+  </nav>
+</div>
+</body>
+</html>

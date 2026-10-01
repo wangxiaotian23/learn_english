@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 3 · 代码评审 Code Review</title>
+<style>
+  :root { --primary:#2563eb; --primary-dark:#1e40af; --bg:#f8fafc; --card:#fff; --text:#1e293b; --muted:#64748b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .container { max-width:860px; margin:0 auto; padding:16px 16px 60px; }
+  nav.top { display:flex; justify-content:space-between; align-items:center; padding:10px 0; font-size:14px; }
+  nav.top a { color:var(--primary); text-decoration:none; padding:6px 14px; border:1px solid #dbeafe; border-radius:8px; background:var(--card); }
+  nav.top a:hover { background:#eff6ff; }
+  header.hero { background:linear-gradient(135deg,var(--primary-dark),var(--primary)); color:#fff; border-radius:16px; padding:32px; margin:8px 0 28px; }
+  header.hero .day { font-size:13px; letter-spacing:2px; text-transform:uppercase; opacity:.85; }
+  header.hero h1 { font-size:26px; margin:6px 0 8px; }
+  header.hero p { opacity:.92; font-size:15px; }
+  h2.section { font-size:19px; margin:32px 0 14px; padding-left:12px; border-left:4px solid var(--primary); }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:18px 22px; margin-bottom:14px; }
+  ol.goals li { margin:6px 0 6px 18px; font-size:15px; }
+  .sent { border-left:4px solid var(--primary); padding:12px 16px; margin:12px 0; background:var(--card); border-radius:0 10px 10px 0; border-top:1px solid #e2e8f0; border-right:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0; }
+  .sent .en { font-size:16px; font-weight:600; color:var(--primary-dark); }
+  .sent .zh { font-size:14px; color:var(--text); margin-top:4px; }
+  .sent .scene { display:inline-block; font-size:12px; background:#dbeafe; color:var(--primary-dark); border-radius:999px; padding:1px 10px; margin-top:8px; }
+  .dialog { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:20px 22px; margin-bottom:14px; }
+  .dialog h3 { font-size:15px; color:var(--muted); font-weight:500; margin-bottom:14px; }
+  .line { margin:10px 0; display:flex; flex-direction:column; }
+  .line .who { font-size:12px; color:var(--muted); margin-bottom:2px; }
+  .line .en { font-size:15px; padding:8px 14px; border-radius:10px; background:#eff6ff; align-self:flex-start; max-width:92%; }
+  .line.me .en { background:#ecfdf5; align-self:flex-end; }
+  .line .zh { font-size:13px; color:var(--muted); padding:0 14px; }
+  .line.me .zh { text-align:right; }
+  .tip-box { background:#fffbeb; border:1px solid #fde68a; border-radius:12px; padding:16px 20px; font-size:14px; margin-bottom:14px; }
+  .tip-box strong { color:#b45309; }
+  ul.tasks li { margin:8px 0 8px 20px; font-size:15px; }
+  table.schedule { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; font-size:14px; }
+  table.schedule th, table.schedule td { padding:10px 14px; text-align:left; border-bottom:1px solid #e2e8f0; }
+  table.schedule th { background:var(--primary); color:#fff; font-weight:500; }
+  table.schedule tr:last-child td { border-bottom:none; }
+  nav.bottom { display:flex; justify-content:space-between; margin-top:36px; }
+  nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
+  nav.bottom a:hover { background:#eff6ff; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="top">
+    <a href="day2.html">← Day 2</a>
+    <a href="index.html">返回目录</a>
+    <a href="day4.html">Day 4 →</a>
+  </nav>
+
+  <header class="hero">
+    <div class="day">Day 3</div>
+    <h1>代码评审 <span style="font-weight:400">Code Review</span></h1>
+    <p>Code review 是英语 + 技术 + 沟通技巧的三重考验。今天练两件事：礼貌地给别人提意见，以及得体地回应别人的意见。</p>
+  </header>
+
+  <h2 class="section">今日目标</h2>
+  <div class="card">
+    <ol class="goals">
+      <li>会用委婉语气（softening）给同事提代码意见，避免显得指责。</li>
+      <li>能区分并表达「必须改」和「建议改」两种不同强度的反馈。</li>
+      <li>被评审时能接受意见、解释设计、礼貌坚持自己的方案。</li>
+    </ol>
+  </div>
+
+  <h2 class="section">核心句型</h2>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 提意见（给别人评审）</h2>
+  <div class="sent"><div class="en">Nice work overall! Just a couple of minor suggestions.</div><div class="zh">整体做得很棒！只有几个小建议。</div><span class="scene">开头肯定 · 缓冲句</span></div>
+  <div class="sent"><div class="en">Nit: this variable name could be more descriptive — maybe "activeUsers" instead of "data"?</div><div class="zh">小问题：这个变量名可以更有描述性——用 "activeUsers" 代替 "data" 怎么样？</div><span class="scene">nit = 吹毛求疵的小点，不阻塞合并</span></div>
+  <div class="sent"><div class="en">Might it be cleaner to extract this logic into a separate function?</div><div class="zh">把这段逻辑抽成独立函数会不会更清晰？</div><span class="scene">委婉建议 · Might it be...?</span></div>
+  <div class="sent"><div class="en">I wonder if we could reuse the existing utility here instead of writing a new one.</div><div class="zh">我在想这里能不能复用现有的工具函数，而不是新写一个。</div><span class="scene">I wonder if 极其委婉</span></div>
+  <div class="sent"><div class="en">This is a must-fix: the query runs inside the loop, so it'll be O(n²) with large datasets.</div><div class="zh">这个必须改：查询写在循环里，大数据量下会是 O(n²) 的复杂度。</div><span class="scene">必须改 · must-fix，说清理由</span></div>
+  <div class="sent"><div class="en">Could you add a test case for the empty-input scenario?</div><div class="zh">能给空输入的场景加个测试用例吗？</div><span class="scene">请求补充 · Could you...?</span></div>
+  <div class="sent"><div class="en">Non-blocking, but for future reference, we usually prefer const over let here.</div><div class="zh">不阻塞合并，不过供以后参考：这里我们一般用 const 而不是 let。</div><span class="scene">团队规范但不强制</span></div>
+
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 回应反馈（被别人评审）</h2>
+  <div class="sent"><div class="en">Good catch! I'll fix that right away.</div><div class="zh">发现得好！我马上改。</div><span class="scene">接受意见 · Good catch 最高频</span></div>
+  <div class="sent"><div class="en">That's fair. Done — pushed the fix.</div><div class="zh">有道理。改好了——已推送。</div><span class="scene">简洁接受并完成</span></div>
+  <div class="sent"><div class="en">I did consider that, but went with this approach because it keeps the API backward-compatible.</div><div class="zh">我考虑过那个方案，但选了这个，因为它能保持 API 向后兼容。</div><span class="scene">解释设计权衡</span></div>
+  <div class="sent"><div class="en">Hmm, I see your point, but I'd slightly prefer to keep it as is — here's why...</div><div class="zh">嗯，我理解你的意思，但我更倾向于保持现状——原因如下……</div><span class="scene">礼貌坚持己见</span></div>
+  <div class="sent"><div class="en">Happy to be convinced otherwise — want to hop on a quick call to discuss?</div><div class="zh">我很乐意被说服——要不要快速通个电话讨论一下？</div><span class="scene">意见僵持时转语音，别在线上拉锯</span></div>
+  <div class="sent"><div class="en">Thanks for the thorough review! Addressed all comments — could you take another look?</div><div class="zh">感谢这么仔细的评审！所有意见都处理了——能再看一眼吗？</div><span class="scene">改完请求复审 · re-review</span></div>
+
+  <h2 class="section">情景对话</h2>
+
+  <div class="dialog">
+    <h3>场景一：你评审同事的 PR（当面友好交流）</h3>
+    <div class="line me"><span class="who">你</span><span class="en">Hey Mark, I left some comments on your PR — overall it looks great, just a couple of things worth discussing.</span><span class="zh">Mark，我在你的 PR 上留了些评论——整体很不错，有几个点值得聊聊。</span></div>
+    <div class="line"><span class="who">Mark</span><span class="en">Sure, what did you have in mind?</span><span class="zh">好，你觉得哪些地方？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">The main one is the user lookup — it's inside the loop, so we'd hit the database once per item. With a batch of a thousand orders, that's a thousand queries. Could we batch-load the users up front?</span><span class="zh">主要的是用户查询——它写在循环里，每条数据都会查一次数据库。一千个订单就是一千次查询。能不能提前批量加载用户？</span></div>
+    <div class="line"><span class="who">Mark</span><span class="en">Ah, good point. I didn't think about the volume. Yeah, I can pre-fetch them with a single query using an IN clause.</span><span class="zh">啊，有道理。我没考虑到数据量。可以用 IN 子句一次查出来。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">That'd be perfect. The other ones are just nits — a couple of naming suggestions and a missing test for the error path. Nothing blocking.</span><span class="zh">那就完美了。其他都是小问题——几个命名建议和错误分支缺个测试。都不阻塞合并。</span></div>
+    <div class="line"><span class="who">Mark</span><span class="en">Got it. I'll address them this afternoon and ping you for a re-review.</span><span class="zh">明白。我下午处理完再喊你复审。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sounds good. Thanks for moving fast on this!</span><span class="zh">好的。谢谢你推进得这么快！</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景二：你的 PR 被评审，礼貌坚持自己的方案</h3>
+    <div class="line"><span class="who">Sarah</span><span class="en">I left a comment on the caching layer — I think a Redis cache would be better than the in-memory one you wrote.</span><span class="zh">我在缓存层留了条评论——我觉得用 Redis 缓存比你写的内存缓存更好。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Thanks for taking a look! I did consider Redis, but for this feature the data is per-user and tiny — a few KB at most. An in-memory cache avoids a network hop and keeps the deployment simple.</span><span class="zh">谢谢你来看！Redis 我考虑过，但这个功能的数据是按用户隔离的，而且很小——最多几 KB。内存缓存能省一次网络请求，部署也简单。</span></div>
+    <div class="line"><span class="who">Sarah</span><span class="en">Fair enough, but what happens when we scale to multiple instances? Each pod would have its own cache.</span><span class="zh">有道理，但扩到多实例怎么办？每个 pod 各有一份缓存。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">That's the one scenario where Redis wins. If multi-instance is on the roadmap for this quarter, I'm happy to switch to Redis now. Do you know what the plan is?</span><span class="zh">那是 Redis 更优的唯一场景。如果多实例在这季度的规划里，我现在就乐意换成 Redis。你知道计划吗？</span></div>
+    <div class="line"><span class="who">Sarah</span><span class="en">Multi-instance is coming next month, actually.</span><span class="zh">多实例下个月就要上了。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Then let's do it your way — better to pay the cost once now than refactor again next month. Good catch.</span><span class="zh">那就按你说的办——现在付一次成本，好过下个月再重构。发现得好。</span></div>
+    <div class="line"><span class="who">Sarah</span><span class="en">Appreciate you being open about it. That's a solid PR otherwise.</span><span class="zh">感谢你这么开放地讨论。这个 PR 其他方面很扎实。</span></div>
+  </div>
+
+  <div class="dialog">
+    <h3>场景三：评审中的分歧升级处理（文字拉锯转语音）</h3>
+    <div class="line"><span class="who">Kevin</span><span class="en">(comment) I still think we should handle the retry logic in the service layer, not the client. Two rounds of comments on this already.</span><span class="zh">（评论）我还是觉得重试逻辑应该放在服务层，而不是客户端。这个已经来回两轮评论了。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">I think we're going back and forth on this one. Happy to be convinced otherwise — do you have 10 minutes for a quick call? Might be faster than more comments.</span><span class="zh">我觉得这点上我们在来回拉锯。我很乐意被说服——有 10 分钟通个电话吗？可能比继续留言快。</span></div>
+    <div class="line"><span class="who">Kevin</span><span class="en">Sure, calling you now.</span><span class="zh">可以，现在打给你。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">...OK, so on the call we agreed: retries stay on the client for now, and Kevin will file a follow-up ticket to centralize retry logic in the service layer next sprint. I'll note that in the PR.</span><span class="zh">……好，电话里我们达成一致：重试暂时留在客户端，Kevin 会开一张后续工单，下个迭代把重试逻辑统一收敛到服务层。我把这个记在 PR 里。</span></div>
+    <div class="line"><span class="who">Kevin</span><span class="en">Works for me. LGTM once that comment is added.</span><span class="zh">我没问题。评论加上后我就 LGTM（看起来不错，同意合并）。</span></div>
+  </div>
+
+  <h2 class="section">发音与连读提示</h2>
+  <div class="tip-box">
+    <strong>1. "Good catch" 的 catch：</strong>/kætʃ/，注意和 "cache"（/kæʃ/，缓存）区分——技术会议上这两个词经常同时出现！<br><br>
+    <strong>2. "a couple of" 弱读：</strong>口语中读作 "a coupla" /ə ˈkʌplə/，"a couple of things" 是委婉提意见的经典开场。<br><br>
+    <strong>3. LGTM / nit / PR 缩略语：</strong>会议上直接读字母（L-G-T-M）或单词（nit /pr/），平时听力多留意。
+  </div>
+
+  <h2 class="section">练习任务</h2>
+  <div class="card">
+    <ul class="tasks">
+      <li><strong>跟读：</strong>重点练三个对话中的委婉句型，注意 "Might it be..." "I wonder if..." 的柔和语调。</li>
+      <li><strong>强度分级练习：</strong>对同一个问题（如「变量命名不好」），分别用 nit / 建议 / must-fix 三种强度各说一遍，感受语气差异。</li>
+      <li><strong>反驳练习：</strong>设想别人批评你的方案，用「感谢 + 解释理由 + 抛出条件」结构说出你的回应。</li>
+      <li><strong>实战：</strong>今天找一条真实的 PR 评论（自己的或别人的），试着用英文口头表达一遍。</li>
+    </ul>
+  </div>
+
+  <h2 class="section">高频 IT 词汇 · 50 个</h2>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① Git 基础操作</h2>
+  <table class="schedule">
+    <tr><td>commit</td><td>提交</td><td>push</td><td>推送</td></tr>
+    <tr><td>pull</td><td>拉取</td><td>fetch</td><td>获取</td></tr>
+    <tr><td>merge</td><td>合并</td><td>rebase</td><td>变基</td></tr>
+    <tr><td>branch</td><td>分支</td><td>fork</td><td>复刻仓库</td></tr>
+    <tr><td>clone</td><td>克隆</td><td>checkout</td><td>检出 / 切换分支</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② PR 流程</h2>
+  <table class="schedule">
+    <tr><td>pull request</td><td>合并请求（PR）</td><td>review</td><td>评审</td></tr>
+    <tr><td>approve</td><td>批准</td><td>reject</td><td>拒绝</td></tr>
+    <tr><td>comment</td><td>评论</td><td>nit</td><td>小问题（不阻塞）</td></tr>
+    <tr><td>LGTM</td><td>看起来不错（同意合并）</td><td>request changes</td><td>请求修改</td></tr>
+    <tr><td>conflict</td><td>合并冲突</td><td>resolve</td><td>解决</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 代码质量</h2>
+  <table class="schedule">
+    <tr><td>refactor</td><td>重构</td><td>code style</td><td>代码风格</td></tr>
+    <tr><td>lint</td><td>静态检查</td><td>naming convention</td><td>命名规范</td></tr>
+    <tr><td>readability</td><td>可读性</td><td>maintainability</td><td>可维护性</td></tr>
+    <tr><td>duplicate</td><td>重复的（代码）</td><td>extract</td><td>提取（函数/方法）</td></tr>
+    <tr><td>hardcode</td><td>硬编码</td><td>magic number</td><td>魔法数字</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">④ 测试</h2>
+  <table class="schedule">
+    <tr><td>unit test</td><td>单元测试</td><td>integration test</td><td>集成测试</td></tr>
+    <tr><td>regression test</td><td>回归测试</td><td>smoke test</td><td>冒烟测试</td></tr>
+    <tr><td>test coverage</td><td>测试覆盖率</td><td>test suite</td><td>测试套件</td></tr>
+    <tr><td>mock</td><td>模拟对象</td><td>stub</td><td>桩</td></tr>
+    <tr><td>assertion</td><td>断言</td><td>flaky</td><td>（测试）不稳定的</td></tr>
+  </table>
+  <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">⑤ 工程与环境</h2>
+  <table class="schedule">
+    <tr><td>dead code</td><td>无用代码</td><td>library</td><td>库</td></tr>
+    <tr><td>framework</td><td>框架</td><td>module</td><td>模块</td></tr>
+    <tr><td>package</td><td>包</td><td>CI/CD</td><td>持续集成 / 持续交付</td></tr>
+    <tr><td>pipeline</td><td>流水线</td><td>build</td><td>构建</td></tr>
+    <tr><td>artifact</td><td>构建产物</td><td>revert</td><td>撤销提交</td></tr>
+  </table>
+
+  <h2 class="section">今日时间安排</h2>
+  <table class="schedule">
+    <tr><th>时长</th><th>任务</th></tr>
+    <tr><td>15 分钟</td><td>跟读三个对话 + 委婉句型专项</td></tr>
+    <tr><td>15 分钟</td><td>反馈强度分级练习（nit / suggest / must-fix）</td></tr>
+    <tr><td>10 分钟</td><td>真实 PR 评论的口头表达练习</td></tr>
+  </table>
+
+  <nav class="bottom">
+    <a href="day2.html">← Day 2 · 技术讨论</a>
+    <a href="day4.html">Day 4 · 会议表达观点 →</a>
+  </nav>
+</div>
+</body>
+</html>
