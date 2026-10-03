@@ -1,0 +1,1502 @@
+[
+{
+"id": 1,
+"word": "abandon",
+"meaning": "放弃；遗弃；中止"
+},
+{
+"id": 2,
+"word": "abbreviate",
+"meaning": "缩短；缩写"
+},
+{
+"id": 3,
+"word": "abbreviation",
+"meaning": "缩写词；缩略"
+},
+{
+"id": 4,
+"word": "abide",
+"meaning": "遵守；忍受；居住"
+},
+{
+"id": 5,
+"word": "ability",
+"meaning": "能力；本领；才能"
+},
+{
+"id": 6,
+"word": "ablaze",
+"meaning": "着火的；闪耀的"
+},
+{
+"id": 7,
+"word": "abnormal",
+"meaning": "反常的；变态的"
+},
+{
+"id": 8,
+"word": "aboard",
+"meaning": "在船(飞机、车)上"
+},
+{
+"id": 9,
+"word": "abolish",
+"meaning": "废除；废止"
+},
+{
+"id": 10,
+"word": "abortion",
+"meaning": "流产；堕胎；夭折"
+},
+{
+"id": 11,
+"word": "abound",
+"meaning": "富于；充满"
+},
+{
+"id": 12,
+"word": "abrupt",
+"meaning": "突然的；唐突的"
+},
+{
+"id": 13,
+"word": "abruptly",
+"meaning": "突然地；粗鲁地"
+},
+{
+"id": 14,
+"word": "absence",
+"meaning": "缺席；缺乏；不在"
+},
+{
+"id": 15,
+"word": "absent",
+"meaning": "缺席的；心不在焉的"
+},
+{
+"id": 16,
+"word": "absolute",
+"meaning": "绝对的；完全的"
+},
+{
+"id": 17,
+"word": "absorb",
+"meaning": "吸收；吸引；同化"
+},
+{
+"id": 18,
+"word": "absorption",
+"meaning": "吸收；全神贯注"
+},
+{
+"id": 19,
+"word": "abstract",
+"meaning": "抽象的 n. 摘要 v. 提取"
+},
+{
+"id": 20,
+"word": "absurd",
+"meaning": "荒谬的；可笑的"
+},
+{
+"id": 21,
+"word": "abundance",
+"meaning": "丰富；充裕"
+},
+{
+"id": 22,
+"word": "abundant",
+"meaning": "丰富的；充足的"
+},
+{
+"id": 23,
+"word": "abuse",
+"meaning": "滥用；虐待；辱骂"
+},
+{
+"id": 24,
+"word": "academic",
+"meaning": "学术的；理论的 n. 学者"
+},
+{
+"id": 25,
+"word": "academy",
+"meaning": "学院；研究院；学会"
+},
+{
+"id": 26,
+"word": "accelerate",
+"meaning": "加速；促进"
+},
+{
+"id": 27,
+"word": "acceleration",
+"meaning": "加速；促进"
+},
+{
+"id": 28,
+"word": "accent",
+"meaning": "口音；腔调；重音"
+},
+{
+"id": 29,
+"word": "acceptable",
+"meaning": "可接受的；合意的"
+},
+{
+"id": 30,
+"word": "access",
+"meaning": "入口；通路；使用权 v. 存取"
+},
+{
+"id": 31,
+"word": "accessible",
+"meaning": "易接近的；可利用的"
+},
+{
+"id": 32,
+"word": "accessory",
+"meaning": "附件；配件；从犯"
+},
+{
+"id": 33,
+"word": "accident",
+"meaning": "事故；意外事件"
+},
+{
+"id": 34,
+"word": "accidental",
+"meaning": "意外的；偶然的"
+},
+{
+"id": 35,
+"word": "acclaim",
+"meaning": "欢呼；喝彩；称赞"
+},
+{
+"id": 36,
+"word": "accommodate",
+"meaning": "容纳；提供住宿；适应"
+},
+{
+"id": 37,
+"word": "accommodation",
+"meaning": "住宿；膳宿；调解"
+},
+{
+"id": 38,
+"word": "accompany",
+"meaning": "陪伴；伴随；伴奏"
+},
+{
+"id": 39,
+"word": "accomplish",
+"meaning": "完成；实现；达到"
+},
+{
+"id": 40,
+"word": "accomplishment",
+"meaning": "成就；完成；技能"
+},
+{
+"id": 41,
+"word": "accord",
+"meaning": "一致；符合；协议"
+},
+{
+"id": 42,
+"word": "accordance",
+"meaning": "一致；符合"
+},
+{
+"id": 43,
+"word": "accordingly",
+"meaning": "因此；相应地"
+},
+{
+"id": 44,
+"word": "account",
+"meaning": "账目；叙述；解释 v. 说明"
+},
+{
+"id": 45,
+"word": "accountability",
+"meaning": "责任；有解释义务"
+},
+{
+"id": 46,
+"word": "accountant",
+"meaning": "会计；会计师"
+},
+{
+"id": 47,
+"word": "accumulate",
+"meaning": "积累；积聚"
+},
+{
+"id": 48,
+"word": "accumulation",
+"meaning": "积聚；积累物"
+},
+{
+"id": 49,
+"word": "accuracy",
+"meaning": "准确性；精确度"
+},
+{
+"id": 50,
+"word": "accurate",
+"meaning": "准确的；精确的"
+},
+{
+"id": 51,
+"word": "accusation",
+"meaning": "指控；控告"
+},
+{
+"id": 52,
+"word": "accuse",
+"meaning": "指控；指责"
+},
+{
+"id": 53,
+"word": "accustom",
+"meaning": "使习惯于"
+},
+{
+"id": 54,
+"word": "accustomed",
+"meaning": "习惯的；惯常的"
+},
+{
+"id": 55,
+"word": "achievement",
+"meaning": "完成；成就；成绩"
+},
+{
+"id": 56,
+"word": "acid",
+"meaning": "酸 adj. 酸的；尖酸的"
+},
+{
+"id": 57,
+"word": "acknowledge",
+"meaning": "承认；致谢；确认"
+},
+{
+"id": 58,
+"word": "acknowledgement",
+"meaning": "承认；谢忱"
+},
+{
+"id": 59,
+"word": "acoustic",
+"meaning": "声音的；听觉的；原声的"
+},
+{
+"id": 60,
+"word": "acquaint",
+"meaning": "使熟悉；使了解"
+},
+{
+"id": 61,
+"word": "acquaintance",
+"meaning": "熟人；认识；了解"
+},
+{
+"id": 62,
+"word": "acquire",
+"meaning": "获得；学到；取得"
+},
+{
+"id": 63,
+"word": "acquisition",
+"meaning": "获得；获得物；收购"
+},
+{
+"id": 64,
+"word": "acre",
+"meaning": "英亩"
+},
+{
+"id": 65,
+"word": "action",
+"meaning": "行动；作用；功能"
+},
+{
+"id": 66,
+"word": "activate",
+"meaning": "激活；使活动；启动"
+},
+{
+"id": 67,
+"word": "active",
+"meaning": "活跃的；积极的；主动的"
+},
+{
+"id": 68,
+"word": "activism",
+"meaning": "激进主义；行动主义"
+},
+{
+"id": 69,
+"word": "activity",
+"meaning": "活动；行动；活力"
+},
+{
+"id": 70,
+"word": "actor",
+"meaning": "演员；行动者"
+},
+{
+"id": 71,
+"word": "actress",
+"meaning": "女演员"
+},
+{
+"id": 72,
+"word": "actual",
+"meaning": "实际的；真实的"
+},
+{
+"id": 73,
+"word": "actually",
+"meaning": "实际上；事实上"
+},
+{
+"id": 74,
+"word": "acute",
+"meaning": "敏锐的；急性的；剧烈的"
+},
+{
+"id": 75,
+"word": "adapt",
+"meaning": "使适应；改编"
+},
+{
+"id": 76,
+"word": "adaptation",
+"meaning": "适应；改编本"
+},
+{
+"id": 77,
+"word": "addict",
+"meaning": "有瘾的人；沉迷者 v. 使沉溺"
+},
+{
+"id": 78,
+"word": "addiction",
+"meaning": "沉溺；上瘾"
+},
+{
+"id": 79,
+"word": "addition",
+"meaning": "增加；加法；附加物"
+},
+{
+"id": 80,
+"word": "additional",
+"meaning": "附加的；额外的"
+},
+{
+"id": 81,
+"word": "address",
+"meaning": "地址；演说 v. 致辞；处理"
+},
+{
+"id": 82,
+"word": "adequate",
+"meaning": "足够的；合格的；适度的"
+},
+{
+"id": 83,
+"word": "adhere",
+"meaning": "黏附；坚持；遵守"
+},
+{
+"id": 84,
+"word": "adherence",
+"meaning": "坚持；遵守；依附"
+},
+{
+"id": 85,
+"word": "adjacent",
+"meaning": "邻近的；毗连的"
+},
+{
+"id": 86,
+"word": "adjective",
+"meaning": "形容词"
+},
+{
+"id": 87,
+"word": "adjoin",
+"meaning": "贴近；毗连"
+},
+{
+"id": 88,
+"word": "adjust",
+"meaning": "调整；校正；适应"
+},
+{
+"id": 89,
+"word": "adjustment",
+"meaning": "调整；适应"
+},
+{
+"id": 90,
+"word": "administer",
+"meaning": "管理；执行；给予"
+},
+{
+"id": 91,
+"word": "administration",
+"meaning": "管理；行政部门；政府"
+},
+{
+"id": 92,
+"word": "administrative",
+"meaning": "行政的；管理的"
+},
+{
+"id": 93,
+"word": "admire",
+"meaning": "钦佩；赞赏；羡慕"
+},
+{
+"id": 94,
+"word": "admission",
+"meaning": "准许进入；承认；入场费"
+},
+{
+"id": 95,
+"word": "admit",
+"meaning": "承认；准许进入"
+},
+{
+"id": 96,
+"word": "adolescence",
+"meaning": "青春期"
+},
+{
+"id": 97,
+"word": "adolescent",
+"meaning": "青少年 adj. 青春期的"
+},
+{
+"id": 98,
+"word": "adopt",
+"meaning": "采用；采纳；收养"
+},
+{
+"id": 99,
+"word": "adoption",
+"meaning": "采用；收养"
+},
+{
+"id": 100,
+"word": "adore",
+"meaning": "热爱；爱慕；崇拜"
+},
+{
+"id": 101,
+"word": "adorn",
+"meaning": "装饰；装扮"
+},
+{
+"id": 102,
+"word": "adult",
+"meaning": "成年人 adj. 成年的"
+},
+{
+"id": 103,
+"word": "advance",
+"meaning": "前进；进展；提升"
+},
+{
+"id": 104,
+"word": "advanced",
+"meaning": "先进的；高级的"
+},
+{
+"id": 105,
+"word": "advancement",
+"meaning": "前进；进步；提升"
+},
+{
+"id": 106,
+"word": "advantage",
+"meaning": "优势；利益；好处"
+},
+{
+"id": 107,
+"word": "advantageous",
+"meaning": "有利的；有益的"
+},
+{
+"id": 108,
+"word": "advent",
+"meaning": "到来；出现"
+},
+{
+"id": 109,
+"word": "adventure",
+"meaning": "冒险；奇遇"
+},
+{
+"id": 110,
+"word": "adverse",
+"meaning": "不利的；逆向的；敌对的"
+},
+{
+"id": 111,
+"word": "adversity",
+"meaning": "逆境；不幸；厄运"
+},
+{
+"id": 112,
+"word": "advertise",
+"meaning": "登广告；宣传；宣称"
+},
+{
+"id": 113,
+"word": "advertisement",
+"meaning": "广告；公告"
+},
+{
+"id": 114,
+"word": "advertising",
+"meaning": "广告业；做广告"
+},
+{
+"id": 115,
+"word": "advice",
+"meaning": "劝告；建议；通知"
+},
+{
+"id": 116,
+"word": "advisable",
+"meaning": "可取的；明智的"
+},
+{
+"id": 117,
+"word": "advise",
+"meaning": "建议；劝告；通知"
+},
+{
+"id": 118,
+"word": "advocate",
+"meaning": "提倡；主张 n. 拥护者；律师"
+},
+{
+"id": 119,
+"word": "aerospace",
+"meaning": "航空航天工业 adj. 航空航天的"
+},
+{
+"id": 120,
+"word": "aesthetic",
+"meaning": "美学的；审美的 n. 美学"
+},
+{
+"id": 121,
+"word": "affair",
+"meaning": "事情；事务；事件"
+},
+{
+"id": 122,
+"word": "affect",
+"meaning": "影响；感动；假装"
+},
+{
+"id": 123,
+"word": "affection",
+"meaning": "喜爱；感情；温情"
+},
+{
+"id": 124,
+"word": "affiliate",
+"meaning": "使隶属；发生联系 n. 附属机构"
+},
+{
+"id": 125,
+"word": "affirm",
+"meaning": "断言；肯定；证实"
+},
+{
+"id": 126,
+"word": "afflict",
+"meaning": "折磨；使痛苦"
+},
+{
+"id": 127,
+"word": "affluent",
+"meaning": "富裕的；丰富的"
+},
+{
+"id": 128,
+"word": "afford",
+"meaning": "买得起；承担得起；提供"
+},
+{
+"id": 129,
+"word": "affordable",
+"meaning": "负担得起的"
+},
+{
+"id": 130,
+"word": "agency",
+"meaning": "代理机构；专门行政部门"
+},
+{
+"id": 131,
+"word": "agenda",
+"meaning": "议事日程；议程表"
+},
+{
+"id": 132,
+"word": "agent",
+"meaning": "代理人；特工；动因"
+},
+{
+"id": 133,
+"word": "aggravate",
+"meaning": "加重；恶化；激怒"
+},
+{
+"id": 134,
+"word": "aggregate",
+"meaning": "总数；聚集体 v. 聚集 adj. 合计的"
+},
+{
+"id": 135,
+"word": "aggression",
+"meaning": "侵犯；侵略；攻击"
+},
+{
+"id": 136,
+"word": "aggressive",
+"meaning": "侵略的；好斗的；进取的"
+},
+{
+"id": 137,
+"word": "agile",
+"meaning": "敏捷的；机智的"
+},
+{
+"id": 138,
+"word": "agitate",
+"meaning": "煽动；扰乱；摇动"
+},
+{
+"id": 139,
+"word": "agriculture",
+"meaning": "农业；农学"
+},
+{
+"id": 140,
+"word": "ahead",
+"meaning": "在前面；向前；提前"
+},
+{
+"id": 141,
+"word": "aid",
+"meaning": "援助；救护；助手"
+},
+{
+"id": 142,
+"word": "ailment",
+"meaning": "疾病；不适"
+},
+{
+"id": 143,
+"word": "aim",
+"meaning": "目标；目的 v. 瞄准；针对"
+},
+{
+"id": 144,
+"word": "aircraft",
+"meaning": "飞机；飞行器"
+},
+{
+"id": 145,
+"word": "airline",
+"meaning": "航空公司；航线"
+},
+{
+"id": 146,
+"word": "airport",
+"meaning": "机场；航空港"
+},
+{
+"id": 147,
+"word": "aisle",
+"meaning": "过道；通道"
+},
+{
+"id": 148,
+"word": "alarm",
+"meaning": "警报；惊恐 v. 使惊恐；报警"
+},
+{
+"id": 149,
+"word": "album",
+"meaning": "唱片；相册；集邮簿"
+},
+{
+"id": 150,
+"word": "alert",
+"meaning": "警觉的；机敏的 n. 警报 v. 提醒"
+},
+{
+"id": 151,
+"word": "alien",
+"meaning": "外国的；外星的；格格不入的 n. 外侨"
+},
+{
+"id": 152,
+"word": "alienate",
+"meaning": "使疏远；离间；让渡"
+},
+{
+"id": 153,
+"word": "align",
+"meaning": "排成一行；使一致；结盟"
+},
+{
+"id": 154,
+"word": "alignment",
+"meaning": "队列；结盟；对齐"
+},
+{
+"id": 155,
+"word": "alike",
+"meaning": "相同的；相像的 adv. 同样地"
+},
+{
+"id": 156,
+"word": "allege",
+"meaning": "断言；声称；指控"
+},
+{
+"id": 157,
+"word": "allegation",
+"meaning": "指控；陈述；陈词"
+},
+{
+"id": 158,
+"word": "allegiance",
+"meaning": "忠诚；效忠"
+},
+{
+"id": 159,
+"word": "alleviate",
+"meaning": "减轻；缓解"
+},
+{
+"id": 160,
+"word": "alliance",
+"meaning": "结盟；同盟；联姻"
+},
+{
+"id": 161,
+"word": "allocate",
+"meaning": "分配；分派；拨出"
+},
+{
+"id": 162,
+"word": "allocation",
+"meaning": "配给；分配；分配额"
+},
+{
+"id": 163,
+"word": "allow",
+"meaning": "允许；准许；给予"
+},
+{
+"id": 164,
+"word": "allowance",
+"meaning": "津贴；零用钱；限额"
+},
+{
+"id": 165,
+"word": "allude",
+"meaning": "暗指；提及"
+},
+{
+"id": 166,
+"word": "allure",
+"meaning": "引诱；吸引 n. 诱惑力；魅力"
+},
+{
+"id": 167,
+"word": "ally",
+"meaning": "同盟国；支持者 v. 结盟"
+},
+{
+"id": 168,
+"word": "almighty",
+"meaning": "全能的；万能的"
+},
+{
+"id": 169,
+"word": "alphabet",
+"meaning": "字母表"
+},
+{
+"id": 170,
+"word": "alter",
+"meaning": "改变；更改；修改"
+},
+{
+"id": 171,
+"word": "alteration",
+"meaning": "变更；改造"
+},
+{
+"id": 172,
+"word": "alternate",
+"meaning": "交替；轮流 adj. 轮流的；间隔的"
+},
+{
+"id": 173,
+"word": "alternative",
+"meaning": "供替代的选择 adj. 替代的；非传统的"
+},
+{
+"id": 174,
+"word": "altitude",
+"meaning": "高度；海拔"
+},
+{
+"id": 175,
+"word": "amateur",
+"meaning": "业余爱好者 adj. 业余的"
+},
+{
+"id": 176,
+"word": "amaze",
+"meaning": "使惊奇；使惊叹"
+},
+{
+"id": 177,
+"word": "amazement",
+"meaning": "惊异；惊愕"
+},
+{
+"id": 178,
+"word": "ambassador",
+"meaning": "大使；使节"
+},
+{
+"id": 179,
+"word": "ambiguity",
+"meaning": "模棱两可；不明确"
+},
+{
+"id": 180,
+"word": "ambiguous",
+"meaning": "模棱两可的；含糊不清的"
+},
+{
+"id": 181,
+"word": "ambition",
+"meaning": "雄心；野心；抱负"
+},
+{
+"id": 182,
+"word": "ambitious",
+"meaning": "有雄心的；有野心的"
+},
+{
+"id": 183,
+"word": "ambulance",
+"meaning": "救护车"
+},
+{
+"id": 184,
+"word": "amend",
+"meaning": "修改；修正；改过自新"
+},
+{
+"id": 185,
+"word": "amendment",
+"meaning": "修改；修正案"
+},
+{
+"id": 186,
+"word": "amenity",
+"meaning": "便利设施；舒适；礼仪"
+},
+{
+"id": 187,
+"word": "amiable",
+"meaning": "和蔼的；亲切的"
+},
+{
+"id": 188,
+"word": "amicable",
+"meaning": "友好的；和睦的"
+},
+{
+"id": 189,
+"word": "amid",
+"meaning": "在…中间；在…当中"
+},
+{
+"id": 190,
+"word": "amount",
+"meaning": "数量；总额 v. 总计；等同于"
+},
+{
+"id": 191,
+"word": "ample",
+"meaning": "充分的；宽敞的；大量的"
+},
+{
+"id": 192,
+"word": "amplification",
+"meaning": "扩大；放大；详述"
+},
+{
+"id": 193,
+"word": "amplify",
+"meaning": "放大；增强；详述"
+},
+{
+"id": 194,
+"word": "amuse",
+"meaning": "逗乐；逗笑；给…提供娱乐"
+},
+{
+"id": 195,
+"word": "amusement",
+"meaning": "娱乐；消遣；幽默"
+},
+{
+"id": 196,
+"word": "analogous",
+"meaning": "类似的；可比拟的"
+},
+{
+"id": 197,
+"word": "analogy",
+"meaning": "类比；类推"
+},
+{
+"id": 198,
+"word": "analysis",
+"meaning": "分析；分解；解析"
+},
+{
+"id": 199,
+"word": "analytic",
+"meaning": "分析的；解析的"
+},
+{
+"id": 200,
+"word": "analyze",
+"meaning": "分析；分解；细察"
+},
+{
+"id": 201,
+"word": "ancestor",
+"meaning": "祖先；祖宗；原型"
+},
+{
+"id": 202,
+"word": "ancestry",
+"meaning": "祖先；世系；血统"
+},
+{
+"id": 203,
+"word": "anchor",
+"meaning": "锚；支柱；新闻主播 v. 抛锚；固定"
+},
+{
+"id": 204,
+"word": "ancient",
+"meaning": "古代的；古老的 n. 古人"
+},
+{
+"id": 205,
+"word": "anecdote",
+"meaning": "轶事；奇闻"
+},
+{
+"id": 206,
+"word": "angle",
+"meaning": "角度；角；视角 v. 垂钓；调整角度"
+},
+{
+"id": 207,
+"word": "angular",
+"meaning": "有角的；消瘦的"
+},
+{
+"id": 208,
+"word": "animate",
+"meaning": "使有生气；赋以生命 adj. 有生命的"
+},
+{
+"id": 209,
+"word": "animation",
+"meaning": "动画制作；生气；活泼"
+},
+{
+"id": 210,
+"word": "animosity",
+"meaning": "敌意；仇恨"
+},
+{
+"id": 211,
+"word": "annals",
+"meaning": "编年史；年报"
+},
+{
+"id": 212,
+"word": "annex",
+"meaning": "兼并；附加 n. 附属建筑"
+},
+{
+"id": 213,
+"word": "anniversary",
+"meaning": "周年纪念日 adj. 周年的"
+},
+{
+"id": 214,
+"word": "announce",
+"meaning": "宣布；宣告；声称"
+},
+{
+"id": 215,
+"word": "announcement",
+"meaning": "公告；发表；通知"
+},
+{
+"id": 216,
+"word": "annoy",
+"meaning": "使恼怒；打扰"
+},
+{
+"id": 217,
+"word": "annoyance",
+"meaning": "烦恼；令人讨厌的事物"
+},
+{
+"id": 218,
+"word": "annual",
+"meaning": "每年的；年度的 n. 年报；一年生植物"
+},
+{
+"id": 219,
+"word": "anonymous",
+"meaning": "匿名的；无名的"
+},
+{
+"id": 220,
+"word": "Antarctic",
+"meaning": "南极的 n. 南极地区"
+},
+{
+"id": 221,
+"word": "antecedent",
+"meaning": "先行词；祖先 adj. 先前的"
+},
+{
+"id": 222,
+"word": "anthropology",
+"meaning": "人类学"
+},
+{
+"id": 223,
+"word": "antibiotic",
+"meaning": "抗生素 adj. 抗菌的"
+},
+{
+"id": 224,
+"word": "anticipate",
+"meaning": "预期；预料；先于…行动"
+},
+{
+"id": 225,
+"word": "anticipation",
+"meaning": "预料；期望"
+},
+{
+"id": 226,
+"word": "antique",
+"meaning": "古董 adj. 古代的；过时的"
+},
+{
+"id": 227,
+"word": "antiquity",
+"meaning": "古代；古老；古代文物"
+},
+{
+"id": 228,
+"word": "anxiety",
+"meaning": "焦虑；挂念；渴望"
+},
+{
+"id": 229,
+"word": "anxious",
+"meaning": "焦虑的；渴望的"
+},
+{
+"id": 230,
+"word": "apartment",
+"meaning": "公寓；套房"
+},
+{
+"id": 231,
+"word": "ape",
+"meaning": "类人猿；模仿者 v. 模仿"
+},
+{
+"id": 232,
+"word": "aperture",
+"meaning": "孔；狭缝；光圈"
+},
+{
+"id": 233,
+"word": "apologetic",
+"meaning": "道歉的；愧疚的"
+},
+{
+"id": 234,
+"word": "apologize",
+"meaning": "道歉；谢罪"
+},
+{
+"id": 235,
+"word": "apology",
+"meaning": "道歉；辩解"
+},
+{
+"id": 236,
+"word": "apparatus",
+"meaning": "器械；设备；仪器"
+},
+{
+"id": 237,
+"word": "apparent",
+"meaning": "显然的；表面上的"
+},
+{
+"id": 238,
+"word": "apparently",
+"meaning": "显而易见地；表面上看来"
+},
+{
+"id": 239,
+"word": "appeal",
+"meaning": "呼吁；吸引；上诉"
+},
+{
+"id": 240,
+"word": "appealing",
+"meaning": "有吸引力的；恳求的"
+},
+{
+"id": 241,
+"word": "appear",
+"meaning": "出现；显露；似乎"
+},
+{
+"id": 242,
+"word": "appearance",
+"meaning": "出现；外观；外貌"
+},
+{
+"id": 243,
+"word": "appease",
+"meaning": "平息；抚慰；姑息"
+},
+{
+"id": 244,
+"word": "append",
+"meaning": "附加；添加；挂上"
+},
+{
+"id": 245,
+"word": "appendix",
+"meaning": "附录；阑尾"
+},
+{
+"id": 246,
+"word": "appetite",
+"meaning": "食欲；胃口；欲望"
+},
+{
+"id": 247,
+"word": "applaud",
+"meaning": "鼓掌；赞赏"
+},
+{
+"id": 248,
+"word": "applause",
+"meaning": "鼓掌；喝彩"
+},
+{
+"id": 249,
+"word": "appliance",
+"meaning": "家用电器；器具"
+},
+{
+"id": 250,
+"word": "applicable",
+"meaning": "适用的；可应用的"
+},
+{
+"id": 251,
+"word": "applicant",
+"meaning": "申请人"
+},
+{
+"id": 252,
+"word": "application",
+"meaning": "申请；应用；应用程序"
+},
+{
+"id": 253,
+"word": "apply",
+"meaning": "申请；应用；涂抹"
+},
+{
+"id": 254,
+"word": "appoint",
+"meaning": "任命；委派；约定"
+},
+{
+"id": 255,
+"word": "appointment",
+"meaning": "约定；约会；任命"
+},
+{
+"id": 256,
+"word": "apportion",
+"meaning": "分配；分摊"
+},
+{
+"id": 257,
+"word": "appraise",
+"meaning": "评价；估价；鉴定"
+},
+{
+"id": 258,
+"word": "appreciable",
+"meaning": "可察觉的；相当可观的"
+},
+{
+"id": 259,
+"word": "appreciate",
+"meaning": "欣赏；感激；升值"
+},
+{
+"id": 260,
+"word": "appreciation",
+"meaning": "感激；欣赏；升值"
+},
+{
+"id": 261,
+"word": "apprehend",
+"meaning": "逮捕；理解；担忧"
+},
+{
+"id": 262,
+"word": "apprehensive",
+"meaning": "忧虑的；恐惧的"
+},
+{
+"id": 263,
+"word": "approach",
+"meaning": "接近；着手处理 n. 方法；路径"
+},
+{
+"id": 264,
+"word": "appropriate",
+"meaning": "适当的；恰当的 v. 拨款；侵吞"
+},
+{
+"id": 265,
+"word": "approval",
+"meaning": "赞成；批准；认可"
+},
+{
+"id": 266,
+"word": "approve",
+"meaning": "赞同；批准；同意"
+},
+{
+"id": 267,
+"word": "approximate",
+"meaning": "近似的；大约的 v. 接近"
+},
+{
+"id": 268,
+"word": "approximately",
+"meaning": "大约；近似地"
+},
+{
+"id": 269,
+"word": "apt",
+"meaning": "恰当的；易于…的；聪明的"
+},
+{
+"id": 270,
+"word": "aptitude",
+"meaning": "天资；天赋；才能"
+},
+{
+"id": 271,
+"word": "aquatic",
+"meaning": "水生的；水上的"
+},
+{
+"id": 272,
+"word": "arbitrary",
+"meaning": "专断的；任意的；武断的"
+},
+{
+"id": 273,
+"word": "arbitrate",
+"meaning": "仲裁；公断"
+},
+{
+"id": 274,
+"word": "archaeology",
+"meaning": "考古学"
+},
+{
+"id": 275,
+"word": "archaic",
+"meaning": "古代的；过时的"
+},
+{
+"id": 276,
+"word": "architect",
+"meaning": "建筑师；设计师；缔造者"
+},
+{
+"id": 277,
+"word": "architecture",
+"meaning": "建筑学；建筑结构"
+},
+{
+"id": 278,
+"word": "archive",
+"meaning": "档案；档案馆 v. 归档"
+},
+{
+"id": 279,
+"word": "Arctic",
+"meaning": "北极的 n. 北极地区"
+},
+{
+"id": 280,
+"word": "ardent",
+"meaning": "热心的；热烈的"
+},
+{
+"id": 281,
+"word": "arduous",
+"meaning": "艰巨的；费力的"
+},
+{
+"id": 282,
+"word": "area",
+"meaning": "区域；面积；领域"
+},
+{
+"id": 283,
+"word": "arena",
+"meaning": "竞技场；舞台；领域"
+},
+{
+"id": 284,
+"word": "arguably",
+"meaning": "可以说；按理论"
+},
+{
+"id": 285,
+"word": "argue",
+"meaning": "争论；辩论；主张"
+},
+{
+"id": 286,
+"word": "argument",
+"meaning": "争吵；论点；论据"
+},
+{
+"id": 287,
+"word": "arid",
+"meaning": "干旱的；枯燥的"
+},
+{
+"id": 288,
+"word": "arise",
+"meaning": "出现；发生；升起"
+},
+{
+"id": 289,
+"word": "arithmetic",
+"meaning": "算术 adj. 算术的"
+},
+{
+"id": 290,
+"word": "armour",
+"meaning": "盔甲；装甲"
+},
+{
+"id": 291,
+"word": "aroma",
+"meaning": "芳香；香味"
+},
+{
+"id": 292,
+"word": "arouse",
+"meaning": "唤醒；激发；引起"
+},
+{
+"id": 293,
+"word": "arrange",
+"meaning": "安排；整理；排列"
+},
+{
+"id": 294,
+"word": "arrangement",
+"meaning": "安排；准备；排列"
+},
+{
+"id": 295,
+"word": "array",
+"meaning": "一大批；排列；阵列 v. 部署"
+},
+{
+"id": 296,
+"word": "arrest",
+"meaning": "逮捕；阻碍；吸引"
+},
+{
+"id": 297,
+"word": "arrival",
+"meaning": "到达；到来；新生儿"
+},
+{
+"id": 298,
+"word": "arrogant",
+"meaning": "傲慢的；自大的"
+},
+{
+"id": 299,
+"word": "arrow",
+"meaning": "箭；箭头符号"
+},
+{
+"id": 300,
+"word": "artery",
+"meaning": "动脉；要道"
+}
+]

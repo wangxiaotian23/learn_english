@@ -1,0 +1,1502 @@
+[
+{
+"id": 901,
+"word": "desire",
+"meaning": "渴望 v. 想要"
+},
+{
+"id": 902,
+"word": "despair",
+"meaning": "绝望 v. 绝望"
+},
+{
+"id": 903,
+"word": "desperate",
+"meaning": "绝望的；不顾一切的"
+},
+{
+"id": 904,
+"word": "dessert",
+"meaning": "甜点"
+},
+{
+"id": 905,
+"word": "destination",
+"meaning": "目的地"
+},
+{
+"id": 906,
+"word": "destiny",
+"meaning": "命运；天数"
+},
+{
+"id": 907,
+"word": "destroy",
+"meaning": "破坏；摧毁"
+},
+{
+"id": 908,
+"word": "destruction",
+"meaning": "破坏；毁灭"
+},
+{
+"id": 909,
+"word": "destructive",
+"meaning": "破坏性的"
+},
+{
+"id": 910,
+"word": "detect",
+"meaning": "察觉；探测"
+},
+{
+"id": 911,
+"word": "deter",
+"meaning": "阻止；威慑"
+},
+{
+"id": 912,
+"word": "detergent",
+"meaning": "洗涤剂"
+},
+{
+"id": 913,
+"word": "deteriorate",
+"meaning": "恶化；变坏"
+},
+{
+"id": 914,
+"word": "determine",
+"meaning": "决定；确定"
+},
+{
+"id": 915,
+"word": "detriment",
+"meaning": "损害；伤害"
+},
+{
+"id": 916,
+"word": "detrimental",
+"meaning": "有害的"
+},
+{
+"id": 917,
+"word": "devastate",
+"meaning": "毁坏；使震惊"
+},
+{
+"id": 918,
+"word": "deviation",
+"meaning": "偏差；偏离"
+},
+{
+"id": 919,
+"word": "device",
+"meaning": "设备；手段"
+},
+{
+"id": 920,
+"word": "devise",
+"meaning": "设计；想出"
+},
+{
+"id": 921,
+"word": "devote",
+"meaning": "奉献；致力于"
+},
+{
+"id": 922,
+"word": "devotion",
+"meaning": "献身；热爱"
+},
+{
+"id": 923,
+"word": "diagnose",
+"meaning": "诊断；判断"
+},
+{
+"id": 924,
+"word": "diagram",
+"meaning": "图表；示意图"
+},
+{
+"id": 925,
+"word": "dialect",
+"meaning": "方言"
+},
+{
+"id": 926,
+"word": "dialogue",
+"meaning": "对话"
+},
+{
+"id": 927,
+"word": "diameter",
+"meaning": "直径"
+},
+{
+"id": 928,
+"word": "dictate",
+"meaning": "规定；听写"
+},
+{
+"id": 929,
+"word": "dictation",
+"meaning": "听写；口述"
+},
+{
+"id": 930,
+"word": "diet",
+"meaning": "饮食 v. 节食"
+},
+{
+"id": 931,
+"word": "dietary",
+"meaning": "饮食的"
+},
+{
+"id": 932,
+"word": "differ",
+"meaning": "不同；相异"
+},
+{
+"id": 933,
+"word": "differentiate",
+"meaning": "区分；区别"
+},
+{
+"id": 934,
+"word": "diffuse",
+"meaning": "扩散；传播 adj. 弥漫的"
+},
+{
+"id": 935,
+"word": "digest",
+"meaning": "消化；领会 n. 摘要"
+},
+{
+"id": 936,
+"word": "digit",
+"meaning": "数字；手指"
+},
+{
+"id": 937,
+"word": "digital",
+"meaning": "数字的"
+},
+{
+"id": 938,
+"word": "dignity",
+"meaning": "尊严；庄重"
+},
+{
+"id": 939,
+"word": "dilemma",
+"meaning": "困境；进退两难"
+},
+{
+"id": 940,
+"word": "diligent",
+"meaning": "勤奋的"
+},
+{
+"id": 941,
+"word": "dilute",
+"meaning": "稀释；削弱"
+},
+{
+"id": 942,
+"word": "dim",
+"meaning": "昏暗的；模糊的"
+},
+{
+"id": 943,
+"word": "dimension",
+"meaning": "维度；方面"
+},
+{
+"id": 944,
+"word": "diminish",
+"meaning": "减少；削弱"
+},
+{
+"id": 945,
+"word": "diploma",
+"meaning": "文凭；毕业证书"
+},
+{
+"id": 946,
+"word": "diplomatic",
+"meaning": "外交的；圆滑的"
+},
+{
+"id": 947,
+"word": "dire",
+"meaning": "严重的；危急的"
+},
+{
+"id": 948,
+"word": "direct",
+"meaning": "直接的 v. 指导"
+},
+{
+"id": 949,
+"word": "directory",
+"meaning": "名录；电话簿"
+},
+{
+"id": 950,
+"word": "disability",
+"meaning": "残疾；缺陷"
+},
+{
+"id": 951,
+"word": "disable",
+"meaning": "使残疾；使无效"
+},
+{
+"id": 952,
+"word": "disadvantage",
+"meaning": "不利条件；缺点"
+},
+{
+"id": 953,
+"word": "disagree",
+"meaning": "不同意；有分歧"
+},
+{
+"id": 954,
+"word": "disappear",
+"meaning": "消失"
+},
+{
+"id": 955,
+"word": "disaster",
+"meaning": "灾难"
+},
+{
+"id": 956,
+"word": "discard",
+"meaning": "丢弃；抛弃"
+},
+{
+"id": 957,
+"word": "discern",
+"meaning": "辨别；看出"
+},
+{
+"id": 958,
+"word": "discharge",
+"meaning": "释放；排出 n. 排出物"
+},
+{
+"id": 959,
+"word": "discipline",
+"meaning": "纪律；学科 v. 训练"
+},
+{
+"id": 960,
+"word": "disclose",
+"meaning": "披露；透露"
+},
+{
+"id": 961,
+"word": "discount",
+"meaning": "折扣 v. 打折；忽视"
+},
+{
+"id": 962,
+"word": "discourse",
+"meaning": "论述；话语"
+},
+{
+"id": 963,
+"word": "discrepancy",
+"meaning": "差异；不符"
+},
+{
+"id": 964,
+"word": "discrete",
+"meaning": "分离的；不连续的"
+},
+{
+"id": 965,
+"word": "discretion",
+"meaning": "谨慎；自由决定权"
+},
+{
+"id": 966,
+"word": "discriminate",
+"meaning": "歧视；区别"
+},
+{
+"id": 967,
+"word": "disease",
+"meaning": "疾病"
+},
+{
+"id": 968,
+"word": "disguise",
+"meaning": "伪装 v. 掩饰"
+},
+{
+"id": 969,
+"word": "dismiss",
+"meaning": "解雇；不予理会"
+},
+{
+"id": 970,
+"word": "disorder",
+"meaning": "混乱；失调"
+},
+{
+"id": 971,
+"word": "disparity",
+"meaning": "差异；不平等"
+},
+{
+"id": 972,
+"word": "dispatch",
+"meaning": "派遣；发送 n. 急件"
+},
+{
+"id": 973,
+"word": "disperse",
+"meaning": "分散；驱散"
+},
+{
+"id": 974,
+"word": "displace",
+"meaning": "取代；迫使离开"
+},
+{
+"id": 975,
+"word": "display",
+"meaning": "展示 n. 显示"
+},
+{
+"id": 976,
+"word": "disposal",
+"meaning": "处理；处置"
+},
+{
+"id": 977,
+"word": "dispose",
+"meaning": "处理；丢弃"
+},
+{
+"id": 978,
+"word": "dispute",
+"meaning": "争论 v. 争端"
+},
+{
+"id": 979,
+"word": "disrupt",
+"meaning": "扰乱；打断"
+},
+{
+"id": 980,
+"word": "dissect",
+"meaning": "解剖；剖析"
+},
+{
+"id": 981,
+"word": "disseminate",
+"meaning": "传播；散布"
+},
+{
+"id": 982,
+"word": "dissent",
+"meaning": "异议 v. 不同意"
+},
+{
+"id": 983,
+"word": "dissolve",
+"meaning": "溶解；解散"
+},
+{
+"id": 984,
+"word": "distinct",
+"meaning": "明显的；独特的"
+},
+{
+"id": 985,
+"word": "distinction",
+"meaning": "区别；卓越"
+},
+{
+"id": 986,
+"word": "distinguish",
+"meaning": "区分；辨别"
+},
+{
+"id": 987,
+"word": "distort",
+"meaning": "歪曲；变形"
+},
+{
+"id": 988,
+"word": "distract",
+"meaning": "分散注意力"
+},
+{
+"id": 989,
+"word": "distribution",
+"meaning": "分配；分布"
+},
+{
+"id": 990,
+"word": "district",
+"meaning": "地区；行政区"
+},
+{
+"id": 991,
+"word": "disturb",
+"meaning": "打扰；扰乱"
+},
+{
+"id": 992,
+"word": "disturbance",
+"meaning": "骚乱；干扰"
+},
+{
+"id": 993,
+"word": "diverge",
+"meaning": "分歧；偏离"
+},
+{
+"id": 994,
+"word": "diverse",
+"meaning": "多种多样的"
+},
+{
+"id": 995,
+"word": "diversify",
+"meaning": "使多样化"
+},
+{
+"id": 996,
+"word": "diversion",
+"meaning": "转移；消遣"
+},
+{
+"id": 997,
+"word": "diversity",
+"meaning": "多样性；差异"
+},
+{
+"id": 998,
+"word": "divide",
+"meaning": "分开 n. 分水岭"
+},
+{
+"id": 999,
+"word": "divorce",
+"meaning": "离婚 v. 分离"
+},
+{
+"id": 1000,
+"word": "doctrine",
+"meaning": "学说；教义"
+},
+{
+"id": 1001,
+"word": "document",
+"meaning": "文件 v. 记录"
+},
+{
+"id": 1002,
+"word": "documentary",
+"meaning": "纪录片 adj. 文件的"
+},
+{
+"id": 1003,
+"word": "domain",
+"meaning": "领域；域名"
+},
+{
+"id": 1004,
+"word": "dome",
+"meaning": "圆顶；穹顶"
+},
+{
+"id": 1005,
+"word": "domestic",
+"meaning": "国内的；家用的"
+},
+{
+"id": 1006,
+"word": "dominant",
+"meaning": "占主导地位的"
+},
+{
+"id": 1007,
+"word": "dominate",
+"meaning": "支配；占优势"
+},
+{
+"id": 1008,
+"word": "donate",
+"meaning": "捐赠"
+},
+{
+"id": 1009,
+"word": "donor",
+"meaning": "捐赠者"
+},
+{
+"id": 1010,
+"word": "doom",
+"meaning": "厄运 v. 注定"
+},
+{
+"id": 1011,
+"word": "dormitory",
+"meaning": "宿舍"
+},
+{
+"id": 1012,
+"word": "dose",
+"meaning": "剂量；一剂"
+},
+{
+"id": 1013,
+"word": "downpour",
+"meaning": "倾盆大雨"
+},
+{
+"id": 1014,
+"word": "downside",
+"meaning": "缺点；不利方面"
+},
+{
+"id": 1015,
+"word": "downturn",
+"meaning": "下降；衰退"
+},
+{
+"id": 1016,
+"word": "draft",
+"meaning": "草稿 v. 起草"
+},
+{
+"id": 1017,
+"word": "drag",
+"meaning": "拖；拖累"
+},
+{
+"id": 1018,
+"word": "drain",
+"meaning": "排水；耗尽 n. 下水道"
+},
+{
+"id": 1019,
+"word": "drainage",
+"meaning": "排水；排水系统"
+},
+{
+"id": 1020,
+"word": "drama",
+"meaning": "戏剧；戏剧性事件"
+},
+{
+"id": 1021,
+"word": "dramatic",
+"meaning": "戏剧性的；显著的"
+},
+{
+"id": 1022,
+"word": "drastic",
+"meaning": "激烈的；严厉的"
+},
+{
+"id": 1023,
+"word": "drawback",
+"meaning": "缺点；不利之处"
+},
+{
+"id": 1024,
+"word": "drift",
+"meaning": "漂流；漂泊 n. 趋势"
+},
+{
+"id": 1025,
+"word": "drip",
+"meaning": "滴落 n. 水滴"
+},
+{
+"id": 1026,
+"word": "drizzle",
+"meaning": "毛毛雨 v. 下毛毛雨"
+},
+{
+"id": 1027,
+"word": "drought",
+"meaning": "干旱"
+},
+{
+"id": 1028,
+"word": "drown",
+"meaning": "溺水；淹没"
+},
+{
+"id": 1029,
+"word": "drug",
+"meaning": "药物；毒品"
+},
+{
+"id": 1030,
+"word": "dual",
+"meaning": "双重的"
+},
+{
+"id": 1031,
+"word": "dubious",
+"meaning": "可疑的；半信半疑的"
+},
+{
+"id": 1032,
+"word": "dump",
+"meaning": "倾倒；抛弃 n. 垃圾场"
+},
+{
+"id": 1033,
+"word": "durable",
+"meaning": "耐用的；持久的"
+},
+{
+"id": 1034,
+"word": "duration",
+"meaning": "持续时间"
+},
+{
+"id": 1035,
+"word": "dusk",
+"meaning": "黄昏"
+},
+{
+"id": 1036,
+"word": "dwell",
+"meaning": "居住；细想"
+},
+{
+"id": 1037,
+"word": "dwelling",
+"meaning": "住所；住宅"
+},
+{
+"id": 1038,
+"word": "dwindle",
+"meaning": "逐渐减少；缩小"
+},
+{
+"id": 1039,
+"word": "dynamic",
+"meaning": "动态的；有活力的"
+},
+{
+"id": 1040,
+"word": "dynasty",
+"meaning": "王朝；朝代"
+},
+{
+"id": 1041,
+"word": "eager",
+"meaning": "渴望的，热切的"
+},
+{
+"id": 1042,
+"word": "earn",
+"meaning": "赚得；获得"
+},
+{
+"id": 1043,
+"word": "earnest",
+"meaning": "认真的，诚挚的"
+},
+{
+"id": 1044,
+"word": "ease",
+"meaning": "容易；悠闲 v. 减轻"
+},
+{
+"id": 1045,
+"word": "easily",
+"meaning": "容易地；无疑地"
+},
+{
+"id": 1046,
+"word": "echo",
+"meaning": "回声 v. 回响；附和"
+},
+{
+"id": 1047,
+"word": "eclipse",
+"meaning": "（日、月）食 v. 使黯然失色"
+},
+{
+"id": 1048,
+"word": "ecological",
+"meaning": "生态的"
+},
+{
+"id": 1049,
+"word": "ecology",
+"meaning": "生态学"
+},
+{
+"id": 1050,
+"word": "economic",
+"meaning": "经济的"
+},
+{
+"id": 1051,
+"word": "economy",
+"meaning": "经济"
+},
+{
+"id": 1052,
+"word": "ecosystem",
+"meaning": "生态系统"
+},
+{
+"id": 1053,
+"word": "edge",
+"meaning": "边缘；优势"
+},
+{
+"id": 1054,
+"word": "edible",
+"meaning": "可食用的"
+},
+{
+"id": 1055,
+"word": "edit",
+"meaning": "编辑，校订"
+},
+{
+"id": 1056,
+"word": "educate",
+"meaning": "教育，培养"
+},
+{
+"id": 1057,
+"word": "education",
+"meaning": "教育"
+},
+{
+"id": 1058,
+"word": "effect",
+"meaning": "效果；影响"
+},
+{
+"id": 1059,
+"word": "effective",
+"meaning": "有效的"
+},
+{
+"id": 1060,
+"word": "efficiency",
+"meaning": "效率"
+},
+{
+"id": 1061,
+"word": "efficient",
+"meaning": "高效的"
+},
+{
+"id": 1062,
+"word": "effort",
+"meaning": "努力"
+},
+{
+"id": 1063,
+"word": "elaborate",
+"meaning": "精心制作的；复杂的 v. 详述"
+},
+{
+"id": 1064,
+"word": "elastic",
+"meaning": "有弹性的 n. 松紧带"
+},
+{
+"id": 1065,
+"word": "elbow",
+"meaning": "肘部 v. 用肘推"
+},
+{
+"id": 1066,
+"word": "elder",
+"meaning": "年长的 n. 长者"
+},
+{
+"id": 1067,
+"word": "elderly",
+"meaning": "上了年纪的"
+},
+{
+"id": 1068,
+"word": "elect",
+"meaning": "选举"
+},
+{
+"id": 1069,
+"word": "election",
+"meaning": "选举"
+},
+{
+"id": 1070,
+"word": "electric",
+"meaning": "电的，用电的"
+},
+{
+"id": 1071,
+"word": "electrical",
+"meaning": "与电有关的"
+},
+{
+"id": 1072,
+"word": "electricity",
+"meaning": "电"
+},
+{
+"id": 1073,
+"word": "electronic",
+"meaning": "电子的"
+},
+{
+"id": 1074,
+"word": "elegant",
+"meaning": "优雅的，精致的"
+},
+{
+"id": 1075,
+"word": "element",
+"meaning": "元素；要素"
+},
+{
+"id": 1076,
+"word": "elementary",
+"meaning": "初级的；基础的"
+},
+{
+"id": 1077,
+"word": "elevate",
+"meaning": "提升，抬高"
+},
+{
+"id": 1078,
+"word": "eligible",
+"meaning": "有资格的"
+},
+{
+"id": 1079,
+"word": "eliminate",
+"meaning": "消除，淘汰"
+},
+{
+"id": 1080,
+"word": "elite",
+"meaning": "精英 adj. 精英的"
+},
+{
+"id": 1081,
+"word": "eloquent",
+"meaning": "雄辩的，有说服力的"
+},
+{
+"id": 1082,
+"word": "embark",
+"meaning": "上船；着手（on）"
+},
+{
+"id": 1083,
+"word": "embarrass",
+"meaning": "使尴尬"
+},
+{
+"id": 1084,
+"word": "embed",
+"meaning": "嵌入，植入"
+},
+{
+"id": 1085,
+"word": "embody",
+"meaning": "体现，具体表现"
+},
+{
+"id": 1086,
+"word": "embrace",
+"meaning": "拥抱；欣然接受"
+},
+{
+"id": 1087,
+"word": "emerge",
+"meaning": "出现；显露"
+},
+{
+"id": 1088,
+"word": "emigrate",
+"meaning": "移居国外"
+},
+{
+"id": 1089,
+"word": "emission",
+"meaning": "排放，排放物"
+},
+{
+"id": 1090,
+"word": "emit",
+"meaning": "排放，发出"
+},
+{
+"id": 1091,
+"word": "emotion",
+"meaning": "情感，情绪"
+},
+{
+"id": 1092,
+"word": "emotional",
+"meaning": "情感的；易动感情的"
+},
+{
+"id": 1093,
+"word": "emperor",
+"meaning": "皇帝"
+},
+{
+"id": 1094,
+"word": "empire",
+"meaning": "帝国"
+},
+{
+"id": 1095,
+"word": "empirical",
+"meaning": "实证的，经验主义的"
+},
+{
+"id": 1096,
+"word": "employ",
+"meaning": "雇用；使用"
+},
+{
+"id": 1097,
+"word": "employee",
+"meaning": "雇员"
+},
+{
+"id": 1098,
+"word": "employer",
+"meaning": "雇主"
+},
+{
+"id": 1099,
+"word": "employment",
+"meaning": "就业；职业"
+},
+{
+"id": 1100,
+"word": "empower",
+"meaning": "授权；使有能力"
+},
+{
+"id": 1101,
+"word": "enable",
+"meaning": "使能够"
+},
+{
+"id": 1102,
+"word": "enact",
+"meaning": "制定（法律）"
+},
+{
+"id": 1103,
+"word": "encompass",
+"meaning": "包含，涵盖"
+},
+{
+"id": 1104,
+"word": "encounter",
+"meaning": "遭遇 n. 相会"
+},
+{
+"id": 1105,
+"word": "encourage",
+"meaning": "鼓励；促进"
+},
+{
+"id": 1106,
+"word": "encyclopedia",
+"meaning": "百科全书"
+},
+{
+"id": 1107,
+"word": "endeavour",
+"meaning": "努力，尽力"
+},
+{
+"id": 1108,
+"word": "endless",
+"meaning": "无穷尽的"
+},
+{
+"id": 1109,
+"word": "endure",
+"meaning": "忍受；持续"
+},
+{
+"id": 1110,
+"word": "energetic",
+"meaning": "精力充沛的"
+},
+{
+"id": 1111,
+"word": "enforce",
+"meaning": "执行，强制实施"
+},
+{
+"id": 1112,
+"word": "engage",
+"meaning": "从事；吸引"
+},
+{
+"id": 1113,
+"word": "engagement",
+"meaning": "订婚；约定；参与"
+},
+{
+"id": 1114,
+"word": "engine",
+"meaning": "发动机，引擎"
+},
+{
+"id": 1115,
+"word": "engineer",
+"meaning": "工程师 v. 策划"
+},
+{
+"id": 1116,
+"word": "engineering",
+"meaning": "工程学"
+},
+{
+"id": 1117,
+"word": "enhance",
+"meaning": "提高，增强"
+},
+{
+"id": 1118,
+"word": "enormous",
+"meaning": "巨大的"
+},
+{
+"id": 1119,
+"word": "enrich",
+"meaning": "充实；使富裕"
+},
+{
+"id": 1120,
+"word": "enrol",
+"meaning": "注册，登记"
+},
+{
+"id": 1121,
+"word": "entire",
+"meaning": "全部的，整个的"
+},
+{
+"id": 1122,
+"word": "entrance",
+"meaning": "入口；进入"
+},
+{
+"id": 1123,
+"word": "entrepreneur",
+"meaning": "企业家"
+},
+{
+"id": 1124,
+"word": "entry",
+"meaning": "进入；条目"
+},
+{
+"id": 1125,
+"word": "envelope",
+"meaning": "信封"
+},
+{
+"id": 1126,
+"word": "environment",
+"meaning": "环境"
+},
+{
+"id": 1127,
+"word": "environmental",
+"meaning": "环境的"
+},
+{
+"id": 1128,
+"word": "envisage",
+"meaning": "设想，预见"
+},
+{
+"id": 1129,
+"word": "epidemic",
+"meaning": "流行病 adj. 流行性的"
+},
+{
+"id": 1130,
+"word": "episode",
+"meaning": "一段经历；一集"
+},
+{
+"id": 1131,
+"word": "equal",
+"meaning": "相等的 v. 等于"
+},
+{
+"id": 1132,
+"word": "equality",
+"meaning": "平等"
+},
+{
+"id": 1133,
+"word": "equate",
+"meaning": "等同，视为相等"
+},
+{
+"id": 1134,
+"word": "equation",
+"meaning": "方程式；等同"
+},
+{
+"id": 1135,
+"word": "equator",
+"meaning": "赤道"
+},
+{
+"id": 1136,
+"word": "equilibrium",
+"meaning": "平衡，均衡"
+},
+{
+"id": 1137,
+"word": "equip",
+"meaning": "装备，配备"
+},
+{
+"id": 1138,
+"word": "equipment",
+"meaning": "设备，器材"
+},
+{
+"id": 1139,
+"word": "equivalent",
+"meaning": "相当的 n. 等价物"
+},
+{
+"id": 1140,
+"word": "era",
+"meaning": "时代，年代"
+},
+{
+"id": 1141,
+"word": "eradicate",
+"meaning": "根除，消灭"
+},
+{
+"id": 1142,
+"word": "erode",
+"meaning": "侵蚀，腐蚀"
+},
+{
+"id": 1143,
+"word": "erosion",
+"meaning": "侵蚀，腐蚀"
+},
+{
+"id": 1144,
+"word": "error",
+"meaning": "错误"
+},
+{
+"id": 1145,
+"word": "erupt",
+"meaning": "爆发；喷发"
+},
+{
+"id": 1146,
+"word": "escalate",
+"meaning": "升级，加剧"
+},
+{
+"id": 1147,
+"word": "escape",
+"meaning": "逃跑；逃避"
+},
+{
+"id": 1148,
+"word": "especially",
+"meaning": "尤其，特别"
+},
+{
+"id": 1149,
+"word": "essay",
+"meaning": "文章，论文"
+},
+{
+"id": 1150,
+"word": "essence",
+"meaning": "本质，精髓"
+},
+{
+"id": 1151,
+"word": "essential",
+"meaning": "必要的；本质的"
+},
+{
+"id": 1152,
+"word": "establish",
+"meaning": "建立；确立"
+},
+{
+"id": 1153,
+"word": "establishment",
+"meaning": "建立；机构"
+},
+{
+"id": 1154,
+"word": "estate",
+"meaning": "房地产；庄园"
+},
+{
+"id": 1155,
+"word": "estimate",
+"meaning": "估计"
+},
+{
+"id": 1156,
+"word": "eternal",
+"meaning": "永恒的"
+},
+{
+"id": 1157,
+"word": "ethic",
+"meaning": "伦理，道德准则"
+},
+{
+"id": 1158,
+"word": "ethical",
+"meaning": "道德的"
+},
+{
+"id": 1159,
+"word": "etiquette",
+"meaning": "礼仪，礼节"
+},
+{
+"id": 1160,
+"word": "evacuate",
+"meaning": "撤离，疏散"
+},
+{
+"id": 1161,
+"word": "evaluate",
+"meaning": "评估，评价"
+},
+{
+"id": 1162,
+"word": "evaporate",
+"meaning": "蒸发；消失"
+},
+{
+"id": 1163,
+"word": "eventually",
+"meaning": "最终"
+},
+{
+"id": 1164,
+"word": "evidence",
+"meaning": "证据"
+},
+{
+"id": 1165,
+"word": "evident",
+"meaning": "明显的"
+},
+{
+"id": 1166,
+"word": "evoke",
+"meaning": "唤起，引起"
+},
+{
+"id": 1167,
+"word": "evolve",
+"meaning": "进化；逐步发展"
+},
+{
+"id": 1168,
+"word": "excavate",
+"meaning": "挖掘，发掘"
+},
+{
+"id": 1169,
+"word": "exceed",
+"meaning": "超过，超出"
+},
+{
+"id": 1170,
+"word": "excellent",
+"meaning": "极好的"
+},
+{
+"id": 1171,
+"word": "exception",
+"meaning": "例外"
+},
+{
+"id": 1172,
+"word": "exceptional",
+"meaning": "杰出的；例外的"
+},
+{
+"id": 1173,
+"word": "excess",
+"meaning": "过量 adj. 过多的"
+},
+{
+"id": 1174,
+"word": "excessive",
+"meaning": "过度的"
+},
+{
+"id": 1175,
+"word": "exchange",
+"meaning": "交换；交流"
+},
+{
+"id": 1176,
+"word": "excite",
+"meaning": "使兴奋"
+},
+{
+"id": 1177,
+"word": "exclude",
+"meaning": "排除，不包括"
+},
+{
+"id": 1178,
+"word": "exclusive",
+"meaning": "独有的；排外的"
+},
+{
+"id": 1179,
+"word": "execute",
+"meaning": "执行；处死"
+},
+{
+"id": 1180,
+"word": "exercise",
+"meaning": "练习；锻炼 v. 运用"
+},
+{
+"id": 1181,
+"word": "exert",
+"meaning": "施加（影响、压力）"
+},
+{
+"id": 1182,
+"word": "exhaust",
+"meaning": "耗尽；使疲惫 n. 废气"
+},
+{
+"id": 1183,
+"word": "exhibit",
+"meaning": "展出 n. 展品"
+},
+{
+"id": 1184,
+"word": "exhibition",
+"meaning": "展览"
+},
+{
+"id": 1185,
+"word": "exist",
+"meaning": "存在"
+},
+{
+"id": 1186,
+"word": "existence",
+"meaning": "存在；生存"
+},
+{
+"id": 1187,
+"word": "expand",
+"meaning": "扩大，膨胀"
+},
+{
+"id": 1188,
+"word": "expansion",
+"meaning": "扩张，膨胀"
+},
+{
+"id": 1189,
+"word": "expect",
+"meaning": "预期；期望"
+},
+{
+"id": 1190,
+"word": "expectation",
+"meaning": "期望，预期"
+},
+{
+"id": 1191,
+"word": "expedition",
+"meaning": "探险，考察"
+},
+{
+"id": 1192,
+"word": "expenditure",
+"meaning": "支出，花费"
+},
+{
+"id": 1193,
+"word": "expense",
+"meaning": "费用，开支"
+},
+{
+"id": 1194,
+"word": "expensive",
+"meaning": "昂贵的"
+},
+{
+"id": 1195,
+"word": "experience",
+"meaning": "经验 v. 经历"
+},
+{
+"id": 1196,
+"word": "experiment",
+"meaning": "实验 v. 做实验"
+},
+{
+"id": 1197,
+"word": "experimental",
+"meaning": "实验性的"
+},
+{
+"id": 1198,
+"word": "expert",
+"meaning": "专家 adj. 熟练的"
+},
+{
+"id": 1199,
+"word": "expertise",
+"meaning": "专门知识，专长"
+},
+{
+"id": 1200,
+"word": "explicit",
+"meaning": "明确的，清晰的"
+}
+]

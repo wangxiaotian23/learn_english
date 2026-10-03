@@ -1,0 +1,1502 @@
+[
+{
+"id": 601,
+"word": "climb",
+"meaning": "攀登；上升"
+},
+{
+"id": 602,
+"word": "cling",
+"meaning": "紧握；依附"
+},
+{
+"id": 603,
+"word": "clinic",
+"meaning": "诊所"
+},
+{
+"id": 604,
+"word": "clinical",
+"meaning": "临床的；冷静的"
+},
+{
+"id": 605,
+"word": "clip",
+"meaning": "夹子；剪辑 v. 剪"
+},
+{
+"id": 606,
+"word": "clockwise",
+"meaning": "顺时针地"
+},
+{
+"id": 607,
+"word": "closet",
+"meaning": "壁橱"
+},
+{
+"id": 608,
+"word": "clue",
+"meaning": "线索；提示"
+},
+{
+"id": 609,
+"word": "cluster",
+"meaning": "群；簇 v. 聚集"
+},
+{
+"id": 610,
+"word": "coach",
+"meaning": "教练；长途汽车 v. 训练"
+},
+{
+"id": 611,
+"word": "coalition",
+"meaning": "联盟；联合"
+},
+{
+"id": 612,
+"word": "coarse",
+"meaning": "粗糙的；粗俗的"
+},
+{
+"id": 613,
+"word": "code",
+"meaning": "代码；法典"
+},
+{
+"id": 614,
+"word": "cognitive",
+"meaning": "认知的"
+},
+{
+"id": 615,
+"word": "coherent",
+"meaning": "连贯的；有条理的"
+},
+{
+"id": 616,
+"word": "cohesion",
+"meaning": "凝聚力；结合"
+},
+{
+"id": 617,
+"word": "coincide",
+"meaning": "同时发生；一致"
+},
+{
+"id": 618,
+"word": "collaborate",
+"meaning": "合作；勾结"
+},
+{
+"id": 619,
+"word": "collapse",
+"meaning": "倒塌；崩溃 n. 崩溃"
+},
+{
+"id": 620,
+"word": "collar",
+"meaning": "衣领；项圈"
+},
+{
+"id": 621,
+"word": "colleague",
+"meaning": "同事"
+},
+{
+"id": 622,
+"word": "collect",
+"meaning": "收集；聚集"
+},
+{
+"id": 623,
+"word": "collective",
+"meaning": "集体的 n. 集体"
+},
+{
+"id": 624,
+"word": "collide",
+"meaning": "碰撞；冲突"
+},
+{
+"id": 625,
+"word": "colonial",
+"meaning": "殖民的"
+},
+{
+"id": 626,
+"word": "colony",
+"meaning": "殖民地；群体"
+},
+{
+"id": 627,
+"word": "column",
+"meaning": "圆柱；专栏"
+},
+{
+"id": 628,
+"word": "combat",
+"meaning": "战斗 v. 与…斗争"
+},
+{
+"id": 629,
+"word": "combine",
+"meaning": "结合；联合"
+},
+{
+"id": 630,
+"word": "comedy",
+"meaning": "喜剧"
+},
+{
+"id": 631,
+"word": "comet",
+"meaning": "彗星"
+},
+{
+"id": 632,
+"word": "comfort",
+"meaning": "舒适；安慰 v. 安慰"
+},
+{
+"id": 633,
+"word": "command",
+"meaning": "命令；掌握 n. 命令"
+},
+{
+"id": 634,
+"word": "commence",
+"meaning": "开始"
+},
+{
+"id": 635,
+"word": "comment",
+"meaning": "评论 v. 评论"
+},
+{
+"id": 636,
+"word": "commerce",
+"meaning": "商业；贸易"
+},
+{
+"id": 637,
+"word": "commercial",
+"meaning": "商业的 n. 广告"
+},
+{
+"id": 638,
+"word": "commission",
+"meaning": "委员会；佣金"
+},
+{
+"id": 639,
+"word": "commit",
+"meaning": "犯（罪）；承诺"
+},
+{
+"id": 640,
+"word": "commitment",
+"meaning": "承诺；奉献"
+},
+{
+"id": 641,
+"word": "commodity",
+"meaning": "商品"
+},
+{
+"id": 642,
+"word": "common",
+"meaning": "常见的；共同的"
+},
+{
+"id": 643,
+"word": "commonplace",
+"meaning": "平凡的 n. 常事"
+},
+{
+"id": 644,
+"word": "communicate",
+"meaning": "交流；传达"
+},
+{
+"id": 645,
+"word": "community",
+"meaning": "社区；群体"
+},
+{
+"id": 646,
+"word": "commute",
+"meaning": "通勤 n. 通勤路程"
+},
+{
+"id": 647,
+"word": "compact",
+"meaning": "紧凑的 n. 协议"
+},
+{
+"id": 648,
+"word": "companion",
+"meaning": "同伴；伴侣"
+},
+{
+"id": 649,
+"word": "comparable",
+"meaning": "可比较的；类似的"
+},
+{
+"id": 650,
+"word": "comparative",
+"meaning": "比较的；相对的"
+},
+{
+"id": 651,
+"word": "compare",
+"meaning": "比较；比喻"
+},
+{
+"id": 652,
+"word": "compartment",
+"meaning": "隔间；车厢"
+},
+{
+"id": 653,
+"word": "compass",
+"meaning": "罗盘；圆规"
+},
+{
+"id": 654,
+"word": "compassion",
+"meaning": "同情；怜悯"
+},
+{
+"id": 655,
+"word": "compatible",
+"meaning": "兼容的；合得来的"
+},
+{
+"id": 656,
+"word": "compel",
+"meaning": "强迫；迫使"
+},
+{
+"id": 657,
+"word": "compensate",
+"meaning": "补偿；弥补"
+},
+{
+"id": 658,
+"word": "compete",
+"meaning": "竞争；比赛"
+},
+{
+"id": 659,
+"word": "competence",
+"meaning": "能力；胜任"
+},
+{
+"id": 660,
+"word": "competent",
+"meaning": "有能力的"
+},
+{
+"id": 661,
+"word": "compile",
+"meaning": "编写；汇编"
+},
+{
+"id": 662,
+"word": "complain",
+"meaning": "抱怨；投诉"
+},
+{
+"id": 663,
+"word": "complement",
+"meaning": "补充 v. 补足"
+},
+{
+"id": 664,
+"word": "complex",
+"meaning": "复杂的 n. 综合体"
+},
+{
+"id": 665,
+"word": "complexity",
+"meaning": "复杂性"
+},
+{
+"id": 666,
+"word": "comply",
+"meaning": "遵从；服从"
+},
+{
+"id": 667,
+"word": "component",
+"meaning": "组成部分；零件"
+},
+{
+"id": 668,
+"word": "compose",
+"meaning": "组成；创作"
+},
+{
+"id": 669,
+"word": "compound",
+"meaning": "化合物 adj. 复合的 v. 使加剧"
+},
+{
+"id": 670,
+"word": "comprehend",
+"meaning": "理解；领会"
+},
+{
+"id": 671,
+"word": "comprehensive",
+"meaning": "全面的；综合的"
+},
+{
+"id": 672,
+"word": "comprise",
+"meaning": "包含；由…组成"
+},
+{
+"id": 673,
+"word": "compromise",
+"meaning": "妥协 v. 折中"
+},
+{
+"id": 674,
+"word": "compulsory",
+"meaning": "强制的；义务的"
+},
+{
+"id": 675,
+"word": "compute",
+"meaning": "计算"
+},
+{
+"id": 676,
+"word": "conceal",
+"meaning": "隐藏；隐瞒"
+},
+{
+"id": 677,
+"word": "concede",
+"meaning": "承认；让步"
+},
+{
+"id": 678,
+"word": "conceive",
+"meaning": "构想；怀孕"
+},
+{
+"id": 679,
+"word": "concentrate",
+"meaning": "集中；专心 n. 浓缩物"
+},
+{
+"id": 680,
+"word": "concept",
+"meaning": "概念；观念"
+},
+{
+"id": 681,
+"word": "concern",
+"meaning": "关心；担忧 v. 涉及"
+},
+{
+"id": 682,
+"word": "concert",
+"meaning": "音乐会"
+},
+{
+"id": 683,
+"word": "concise",
+"meaning": "简明的"
+},
+{
+"id": 684,
+"word": "conclude",
+"meaning": "结束；得出结论"
+},
+{
+"id": 685,
+"word": "concrete",
+"meaning": "具体的 n. 混凝土"
+},
+{
+"id": 686,
+"word": "condition",
+"meaning": "条件；状况"
+},
+{
+"id": 687,
+"word": "conduct",
+"meaning": "进行；指挥 n. 行为"
+},
+{
+"id": 688,
+"word": "confer",
+"meaning": "商讨；授予"
+},
+{
+"id": 689,
+"word": "confess",
+"meaning": "承认；坦白"
+},
+{
+"id": 690,
+"word": "confidence",
+"meaning": "信心；信任"
+},
+{
+"id": 691,
+"word": "confident",
+"meaning": "自信的；确信的"
+},
+{
+"id": 692,
+"word": "confine",
+"meaning": "限制；监禁"
+},
+{
+"id": 693,
+"word": "confirm",
+"meaning": "确认；证实"
+},
+{
+"id": 694,
+"word": "conflict",
+"meaning": "冲突；矛盾 v. 冲突"
+},
+{
+"id": 695,
+"word": "conform",
+"meaning": "遵守；符合"
+},
+{
+"id": 696,
+"word": "confront",
+"meaning": "面对；对抗"
+},
+{
+"id": 697,
+"word": "confuse",
+"meaning": "使困惑；混淆"
+},
+{
+"id": 698,
+"word": "congestion",
+"meaning": "拥挤；阻塞"
+},
+{
+"id": 699,
+"word": "congratulate",
+"meaning": "祝贺"
+},
+{
+"id": 700,
+"word": "congress",
+"meaning": "国会；代表大会"
+},
+{
+"id": 701,
+"word": "connect",
+"meaning": "连接；联系"
+},
+{
+"id": 702,
+"word": "conquer",
+"meaning": "征服；克服"
+},
+{
+"id": 703,
+"word": "conscious",
+"meaning": "有意识的；自觉的"
+},
+{
+"id": 704,
+"word": "consecutive",
+"meaning": "连续的"
+},
+{
+"id": 705,
+"word": "consensus",
+"meaning": "共识；一致"
+},
+{
+"id": 706,
+"word": "consent",
+"meaning": "同意 v. 准许"
+},
+{
+"id": 707,
+"word": "consequence",
+"meaning": "后果；结果"
+},
+{
+"id": 708,
+"word": "conservative",
+"meaning": "保守的 n. 保守者"
+},
+{
+"id": 709,
+"word": "conserve",
+"meaning": "保存；节约"
+},
+{
+"id": 710,
+"word": "considerable",
+"meaning": "相当大的；可观的"
+},
+{
+"id": 711,
+"word": "considerate",
+"meaning": "体贴的"
+},
+{
+"id": 712,
+"word": "consist",
+"meaning": "由…组成；在于"
+},
+{
+"id": 713,
+"word": "consistent",
+"meaning": "一致的；始终如一的"
+},
+{
+"id": 714,
+"word": "consolidate",
+"meaning": "巩固；合并"
+},
+{
+"id": 715,
+"word": "conspicuous",
+"meaning": "显眼的；引人注目的"
+},
+{
+"id": 716,
+"word": "constant",
+"meaning": "持续的；不变的"
+},
+{
+"id": 717,
+"word": "constituent",
+"meaning": "成分；选民 adj. 组成的"
+},
+{
+"id": 718,
+"word": "constitute",
+"meaning": "构成；组成"
+},
+{
+"id": 719,
+"word": "constraint",
+"meaning": "限制；约束"
+},
+{
+"id": 720,
+"word": "construct",
+"meaning": "建造；构建"
+},
+{
+"id": 721,
+"word": "consult",
+"meaning": "咨询；查阅"
+},
+{
+"id": 722,
+"word": "consultant",
+"meaning": "顾问"
+},
+{
+"id": 723,
+"word": "consume",
+"meaning": "消耗；消费"
+},
+{
+"id": 724,
+"word": "contact",
+"meaning": "联系 v. 接触"
+},
+{
+"id": 725,
+"word": "contagious",
+"meaning": "传染性的"
+},
+{
+"id": 726,
+"word": "contain",
+"meaning": "包含；抑制"
+},
+{
+"id": 727,
+"word": "contaminate",
+"meaning": "污染"
+},
+{
+"id": 728,
+"word": "contemplate",
+"meaning": "沉思；考虑"
+},
+{
+"id": 729,
+"word": "contemporary",
+"meaning": "当代的；同时代的"
+},
+{
+"id": 730,
+"word": "contempt",
+"meaning": "蔑视；轻视"
+},
+{
+"id": 731,
+"word": "contend",
+"meaning": "主张；竞争"
+},
+{
+"id": 732,
+"word": "content",
+"meaning": "内容 adj. 满足的"
+},
+{
+"id": 733,
+"word": "contest",
+"meaning": "比赛 v. 争夺"
+},
+{
+"id": 734,
+"word": "context",
+"meaning": "上下文；背景"
+},
+{
+"id": 735,
+"word": "continent",
+"meaning": "大陆；洲"
+},
+{
+"id": 736,
+"word": "continual",
+"meaning": "不断的；频繁的"
+},
+{
+"id": 737,
+"word": "continuous",
+"meaning": "连续的"
+},
+{
+"id": 738,
+"word": "contract",
+"meaning": "合同 v. 收缩；感染"
+},
+{
+"id": 739,
+"word": "contradict",
+"meaning": "反驳；与…矛盾"
+},
+{
+"id": 740,
+"word": "contrary",
+"meaning": "相反的 n. 相反"
+},
+{
+"id": 741,
+"word": "contrast",
+"meaning": "对比 v. 对照"
+},
+{
+"id": 742,
+"word": "contribute",
+"meaning": "贡献；导致"
+},
+{
+"id": 743,
+"word": "controversy",
+"meaning": "争论；争议"
+},
+{
+"id": 744,
+"word": "convenient",
+"meaning": "方便的"
+},
+{
+"id": 745,
+"word": "convention",
+"meaning": "大会；惯例"
+},
+{
+"id": 746,
+"word": "conventional",
+"meaning": "传统的；常规的"
+},
+{
+"id": 747,
+"word": "conversation",
+"meaning": "对话；交谈"
+},
+{
+"id": 748,
+"word": "conversion",
+"meaning": "转变；换算"
+},
+{
+"id": 749,
+"word": "convert",
+"meaning": "转变；兑换"
+},
+{
+"id": 750,
+"word": "convey",
+"meaning": "传达；运送"
+},
+{
+"id": 751,
+"word": "convince",
+"meaning": "使确信；说服"
+},
+{
+"id": 752,
+"word": "cooperate",
+"meaning": "合作；配合"
+},
+{
+"id": 753,
+"word": "cooperative",
+"meaning": "合作的 n. 合作社"
+},
+{
+"id": 754,
+"word": "coordinate",
+"meaning": "协调 n. 坐标"
+},
+{
+"id": 755,
+"word": "cope",
+"meaning": "应对；处理"
+},
+{
+"id": 756,
+"word": "copyright",
+"meaning": "版权"
+},
+{
+"id": 757,
+"word": "coral",
+"meaning": "珊瑚"
+},
+{
+"id": 758,
+"word": "cordial",
+"meaning": "热诚的；友好的"
+},
+{
+"id": 759,
+"word": "core",
+"meaning": "核心；果核"
+},
+{
+"id": 760,
+"word": "corporate",
+"meaning": "公司的；团体的"
+},
+{
+"id": 761,
+"word": "corporation",
+"meaning": "公司；企业"
+},
+{
+"id": 762,
+"word": "correct",
+"meaning": "正确的 v. 改正"
+},
+{
+"id": 763,
+"word": "correlate",
+"meaning": "相关联"
+},
+{
+"id": 764,
+"word": "correspond",
+"meaning": "符合；通信"
+},
+{
+"id": 765,
+"word": "corrupt",
+"meaning": "腐败的 v. 使腐化"
+},
+{
+"id": 766,
+"word": "cosmic",
+"meaning": "宇宙的"
+},
+{
+"id": 767,
+"word": "costume",
+"meaning": "服装；戏服"
+},
+{
+"id": 768,
+"word": "cottage",
+"meaning": "小屋；村舍"
+},
+{
+"id": 769,
+"word": "council",
+"meaning": "委员会；理事会"
+},
+{
+"id": 770,
+"word": "counsel",
+"meaning": "忠告 v. 劝告"
+},
+{
+"id": 771,
+"word": "count",
+"meaning": "数；重要 n. 计数"
+},
+{
+"id": 772,
+"word": "counterpart",
+"meaning": "对应的人（物）"
+},
+{
+"id": 773,
+"word": "couple",
+"meaning": "一对；夫妇 v. 结合"
+},
+{
+"id": 774,
+"word": "courage",
+"meaning": "勇气"
+},
+{
+"id": 775,
+"word": "court",
+"meaning": "法庭；球场"
+},
+{
+"id": 776,
+"word": "courtesy",
+"meaning": "礼貌；谦恭"
+},
+{
+"id": 777,
+"word": "coverage",
+"meaning": "新闻报道；覆盖范围"
+},
+{
+"id": 778,
+"word": "crack",
+"meaning": "裂缝 v. 破裂"
+},
+{
+"id": 779,
+"word": "craft",
+"meaning": "工艺；手艺"
+},
+{
+"id": 780,
+"word": "cram",
+"meaning": "塞满；突击备考"
+},
+{
+"id": 781,
+"word": "crash",
+"meaning": "碰撞；暴跌 n. 失事"
+},
+{
+"id": 782,
+"word": "crawl",
+"meaning": "爬行；缓慢行进"
+},
+{
+"id": 783,
+"word": "create",
+"meaning": "创造；引起"
+},
+{
+"id": 784,
+"word": "creative",
+"meaning": "有创造力的"
+},
+{
+"id": 785,
+"word": "creature",
+"meaning": "生物；动物"
+},
+{
+"id": 786,
+"word": "credible",
+"meaning": "可信的"
+},
+{
+"id": 787,
+"word": "credit",
+"meaning": "信用；学分 v. 归功于"
+},
+{
+"id": 788,
+"word": "creep",
+"meaning": "爬行；悄悄移动"
+},
+{
+"id": 789,
+"word": "crew",
+"meaning": "全体船员；工作人员"
+},
+{
+"id": 790,
+"word": "crime",
+"meaning": "罪行；犯罪"
+},
+{
+"id": 791,
+"word": "criminal",
+"meaning": "罪犯 adj. 犯罪的"
+},
+{
+"id": 792,
+"word": "crisis",
+"meaning": "危机"
+},
+{
+"id": 793,
+"word": "criterion",
+"meaning": "标准；准则"
+},
+{
+"id": 794,
+"word": "critic",
+"meaning": "批评家；评论家"
+},
+{
+"id": 795,
+"word": "critical",
+"meaning": "批评的；关键的"
+},
+{
+"id": 796,
+"word": "criticize",
+"meaning": "批评；评论"
+},
+{
+"id": 797,
+"word": "crop",
+"meaning": "庄稼；收成"
+},
+{
+"id": 798,
+"word": "cross",
+"meaning": "穿过；交叉 n. 十字"
+},
+{
+"id": 799,
+"word": "crowd",
+"meaning": "人群 v. 拥挤"
+},
+{
+"id": 800,
+"word": "crucial",
+"meaning": "至关重要的"
+},
+{
+"id": 801,
+"word": "crude",
+"meaning": "粗糙的；天然的"
+},
+{
+"id": 802,
+"word": "cruel",
+"meaning": "残酷的"
+},
+{
+"id": 803,
+"word": "cruise",
+"meaning": "巡游 v. 巡航"
+},
+{
+"id": 804,
+"word": "crush",
+"meaning": "压碎；镇压"
+},
+{
+"id": 805,
+"word": "crystal",
+"meaning": "水晶；结晶"
+},
+{
+"id": 806,
+"word": "cue",
+"meaning": "提示；暗示"
+},
+{
+"id": 807,
+"word": "cultivate",
+"meaning": "培养；耕作"
+},
+{
+"id": 808,
+"word": "cumulative",
+"meaning": "累积的"
+},
+{
+"id": 809,
+"word": "curb",
+"meaning": "控制 n. 路缘；约束"
+},
+{
+"id": 810,
+"word": "cure",
+"meaning": "治愈 n. 疗法"
+},
+{
+"id": 811,
+"word": "curiosity",
+"meaning": "好奇心；珍品"
+},
+{
+"id": 812,
+"word": "currency",
+"meaning": "货币"
+},
+{
+"id": 813,
+"word": "current",
+"meaning": "当前的 n. 水流；电流"
+},
+{
+"id": 814,
+"word": "curriculum",
+"meaning": "课程"
+},
+{
+"id": 815,
+"word": "curse",
+"meaning": "诅咒；祸根 v. 诅咒"
+},
+{
+"id": 816,
+"word": "custom",
+"meaning": "习俗；习惯"
+},
+{
+"id": 817,
+"word": "customer",
+"meaning": "顾客"
+},
+{
+"id": 818,
+"word": "cycle",
+"meaning": "循环；周期 v. 骑车"
+},
+{
+"id": 819,
+"word": "cylinder",
+"meaning": "圆柱；气缸"
+},
+{
+"id": 820,
+"word": "cynical",
+"meaning": "愤世嫉俗的"
+},
+{
+"id": 821,
+"word": "dairy",
+"meaning": "乳制品；奶牛场"
+},
+{
+"id": 822,
+"word": "dam",
+"meaning": "水坝；堤"
+},
+{
+"id": 823,
+"word": "damage",
+"meaning": "损害 v. 破坏"
+},
+{
+"id": 824,
+"word": "damp",
+"meaning": "潮湿的 n. 潮气"
+},
+{
+"id": 825,
+"word": "dash",
+"meaning": "猛冲 n. 破折号"
+},
+{
+"id": 826,
+"word": "data",
+"meaning": "数据；资料"
+},
+{
+"id": 827,
+"word": "database",
+"meaning": "数据库"
+},
+{
+"id": 828,
+"word": "dawn",
+"meaning": "黎明；开端"
+},
+{
+"id": 829,
+"word": "deadlock",
+"meaning": "僵局；僵持"
+},
+{
+"id": 830,
+"word": "deadly",
+"meaning": "致命的"
+},
+{
+"id": 831,
+"word": "deaf",
+"meaning": "聋的"
+},
+{
+"id": 832,
+"word": "debatable",
+"meaning": "有争议的"
+},
+{
+"id": 833,
+"word": "debate",
+"meaning": "辩论 v. 争论"
+},
+{
+"id": 834,
+"word": "debris",
+"meaning": "残骸；碎片"
+},
+{
+"id": 835,
+"word": "debt",
+"meaning": "债务；人情债"
+},
+{
+"id": 836,
+"word": "decade",
+"meaning": "十年"
+},
+{
+"id": 837,
+"word": "decay",
+"meaning": "腐烂 n. 衰退"
+},
+{
+"id": 838,
+"word": "deceit",
+"meaning": "欺骗；欺诈"
+},
+{
+"id": 839,
+"word": "deceive",
+"meaning": "欺骗；蒙蔽"
+},
+{
+"id": 840,
+"word": "decent",
+"meaning": "体面的；正派的"
+},
+{
+"id": 841,
+"word": "decimal",
+"meaning": "十进制的 n. 小数"
+},
+{
+"id": 842,
+"word": "decisive",
+"meaning": "决定性的；果断的"
+},
+{
+"id": 843,
+"word": "declare",
+"meaning": "宣布；申报"
+},
+{
+"id": 844,
+"word": "decline",
+"meaning": "下降；婉拒 n. 衰退"
+},
+{
+"id": 845,
+"word": "decode",
+"meaning": "解码；解读"
+},
+{
+"id": 846,
+"word": "decorate",
+"meaning": "装饰"
+},
+{
+"id": 847,
+"word": "decrease",
+"meaning": "减少 n. 下降"
+},
+{
+"id": 848,
+"word": "dedicate",
+"meaning": "奉献；专用于"
+},
+{
+"id": 849,
+"word": "deduce",
+"meaning": "推断；演绎"
+},
+{
+"id": 850,
+"word": "deduct",
+"meaning": "扣除；减去"
+},
+{
+"id": 851,
+"word": "deem",
+"meaning": "认为；视为"
+},
+{
+"id": 852,
+"word": "default",
+"meaning": "违约；默认"
+},
+{
+"id": 853,
+"word": "defect",
+"meaning": "缺点；瑕疵"
+},
+{
+"id": 854,
+"word": "defer",
+"meaning": "推迟；遵从"
+},
+{
+"id": 855,
+"word": "deficiency",
+"meaning": "缺乏；缺陷"
+},
+{
+"id": 856,
+"word": "deficient",
+"meaning": "缺乏的；不足的"
+},
+{
+"id": 857,
+"word": "deficit",
+"meaning": "赤字；亏损"
+},
+{
+"id": 858,
+"word": "define",
+"meaning": "定义；界定"
+},
+{
+"id": 859,
+"word": "definitive",
+"meaning": "决定性的；权威的"
+},
+{
+"id": 860,
+"word": "deflect",
+"meaning": "使偏转；转移"
+},
+{
+"id": 861,
+"word": "deforestation",
+"meaning": "森林砍伐"
+},
+{
+"id": 862,
+"word": "deform",
+"meaning": "使变形"
+},
+{
+"id": 863,
+"word": "degradation",
+"meaning": "退化；恶化"
+},
+{
+"id": 864,
+"word": "degrade",
+"meaning": "降低；使退化"
+},
+{
+"id": 865,
+"word": "dehydrate",
+"meaning": "脱水；使干燥"
+},
+{
+"id": 866,
+"word": "delay",
+"meaning": "延误 n. 推迟"
+},
+{
+"id": 867,
+"word": "delegate",
+"meaning": "代表 v. 委派"
+},
+{
+"id": 868,
+"word": "deliberate",
+"meaning": "故意的 v. 深思熟虑"
+},
+{
+"id": 869,
+"word": "delicate",
+"meaning": "精致的；微妙的"
+},
+{
+"id": 870,
+"word": "deliver",
+"meaning": "递送；发表（演讲）"
+},
+{
+"id": 871,
+"word": "delve",
+"meaning": "深入探究；钻研"
+},
+{
+"id": 872,
+"word": "demand",
+"meaning": "要求 n. 需求"
+},
+{
+"id": 873,
+"word": "demanding",
+"meaning": "要求高的；费力的"
+},
+{
+"id": 874,
+"word": "demise",
+"meaning": "死亡；终止"
+},
+{
+"id": 875,
+"word": "democracy",
+"meaning": "民主；民主国家"
+},
+{
+"id": 876,
+"word": "demographic",
+"meaning": "人口统计的"
+},
+{
+"id": 877,
+"word": "demolish",
+"meaning": "拆毁；推翻"
+},
+{
+"id": 878,
+"word": "demonstrate",
+"meaning": "证明；示范"
+},
+{
+"id": 879,
+"word": "denial",
+"meaning": "否认；拒绝"
+},
+{
+"id": 880,
+"word": "denote",
+"meaning": "表示；意味着"
+},
+{
+"id": 881,
+"word": "dense",
+"meaning": "密集的；浓密的"
+},
+{
+"id": 882,
+"word": "density",
+"meaning": "密度"
+},
+{
+"id": 883,
+"word": "dental",
+"meaning": "牙齿的；牙科的"
+},
+{
+"id": 884,
+"word": "deny",
+"meaning": "否认；拒绝给予"
+},
+{
+"id": 885,
+"word": "depart",
+"meaning": "离开；背离"
+},
+{
+"id": 886,
+"word": "departure",
+"meaning": "离开；出发"
+},
+{
+"id": 887,
+"word": "dependence",
+"meaning": "依赖；依靠"
+},
+{
+"id": 888,
+"word": "dependent",
+"meaning": "依赖的；取决于的"
+},
+{
+"id": 889,
+"word": "depict",
+"meaning": "描绘；描述"
+},
+{
+"id": 890,
+"word": "deplete",
+"meaning": "耗尽；枯竭"
+},
+{
+"id": 891,
+"word": "deploy",
+"meaning": "部署；调动"
+},
+{
+"id": 892,
+"word": "deposit",
+"meaning": "存款；押金 v. 存放"
+},
+{
+"id": 893,
+"word": "depress",
+"meaning": "使沮丧；使萧条"
+},
+{
+"id": 894,
+"word": "deprive",
+"meaning": "剥夺；使丧失"
+},
+{
+"id": 895,
+"word": "derive",
+"meaning": "源自；获得"
+},
+{
+"id": 896,
+"word": "descend",
+"meaning": "下降；遗传"
+},
+{
+"id": 897,
+"word": "desert",
+"meaning": "沙漠 v. 抛弃"
+},
+{
+"id": 898,
+"word": "deserve",
+"meaning": "应得；值得"
+},
+{
+"id": 899,
+"word": "designate",
+"meaning": "指定；任命"
+},
+{
+"id": 900,
+"word": "desirable",
+"meaning": "令人向往的；可取的"
+}
+]

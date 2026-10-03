@@ -1,0 +1,1502 @@
+[
+{
+"id": 1501,
+"word": "growth",
+"meaning": "增长；生长"
+},
+{
+"id": 1502,
+"word": "grudge",
+"meaning": "怨恨"
+},
+{
+"id": 1503,
+"word": "guarantee",
+"meaning": "保证，担保"
+},
+{
+"id": 1504,
+"word": "guard",
+"meaning": "保卫 n. 卫兵"
+},
+{
+"id": 1505,
+"word": "guardian",
+"meaning": "监护人；守护者"
+},
+{
+"id": 1506,
+"word": "guess",
+"meaning": "猜测"
+},
+{
+"id": 1507,
+"word": "guest",
+"meaning": "客人"
+},
+{
+"id": 1508,
+"word": "guidance",
+"meaning": "指导"
+},
+{
+"id": 1509,
+"word": "guide",
+"meaning": "导游；指南 v. 引导"
+},
+{
+"id": 1510,
+"word": "guidebook",
+"meaning": "旅游指南"
+},
+{
+"id": 1511,
+"word": "guideline",
+"meaning": "指导方针"
+},
+{
+"id": 1512,
+"word": "guilt",
+"meaning": "犯罪；内疚"
+},
+{
+"id": 1513,
+"word": "guilty",
+"meaning": "有罪的；内疚的"
+},
+{
+"id": 1514,
+"word": "guise",
+"meaning": "外表，伪装"
+},
+{
+"id": 1515,
+"word": "gulf",
+"meaning": "海湾；隔阂"
+},
+{
+"id": 1516,
+"word": "gush",
+"meaning": "涌出"
+},
+{
+"id": 1517,
+"word": "gust",
+"meaning": "一阵狂风"
+},
+{
+"id": 1518,
+"word": "gutter",
+"meaning": "排水沟"
+},
+{
+"id": 1519,
+"word": "gym",
+"meaning": "健身房，体育馆"
+},
+{
+"id": 1520,
+"word": "gymnastics",
+"meaning": "体操"
+},
+{
+"id": 1521,
+"word": "habit",
+"meaning": "习惯；习性"
+},
+{
+"id": 1522,
+"word": "habitat",
+"meaning": "栖息地；产地"
+},
+{
+"id": 1523,
+"word": "hail",
+"meaning": "冰雹 v. 招呼；欢呼"
+},
+{
+"id": 1524,
+"word": "halt",
+"meaning": "停止；暂停"
+},
+{
+"id": 1525,
+"word": "hamper",
+"meaning": "妨碍；阻碍"
+},
+{
+"id": 1526,
+"word": "handful",
+"meaning": "一把；少数"
+},
+{
+"id": 1527,
+"word": "handicap",
+"meaning": "障碍；不利条件"
+},
+{
+"id": 1528,
+"word": "handle",
+"meaning": "处理；应对"
+},
+{
+"id": 1529,
+"word": "handy",
+"meaning": "便利的；手巧的"
+},
+{
+"id": 1530,
+"word": "happen",
+"meaning": "发生；碰巧"
+},
+{
+"id": 1531,
+"word": "harbor",
+"meaning": "港口；避风港"
+},
+{
+"id": 1532,
+"word": "harden",
+"meaning": "变硬；使坚强"
+},
+{
+"id": 1533,
+"word": "hardly",
+"meaning": "几乎不；简直不"
+},
+{
+"id": 1534,
+"word": "hardship",
+"meaning": "艰难；困苦"
+},
+{
+"id": 1535,
+"word": "hardware",
+"meaning": "硬件；五金器具"
+},
+{
+"id": 1536,
+"word": "harmony",
+"meaning": "和谐；融洽"
+},
+{
+"id": 1537,
+"word": "harness",
+"meaning": "利用；治理"
+},
+{
+"id": 1538,
+"word": "harsh",
+"meaning": "严厉的；恶劣的"
+},
+{
+"id": 1539,
+"word": "harvest",
+"meaning": "收获；收成"
+},
+{
+"id": 1540,
+"word": "haste",
+"meaning": "匆忙；急忙"
+},
+{
+"id": 1541,
+"word": "hasty",
+"meaning": "草率的；匆忙的"
+},
+{
+"id": 1542,
+"word": "hatch",
+"meaning": "孵化；策划"
+},
+{
+"id": 1543,
+"word": "hatred",
+"meaning": "憎恨；仇恨"
+},
+{
+"id": 1544,
+"word": "haunt",
+"meaning": "萦绕；常出没于"
+},
+{
+"id": 1545,
+"word": "haven",
+"meaning": "安全处所；避风港"
+},
+{
+"id": 1546,
+"word": "havoc",
+"meaning": "浩劫；大破坏"
+},
+{
+"id": 1547,
+"word": "hazard",
+"meaning": "危险；隐患"
+},
+{
+"id": 1548,
+"word": "heal",
+"meaning": "治愈；愈合"
+},
+{
+"id": 1549,
+"word": "heap",
+"meaning": "一堆；大量"
+},
+{
+"id": 1550,
+"word": "hectic",
+"meaning": "忙乱的；繁忙的"
+},
+{
+"id": 1551,
+"word": "heed",
+"meaning": "注意；留意"
+},
+{
+"id": 1552,
+"word": "heighten",
+"meaning": "加强；升高"
+},
+{
+"id": 1553,
+"word": "heir",
+"meaning": "继承人"
+},
+{
+"id": 1554,
+"word": "hemisphere",
+"meaning": "半球"
+},
+{
+"id": 1555,
+"word": "hence",
+"meaning": "因此；从此"
+},
+{
+"id": 1556,
+"word": "henceforth",
+"meaning": "从今以后"
+},
+{
+"id": 1557,
+"word": "heritage",
+"meaning": "遗产；传统"
+},
+{
+"id": 1558,
+"word": "heroic",
+"meaning": "英雄的；英勇的"
+},
+{
+"id": 1559,
+"word": "hesitate",
+"meaning": "犹豫；迟疑"
+},
+{
+"id": 1560,
+"word": "hierarchy",
+"meaning": "等级制度；层级"
+},
+{
+"id": 1561,
+"word": "highlight",
+"meaning": "强调；使突出"
+},
+{
+"id": 1562,
+"word": "hijack",
+"meaning": "劫持；抢劫"
+},
+{
+"id": 1563,
+"word": "hinder",
+"meaning": "阻碍；妨碍"
+},
+{
+"id": 1564,
+"word": "hint",
+"meaning": "暗示；提示"
+},
+{
+"id": 1565,
+"word": "hire",
+"meaning": "雇用；租借"
+},
+{
+"id": 1566,
+"word": "historic",
+"meaning": "历史性的；有历史意义的"
+},
+{
+"id": 1567,
+"word": "hoist",
+"meaning": "升起；吊起"
+},
+{
+"id": 1568,
+"word": "hollow",
+"meaning": "空心的；空洞的"
+},
+{
+"id": 1569,
+"word": "holy",
+"meaning": "神圣的；圣洁的"
+},
+{
+"id": 1570,
+"word": "homogeneous",
+"meaning": "同质的；同类的"
+},
+{
+"id": 1571,
+"word": "honest",
+"meaning": "诚实的；正直的"
+},
+{
+"id": 1572,
+"word": "honor",
+"meaning": "荣誉；尊敬"
+},
+{
+"id": 1573,
+"word": "hook",
+"meaning": "钩子；挂钩"
+},
+{
+"id": 1574,
+"word": "horizon",
+"meaning": "地平线；视野"
+},
+{
+"id": 1575,
+"word": "hormone",
+"meaning": "激素；荷尔蒙"
+},
+{
+"id": 1576,
+"word": "horrible",
+"meaning": "可怕的；糟糕的"
+},
+{
+"id": 1577,
+"word": "horror",
+"meaning": "恐怖；震惊"
+},
+{
+"id": 1578,
+"word": "hospitable",
+"meaning": "好客的；适宜的"
+},
+{
+"id": 1579,
+"word": "hostile",
+"meaning": "敌对的；不友好的"
+},
+{
+"id": 1580,
+"word": "household",
+"meaning": "家庭；住户"
+},
+{
+"id": 1581,
+"word": "hover",
+"meaning": "盘旋；徘徊"
+},
+{
+"id": 1582,
+"word": "humanity",
+"meaning": "人类；人性"
+},
+{
+"id": 1583,
+"word": "humble",
+"meaning": "谦逊的；简陋的"
+},
+{
+"id": 1584,
+"word": "humid",
+"meaning": "潮湿的"
+},
+{
+"id": 1585,
+"word": "humidity",
+"meaning": "湿度；湿气"
+},
+{
+"id": 1586,
+"word": "humiliate",
+"meaning": "羞辱；使丢脸"
+},
+{
+"id": 1587,
+"word": "hurdle",
+"meaning": "障碍；跨栏"
+},
+{
+"id": 1588,
+"word": "hybrid",
+"meaning": "杂交种；混合物"
+},
+{
+"id": 1589,
+"word": "hygiene",
+"meaning": "卫生；保健"
+},
+{
+"id": 1590,
+"word": "hypothesis",
+"meaning": "假设；假说"
+},
+{
+"id": 1591,
+"word": "identical",
+"meaning": "完全相同的；同一的"
+},
+{
+"id": 1592,
+"word": "identification",
+"meaning": "鉴定；身份证明"
+},
+{
+"id": 1593,
+"word": "identity",
+"meaning": "身份；特性"
+},
+{
+"id": 1594,
+"word": "ideology",
+"meaning": "意识形态；思想体系"
+},
+{
+"id": 1595,
+"word": "idle",
+"meaning": "闲置的；懒惰的"
+},
+{
+"id": 1596,
+"word": "ignorance",
+"meaning": "无知；愚昧"
+},
+{
+"id": 1597,
+"word": "ignorant",
+"meaning": "无知的；不知道的"
+},
+{
+"id": 1598,
+"word": "ignore",
+"meaning": "忽视；不理会"
+},
+{
+"id": 1599,
+"word": "illegal",
+"meaning": "非法的；违规的"
+},
+{
+"id": 1600,
+"word": "illiterate",
+"meaning": "不识字的；文盲的"
+},
+{
+"id": 1601,
+"word": "illuminate",
+"meaning": "照亮；阐明"
+},
+{
+"id": 1602,
+"word": "illusion",
+"meaning": "幻觉；错觉"
+},
+{
+"id": 1603,
+"word": "illustrate",
+"meaning": "说明；举例证明"
+},
+{
+"id": 1604,
+"word": "image",
+"meaning": "形象；图像"
+},
+{
+"id": 1605,
+"word": "imagination",
+"meaning": "想象力；想象"
+},
+{
+"id": 1606,
+"word": "imitate",
+"meaning": "模仿；仿效"
+},
+{
+"id": 1607,
+"word": "immense",
+"meaning": "巨大的；广大的"
+},
+{
+"id": 1608,
+"word": "immerse",
+"meaning": "沉浸；使浸没"
+},
+{
+"id": 1609,
+"word": "immigrant",
+"meaning": "移民；侨民"
+},
+{
+"id": 1610,
+"word": "immune",
+"meaning": "免疫的；不受影响的"
+},
+{
+"id": 1611,
+"word": "impact",
+"meaning": "影响；冲击"
+},
+{
+"id": 1612,
+"word": "impair",
+"meaning": "损害；削弱"
+},
+{
+"id": 1613,
+"word": "impartial",
+"meaning": "公正的；不偏袒的"
+},
+{
+"id": 1614,
+"word": "imperative",
+"meaning": "必要的；紧迫的"
+},
+{
+"id": 1615,
+"word": "implement",
+"meaning": "实施；执行"
+},
+{
+"id": 1616,
+"word": "implication",
+"meaning": "含义；可能的影响"
+},
+{
+"id": 1617,
+"word": "imply",
+"meaning": "暗示；意味着"
+},
+{
+"id": 1618,
+"word": "impose",
+"meaning": "强加；征收"
+},
+{
+"id": 1619,
+"word": "impress",
+"meaning": "使印象深刻"
+},
+{
+"id": 1620,
+"word": "improve",
+"meaning": "改善；提高"
+},
+{
+"id": 1621,
+"word": "inadequate",
+"meaning": "不足的；不充分的"
+},
+{
+"id": 1622,
+"word": "incentive",
+"meaning": "激励；动机"
+},
+{
+"id": 1623,
+"word": "incident",
+"meaning": "事件；事故"
+},
+{
+"id": 1624,
+"word": "include",
+"meaning": "包括；包含"
+},
+{
+"id": 1625,
+"word": "income",
+"meaning": "收入；收益"
+},
+{
+"id": 1626,
+"word": "incorporate",
+"meaning": "包含；合并"
+},
+{
+"id": 1627,
+"word": "increase",
+"meaning": "增加；增长"
+},
+{
+"id": 1628,
+"word": "incredible",
+"meaning": "难以置信的；惊人的"
+},
+{
+"id": 1629,
+"word": "incur",
+"meaning": "招致；遭受"
+},
+{
+"id": 1630,
+"word": "independent",
+"meaning": "独立的；自主的"
+},
+{
+"id": 1631,
+"word": "index",
+"meaning": "索引；指数"
+},
+{
+"id": 1632,
+"word": "indicate",
+"meaning": "表明；指示"
+},
+{
+"id": 1633,
+"word": "indigenous",
+"meaning": "本土的；土著的"
+},
+{
+"id": 1634,
+"word": "individual",
+"meaning": "个人；个体"
+},
+{
+"id": 1635,
+"word": "induce",
+"meaning": "诱导；引起"
+},
+{
+"id": 1636,
+"word": "industrial",
+"meaning": "工业的；产业的"
+},
+{
+"id": 1637,
+"word": "inevitable",
+"meaning": "不可避免的；必然的"
+},
+{
+"id": 1638,
+"word": "infant",
+"meaning": "婴儿；幼儿"
+},
+{
+"id": 1639,
+"word": "infect",
+"meaning": "感染；传染"
+},
+{
+"id": 1640,
+"word": "inferior",
+"meaning": "较差的；下级的"
+},
+{
+"id": 1641,
+"word": "infinite",
+"meaning": "无限的；无穷的"
+},
+{
+"id": 1642,
+"word": "inflation",
+"meaning": "通货膨胀"
+},
+{
+"id": 1643,
+"word": "influence",
+"meaning": "影响；支配"
+},
+{
+"id": 1644,
+"word": "influential",
+"meaning": "有影响力的；有势力的"
+},
+{
+"id": 1645,
+"word": "inform",
+"meaning": "通知；告知"
+},
+{
+"id": 1646,
+"word": "infrastructure",
+"meaning": "基础设施；基础建设"
+},
+{
+"id": 1647,
+"word": "inhabit",
+"meaning": "栖息；居住于"
+},
+{
+"id": 1648,
+"word": "inhabitant",
+"meaning": "居民；住户"
+},
+{
+"id": 1649,
+"word": "inherent",
+"meaning": "内在的；固有的"
+},
+{
+"id": 1650,
+"word": "inherit",
+"meaning": "继承；遗传而得"
+},
+{
+"id": 1651,
+"word": "inhibit",
+"meaning": "抑制；阻止"
+},
+{
+"id": 1652,
+"word": "initial",
+"meaning": "最初的；开始的"
+},
+{
+"id": 1653,
+"word": "initiate",
+"meaning": "开始；发起"
+},
+{
+"id": 1654,
+"word": "initiative",
+"meaning": "倡议；主动权"
+},
+{
+"id": 1655,
+"word": "inject",
+"meaning": "注射；注入"
+},
+{
+"id": 1656,
+"word": "injury",
+"meaning": "伤害；损伤"
+},
+{
+"id": 1657,
+"word": "innovation",
+"meaning": "创新；革新"
+},
+{
+"id": 1658,
+"word": "input",
+"meaning": "投入；输入"
+},
+{
+"id": 1659,
+"word": "inquire",
+"meaning": "询问；查询"
+},
+{
+"id": 1660,
+"word": "inquiry",
+"meaning": "询问；调查"
+},
+{
+"id": 1661,
+"word": "insect",
+"meaning": "昆虫；虫"
+},
+{
+"id": 1662,
+"word": "insight",
+"meaning": "洞察力；深刻见解"
+},
+{
+"id": 1663,
+"word": "insist",
+"meaning": "坚持；坚决要求"
+},
+{
+"id": 1664,
+"word": "inspect",
+"meaning": "检查；视察"
+},
+{
+"id": 1665,
+"word": "inspire",
+"meaning": "激励；启发"
+},
+{
+"id": 1666,
+"word": "install",
+"meaning": "安装；设置"
+},
+{
+"id": 1667,
+"word": "instance",
+"meaning": "例子；实例"
+},
+{
+"id": 1668,
+"word": "instinct",
+"meaning": "本能；直觉"
+},
+{
+"id": 1669,
+"word": "institute",
+"meaning": "学院；研究所"
+},
+{
+"id": 1670,
+"word": "institution",
+"meaning": "机构；制度"
+},
+{
+"id": 1671,
+"word": "instruct",
+"meaning": "指示；教授"
+},
+{
+"id": 1672,
+"word": "instrument",
+"meaning": "仪器；乐器"
+},
+{
+"id": 1673,
+"word": "insurance",
+"meaning": "保险；保险费"
+},
+{
+"id": 1674,
+"word": "insure",
+"meaning": "投保；确保"
+},
+{
+"id": 1675,
+"word": "intact",
+"meaning": "完好无损的"
+},
+{
+"id": 1676,
+"word": "integrate",
+"meaning": "融合；使成整体"
+},
+{
+"id": 1677,
+"word": "integrity",
+"meaning": "正直；完整"
+},
+{
+"id": 1678,
+"word": "intellect",
+"meaning": "智力；才智"
+},
+{
+"id": 1679,
+"word": "intellectual",
+"meaning": "智力的；脑力的"
+},
+{
+"id": 1680,
+"word": "intelligent",
+"meaning": "聪明的；智能的"
+},
+{
+"id": 1681,
+"word": "intense",
+"meaning": "剧烈的；紧张的"
+},
+{
+"id": 1682,
+"word": "intensify",
+"meaning": "加剧；强化"
+},
+{
+"id": 1683,
+"word": "intensity",
+"meaning": "强度；烈度"
+},
+{
+"id": 1684,
+"word": "intensive",
+"meaning": "密集的；集中的"
+},
+{
+"id": 1685,
+"word": "intention",
+"meaning": "意图；打算"
+},
+{
+"id": 1686,
+"word": "interact",
+"meaning": "互动；交流"
+},
+{
+"id": 1687,
+"word": "interfere",
+"meaning": "干涉；妨碍"
+},
+{
+"id": 1688,
+"word": "interference",
+"meaning": "干涉；干扰"
+},
+{
+"id": 1689,
+"word": "interior",
+"meaning": "内部；内陆"
+},
+{
+"id": 1690,
+"word": "internal",
+"meaning": "内部的；国内的"
+},
+{
+"id": 1691,
+"word": "international",
+"meaning": "国际的；世界的"
+},
+{
+"id": 1692,
+"word": "interpret",
+"meaning": "口译；解释"
+},
+{
+"id": 1693,
+"word": "interrupt",
+"meaning": "打断；中断"
+},
+{
+"id": 1694,
+"word": "interval",
+"meaning": "间隔；间歇"
+},
+{
+"id": 1695,
+"word": "intervene",
+"meaning": "干预；介入"
+},
+{
+"id": 1696,
+"word": "interview",
+"meaning": "面试；访谈"
+},
+{
+"id": 1697,
+"word": "intimidate",
+"meaning": "恐吓；威胁"
+},
+{
+"id": 1698,
+"word": "invade",
+"meaning": "侵入；侵略"
+},
+{
+"id": 1699,
+"word": "invalid",
+"meaning": "无效的；作废的"
+},
+{
+"id": 1700,
+"word": "invaluable",
+"meaning": "极宝贵的；无价的"
+},
+{
+"id": 1701,
+"word": "inventory",
+"meaning": "存货清单；库存"
+},
+{
+"id": 1702,
+"word": "invest",
+"meaning": "投资；投入"
+},
+{
+"id": 1703,
+"word": "investigate",
+"meaning": "调查；研究"
+},
+{
+"id": 1704,
+"word": "invisible",
+"meaning": "看不见的；无形的"
+},
+{
+"id": 1705,
+"word": "involve",
+"meaning": "涉及；使参与"
+},
+{
+"id": 1706,
+"word": "irony",
+"meaning": "反讽；讽刺"
+},
+{
+"id": 1707,
+"word": "irrigation",
+"meaning": "灌溉；水利"
+},
+{
+"id": 1708,
+"word": "isolate",
+"meaning": "隔离；使孤立"
+},
+{
+"id": 1709,
+"word": "issue",
+"meaning": "问题；议题"
+},
+{
+"id": 1710,
+"word": "item",
+"meaning": "物品；项目"
+},
+{
+"id": 1711,
+"word": "jealous",
+"meaning": "嫉妒的；羡慕的"
+},
+{
+"id": 1712,
+"word": "jet",
+"meaning": "喷气式飞机"
+},
+{
+"id": 1713,
+"word": "jewel",
+"meaning": "宝石；珍宝"
+},
+{
+"id": 1714,
+"word": "joint",
+"meaning": "联合的；共同的"
+},
+{
+"id": 1715,
+"word": "journal",
+"meaning": "期刊；日记"
+},
+{
+"id": 1716,
+"word": "journalist",
+"meaning": "记者；新闻工作者"
+},
+{
+"id": 1717,
+"word": "journey",
+"meaning": "旅行；旅程"
+},
+{
+"id": 1718,
+"word": "joy",
+"meaning": "欢乐；乐趣"
+},
+{
+"id": 1719,
+"word": "judge",
+"meaning": "判断；审理"
+},
+{
+"id": 1720,
+"word": "judgment",
+"meaning": "判断；判决"
+},
+{
+"id": 1721,
+"word": "jungle",
+"meaning": "丛林；热带雨林"
+},
+{
+"id": 1722,
+"word": "junior",
+"meaning": "初级的；年少的"
+},
+{
+"id": 1723,
+"word": "jury",
+"meaning": "陪审团"
+},
+{
+"id": 1724,
+"word": "justice",
+"meaning": "正义；司法"
+},
+{
+"id": 1725,
+"word": "justify",
+"meaning": "证明…正当；为…辩护"
+},
+{
+"id": 1726,
+"word": "keen",
+"meaning": "热衷的；敏锐的"
+},
+{
+"id": 1727,
+"word": "kettle",
+"meaning": "水壶"
+},
+{
+"id": 1728,
+"word": "keyboard",
+"meaning": "键盘"
+},
+{
+"id": 1729,
+"word": "kid",
+"meaning": "孩子；小孩"
+},
+{
+"id": 1730,
+"word": "kindle",
+"meaning": "点燃；激起"
+},
+{
+"id": 1731,
+"word": "kit",
+"meaning": "成套工具；套装"
+},
+{
+"id": 1732,
+"word": "kneel",
+"meaning": "跪下；跪着"
+},
+{
+"id": 1733,
+"word": "knit",
+"meaning": "编织；紧密结合"
+},
+{
+"id": 1734,
+"word": "knock",
+"meaning": "敲；碰撞"
+},
+{
+"id": 1735,
+"word": "knowledge",
+"meaning": "知识；了解"
+},
+{
+"id": 1736,
+"word": "label",
+"meaning": "标签；称号"
+},
+{
+"id": 1737,
+"word": "labor",
+"meaning": "劳动；劳动力"
+},
+{
+"id": 1738,
+"word": "laboratory",
+"meaning": "实验室"
+},
+{
+"id": 1739,
+"word": "lack",
+"meaning": "缺乏；不足"
+},
+{
+"id": 1740,
+"word": "lag",
+"meaning": "落后；滞后"
+},
+{
+"id": 1741,
+"word": "land",
+"meaning": "着陆；登陆"
+},
+{
+"id": 1742,
+"word": "landlord",
+"meaning": "房东；地主"
+},
+{
+"id": 1743,
+"word": "landmark",
+"meaning": "地标；里程碑"
+},
+{
+"id": 1744,
+"word": "landscape",
+"meaning": "风景；景观"
+},
+{
+"id": 1745,
+"word": "landslide",
+"meaning": "山体滑坡；压倒性胜利"
+},
+{
+"id": 1746,
+"word": "lane",
+"meaning": "小巷；车道"
+},
+{
+"id": 1747,
+"word": "lapse",
+"meaning": "失误；间隔"
+},
+{
+"id": 1748,
+"word": "largely",
+"meaning": "主要地；在很大程度上"
+},
+{
+"id": 1749,
+"word": "laser",
+"meaning": "激光；激光器"
+},
+{
+"id": 1750,
+"word": "lasting",
+"meaning": "持久的；永久的"
+},
+{
+"id": 1751,
+"word": "lateral",
+"meaning": "侧面的；横向的"
+},
+{
+"id": 1752,
+"word": "latitude",
+"meaning": "纬度；自由"
+},
+{
+"id": 1753,
+"word": "latter",
+"meaning": "后者的；后半的"
+},
+{
+"id": 1754,
+"word": "laughter",
+"meaning": "笑；笑声"
+},
+{
+"id": 1755,
+"word": "launch",
+"meaning": "发射；发起"
+},
+{
+"id": 1756,
+"word": "laundry",
+"meaning": "洗衣店；待洗衣物"
+},
+{
+"id": 1757,
+"word": "law",
+"meaning": "法律；定律"
+},
+{
+"id": 1758,
+"word": "lawn",
+"meaning": "草坪；草地"
+},
+{
+"id": 1759,
+"word": "lawsuit",
+"meaning": "诉讼；官司"
+},
+{
+"id": 1760,
+"word": "lawyer",
+"meaning": "律师"
+},
+{
+"id": 1761,
+"word": "lay",
+"meaning": "放置；产卵"
+},
+{
+"id": 1762,
+"word": "layer",
+"meaning": "层；阶层"
+},
+{
+"id": 1763,
+"word": "layoff",
+"meaning": "裁员；解雇"
+},
+{
+"id": 1764,
+"word": "layout",
+"meaning": "布局；设计"
+},
+{
+"id": 1765,
+"word": "lead",
+"meaning": "领导；导致"
+},
+{
+"id": 1766,
+"word": "leadership",
+"meaning": "领导；领导层"
+},
+{
+"id": 1767,
+"word": "leading",
+"meaning": "主要的；领先的"
+},
+{
+"id": 1768,
+"word": "leaflet",
+"meaning": "传单；小册子"
+},
+{
+"id": 1769,
+"word": "league",
+"meaning": "联盟；同盟"
+},
+{
+"id": 1770,
+"word": "leak",
+"meaning": "泄漏；泄露"
+},
+{
+"id": 1771,
+"word": "lean",
+"meaning": "倚靠；倾斜"
+},
+{
+"id": 1772,
+"word": "leap",
+"meaning": "跳跃；激增"
+},
+{
+"id": 1773,
+"word": "lease",
+"meaning": "租约；租期"
+},
+{
+"id": 1774,
+"word": "lecture",
+"meaning": "讲座；讲课"
+},
+{
+"id": 1775,
+"word": "legacy",
+"meaning": "遗产；遗留问题"
+},
+{
+"id": 1776,
+"word": "legal",
+"meaning": "合法的；法律的"
+},
+{
+"id": 1777,
+"word": "legend",
+"meaning": "传说；传奇人物"
+},
+{
+"id": 1778,
+"word": "legislation",
+"meaning": "立法；法规"
+},
+{
+"id": 1779,
+"word": "legitimate",
+"meaning": "合法的；正当的"
+},
+{
+"id": 1780,
+"word": "leisure",
+"meaning": "闲暇；休闲"
+},
+{
+"id": 1781,
+"word": "lend",
+"meaning": "借出；提供"
+},
+{
+"id": 1782,
+"word": "length",
+"meaning": "长度；时间长短"
+},
+{
+"id": 1783,
+"word": "lengthen",
+"meaning": "延长；加长"
+},
+{
+"id": 1784,
+"word": "lens",
+"meaning": "透镜；镜片"
+},
+{
+"id": 1785,
+"word": "lessen",
+"meaning": "减少；减轻"
+},
+{
+"id": 1786,
+"word": "lethal",
+"meaning": "致命的；危害极大的"
+},
+{
+"id": 1787,
+"word": "level",
+"meaning": "水平；等级"
+},
+{
+"id": 1788,
+"word": "lever",
+"meaning": "杠杆；手段"
+},
+{
+"id": 1789,
+"word": "levy",
+"meaning": "征收；课税"
+},
+{
+"id": 1790,
+"word": "liability",
+"meaning": "责任；债务"
+},
+{
+"id": 1791,
+"word": "liable",
+"meaning": "易于…的；有责任的"
+},
+{
+"id": 1792,
+"word": "liberal",
+"meaning": "自由的；开明的"
+},
+{
+"id": 1793,
+"word": "liberate",
+"meaning": "解放；释放"
+},
+{
+"id": 1794,
+"word": "liberty",
+"meaning": "自由；自由权"
+},
+{
+"id": 1795,
+"word": "license",
+"meaning": "执照；许可"
+},
+{
+"id": 1796,
+"word": "lifespan",
+"meaning": "寿命；使用期限"
+},
+{
+"id": 1797,
+"word": "lifestyle",
+"meaning": "生活方式"
+},
+{
+"id": 1798,
+"word": "lifetime",
+"meaning": "一生；终身"
+},
+{
+"id": 1799,
+"word": "lift",
+"meaning": "举起；解除"
+},
+{
+"id": 1800,
+"word": "light",
+"meaning": "光；灯"
+}
+]

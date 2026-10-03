@@ -1,0 +1,1502 @@
+[
+{
+"id": 2401,
+"word": "reform",
+"meaning": "改革；革新"
+},
+{
+"id": 2402,
+"word": "refresh",
+"meaning": "使清爽；刷新"
+},
+{
+"id": 2403,
+"word": "refreshment",
+"meaning": "茶点；饮料"
+},
+{
+"id": 2404,
+"word": "refrigerator",
+"meaning": "冰箱；冷藏箱"
+},
+{
+"id": 2405,
+"word": "refuge",
+"meaning": "避难所；庇护"
+},
+{
+"id": 2406,
+"word": "refuse",
+"meaning": "拒绝；回绝"
+},
+{
+"id": 2407,
+"word": "regard",
+"meaning": "看待；视为"
+},
+{
+"id": 2408,
+"word": "regime",
+"meaning": "政权；制度"
+},
+{
+"id": 2409,
+"word": "region",
+"meaning": "地区；区域"
+},
+{
+"id": 2410,
+"word": "register",
+"meaning": "登记；注册"
+},
+{
+"id": 2411,
+"word": "registration",
+"meaning": "登记；注册"
+},
+{
+"id": 2412,
+"word": "regret",
+"meaning": "后悔；遗憾"
+},
+{
+"id": 2413,
+"word": "regular",
+"meaning": "规则的；定期的"
+},
+{
+"id": 2414,
+"word": "regulate",
+"meaning": "管理；调节"
+},
+{
+"id": 2415,
+"word": "rehearsal",
+"meaning": "排练；彩排"
+},
+{
+"id": 2416,
+"word": "rehearse",
+"meaning": "排练；排演"
+},
+{
+"id": 2417,
+"word": "reign",
+"meaning": "统治；支配"
+},
+{
+"id": 2418,
+"word": "reinforce",
+"meaning": "加强；强化"
+},
+{
+"id": 2419,
+"word": "reject",
+"meaning": "拒绝；排斥"
+},
+{
+"id": 2420,
+"word": "relate",
+"meaning": "有关；叙述"
+},
+{
+"id": 2421,
+"word": "relative",
+"meaning": "相对的；比较的"
+},
+{
+"id": 2422,
+"word": "relax",
+"meaning": "放松；松弛"
+},
+{
+"id": 2423,
+"word": "relaxation",
+"meaning": "放松；消遣"
+},
+{
+"id": 2424,
+"word": "relay",
+"meaning": "转播；传递"
+},
+{
+"id": 2425,
+"word": "release",
+"meaning": "释放；发布"
+},
+{
+"id": 2426,
+"word": "relevant",
+"meaning": "相关的；切题的"
+},
+{
+"id": 2427,
+"word": "reliable",
+"meaning": "可靠的；可信赖的"
+},
+{
+"id": 2428,
+"word": "relief",
+"meaning": "缓解；宽慰"
+},
+{
+"id": 2429,
+"word": "relieve",
+"meaning": "缓解；减轻"
+},
+{
+"id": 2430,
+"word": "reluctant",
+"meaning": "不情愿的；勉强的"
+},
+{
+"id": 2431,
+"word": "rely",
+"meaning": "依赖；信赖"
+},
+{
+"id": 2432,
+"word": "remain",
+"meaning": "保持；剩余"
+},
+{
+"id": 2433,
+"word": "remainder",
+"meaning": "剩余部分；其余"
+},
+{
+"id": 2434,
+"word": "remark",
+"meaning": "评论；言辞"
+},
+{
+"id": 2435,
+"word": "remarkable",
+"meaning": "非凡的；显著的"
+},
+{
+"id": 2436,
+"word": "remedy",
+"meaning": "补救办法；药物"
+},
+{
+"id": 2437,
+"word": "remind",
+"meaning": "提醒；使想起"
+},
+{
+"id": 2438,
+"word": "remote",
+"meaning": "遥远的；偏远的"
+},
+{
+"id": 2439,
+"word": "remove",
+"meaning": "移除；去除"
+},
+{
+"id": 2440,
+"word": "render",
+"meaning": "使成为；提供"
+},
+{
+"id": 2441,
+"word": "renew",
+"meaning": "续订；更新"
+},
+{
+"id": 2442,
+"word": "renewable",
+"meaning": "可再生的；可续订的"
+},
+{
+"id": 2443,
+"word": "renowned",
+"meaning": "著名的；有声望的"
+},
+{
+"id": 2444,
+"word": "rental",
+"meaning": "租金；租赁"
+},
+{
+"id": 2445,
+"word": "repair",
+"meaning": "修理；修补"
+},
+{
+"id": 2446,
+"word": "repay",
+"meaning": "偿还；报答"
+},
+{
+"id": 2447,
+"word": "repeat",
+"meaning": "重复；重说"
+},
+{
+"id": 2448,
+"word": "repetition",
+"meaning": "重复；反复"
+},
+{
+"id": 2449,
+"word": "replace",
+"meaning": "取代；替换"
+},
+{
+"id": 2450,
+"word": "replacement",
+"meaning": "替换；替代品"
+},
+{
+"id": 2451,
+"word": "reply",
+"meaning": "回复；答复"
+},
+{
+"id": 2452,
+"word": "report",
+"meaning": "报告；报道"
+},
+{
+"id": 2453,
+"word": "represent",
+"meaning": "代表；表示"
+},
+{
+"id": 2454,
+"word": "representative",
+"meaning": "代表；代理人"
+},
+{
+"id": 2455,
+"word": "reproduce",
+"meaning": "繁殖；复制"
+},
+{
+"id": 2456,
+"word": "reputation",
+"meaning": "名声；声誉"
+},
+{
+"id": 2457,
+"word": "request",
+"meaning": "请求；要求"
+},
+{
+"id": 2458,
+"word": "require",
+"meaning": "需要；要求"
+},
+{
+"id": 2459,
+"word": "rescue",
+"meaning": "营救；搭救"
+},
+{
+"id": 2460,
+"word": "research",
+"meaning": "研究；调查"
+},
+{
+"id": 2461,
+"word": "resemblance",
+"meaning": "相似；相似之处"
+},
+{
+"id": 2462,
+"word": "resemble",
+"meaning": "像；类似于"
+},
+{
+"id": 2463,
+"word": "resent",
+"meaning": "怨恨；愤恨"
+},
+{
+"id": 2464,
+"word": "reservation",
+"meaning": "预订；保留"
+},
+{
+"id": 2465,
+"word": "reserve",
+"meaning": "预订；保留"
+},
+{
+"id": 2466,
+"word": "reside",
+"meaning": "居住；存在于"
+},
+{
+"id": 2467,
+"word": "residence",
+"meaning": "住所；居住"
+},
+{
+"id": 2468,
+"word": "resident",
+"meaning": "居民；住户"
+},
+{
+"id": 2469,
+"word": "resign",
+"meaning": "辞职；放弃"
+},
+{
+"id": 2470,
+"word": "resignation",
+"meaning": "辞职；辞呈"
+},
+{
+"id": 2471,
+"word": "resist",
+"meaning": "抵制；抵抗"
+},
+{
+"id": 2472,
+"word": "resistant",
+"meaning": "抵抗的；耐……的"
+},
+{
+"id": 2473,
+"word": "resolve",
+"meaning": "解决；下决心"
+},
+{
+"id": 2474,
+"word": "resort",
+"meaning": "度假胜地；手段"
+},
+{
+"id": 2475,
+"word": "resource",
+"meaning": "资源；财力"
+},
+{
+"id": 2476,
+"word": "respect",
+"meaning": "尊重；方面"
+},
+{
+"id": 2477,
+"word": "respective",
+"meaning": "各自的；分别的"
+},
+{
+"id": 2478,
+"word": "respond",
+"meaning": "回应；作出反应"
+},
+{
+"id": 2479,
+"word": "response",
+"meaning": "回应；反应"
+},
+{
+"id": 2480,
+"word": "restore",
+"meaning": "恢复；修复"
+},
+{
+"id": 2481,
+"word": "restrict",
+"meaning": "限制；约束"
+},
+{
+"id": 2482,
+"word": "result",
+"meaning": "结果；成绩"
+},
+{
+"id": 2483,
+"word": "resume",
+"meaning": "重新开始；恢复"
+},
+{
+"id": 2484,
+"word": "retail",
+"meaning": "零售"
+},
+{
+"id": 2485,
+"word": "retain",
+"meaning": "保留；保持"
+},
+{
+"id": 2486,
+"word": "retire",
+"meaning": "退休；退出"
+},
+{
+"id": 2487,
+"word": "retreat",
+"meaning": "撤退；后退"
+},
+{
+"id": 2488,
+"word": "reveal",
+"meaning": "揭示；透露"
+},
+{
+"id": 2489,
+"word": "revenue",
+"meaning": "收入；税收"
+},
+{
+"id": 2490,
+"word": "reverse",
+"meaning": "颠倒；逆转"
+},
+{
+"id": 2491,
+"word": "review",
+"meaning": "复习；审查"
+},
+{
+"id": 2492,
+"word": "revise",
+"meaning": "修订；复习"
+},
+{
+"id": 2493,
+"word": "revision",
+"meaning": "修订；复习"
+},
+{
+"id": 2494,
+"word": "revive",
+"meaning": "复兴；苏醒"
+},
+{
+"id": 2495,
+"word": "revolution",
+"meaning": "革命；巨变"
+},
+{
+"id": 2496,
+"word": "reward",
+"meaning": "报酬；奖赏"
+},
+{
+"id": 2497,
+"word": "rhythm",
+"meaning": "节奏；韵律"
+},
+{
+"id": 2498,
+"word": "rid",
+"meaning": "使摆脱；清除"
+},
+{
+"id": 2499,
+"word": "ridge",
+"meaning": "山脊；屋脊"
+},
+{
+"id": 2500,
+"word": "ridiculous",
+"meaning": "荒谬的；可笑的"
+},
+{
+"id": 2501,
+"word": "rigid",
+"meaning": "僵硬的；死板的"
+},
+{
+"id": 2502,
+"word": "rigorous",
+"meaning": "严格的；严谨的"
+},
+{
+"id": 2503,
+"word": "ripe",
+"meaning": "熟的；成熟的"
+},
+{
+"id": 2504,
+"word": "rise",
+"meaning": "上升；起立"
+},
+{
+"id": 2505,
+"word": "risk",
+"meaning": "风险；危险"
+},
+{
+"id": 2506,
+"word": "ritual",
+"meaning": "仪式；惯例"
+},
+{
+"id": 2507,
+"word": "rival",
+"meaning": "对手；竞争者"
+},
+{
+"id": 2508,
+"word": "robust",
+"meaning": "强健的；稳固的"
+},
+{
+"id": 2509,
+"word": "rotate",
+"meaning": "旋转；轮换"
+},
+{
+"id": 2510,
+"word": "rough",
+"meaning": "粗糙的；大致的"
+},
+{
+"id": 2511,
+"word": "roughly",
+"meaning": "大约；粗略地"
+},
+{
+"id": 2512,
+"word": "route",
+"meaning": "路线；路径"
+},
+{
+"id": 2513,
+"word": "routine",
+"meaning": "常规；惯例"
+},
+{
+"id": 2514,
+"word": "royal",
+"meaning": "王室的；盛大的"
+},
+{
+"id": 2515,
+"word": "royalty",
+"meaning": "王室；版税"
+},
+{
+"id": 2516,
+"word": "rude",
+"meaning": "粗鲁的；无礼的"
+},
+{
+"id": 2517,
+"word": "ruin",
+"meaning": "毁坏；断送"
+},
+{
+"id": 2518,
+"word": "rumour",
+"meaning": "谣言；传闻"
+},
+{
+"id": 2519,
+"word": "rural",
+"meaning": "农村的；乡下的"
+},
+{
+"id": 2520,
+"word": "rush",
+"meaning": "冲；仓促行事"
+},
+{
+"id": 2521,
+"word": "sacrifice",
+"meaning": "牺牲；献出"
+},
+{
+"id": 2522,
+"word": "safeguard",
+"meaning": "保护；维护"
+},
+{
+"id": 2523,
+"word": "salary",
+"meaning": "薪水"
+},
+{
+"id": 2524,
+"word": "sample",
+"meaning": "样本；v. 抽样"
+},
+{
+"id": 2525,
+"word": "sanction",
+"meaning": "制裁；v. 批准"
+},
+{
+"id": 2526,
+"word": "satellite",
+"meaning": "卫星"
+},
+{
+"id": 2527,
+"word": "satisfy",
+"meaning": "满足；使满意"
+},
+{
+"id": 2528,
+"word": "satisfactory",
+"meaning": "令人满意的"
+},
+{
+"id": 2529,
+"word": "saturate",
+"meaning": "浸透；使饱和"
+},
+{
+"id": 2530,
+"word": "scarce",
+"meaning": "稀缺的，不足的"
+},
+{
+"id": 2531,
+"word": "scatter",
+"meaning": "散布；分散"
+},
+{
+"id": 2532,
+"word": "scenario",
+"meaning": "设想；情景"
+},
+{
+"id": 2533,
+"word": "scenery",
+"meaning": "风景，景色"
+},
+{
+"id": 2534,
+"word": "schedule",
+"meaning": "时间表；v. 安排"
+},
+{
+"id": 2535,
+"word": "scheme",
+"meaning": "计划，方案"
+},
+{
+"id": 2536,
+"word": "scholar",
+"meaning": "学者"
+},
+{
+"id": 2537,
+"word": "scope",
+"meaning": "范围；余地"
+},
+{
+"id": 2538,
+"word": "score",
+"meaning": "分数；v. 得分"
+},
+{
+"id": 2539,
+"word": "scrutiny",
+"meaning": "仔细审查"
+},
+{
+"id": 2540,
+"word": "sculpture",
+"meaning": "雕塑"
+},
+{
+"id": 2541,
+"word": "secondary",
+"meaning": "次要的；中等的"
+},
+{
+"id": 2542,
+"word": "sector",
+"meaning": "部门；领域"
+},
+{
+"id": 2543,
+"word": "secure",
+"meaning": "安全的；v. 获得"
+},
+{
+"id": 2544,
+"word": "seek",
+"meaning": "寻找；寻求"
+},
+{
+"id": 2545,
+"word": "seize",
+"meaning": "抓住；夺取"
+},
+{
+"id": 2546,
+"word": "segment",
+"meaning": "部分；段"
+},
+{
+"id": 2547,
+"word": "seminar",
+"meaning": "研讨会"
+},
+{
+"id": 2548,
+"word": "semester",
+"meaning": "学期"
+},
+{
+"id": 2549,
+"word": "sensation",
+"meaning": "感觉；轰动"
+},
+{
+"id": 2550,
+"word": "sensible",
+"meaning": "明智的，合理的"
+},
+{
+"id": 2551,
+"word": "sensitive",
+"meaning": "敏感的；灵敏的"
+},
+{
+"id": 2552,
+"word": "sentiment",
+"meaning": "观点；情感"
+},
+{
+"id": 2553,
+"word": "sequence",
+"meaning": "顺序；一系列"
+},
+{
+"id": 2554,
+"word": "session",
+"meaning": "会议；一段时间"
+},
+{
+"id": 2555,
+"word": "setback",
+"meaning": "挫折，倒退"
+},
+{
+"id": 2556,
+"word": "settle",
+"meaning": "解决；定居"
+},
+{
+"id": 2557,
+"word": "settlement",
+"meaning": "协议；定居点"
+},
+{
+"id": 2558,
+"word": "severe",
+"meaning": "严重的；严厉的"
+},
+{
+"id": 2559,
+"word": "shade",
+"meaning": "阴凉处；遮光物"
+},
+{
+"id": 2560,
+"word": "shadow",
+"meaning": "影子；阴影"
+},
+{
+"id": 2561,
+"word": "shape",
+"meaning": "形状；v. 塑造"
+},
+{
+"id": 2562,
+"word": "share",
+"meaning": "分享；n. 份额"
+},
+{
+"id": 2563,
+"word": "shatter",
+"meaning": "打碎；使破灭"
+},
+{
+"id": 2564,
+"word": "shed",
+"meaning": "流出；脱落"
+},
+{
+"id": 2565,
+"word": "sheer",
+"meaning": "完全的；陡峭的"
+},
+{
+"id": 2566,
+"word": "shelter",
+"meaning": "避难所；v. 庇护"
+},
+{
+"id": 2567,
+"word": "shield",
+"meaning": "保护；n. 盾牌"
+},
+{
+"id": 2568,
+"word": "shift",
+"meaning": "转移；n. 轮班"
+},
+{
+"id": 2569,
+"word": "shortcoming",
+"meaning": "缺点，不足"
+},
+{
+"id": 2570,
+"word": "shortage",
+"meaning": "短缺，不足"
+},
+{
+"id": 2571,
+"word": "shuttle",
+"meaning": "穿梭班车；航天飞机"
+},
+{
+"id": 2572,
+"word": "shrink",
+"meaning": "缩小；退缩"
+},
+{
+"id": 2573,
+"word": "sibling",
+"meaning": "兄弟姐妹"
+},
+{
+"id": 2574,
+"word": "signal",
+"meaning": "信号；v. 标志"
+},
+{
+"id": 2575,
+"word": "significant",
+"meaning": "重要的；显著的"
+},
+{
+"id": 2576,
+"word": "signify",
+"meaning": "表示，意味着"
+},
+{
+"id": 2577,
+"word": "similar",
+"meaning": "相似的"
+},
+{
+"id": 2578,
+"word": "simplify",
+"meaning": "简化"
+},
+{
+"id": 2579,
+"word": "simulate",
+"meaning": "模拟；模仿"
+},
+{
+"id": 2580,
+"word": "simultaneous",
+"meaning": "同时发生的"
+},
+{
+"id": 2581,
+"word": "sincere",
+"meaning": "真诚的"
+},
+{
+"id": 2582,
+"word": "singular",
+"meaning": "单数的；非凡的"
+},
+{
+"id": 2583,
+"word": "site",
+"meaning": "地点，场所"
+},
+{
+"id": 2584,
+"word": "situation",
+"meaning": "情况；处境"
+},
+{
+"id": 2585,
+"word": "skeptical",
+"meaning": "怀疑的"
+},
+{
+"id": 2586,
+"word": "sketch",
+"meaning": "素描；概略"
+},
+{
+"id": 2587,
+"word": "skilled",
+"meaning": "熟练的；有技能的"
+},
+{
+"id": 2588,
+"word": "slack",
+"meaning": "松弛的；萧条的"
+},
+{
+"id": 2589,
+"word": "slender",
+"meaning": "苗条的；细长的"
+},
+{
+"id": 2590,
+"word": "slice",
+"meaning": "薄片；部分"
+},
+{
+"id": 2591,
+"word": "slight",
+"meaning": "轻微的"
+},
+{
+"id": 2592,
+"word": "slump",
+"meaning": "暴跌；v. 暴跌"
+},
+{
+"id": 2593,
+"word": "slogan",
+"meaning": "标语，口号"
+},
+{
+"id": 2594,
+"word": "slope",
+"meaning": "斜坡；斜度"
+},
+{
+"id": 2595,
+"word": "sluggish",
+"meaning": "缓慢的；迟钝的"
+},
+{
+"id": 2596,
+"word": "smooth",
+"meaning": "光滑的；顺利的"
+},
+{
+"id": 2597,
+"word": "socialize",
+"meaning": "交往；使社会化"
+},
+{
+"id": 2598,
+"word": "society",
+"meaning": "社会；社团"
+},
+{
+"id": 2599,
+"word": "sociology",
+"meaning": "社会学"
+},
+{
+"id": 2600,
+"word": "sole",
+"meaning": "唯一的；仅有的"
+},
+{
+"id": 2601,
+"word": "solid",
+"meaning": "固体的；可靠的"
+},
+{
+"id": 2602,
+"word": "soluble",
+"meaning": "可溶的；可解决的"
+},
+{
+"id": 2603,
+"word": "solution",
+"meaning": "解决办法；溶液"
+},
+{
+"id": 2604,
+"word": "solitary",
+"meaning": "独自的；孤独的"
+},
+{
+"id": 2605,
+"word": "somehow",
+"meaning": "不知怎么地；设法"
+},
+{
+"id": 2606,
+"word": "sophisticated",
+"meaning": "复杂精密的；世故的"
+},
+{
+"id": 2607,
+"word": "source",
+"meaning": "来源；源头"
+},
+{
+"id": 2608,
+"word": "sovereign",
+"meaning": "主权的；n. 君主"
+},
+{
+"id": 2609,
+"word": "span",
+"meaning": "跨度；一段时间"
+},
+{
+"id": 2610,
+"word": "spare",
+"meaning": "空闲的；v. 抽出"
+},
+{
+"id": 2611,
+"word": "spark",
+"meaning": "火花；v. 引发"
+},
+{
+"id": 2612,
+"word": "spatial",
+"meaning": "空间的"
+},
+{
+"id": 2613,
+"word": "specialize",
+"meaning": "专门研究，专攻"
+},
+{
+"id": 2614,
+"word": "species",
+"meaning": "物种，种类"
+},
+{
+"id": 2615,
+"word": "specific",
+"meaning": "具体的；特定的"
+},
+{
+"id": 2616,
+"word": "specification",
+"meaning": "规格；说明书"
+},
+{
+"id": 2617,
+"word": "specimen",
+"meaning": "标本，样本"
+},
+{
+"id": 2618,
+"word": "spectacle",
+"meaning": "景象；壮观"
+},
+{
+"id": 2619,
+"word": "spectrum",
+"meaning": "光谱；范围"
+},
+{
+"id": 2620,
+"word": "speculate",
+"meaning": "推测；投机"
+},
+{
+"id": 2621,
+"word": "sphere",
+"meaning": "球体；领域"
+},
+{
+"id": 2622,
+"word": "spill",
+"meaning": "溢出，洒出"
+},
+{
+"id": 2623,
+"word": "spin",
+"meaning": "旋转；纺纱"
+},
+{
+"id": 2624,
+"word": "spiral",
+"meaning": "螺旋；adj. 螺旋形的"
+},
+{
+"id": 2625,
+"word": "spiritual",
+"meaning": "精神的，心灵的"
+},
+{
+"id": 2626,
+"word": "splendid",
+"meaning": "壮丽的，极好的"
+},
+{
+"id": 2627,
+"word": "split",
+"meaning": "分裂；分开"
+},
+{
+"id": 2628,
+"word": "spoil",
+"meaning": "破坏；宠坏"
+},
+{
+"id": 2629,
+"word": "sponsor",
+"meaning": "赞助商；v. 赞助"
+},
+{
+"id": 2630,
+"word": "spontaneous",
+"meaning": "自发的，自然的"
+},
+{
+"id": 2631,
+"word": "spot",
+"meaning": "地点；v. 发现"
+},
+{
+"id": 2632,
+"word": "spur",
+"meaning": "刺激，激励；n. 刺激"
+},
+{
+"id": 2633,
+"word": "stability",
+"meaning": "稳定性"
+},
+{
+"id": 2634,
+"word": "stable",
+"meaning": "稳定的；n. 马厩"
+},
+{
+"id": 2635,
+"word": "staff",
+"meaning": "全体员工"
+},
+{
+"id": 2636,
+"word": "stagger",
+"meaning": "蹒跚；使吃惊"
+},
+{
+"id": 2637,
+"word": "stain",
+"meaning": "污渍；v. 玷污"
+},
+{
+"id": 2638,
+"word": "stake",
+"meaning": "桩；股份"
+},
+{
+"id": 2639,
+"word": "stale",
+"meaning": "陈腐的；不新鲜的"
+},
+{
+"id": 2640,
+"word": "stamina",
+"meaning": "耐力，精力"
+},
+{
+"id": 2641,
+"word": "standpoint",
+"meaning": "立场，观点"
+},
+{
+"id": 2642,
+"word": "staple",
+"meaning": "主食；adj. 主要的"
+},
+{
+"id": 2643,
+"word": "stark",
+"meaning": "严重的；赤裸裸的"
+},
+{
+"id": 2644,
+"word": "startle",
+"meaning": "使吃惊"
+},
+{
+"id": 2645,
+"word": "starve",
+"meaning": "挨饿"
+},
+{
+"id": 2646,
+"word": "statement",
+"meaning": "陈述；声明"
+},
+{
+"id": 2647,
+"word": "static",
+"meaning": "静态的，静止的"
+},
+{
+"id": 2648,
+"word": "statistics",
+"meaning": "统计数据"
+},
+{
+"id": 2649,
+"word": "statute",
+"meaning": "法令，法规"
+},
+{
+"id": 2650,
+"word": "steady",
+"meaning": "稳定的；持续的"
+},
+{
+"id": 2651,
+"word": "stimulate",
+"meaning": "刺激；促进"
+},
+{
+"id": 2652,
+"word": "sting",
+"meaning": "刺，蜇；n. 刺痛"
+},
+{
+"id": 2653,
+"word": "stir",
+"meaning": "搅动；激起"
+},
+{
+"id": 2654,
+"word": "stitch",
+"meaning": "针脚；v. 缝合"
+},
+{
+"id": 2655,
+"word": "stock",
+"meaning": "存货；股票"
+},
+{
+"id": 2656,
+"word": "storage",
+"meaning": "储存，储藏"
+},
+{
+"id": 2657,
+"word": "strain",
+"meaning": "压力；v. 拉伤"
+},
+{
+"id": 2658,
+"word": "strand",
+"meaning": "一股（线）；v. 使搁浅"
+},
+{
+"id": 2659,
+"word": "strategic",
+"meaning": "战略的，关键的"
+},
+{
+"id": 2660,
+"word": "strategy",
+"meaning": "策略，战略"
+},
+{
+"id": 2661,
+"word": "streamline",
+"meaning": "精简，使合理化"
+},
+{
+"id": 2662,
+"word": "stress",
+"meaning": "压力；v. 强调"
+},
+{
+"id": 2663,
+"word": "stretch",
+"meaning": "伸展；延续"
+},
+{
+"id": 2664,
+"word": "strict",
+"meaning": "严格的；严谨的"
+},
+{
+"id": 2665,
+"word": "stride",
+"meaning": "大步；进步"
+},
+{
+"id": 2666,
+"word": "striking",
+"meaning": "显著的，惊人的"
+},
+{
+"id": 2667,
+"word": "string",
+"meaning": "细绳；一串"
+},
+{
+"id": 2668,
+"word": "strive",
+"meaning": "努力，力求"
+},
+{
+"id": 2669,
+"word": "stubborn",
+"meaning": "顽固的，固执的"
+},
+{
+"id": 2670,
+"word": "stumble",
+"meaning": "绊倒；偶然遇到"
+},
+{
+"id": 2671,
+"word": "stunning",
+"meaning": "极好的；令人震惊的"
+},
+{
+"id": 2672,
+"word": "sturdy",
+"meaning": "结实的；坚定的"
+},
+{
+"id": 2673,
+"word": "subjective",
+"meaning": "主观的"
+},
+{
+"id": 2674,
+"word": "submit",
+"meaning": "提交；服从"
+},
+{
+"id": 2675,
+"word": "subordinate",
+"meaning": "次要的；n. 下属"
+},
+{
+"id": 2676,
+"word": "subsequent",
+"meaning": "随后的"
+},
+{
+"id": 2677,
+"word": "subsidy",
+"meaning": "补贴，津贴"
+},
+{
+"id": 2678,
+"word": "substance",
+"meaning": "物质；实质"
+},
+{
+"id": 2679,
+"word": "substantial",
+"meaning": "大量的；实质的"
+},
+{
+"id": 2680,
+"word": "substitute",
+"meaning": "替代品；v. 代替"
+},
+{
+"id": 2681,
+"word": "subtle",
+"meaning": "微妙的；细微的"
+},
+{
+"id": 2682,
+"word": "suburb",
+"meaning": "郊区"
+},
+{
+"id": 2683,
+"word": "succeed",
+"meaning": "成功；继承"
+},
+{
+"id": 2684,
+"word": "succession",
+"meaning": "连续；继承"
+},
+{
+"id": 2685,
+"word": "successive",
+"meaning": "连续的"
+},
+{
+"id": 2686,
+"word": "suffer",
+"meaning": "遭受；受苦"
+},
+{
+"id": 2687,
+"word": "sufficient",
+"meaning": "足够的"
+},
+{
+"id": 2688,
+"word": "suggest",
+"meaning": "建议；表明"
+},
+{
+"id": 2689,
+"word": "suicide",
+"meaning": "自杀"
+},
+{
+"id": 2690,
+"word": "suitable",
+"meaning": "合适的"
+},
+{
+"id": 2691,
+"word": "summit",
+"meaning": "峰会；顶点"
+},
+{
+"id": 2692,
+"word": "summon",
+"meaning": "召唤；传唤"
+},
+{
+"id": 2693,
+"word": "superficial",
+"meaning": "肤浅的；表面的"
+},
+{
+"id": 2694,
+"word": "superior",
+"meaning": "更好的；上级的"
+},
+{
+"id": 2695,
+"word": "supervise",
+"meaning": "监督，指导"
+},
+{
+"id": 2696,
+"word": "supplement",
+"meaning": "补充物；v. 补充"
+},
+{
+"id": 2697,
+"word": "supply",
+"meaning": "供应；n. 供应"
+},
+{
+"id": 2698,
+"word": "support",
+"meaning": "支持；n. 支持"
+},
+{
+"id": 2699,
+"word": "suppose",
+"meaning": "假设；认为"
+},
+{
+"id": 2700,
+"word": "suppress",
+"meaning": "压制；抑制"
+}
+]

@@ -1,0 +1,1502 @@
+[
+{
+"id": 1201,
+"word": "explode",
+"meaning": "爆炸；激增"
+},
+{
+"id": 1202,
+"word": "exploit",
+"meaning": "利用；开发；剥削"
+},
+{
+"id": 1203,
+"word": "exploration",
+"meaning": "探索，勘探"
+},
+{
+"id": 1204,
+"word": "explore",
+"meaning": "探索，探究"
+},
+{
+"id": 1205,
+"word": "explosion",
+"meaning": "爆炸；激增"
+},
+{
+"id": 1206,
+"word": "export",
+"meaning": "出口"
+},
+{
+"id": 1207,
+"word": "expose",
+"meaning": "暴露；揭露"
+},
+{
+"id": 1208,
+"word": "exposure",
+"meaning": "暴露；接触"
+},
+{
+"id": 1209,
+"word": "express",
+"meaning": "表达 n. 快车"
+},
+{
+"id": 1210,
+"word": "expression",
+"meaning": "表达；表情"
+},
+{
+"id": 1211,
+"word": "extend",
+"meaning": "延长，扩展"
+},
+{
+"id": 1212,
+"word": "extension",
+"meaning": "延伸；分机"
+},
+{
+"id": 1213,
+"word": "extensive",
+"meaning": "广泛的，大量的"
+},
+{
+"id": 1214,
+"word": "extent",
+"meaning": "程度；范围"
+},
+{
+"id": 1215,
+"word": "external",
+"meaning": "外部的"
+},
+{
+"id": 1216,
+"word": "extinct",
+"meaning": "灭绝的"
+},
+{
+"id": 1217,
+"word": "extra",
+"meaning": "额外的"
+},
+{
+"id": 1218,
+"word": "extract",
+"meaning": "提取，拔出 n. 摘录"
+},
+{
+"id": 1219,
+"word": "extraordinary",
+"meaning": "非凡的"
+},
+{
+"id": 1220,
+"word": "extreme",
+"meaning": "极端的 n. 极端"
+},
+{
+"id": 1221,
+"word": "fabric",
+"meaning": "织物；结构"
+},
+{
+"id": 1222,
+"word": "facilitate",
+"meaning": "促进，使便利"
+},
+{
+"id": 1223,
+"word": "facility",
+"meaning": "设施；场所"
+},
+{
+"id": 1224,
+"word": "factor",
+"meaning": "因素"
+},
+{
+"id": 1225,
+"word": "faculty",
+"meaning": "才能；全体教员"
+},
+{
+"id": 1226,
+"word": "fade",
+"meaning": "褪色；逐渐消失"
+},
+{
+"id": 1227,
+"word": "failure",
+"meaning": "失败；故障"
+},
+{
+"id": 1228,
+"word": "faint",
+"meaning": "微弱的 v. 昏倒"
+},
+{
+"id": 1229,
+"word": "fair",
+"meaning": "公平的；相当的 n. 集市"
+},
+{
+"id": 1230,
+"word": "fairly",
+"meaning": "相当；公平地"
+},
+{
+"id": 1231,
+"word": "faith",
+"meaning": "信心；信仰"
+},
+{
+"id": 1232,
+"word": "faithful",
+"meaning": "忠实的"
+},
+{
+"id": 1233,
+"word": "fall",
+"meaning": "落下；下降 n. 秋季"
+},
+{
+"id": 1234,
+"word": "fallacy",
+"meaning": "谬见，谬论"
+},
+{
+"id": 1235,
+"word": "false",
+"meaning": "错误的；假的"
+},
+{
+"id": 1236,
+"word": "fame",
+"meaning": "名声"
+},
+{
+"id": 1237,
+"word": "familiar",
+"meaning": "熟悉的"
+},
+{
+"id": 1238,
+"word": "famine",
+"meaning": "饥荒"
+},
+{
+"id": 1239,
+"word": "famous",
+"meaning": "著名的"
+},
+{
+"id": 1240,
+"word": "fancy",
+"meaning": "想要；喜爱 adj. 花哨的"
+},
+{
+"id": 1241,
+"word": "fantastic",
+"meaning": "极好的；奇异的"
+},
+{
+"id": 1242,
+"word": "fantasy",
+"meaning": "幻想"
+},
+{
+"id": 1243,
+"word": "fare",
+"meaning": "车费，票价"
+},
+{
+"id": 1244,
+"word": "farewell",
+"meaning": "告别 int. 再会"
+},
+{
+"id": 1245,
+"word": "farm",
+"meaning": "农场 v. 耕种"
+},
+{
+"id": 1246,
+"word": "fascinating",
+"meaning": "迷人的"
+},
+{
+"id": 1247,
+"word": "fashion",
+"meaning": "时尚；方式"
+},
+{
+"id": 1248,
+"word": "fashionable",
+"meaning": "时髦的"
+},
+{
+"id": 1249,
+"word": "fasten",
+"meaning": "系紧，扣住"
+},
+{
+"id": 1250,
+"word": "fatal",
+"meaning": "致命的"
+},
+{
+"id": 1251,
+"word": "fate",
+"meaning": "命运"
+},
+{
+"id": 1252,
+"word": "fatigue",
+"meaning": "疲劳"
+},
+{
+"id": 1253,
+"word": "fault",
+"meaning": "过错；故障"
+},
+{
+"id": 1254,
+"word": "faulty",
+"meaning": "有故障的，有缺点的"
+},
+{
+"id": 1255,
+"word": "favour",
+"meaning": "恩惠；赞成 v. 偏爱"
+},
+{
+"id": 1256,
+"word": "favourable",
+"meaning": "有利的；赞同的"
+},
+{
+"id": 1257,
+"word": "favourite",
+"meaning": "最喜爱的 n. 宠儿"
+},
+{
+"id": 1258,
+"word": "fear",
+"meaning": "害怕，担忧"
+},
+{
+"id": 1259,
+"word": "feasible",
+"meaning": "可行的"
+},
+{
+"id": 1260,
+"word": "feast",
+"meaning": "盛宴 v. 尽情享用"
+},
+{
+"id": 1261,
+"word": "feat",
+"meaning": "功绩，壮举"
+},
+{
+"id": 1262,
+"word": "feather",
+"meaning": "羽毛"
+},
+{
+"id": 1263,
+"word": "feature",
+"meaning": "特征；专题 v. 以……为特色"
+},
+{
+"id": 1264,
+"word": "feed",
+"meaning": "喂养；提供"
+},
+{
+"id": 1265,
+"word": "feedback",
+"meaning": "反馈"
+},
+{
+"id": 1266,
+"word": "fellow",
+"meaning": "同伴 adj. 同类的"
+},
+{
+"id": 1267,
+"word": "fellowship",
+"meaning": "友谊；奖学金"
+},
+{
+"id": 1268,
+"word": "female",
+"meaning": "女性的 n. 女子"
+},
+{
+"id": 1269,
+"word": "feminine",
+"meaning": "女性化的"
+},
+{
+"id": 1270,
+"word": "feminism",
+"meaning": "女权主义"
+},
+{
+"id": 1271,
+"word": "fence",
+"meaning": "栅栏，篱笆"
+},
+{
+"id": 1272,
+"word": "ferry",
+"meaning": "渡轮 v. 摆渡"
+},
+{
+"id": 1273,
+"word": "fertile",
+"meaning": "肥沃的；多产的"
+},
+{
+"id": 1274,
+"word": "fertiliser",
+"meaning": "肥料"
+},
+{
+"id": 1275,
+"word": "festival",
+"meaning": "节日"
+},
+{
+"id": 1276,
+"word": "fever",
+"meaning": "发烧；狂热"
+},
+{
+"id": 1277,
+"word": "fibre",
+"meaning": "纤维"
+},
+{
+"id": 1278,
+"word": "fiction",
+"meaning": "小说；虚构"
+},
+{
+"id": 1279,
+"word": "field",
+"meaning": "田地；领域"
+},
+{
+"id": 1280,
+"word": "fierce",
+"meaning": "激烈的；凶猛的"
+},
+{
+"id": 1281,
+"word": "file",
+"meaning": "文件；档案 v. 归档"
+},
+{
+"id": 1282,
+"word": "film",
+"meaning": "电影；胶卷 v. 拍摄"
+},
+{
+"id": 1283,
+"word": "filter",
+"meaning": "过滤器 v. 过滤"
+},
+{
+"id": 1284,
+"word": "final",
+"meaning": "最后的 n. 决赛"
+},
+{
+"id": 1285,
+"word": "finance",
+"meaning": "财政，资金 v. 提供资金"
+},
+{
+"id": 1286,
+"word": "financial",
+"meaning": "金融的"
+},
+{
+"id": 1287,
+"word": "finding",
+"meaning": "研究结果，发现"
+},
+{
+"id": 1288,
+"word": "fine",
+"meaning": "好的；细微的 n. 罚款"
+},
+{
+"id": 1289,
+"word": "finite",
+"meaning": "有限的"
+},
+{
+"id": 1290,
+"word": "fire",
+"meaning": "火 v. 解雇"
+},
+{
+"id": 1291,
+"word": "firm",
+"meaning": "公司 adj. 坚定的"
+},
+{
+"id": 1292,
+"word": "firsthand",
+"meaning": "第一手的，直接的"
+},
+{
+"id": 1293,
+"word": "fiscal",
+"meaning": "财政的"
+},
+{
+"id": 1294,
+"word": "fishery",
+"meaning": "渔业，渔场"
+},
+{
+"id": 1295,
+"word": "fit",
+"meaning": "健康的；合适的 v. 适合"
+},
+{
+"id": 1296,
+"word": "fitness",
+"meaning": "健康"
+},
+{
+"id": 1297,
+"word": "fix",
+"meaning": "修理；固定"
+},
+{
+"id": 1298,
+"word": "fixture",
+"meaning": "固定装置；（体育）赛事"
+},
+{
+"id": 1299,
+"word": "flame",
+"meaning": "火焰"
+},
+{
+"id": 1300,
+"word": "flash",
+"meaning": "闪光 v. 闪烁"
+},
+{
+"id": 1301,
+"word": "flat",
+"meaning": "平坦的 n. 公寓"
+},
+{
+"id": 1302,
+"word": "flavour",
+"meaning": "味道；风味"
+},
+{
+"id": 1303,
+"word": "flaw",
+"meaning": "缺陷，瑕疵"
+},
+{
+"id": 1304,
+"word": "flee",
+"meaning": "逃离"
+},
+{
+"id": 1305,
+"word": "fleet",
+"meaning": "船队，车队"
+},
+{
+"id": 1306,
+"word": "flesh",
+"meaning": "肉，果肉"
+},
+{
+"id": 1307,
+"word": "flexible",
+"meaning": "灵活的"
+},
+{
+"id": 1308,
+"word": "flight",
+"meaning": "航班；飞行"
+},
+{
+"id": 1309,
+"word": "float",
+"meaning": "漂浮"
+},
+{
+"id": 1310,
+"word": "flock",
+"meaning": "群 v. 聚集"
+},
+{
+"id": 1311,
+"word": "flood",
+"meaning": "洪水 v. 淹没"
+},
+{
+"id": 1312,
+"word": "floor",
+"meaning": "地板；楼层"
+},
+{
+"id": 1313,
+"word": "flour",
+"meaning": "面粉"
+},
+{
+"id": 1314,
+"word": "flourish",
+"meaning": "繁荣，茂盛"
+},
+{
+"id": 1315,
+"word": "flow",
+"meaning": "流动 n. 流量"
+},
+{
+"id": 1316,
+"word": "fluctuate",
+"meaning": "波动"
+},
+{
+"id": 1317,
+"word": "fluent",
+"meaning": "流利的"
+},
+{
+"id": 1318,
+"word": "fluid",
+"meaning": "液体 adj. 流动的"
+},
+{
+"id": 1319,
+"word": "flush",
+"meaning": "冲洗；脸红"
+},
+{
+"id": 1320,
+"word": "foam",
+"meaning": "泡沫"
+},
+{
+"id": 1321,
+"word": "focus",
+"meaning": "集中 n. 焦点"
+},
+{
+"id": 1322,
+"word": "fold",
+"meaning": "折叠"
+},
+{
+"id": 1323,
+"word": "folk",
+"meaning": "人们 adj. 民间的"
+},
+{
+"id": 1324,
+"word": "follow",
+"meaning": "跟随；遵循"
+},
+{
+"id": 1325,
+"word": "fond",
+"meaning": "喜爱的"
+},
+{
+"id": 1326,
+"word": "footprint",
+"meaning": "足迹；碳足迹"
+},
+{
+"id": 1327,
+"word": "forbid",
+"meaning": "禁止"
+},
+{
+"id": 1328,
+"word": "force",
+"meaning": "力量；武力 v. 强迫"
+},
+{
+"id": 1329,
+"word": "forecast",
+"meaning": "预报，预测"
+},
+{
+"id": 1330,
+"word": "forefront",
+"meaning": "最前线，中心"
+},
+{
+"id": 1331,
+"word": "forehead",
+"meaning": "前额"
+},
+{
+"id": 1332,
+"word": "foreign",
+"meaning": "外国的"
+},
+{
+"id": 1333,
+"word": "foreigner",
+"meaning": "外国人"
+},
+{
+"id": 1334,
+"word": "foresee",
+"meaning": "预见"
+},
+{
+"id": 1335,
+"word": "forestry",
+"meaning": "林业"
+},
+{
+"id": 1336,
+"word": "forfeit",
+"meaning": "丧失，被没收"
+},
+{
+"id": 1337,
+"word": "forge",
+"meaning": "锻造；伪造；建立"
+},
+{
+"id": 1338,
+"word": "forget",
+"meaning": "忘记"
+},
+{
+"id": 1339,
+"word": "forgive",
+"meaning": "原谅"
+},
+{
+"id": 1340,
+"word": "form",
+"meaning": "形式；表格 v. 形成"
+},
+{
+"id": 1341,
+"word": "formal",
+"meaning": "正式的"
+},
+{
+"id": 1342,
+"word": "format",
+"meaning": "格式，版式"
+},
+{
+"id": 1343,
+"word": "formation",
+"meaning": "形成；编队"
+},
+{
+"id": 1344,
+"word": "former",
+"meaning": "以前的 n. 前者"
+},
+{
+"id": 1345,
+"word": "formidable",
+"meaning": "强大的；令人敬畏的"
+},
+{
+"id": 1346,
+"word": "formula",
+"meaning": "公式；配方"
+},
+{
+"id": 1347,
+"word": "formulate",
+"meaning": "制定；阐述"
+},
+{
+"id": 1348,
+"word": "forthcoming",
+"meaning": "即将到来的"
+},
+{
+"id": 1349,
+"word": "fortnight",
+"meaning": "两周"
+},
+{
+"id": 1350,
+"word": "fortunate",
+"meaning": "幸运的"
+},
+{
+"id": 1351,
+"word": "fortune",
+"meaning": "财富；运气"
+},
+{
+"id": 1352,
+"word": "forum",
+"meaning": "论坛"
+},
+{
+"id": 1353,
+"word": "forward",
+"meaning": "向前 adj. 向前的"
+},
+{
+"id": 1354,
+"word": "fossil",
+"meaning": "化石"
+},
+{
+"id": 1355,
+"word": "foster",
+"meaning": "培养；促进 adj. 收养的"
+},
+{
+"id": 1356,
+"word": "foul",
+"meaning": "恶劣的；难闻的"
+},
+{
+"id": 1357,
+"word": "found",
+"meaning": "建立，创办"
+},
+{
+"id": 1358,
+"word": "foundation",
+"meaning": "基础；基金会"
+},
+{
+"id": 1359,
+"word": "founder",
+"meaning": "创始人"
+},
+{
+"id": 1360,
+"word": "fountain",
+"meaning": "喷泉"
+},
+{
+"id": 1361,
+"word": "fraction",
+"meaning": "小部分；分数"
+},
+{
+"id": 1362,
+"word": "fragile",
+"meaning": "易碎的；脆弱的"
+},
+{
+"id": 1363,
+"word": "fragment",
+"meaning": "碎片，片段"
+},
+{
+"id": 1364,
+"word": "frame",
+"meaning": "框架 v. 表达"
+},
+{
+"id": 1365,
+"word": "framework",
+"meaning": "框架，体系"
+},
+{
+"id": 1366,
+"word": "franchise",
+"meaning": "特许经营权"
+},
+{
+"id": 1367,
+"word": "frantic",
+"meaning": "疯狂的，慌乱的"
+},
+{
+"id": 1368,
+"word": "fraud",
+"meaning": "欺诈；骗子"
+},
+{
+"id": 1369,
+"word": "freedom",
+"meaning": "自由"
+},
+{
+"id": 1370,
+"word": "freeze",
+"meaning": "冻结；结冰"
+},
+{
+"id": 1371,
+"word": "freight",
+"meaning": "货运，货物"
+},
+{
+"id": 1372,
+"word": "frequency",
+"meaning": "频率"
+},
+{
+"id": 1373,
+"word": "frequent",
+"meaning": "频繁的 v. 常去"
+},
+{
+"id": 1374,
+"word": "freshwater",
+"meaning": "淡水的"
+},
+{
+"id": 1375,
+"word": "friction",
+"meaning": "摩擦；不和"
+},
+{
+"id": 1376,
+"word": "fridge",
+"meaning": "冰箱"
+},
+{
+"id": 1377,
+"word": "frighten",
+"meaning": "使害怕"
+},
+{
+"id": 1378,
+"word": "fringe",
+"meaning": "边缘；刘海"
+},
+{
+"id": 1379,
+"word": "frivolous",
+"meaning": "轻率的，无聊的"
+},
+{
+"id": 1380,
+"word": "front",
+"meaning": "前面 adj. 前面的"
+},
+{
+"id": 1381,
+"word": "frontier",
+"meaning": "边境；前沿"
+},
+{
+"id": 1382,
+"word": "frost",
+"meaning": "霜"
+},
+{
+"id": 1383,
+"word": "fruitful",
+"meaning": "富有成效的"
+},
+{
+"id": 1384,
+"word": "frustrate",
+"meaning": "使沮丧；挫败"
+},
+{
+"id": 1385,
+"word": "fuel",
+"meaning": "燃料 v. 加剧"
+},
+{
+"id": 1386,
+"word": "fulfil",
+"meaning": "履行；实现"
+},
+{
+"id": 1387,
+"word": "fume",
+"meaning": "烟，气"
+},
+{
+"id": 1388,
+"word": "function",
+"meaning": "功能 v. 运转"
+},
+{
+"id": 1389,
+"word": "fund",
+"meaning": "基金 v. 资助"
+},
+{
+"id": 1390,
+"word": "fundamental",
+"meaning": "基本的，根本的"
+},
+{
+"id": 1391,
+"word": "funeral",
+"meaning": "葬礼"
+},
+{
+"id": 1392,
+"word": "furious",
+"meaning": "狂怒的"
+},
+{
+"id": 1393,
+"word": "furnace",
+"meaning": "火炉，熔炉"
+},
+{
+"id": 1394,
+"word": "furnish",
+"meaning": "陈设；提供"
+},
+{
+"id": 1395,
+"word": "furniture",
+"meaning": "家具"
+},
+{
+"id": 1396,
+"word": "furthermore",
+"meaning": "此外"
+},
+{
+"id": 1397,
+"word": "fuse",
+"meaning": "保险丝 v. 融合"
+},
+{
+"id": 1398,
+"word": "fuss",
+"meaning": "大惊小怪"
+},
+{
+"id": 1399,
+"word": "futile",
+"meaning": "徒劳的"
+},
+{
+"id": 1400,
+"word": "future",
+"meaning": "未来 adj. 未来的"
+},
+{
+"id": 1401,
+"word": "gadget",
+"meaning": "小装置，小玩意"
+},
+{
+"id": 1402,
+"word": "gain",
+"meaning": "获得；增加 n. 收益"
+},
+{
+"id": 1403,
+"word": "galaxy",
+"meaning": "星系；银河"
+},
+{
+"id": 1404,
+"word": "gale",
+"meaning": "大风，强风"
+},
+{
+"id": 1405,
+"word": "gallery",
+"meaning": "画廊，美术馆"
+},
+{
+"id": 1406,
+"word": "gallon",
+"meaning": "加仑"
+},
+{
+"id": 1407,
+"word": "gamble",
+"meaning": "赌博；冒险"
+},
+{
+"id": 1408,
+"word": "gambling",
+"meaning": "赌博"
+},
+{
+"id": 1409,
+"word": "gang",
+"meaning": "一帮，一伙"
+},
+{
+"id": 1410,
+"word": "gap",
+"meaning": "差距；缺口"
+},
+{
+"id": 1411,
+"word": "garage",
+"meaning": "车库；汽修厂"
+},
+{
+"id": 1412,
+"word": "garbage",
+"meaning": "垃圾"
+},
+{
+"id": 1413,
+"word": "garden",
+"meaning": "花园"
+},
+{
+"id": 1414,
+"word": "gardener",
+"meaning": "园丁"
+},
+{
+"id": 1415,
+"word": "gas",
+"meaning": "气体；汽油"
+},
+{
+"id": 1416,
+"word": "gasp",
+"meaning": "喘气，倒吸一口气"
+},
+{
+"id": 1417,
+"word": "gather",
+"meaning": "聚集；收集"
+},
+{
+"id": 1418,
+"word": "gauge",
+"meaning": "计量器 v. 估计"
+},
+{
+"id": 1419,
+"word": "gaze",
+"meaning": "凝视，注视"
+},
+{
+"id": 1420,
+"word": "gear",
+"meaning": "齿轮；装备"
+},
+{
+"id": 1421,
+"word": "gender",
+"meaning": "性别"
+},
+{
+"id": 1422,
+"word": "gene",
+"meaning": "基因"
+},
+{
+"id": 1423,
+"word": "general",
+"meaning": "总体的；大致的 n. 将军"
+},
+{
+"id": 1424,
+"word": "generate",
+"meaning": "产生，引起"
+},
+{
+"id": 1425,
+"word": "generation",
+"meaning": "一代人；产生"
+},
+{
+"id": 1426,
+"word": "generous",
+"meaning": "慷慨的"
+},
+{
+"id": 1427,
+"word": "genetic",
+"meaning": "遗传的，基因的"
+},
+{
+"id": 1428,
+"word": "genius",
+"meaning": "天才"
+},
+{
+"id": 1429,
+"word": "genre",
+"meaning": "类型，体裁"
+},
+{
+"id": 1430,
+"word": "gentle",
+"meaning": "温和的"
+},
+{
+"id": 1431,
+"word": "genuine",
+"meaning": "真正的，真诚的"
+},
+{
+"id": 1432,
+"word": "geography",
+"meaning": "地理"
+},
+{
+"id": 1433,
+"word": "geology",
+"meaning": "地质学"
+},
+{
+"id": 1434,
+"word": "geometry",
+"meaning": "几何学"
+},
+{
+"id": 1435,
+"word": "germ",
+"meaning": "细菌，病菌"
+},
+{
+"id": 1436,
+"word": "gesture",
+"meaning": "手势；姿态"
+},
+{
+"id": 1437,
+"word": "ghost",
+"meaning": "鬼魂"
+},
+{
+"id": 1438,
+"word": "giant",
+"meaning": "巨大的 n. 巨人"
+},
+{
+"id": 1439,
+"word": "gift",
+"meaning": "礼物；天赋"
+},
+{
+"id": 1440,
+"word": "gifted",
+"meaning": "有天赋的"
+},
+{
+"id": 1441,
+"word": "gigantic",
+"meaning": "巨大的"
+},
+{
+"id": 1442,
+"word": "ginger",
+"meaning": "姜"
+},
+{
+"id": 1443,
+"word": "glacial",
+"meaning": "冰川的；极冷的"
+},
+{
+"id": 1444,
+"word": "glacier",
+"meaning": "冰川"
+},
+{
+"id": 1445,
+"word": "glamour",
+"meaning": "魅力"
+},
+{
+"id": 1446,
+"word": "glance",
+"meaning": "一瞥，扫视"
+},
+{
+"id": 1447,
+"word": "glare",
+"meaning": "怒视；发出强光 n. 强光"
+},
+{
+"id": 1448,
+"word": "gleam",
+"meaning": "闪烁 n. 微光"
+},
+{
+"id": 1449,
+"word": "glide",
+"meaning": "滑行，滑翔"
+},
+{
+"id": 1450,
+"word": "glimpse",
+"meaning": "一瞥 v. 瞥见"
+},
+{
+"id": 1451,
+"word": "glisten",
+"meaning": "闪耀"
+},
+{
+"id": 1452,
+"word": "glitter",
+"meaning": "闪耀 n. 闪光"
+},
+{
+"id": 1453,
+"word": "global",
+"meaning": "全球的"
+},
+{
+"id": 1454,
+"word": "globe",
+"meaning": "地球；球体"
+},
+{
+"id": 1455,
+"word": "gloom",
+"meaning": "忧郁；昏暗"
+},
+{
+"id": 1456,
+"word": "gloomy",
+"meaning": "阴暗的；令人沮丧的"
+},
+{
+"id": 1457,
+"word": "glory",
+"meaning": "荣誉，光荣"
+},
+{
+"id": 1458,
+"word": "glossary",
+"meaning": "词汇表，术语表"
+},
+{
+"id": 1459,
+"word": "glove",
+"meaning": "手套"
+},
+{
+"id": 1460,
+"word": "glow",
+"meaning": "发光 n. 光辉"
+},
+{
+"id": 1461,
+"word": "glue",
+"meaning": "胶水 v. 粘合"
+},
+{
+"id": 1462,
+"word": "goal",
+"meaning": "目标；进球"
+},
+{
+"id": 1463,
+"word": "gorge",
+"meaning": "峡谷"
+},
+{
+"id": 1464,
+"word": "gorgeous",
+"meaning": "美丽的，极好的"
+},
+{
+"id": 1465,
+"word": "gossip",
+"meaning": "闲话，八卦"
+},
+{
+"id": 1466,
+"word": "gourmet",
+"meaning": "美食家 adj. 美食的"
+},
+{
+"id": 1467,
+"word": "govern",
+"meaning": "统治；管理"
+},
+{
+"id": 1468,
+"word": "governance",
+"meaning": "治理，管理方式"
+},
+{
+"id": 1469,
+"word": "government",
+"meaning": "政府"
+},
+{
+"id": 1470,
+"word": "governor",
+"meaning": "州长；主管"
+},
+{
+"id": 1471,
+"word": "gown",
+"meaning": "长袍，礼服"
+},
+{
+"id": 1472,
+"word": "grab",
+"meaning": "抓住"
+},
+{
+"id": 1473,
+"word": "grace",
+"meaning": "优雅；恩惠"
+},
+{
+"id": 1474,
+"word": "grade",
+"meaning": "等级；成绩 v. 评分"
+},
+{
+"id": 1475,
+"word": "gradient",
+"meaning": "坡度；梯度"
+},
+{
+"id": 1476,
+"word": "gradual",
+"meaning": "逐渐的"
+},
+{
+"id": 1477,
+"word": "graduate",
+"meaning": "毕业 n. 毕业生"
+},
+{
+"id": 1478,
+"word": "grain",
+"meaning": "谷物；颗粒"
+},
+{
+"id": 1479,
+"word": "grand",
+"meaning": "宏伟的"
+},
+{
+"id": 1480,
+"word": "grant",
+"meaning": "授予 n. 拨款"
+},
+{
+"id": 1481,
+"word": "grape",
+"meaning": "葡萄"
+},
+{
+"id": 1482,
+"word": "graph",
+"meaning": "图表"
+},
+{
+"id": 1483,
+"word": "graphic",
+"meaning": "生动的；图示的"
+},
+{
+"id": 1484,
+"word": "grasp",
+"meaning": "抓住；理解"
+},
+{
+"id": 1485,
+"word": "grassland",
+"meaning": "草原"
+},
+{
+"id": 1486,
+"word": "grateful",
+"meaning": "感激的"
+},
+{
+"id": 1487,
+"word": "grave",
+"meaning": "坟墓 adj. 严重的"
+},
+{
+"id": 1488,
+"word": "gravity",
+"meaning": "重力；严重性"
+},
+{
+"id": 1489,
+"word": "greenhouse",
+"meaning": "温室"
+},
+{
+"id": 1490,
+"word": "greet",
+"meaning": "问候；迎接"
+},
+{
+"id": 1491,
+"word": "grief",
+"meaning": "悲痛"
+},
+{
+"id": 1492,
+"word": "grievance",
+"meaning": "不满，抱怨"
+},
+{
+"id": 1493,
+"word": "grill",
+"meaning": "烧烤 n. 烤架"
+},
+{
+"id": 1494,
+"word": "grind",
+"meaning": "磨，碾"
+},
+{
+"id": 1495,
+"word": "grip",
+"meaning": "紧握；控制"
+},
+{
+"id": 1496,
+"word": "grocery",
+"meaning": "食品杂货"
+},
+{
+"id": 1497,
+"word": "gross",
+"meaning": "总的；严重的"
+},
+{
+"id": 1498,
+"word": "ground",
+"meaning": "地面；理由"
+},
+{
+"id": 1499,
+"word": "groundbreaking",
+"meaning": "开创性的"
+},
+{
+"id": 1500,
+"word": "groundwater",
+"meaning": "地下水"
+}
+]

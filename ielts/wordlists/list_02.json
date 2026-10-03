@@ -1,0 +1,1502 @@
+[
+{
+"id": 301,
+"word": "article",
+"meaning": "文章；条款；物品"
+},
+{
+"id": 302,
+"word": "articulate",
+"meaning": "明确表达 adj. 口齿清晰的"
+},
+{
+"id": 303,
+"word": "artifact",
+"meaning": "人工制品；史前器物"
+},
+{
+"id": 304,
+"word": "artificial",
+"meaning": "人造的；人工的；虚假的"
+},
+{
+"id": 305,
+"word": "artisan",
+"meaning": "手工艺人；工匠"
+},
+{
+"id": 306,
+"word": "artist",
+"meaning": "艺术家；画家"
+},
+{
+"id": 307,
+"word": "artistic",
+"meaning": "艺术的；风雅的"
+},
+{
+"id": 308,
+"word": "ascend",
+"meaning": "攀登；上升；升高"
+},
+{
+"id": 309,
+"word": "ascertain",
+"meaning": "查明；弄清；确定"
+},
+{
+"id": 310,
+"word": "ascribe",
+"meaning": "把…归因于"
+},
+{
+"id": 311,
+"word": "ashamed",
+"meaning": "惭愧的；羞耻的"
+},
+{
+"id": 312,
+"word": "ashore",
+"meaning": "在岸上；向岸"
+},
+{
+"id": 313,
+"word": "aside",
+"meaning": "在旁边；撇开 n. 旁白"
+},
+{
+"id": 314,
+"word": "aspect",
+"meaning": "方面；外观；朝向"
+},
+{
+"id": 315,
+"word": "aspire",
+"meaning": "渴望；立志于"
+},
+{
+"id": 316,
+"word": "aspiration",
+"meaning": "志向；抱负；渴望"
+},
+{
+"id": 317,
+"word": "assail",
+"meaning": "攻击；质问；困扰"
+},
+{
+"id": 318,
+"word": "assassin",
+"meaning": "刺客；暗杀者"
+},
+{
+"id": 319,
+"word": "assault",
+"meaning": "袭击；突击；猛烈攻击"
+},
+{
+"id": 320,
+"word": "assemble",
+"meaning": "集合；聚集；装配"
+},
+{
+"id": 321,
+"word": "assembly",
+"meaning": "集会；装配；立法机构"
+},
+{
+"id": 322,
+"word": "assert",
+"meaning": "断言；主张；坚持"
+},
+{
+"id": 323,
+"word": "assertion",
+"meaning": "断言；主张"
+},
+{
+"id": 324,
+"word": "assess",
+"meaning": "评估；评定；核定"
+},
+{
+"id": 325,
+"word": "assessment",
+"meaning": "评估；估价；评定"
+},
+{
+"id": 326,
+"word": "asset",
+"meaning": "资产；财产；有价值的人或物"
+},
+{
+"id": 327,
+"word": "assign",
+"meaning": "指派；分配；转让"
+},
+{
+"id": 328,
+"word": "assignment",
+"meaning": "作业；任务；分配"
+},
+{
+"id": 329,
+"word": "assimilate",
+"meaning": "同化；吸收；消化"
+},
+{
+"id": 330,
+"word": "assist",
+"meaning": "协助；援助"
+},
+{
+"id": 331,
+"word": "assistance",
+"meaning": "援助；帮助"
+},
+{
+"id": 332,
+"word": "assistant",
+"meaning": "助手；助理 adj. 助理的"
+},
+{
+"id": 333,
+"word": "associate",
+"meaning": "联系；结合；交往 n. 同事；伙伴"
+},
+{
+"id": 334,
+"word": "association",
+"meaning": "协会；社团；联系"
+},
+{
+"id": 335,
+"word": "assume",
+"meaning": "假定；承担；呈现"
+},
+{
+"id": 336,
+"word": "assumption",
+"meaning": "假定；假设；承担"
+},
+{
+"id": 337,
+"word": "assurance",
+"meaning": "保证；确信；保险"
+},
+{
+"id": 338,
+"word": "assure",
+"meaning": "向…保证；使确信"
+},
+{
+"id": 339,
+"word": "astonish",
+"meaning": "使十分惊讶；使大吃一惊"
+},
+{
+"id": 340,
+"word": "astonishment",
+"meaning": "惊奇；惊异"
+},
+{
+"id": 341,
+"word": "astound",
+"meaning": "使震惊；使大惊失色"
+},
+{
+"id": 342,
+"word": "astronomy",
+"meaning": "天文学"
+},
+{
+"id": 343,
+"word": "asylum",
+"meaning": "庇护；避难所；精神病院"
+},
+{
+"id": 344,
+"word": "athlete",
+"meaning": "运动员；身强力壮的人"
+},
+{
+"id": 345,
+"word": "athletic",
+"meaning": "运动的；健壮的"
+},
+{
+"id": 346,
+"word": "atmosphere",
+"meaning": "大气层；空气；气氛"
+},
+{
+"id": 347,
+"word": "atom",
+"meaning": "原子；微粒"
+},
+{
+"id": 348,
+"word": "atomic",
+"meaning": "原子的；原子能的"
+},
+{
+"id": 349,
+"word": "attach",
+"meaning": "贴上；系上；附加；依恋"
+},
+{
+"id": 350,
+"word": "attachment",
+"meaning": "附件；依恋；连接物"
+},
+{
+"id": 351,
+"word": "attack",
+"meaning": "攻击；抨击；发作"
+},
+{
+"id": 352,
+"word": "attain",
+"meaning": "达到；获得；实现"
+},
+{
+"id": 353,
+"word": "attainment",
+"meaning": "达到；成就；造诣"
+},
+{
+"id": 354,
+"word": "attempt",
+"meaning": "尝试；企图；试图"
+},
+{
+"id": 355,
+"word": "attend",
+"meaning": "出席；照顾；专心于"
+},
+{
+"id": 356,
+"word": "attendance",
+"meaning": "出席；出席人数"
+},
+{
+"id": 357,
+"word": "attendant",
+"meaning": "服务员；侍从 adj. 伴随的"
+},
+{
+"id": 358,
+"word": "attention",
+"meaning": "注意；专心；留心"
+},
+{
+"id": 359,
+"word": "attentive",
+"meaning": "注意的；专注的；关心的"
+},
+{
+"id": 360,
+"word": "attitude",
+"meaning": "态度；看法；姿势"
+},
+{
+"id": 361,
+"word": "attorney",
+"meaning": "律师；代理人"
+},
+{
+"id": 362,
+"word": "attract",
+"meaning": "吸引；引起"
+},
+{
+"id": 363,
+"word": "attraction",
+"meaning": "吸引；吸引力；名胜"
+},
+{
+"id": 364,
+"word": "attractive",
+"meaning": "有吸引力的；诱人的"
+},
+{
+"id": 365,
+"word": "attribute",
+"meaning": "把…归因于 n. 属性；品质"
+},
+{
+"id": 366,
+"word": "auction",
+"meaning": "拍卖"
+},
+{
+"id": 367,
+"word": "audacious",
+"meaning": "大胆的；鲁莽的"
+},
+{
+"id": 368,
+"word": "audible",
+"meaning": "听得见的"
+},
+{
+"id": 369,
+"word": "audience",
+"meaning": "观众；听众；读者"
+},
+{
+"id": 370,
+"word": "audio",
+"meaning": "音频的；声音的 n. 音频"
+},
+{
+"id": 371,
+"word": "audit",
+"meaning": "审计；查账；旁听"
+},
+{
+"id": 372,
+"word": "audition",
+"meaning": "试镜；试唱；听音"
+},
+{
+"id": 373,
+"word": "auditorium",
+"meaning": "礼堂；观众席"
+},
+{
+"id": 374,
+"word": "augment",
+"meaning": "扩大；增加；提高"
+},
+{
+"id": 375,
+"word": "august",
+"meaning": "威严的；崇高的 n. 八月"
+},
+{
+"id": 376,
+"word": "authentic",
+"meaning": "真实的；正宗的；可靠的"
+},
+{
+"id": 377,
+"word": "authenticate",
+"meaning": "证实；鉴定"
+},
+{
+"id": 378,
+"word": "author",
+"meaning": "作家；作者；发起人"
+},
+{
+"id": 379,
+"word": "authoritarian",
+"meaning": "专制的；独裁的 n. 独裁主义者"
+},
+{
+"id": 380,
+"word": "authoritative",
+"meaning": "权威的；命令式的"
+},
+{
+"id": 381,
+"word": "authority",
+"meaning": "权威；权力；官方当局"
+},
+{
+"id": 382,
+"word": "authorize",
+"meaning": "授权；批准；许可"
+},
+{
+"id": 383,
+"word": "automatic",
+"meaning": "自动的；无意识的 n. 自动装置"
+},
+{
+"id": 384,
+"word": "automation",
+"meaning": "自动化"
+},
+{
+"id": 385,
+"word": "automobile",
+"meaning": "汽车"
+},
+{
+"id": 386,
+"word": "autonomous",
+"meaning": "自治的；自主的"
+},
+{
+"id": 387,
+"word": "autonomy",
+"meaning": "自治；自治权；自主"
+},
+{
+"id": 388,
+"word": "auxiliary",
+"meaning": "辅助的；备用的 n. 助手；助动词"
+},
+{
+"id": 389,
+"word": "avail",
+"meaning": "有益于；利用 n. 效用；利益"
+},
+{
+"id": 390,
+"word": "available",
+"meaning": "可获得的；可用的；有空的"
+},
+{
+"id": 391,
+"word": "avalanche",
+"meaning": "雪崩；崩塌；大量涌来"
+},
+{
+"id": 392,
+"word": "avenue",
+"meaning": "大街；林荫道；途径"
+},
+{
+"id": 393,
+"word": "average",
+"meaning": "平均数 adj. 平均的；普通的 v. 均摊"
+},
+{
+"id": 394,
+"word": "aversion",
+"meaning": "厌恶；反感"
+},
+{
+"id": 395,
+"word": "avert",
+"meaning": "避免；防止；转移目光"
+},
+{
+"id": 396,
+"word": "aviation",
+"meaning": "航空；航空学；航空工业"
+},
+{
+"id": 397,
+"word": "avoid",
+"meaning": "避免；避开；逃避"
+},
+{
+"id": 398,
+"word": "avoidance",
+"meaning": "避免；避开"
+},
+{
+"id": 399,
+"word": "await",
+"meaning": "等候；期待；将降临于"
+},
+{
+"id": 400,
+"word": "awake",
+"meaning": "唤醒；醒来 adj. 醒着的；警觉的"
+},
+{
+"id": 401,
+"word": "award",
+"meaning": "奖品；判定 v. 授予；判定"
+},
+{
+"id": 402,
+"word": "aware",
+"meaning": "意识到的；知道的"
+},
+{
+"id": 403,
+"word": "awareness",
+"meaning": "认识；意识；警觉"
+},
+{
+"id": 404,
+"word": "awe",
+"meaning": "敬畏；畏惧 v. 使敬畏"
+},
+{
+"id": 405,
+"word": "awesome",
+"meaning": "令人惊叹的；极好的"
+},
+{
+"id": 406,
+"word": "awkward",
+"meaning": "尴尬的；笨拙的；棘手的"
+},
+{
+"id": 407,
+"word": "axis",
+"meaning": "轴；轴线；中心线"
+},
+{
+"id": 408,
+"word": "bachelor",
+"meaning": "学士；单身汉"
+},
+{
+"id": 409,
+"word": "backbone",
+"meaning": "脊梁骨；骨气；支柱"
+},
+{
+"id": 410,
+"word": "background",
+"meaning": "背景；经历；背景知识"
+},
+{
+"id": 411,
+"word": "backward",
+"meaning": "向后的；落后的 adv. 向后地"
+},
+{
+"id": 412,
+"word": "bacteria",
+"meaning": "细菌"
+},
+{
+"id": 413,
+"word": "bacterial",
+"meaning": "细菌的"
+},
+{
+"id": 414,
+"word": "badge",
+"meaning": "徽章；标记；象征"
+},
+{
+"id": 415,
+"word": "baffle",
+"meaning": "使困惑；难倒"
+},
+{
+"id": 416,
+"word": "bail",
+"meaning": "保释金；保释 v. 保释；解脱"
+},
+{
+"id": 417,
+"word": "balance",
+"meaning": "平衡；天平；余额 v. 使平衡"
+},
+{
+"id": 418,
+"word": "balcony",
+"meaning": "阳台；楼厅"
+},
+{
+"id": 419,
+"word": "bald",
+"meaning": "秃头的；光秃的；直截了当的"
+},
+{
+"id": 420,
+"word": "ballot",
+"meaning": "选票；无记名投票 v. 投票表决"
+},
+{
+"id": 421,
+"word": "ban",
+"meaning": "禁止；取缔；禁令"
+},
+{
+"id": 422,
+"word": "banana",
+"meaning": "香蕉"
+},
+{
+"id": 423,
+"word": "bandit",
+"meaning": "强盗；土匪"
+},
+{
+"id": 424,
+"word": "bang",
+"meaning": "巨响；重击 v. 猛撞；砰地关上"
+},
+{
+"id": 425,
+"word": "bankrupt",
+"meaning": "破产的 v. 使破产 n. 破产者"
+},
+{
+"id": 426,
+"word": "bankruptcy",
+"meaning": "破产；彻底崩溃"
+},
+{
+"id": 427,
+"word": "banner",
+"meaning": "横幅；标语；旗帜"
+},
+{
+"id": 428,
+"word": "banquet",
+"meaning": "宴会；盛宴"
+},
+{
+"id": 429,
+"word": "bar",
+"meaning": "条；酒吧；障碍；法庭 v. 阻止"
+},
+{
+"id": 430,
+"word": "bare",
+"meaning": "赤裸的；光秃的；仅仅的 v. 露出"
+},
+{
+"id": 431,
+"word": "barely",
+"meaning": "仅仅；勉强；几乎不"
+},
+{
+"id": 432,
+"word": "bargain",
+"meaning": "便宜货；协议 v. 讨价还价"
+},
+{
+"id": 433,
+"word": "bark",
+"meaning": "吠叫；咆哮 n. 狗叫声；树皮"
+},
+{
+"id": 434,
+"word": "barn",
+"meaning": "谷仓；牲口棚"
+},
+{
+"id": 435,
+"word": "barometer",
+"meaning": "气压计；晴雨表；晴雨指示器"
+},
+{
+"id": 436,
+"word": "barrel",
+"meaning": "桶；枪管"
+},
+{
+"id": 437,
+"word": "barren",
+"meaning": "贫瘠的；不毛的；不育的"
+},
+{
+"id": 438,
+"word": "barrier",
+"meaning": "障碍物；屏障；界线"
+},
+{
+"id": 439,
+"word": "barter",
+"meaning": "实物交易；以物易物"
+},
+{
+"id": 440,
+"word": "base",
+"meaning": "基础；底部；基地 v. 以…为基础"
+},
+{
+"id": 441,
+"word": "baseline",
+"meaning": "基准线；基准"
+},
+{
+"id": 442,
+"word": "basement",
+"meaning": "地下室"
+},
+{
+"id": 443,
+"word": "basic",
+"meaning": "基础的；根本的 n. 基本要素"
+},
+{
+"id": 444,
+"word": "basin",
+"meaning": "水盆；盆地；流域"
+},
+{
+"id": 445,
+"word": "basis",
+"meaning": "基础；根据；准则"
+},
+{
+"id": 446,
+"word": "batch",
+"meaning": "一批；一组；一炉"
+},
+{
+"id": 447,
+"word": "battery",
+"meaning": "电池；一组；炮兵连"
+},
+{
+"id": 448,
+"word": "battle",
+"meaning": "战役；斗争 v. 作战；斗争"
+},
+{
+"id": 449,
+"word": "beacon",
+"meaning": "烽火；航标；灯塔；指南"
+},
+{
+"id": 450,
+"word": "beam",
+"meaning": "光束；横梁 v. 照射；微笑"
+},
+{
+"id": 451,
+"word": "bear",
+"meaning": "承受；忍受；生育 n. 熊"
+},
+{
+"id": 452,
+"word": "beard",
+"meaning": "胡须；胡子"
+},
+{
+"id": 453,
+"word": "bearing",
+"meaning": "举止；方位；关系；轴承"
+},
+{
+"id": 454,
+"word": "beat",
+"meaning": "打；敲击；打败 n. 节拍；跳动"
+},
+{
+"id": 455,
+"word": "behalf",
+"meaning": "代表；利益"
+},
+{
+"id": 456,
+"word": "behave",
+"meaning": "表现；运转；守规矩"
+},
+{
+"id": 457,
+"word": "behavior",
+"meaning": "行为；举止；习性"
+},
+{
+"id": 458,
+"word": "belief",
+"meaning": "信仰；信念；看法"
+},
+{
+"id": 459,
+"word": "believe",
+"meaning": "相信；认为"
+},
+{
+"id": 460,
+"word": "bell",
+"meaning": "钟；铃；钟声"
+},
+{
+"id": 461,
+"word": "belong",
+"meaning": "属于；应归于"
+},
+{
+"id": 462,
+"word": "beloved",
+"meaning": "心爱的；深受喜爱的 n. 心爱的人"
+},
+{
+"id": 463,
+"word": "below",
+"meaning": "在…下方；低于"
+},
+{
+"id": 464,
+"word": "bench",
+"meaning": "长凳；法官席；工作台"
+},
+{
+"id": 465,
+"word": "benchmark",
+"meaning": "基准；参照点 v. 测量基准"
+},
+{
+"id": 466,
+"word": "bend",
+"meaning": "弯曲；屈服 n. 弯道"
+},
+{
+"id": 467,
+"word": "beneath",
+"meaning": "在…下方；低于"
+},
+{
+"id": 468,
+"word": "beneficial",
+"meaning": "有利的；有益的"
+},
+{
+"id": 469,
+"word": "beneficiary",
+"meaning": "受益人；受惠者"
+},
+{
+"id": 470,
+"word": "benefit",
+"meaning": "利益；好处；救济金 v. 有益于；得益"
+},
+{
+"id": 471,
+"word": "benign",
+"meaning": "善良的；良性的；和蔼的"
+},
+{
+"id": 472,
+"word": "bequeath",
+"meaning": "遗留；遗赠"
+},
+{
+"id": 473,
+"word": "bereave",
+"meaning": "使丧失；剥夺"
+},
+{
+"id": 474,
+"word": "beset",
+"meaning": "困扰；包围"
+},
+{
+"id": 475,
+"word": "beside",
+"meaning": "在…旁边；与…相比"
+},
+{
+"id": 476,
+"word": "besides",
+"meaning": "除…之外 adv. 而且；此外"
+},
+{
+"id": 477,
+"word": "bestow",
+"meaning": "赠予；赐予"
+},
+{
+"id": 478,
+"word": "betray",
+"meaning": "背叛；出卖；泄露"
+},
+{
+"id": 479,
+"word": "beverage",
+"meaning": "饮料"
+},
+{
+"id": 480,
+"word": "bewilder",
+"meaning": "使迷惑；使不知所措"
+},
+{
+"id": 481,
+"word": "bias",
+"meaning": "偏见；偏爱 v. 使有偏见"
+},
+{
+"id": 482,
+"word": "bid",
+"meaning": "出价；投标；努力争取"
+},
+{
+"id": 483,
+"word": "bilateral",
+"meaning": "双边的；双方的"
+},
+{
+"id": 484,
+"word": "bilingual",
+"meaning": "双语的 n. 能说两种语言的人"
+},
+{
+"id": 485,
+"word": "bill",
+"meaning": "账单；钞票；议案 v. 开账单"
+},
+{
+"id": 486,
+"word": "billion",
+"meaning": "十亿"
+},
+{
+"id": 487,
+"word": "bind",
+"meaning": "捆绑；约束；结合；装订"
+},
+{
+"id": 488,
+"word": "binoculars",
+"meaning": "双筒望远镜"
+},
+{
+"id": 489,
+"word": "biochemistry",
+"meaning": "生物化学"
+},
+{
+"id": 490,
+"word": "biography",
+"meaning": "传记"
+},
+{
+"id": 491,
+"word": "biology",
+"meaning": "生物学"
+},
+{
+"id": 492,
+"word": "biomass",
+"meaning": "生物量；生物质"
+},
+{
+"id": 493,
+"word": "biopsy",
+"meaning": "活组织检查；活检"
+},
+{
+"id": 494,
+"word": "biosphere",
+"meaning": "生物圈"
+},
+{
+"id": 495,
+"word": "bizarre",
+"meaning": "奇异的；古怪的"
+},
+{
+"id": 496,
+"word": "blade",
+"meaning": "刀刃；叶片；桨叶"
+},
+{
+"id": 497,
+"word": "blame",
+"meaning": "责备；怪罪 n. 责任；责备"
+},
+{
+"id": 498,
+"word": "blank",
+"meaning": "空白的；茫然的 n. 空白处"
+},
+{
+"id": 499,
+"word": "blanket",
+"meaning": "毛毯；覆盖层 v. 覆盖 adj. 全面的"
+},
+{
+"id": 500,
+"word": "blast",
+"meaning": "爆炸；一阵强风 v. 炸毁；轰鸣"
+},
+{
+"id": 501,
+"word": "blatant",
+"meaning": "明目张胆的；公然的"
+},
+{
+"id": 502,
+"word": "blaze",
+"meaning": "火焰；光辉 v. 燃烧；发光"
+},
+{
+"id": 503,
+"word": "bleach",
+"meaning": "漂白；使褪色 n. 漂白剂"
+},
+{
+"id": 504,
+"word": "bleak",
+"meaning": "荒凉的；惨淡的；阴冷的"
+},
+{
+"id": 505,
+"word": "bleed",
+"meaning": "流血；渗出"
+},
+{
+"id": 506,
+"word": "blend",
+"meaning": "混合；调和；协调 n. 混合物"
+},
+{
+"id": 507,
+"word": "bless",
+"meaning": "保佑；降福；祝福"
+},
+{
+"id": 508,
+"word": "blind",
+"meaning": "盲目的；瞎的 v. 使失明 n. 百叶窗"
+},
+{
+"id": 509,
+"word": "blink",
+"meaning": "眨眼；闪烁"
+},
+{
+"id": 510,
+"word": "bliss",
+"meaning": "极乐；巨大的幸福"
+},
+{
+"id": 511,
+"word": "blizzard",
+"meaning": "暴风雪；大风雪"
+},
+{
+"id": 512,
+"word": "block",
+"meaning": "大块；街区；障碍 v. 阻碍；堵塞"
+},
+{
+"id": 513,
+"word": "blockade",
+"meaning": "封锁；阻碍"
+},
+{
+"id": 514,
+"word": "bloom",
+"meaning": "花；开花期 v. 开花；繁荣"
+},
+{
+"id": 515,
+"word": "blossom",
+"meaning": "花朵；花簇 v. 开花；发展成"
+},
+{
+"id": 516,
+"word": "blot",
+"meaning": "污渍；污点 v. 弄脏；擦干"
+},
+{
+"id": 517,
+"word": "blunder",
+"meaning": "大错；愚蠢的错误 v. 犯大错"
+},
+{
+"id": 518,
+"word": "blunt",
+"meaning": "钝的；直言不讳的 v. 使迟钝"
+},
+{
+"id": 519,
+"word": "blur",
+"meaning": "使模糊；变模糊 n. 模糊不清的事物"
+},
+{
+"id": 520,
+"word": "blush",
+"meaning": "脸红；羞愧"
+},
+{
+"id": 521,
+"word": "cabinet",
+"meaning": "内阁；橱柜"
+},
+{
+"id": 522,
+"word": "cable",
+"meaning": "电缆；有线电视"
+},
+{
+"id": 523,
+"word": "calculate",
+"meaning": "计算；估算"
+},
+{
+"id": 524,
+"word": "calendar",
+"meaning": "日历；日程表"
+},
+{
+"id": 525,
+"word": "campaign",
+"meaning": "运动；战役 v. 参加运动"
+},
+{
+"id": 526,
+"word": "canal",
+"meaning": "运河；水道"
+},
+{
+"id": 527,
+"word": "candidate",
+"meaning": "候选人；应试者"
+},
+{
+"id": 528,
+"word": "canteen",
+"meaning": "食堂；小卖部"
+},
+{
+"id": 529,
+"word": "capacity",
+"meaning": "容量；能力"
+},
+{
+"id": 530,
+"word": "capital",
+"meaning": "首都；资本 adj. 重要的"
+},
+{
+"id": 531,
+"word": "caption",
+"meaning": "标题；说明文字"
+},
+{
+"id": 532,
+"word": "capture",
+"meaning": "捕获；夺得 n. 捕获"
+},
+{
+"id": 533,
+"word": "carbon",
+"meaning": "碳"
+},
+{
+"id": 534,
+"word": "career",
+"meaning": "职业；生涯"
+},
+{
+"id": 535,
+"word": "cargo",
+"meaning": "货物"
+},
+{
+"id": 536,
+"word": "carve",
+"meaning": "雕刻；切开"
+},
+{
+"id": 537,
+"word": "cashier",
+"meaning": "出纳员"
+},
+{
+"id": 538,
+"word": "cast",
+"meaning": "投掷；铸造 n. 演员表"
+},
+{
+"id": 539,
+"word": "casual",
+"meaning": "随便的；偶然的"
+},
+{
+"id": 540,
+"word": "casualty",
+"meaning": "伤亡人员"
+},
+{
+"id": 541,
+"word": "catalog",
+"meaning": "目录 v. 编目"
+},
+{
+"id": 542,
+"word": "catastrophe",
+"meaning": "大灾难"
+},
+{
+"id": 543,
+"word": "category",
+"meaning": "种类；范畴"
+},
+{
+"id": 544,
+"word": "cater",
+"meaning": "迎合；提供饮食"
+},
+{
+"id": 545,
+"word": "cathedral",
+"meaning": "大教堂"
+},
+{
+"id": 546,
+"word": "caution",
+"meaning": "谨慎；警告 v. 警告"
+},
+{
+"id": 547,
+"word": "cavity",
+"meaning": "洞；龋洞"
+},
+{
+"id": 548,
+"word": "cease",
+"meaning": "停止；终止"
+},
+{
+"id": 549,
+"word": "celebrate",
+"meaning": "庆祝；赞美"
+},
+{
+"id": 550,
+"word": "celebrity",
+"meaning": "名人；名声"
+},
+{
+"id": 551,
+"word": "cellar",
+"meaning": "地窖"
+},
+{
+"id": 552,
+"word": "cellular",
+"meaning": "细胞的；蜂窝状的"
+},
+{
+"id": 553,
+"word": "cement",
+"meaning": "水泥 v. 巩固"
+},
+{
+"id": 554,
+"word": "cemetery",
+"meaning": "墓地"
+},
+{
+"id": 555,
+"word": "census",
+"meaning": "人口普查"
+},
+{
+"id": 556,
+"word": "centigrade",
+"meaning": "摄氏度的"
+},
+{
+"id": 557,
+"word": "central",
+"meaning": "中心的；主要的"
+},
+{
+"id": 558,
+"word": "century",
+"meaning": "世纪"
+},
+{
+"id": 559,
+"word": "ceremony",
+"meaning": "典礼；礼仪"
+},
+{
+"id": 560,
+"word": "certificate",
+"meaning": "证书；证明"
+},
+{
+"id": 561,
+"word": "certify",
+"meaning": "证明；认证"
+},
+{
+"id": 562,
+"word": "chain",
+"meaning": "链条；一系列"
+},
+{
+"id": 563,
+"word": "challenge",
+"meaning": "挑战 v. 质疑"
+},
+{
+"id": 564,
+"word": "chamber",
+"meaning": "房间；议院"
+},
+{
+"id": 565,
+"word": "champion",
+"meaning": "冠军 v. 拥护"
+},
+{
+"id": 566,
+"word": "channel",
+"meaning": "频道；渠道"
+},
+{
+"id": 567,
+"word": "chapter",
+"meaning": "章；时期"
+},
+{
+"id": 568,
+"word": "characteristic",
+"meaning": "特征 adj. 典型的"
+},
+{
+"id": 569,
+"word": "characterize",
+"meaning": "描述特征；以…为特点"
+},
+{
+"id": 570,
+"word": "charge",
+"meaning": "费用；指控 v. 收费；指控"
+},
+{
+"id": 571,
+"word": "charity",
+"meaning": "慈善机构；施舍"
+},
+{
+"id": 572,
+"word": "charter",
+"meaning": "宪章 v. 特许"
+},
+{
+"id": 573,
+"word": "chase",
+"meaning": "追逐；追求"
+},
+{
+"id": 574,
+"word": "cheat",
+"meaning": "欺骗；作弊"
+},
+{
+"id": 575,
+"word": "check",
+"meaning": "检查；核实 n. 检查"
+},
+{
+"id": 576,
+"word": "chemical",
+"meaning": "化学的 n. 化学品"
+},
+{
+"id": 577,
+"word": "cherish",
+"meaning": "珍视；怀有"
+},
+{
+"id": 578,
+"word": "chief",
+"meaning": "首要的 n. 首领"
+},
+{
+"id": 579,
+"word": "chronic",
+"meaning": "慢性的；长期的"
+},
+{
+"id": 580,
+"word": "chunk",
+"meaning": "大块；相当大的量"
+},
+{
+"id": 581,
+"word": "circuit",
+"meaning": "电路；环行"
+},
+{
+"id": 582,
+"word": "circular",
+"meaning": "圆形的；循环的"
+},
+{
+"id": 583,
+"word": "circulate",
+"meaning": "循环；传播"
+},
+{
+"id": 584,
+"word": "circumstance",
+"meaning": "环境；情况"
+},
+{
+"id": 585,
+"word": "circus",
+"meaning": "马戏团"
+},
+{
+"id": 586,
+"word": "cite",
+"meaning": "引用；举例"
+},
+{
+"id": 587,
+"word": "citizen",
+"meaning": "公民；市民"
+},
+{
+"id": 588,
+"word": "civic",
+"meaning": "城市的；公民的"
+},
+{
+"id": 589,
+"word": "civil",
+"meaning": "公民的；文明的"
+},
+{
+"id": 590,
+"word": "civilian",
+"meaning": "平民 adj. 平民的"
+},
+{
+"id": 591,
+"word": "civilization",
+"meaning": "文明"
+},
+{
+"id": 592,
+"word": "claim",
+"meaning": "声称；索取 n. 主张"
+},
+{
+"id": 593,
+"word": "clarify",
+"meaning": "澄清；阐明"
+},
+{
+"id": 594,
+"word": "classic",
+"meaning": "经典的 n. 经典作品"
+},
+{
+"id": 595,
+"word": "classical",
+"meaning": "古典的"
+},
+{
+"id": 596,
+"word": "classify",
+"meaning": "分类；分级"
+},
+{
+"id": 597,
+"word": "clause",
+"meaning": "条款；从句"
+},
+{
+"id": 598,
+"word": "clearance",
+"meaning": "许可；清除"
+},
+{
+"id": 599,
+"word": "cliff",
+"meaning": "悬崖"
+},
+{
+"id": 600,
+"word": "climate",
+"meaning": "气候；风气"
+}
+]

@@ -1,0 +1,1502 @@
+[
+{
+"id": 2101,
+"word": "offend",
+"meaning": "冒犯；得罪"
+},
+{
+"id": 2102,
+"word": "offensive",
+"meaning": "冒犯的；进攻性的"
+},
+{
+"id": 2103,
+"word": "offer",
+"meaning": "提供；给予"
+},
+{
+"id": 2104,
+"word": "official",
+"meaning": "官方的；正式的"
+},
+{
+"id": 2105,
+"word": "offset",
+"meaning": "抵消；补偿"
+},
+{
+"id": 2106,
+"word": "offspring",
+"meaning": "后代；子女"
+},
+{
+"id": 2107,
+"word": "omit",
+"meaning": "省略；遗漏"
+},
+{
+"id": 2108,
+"word": "opponent",
+"meaning": "对手；反对者"
+},
+{
+"id": 2109,
+"word": "opportunity",
+"meaning": "机会；时机"
+},
+{
+"id": 2110,
+"word": "oppose",
+"meaning": "反对；反抗"
+},
+{
+"id": 2111,
+"word": "opposite",
+"meaning": "相反的；对面的"
+},
+{
+"id": 2112,
+"word": "optimism",
+"meaning": "乐观；乐观主义"
+},
+{
+"id": 2113,
+"word": "optimistic",
+"meaning": "乐观的"
+},
+{
+"id": 2114,
+"word": "optimum",
+"meaning": "最佳的；最优的"
+},
+{
+"id": 2115,
+"word": "option",
+"meaning": "选择；选项"
+},
+{
+"id": 2116,
+"word": "optional",
+"meaning": "可选的；选修的"
+},
+{
+"id": 2117,
+"word": "oral",
+"meaning": "口头的；口部的"
+},
+{
+"id": 2118,
+"word": "orbit",
+"meaning": "轨道；势力范围"
+},
+{
+"id": 2119,
+"word": "orchestra",
+"meaning": "管弦乐队"
+},
+{
+"id": 2120,
+"word": "ordinary",
+"meaning": "普通的；平凡的"
+},
+{
+"id": 2121,
+"word": "organ",
+"meaning": "器官；管风琴"
+},
+{
+"id": 2122,
+"word": "organic",
+"meaning": "有机的；器官的"
+},
+{
+"id": 2123,
+"word": "organism",
+"meaning": "生物体；有机体"
+},
+{
+"id": 2124,
+"word": "orient",
+"meaning": "确定方向；使适应"
+},
+{
+"id": 2125,
+"word": "orientation",
+"meaning": "方向；定位"
+},
+{
+"id": 2126,
+"word": "origin",
+"meaning": "起源；出身"
+},
+{
+"id": 2127,
+"word": "original",
+"meaning": "原始的；独创的"
+},
+{
+"id": 2128,
+"word": "originate",
+"meaning": "起源；发起"
+},
+{
+"id": 2129,
+"word": "ornament",
+"meaning": "装饰品；点缀"
+},
+{
+"id": 2130,
+"word": "orthodox",
+"meaning": "正统的；传统的"
+},
+{
+"id": 2131,
+"word": "otherwise",
+"meaning": "否则；另外"
+},
+{
+"id": 2132,
+"word": "outcome",
+"meaning": "结果；结局"
+},
+{
+"id": 2133,
+"word": "outdoor",
+"meaning": "户外的；室外的"
+},
+{
+"id": 2134,
+"word": "outer",
+"meaning": "外面的；外层的"
+},
+{
+"id": 2135,
+"word": "outfit",
+"meaning": "全套服装；装备"
+},
+{
+"id": 2136,
+"word": "outlet",
+"meaning": "出口；专卖店"
+},
+{
+"id": 2137,
+"word": "outline",
+"meaning": "大纲；轮廓"
+},
+{
+"id": 2138,
+"word": "outlook",
+"meaning": "前景；观点"
+},
+{
+"id": 2139,
+"word": "output",
+"meaning": "产量；输出"
+},
+{
+"id": 2140,
+"word": "outrage",
+"meaning": "愤怒；暴行"
+},
+{
+"id": 2141,
+"word": "outset",
+"meaning": "开始；开端"
+},
+{
+"id": 2142,
+"word": "outside",
+"meaning": "在……外面"
+},
+{
+"id": 2143,
+"word": "outstanding",
+"meaning": "杰出的；未解决的"
+},
+{
+"id": 2144,
+"word": "overall",
+"meaning": "全面的；总体的"
+},
+{
+"id": 2145,
+"word": "overcome",
+"meaning": "克服；战胜"
+},
+{
+"id": 2146,
+"word": "overlap",
+"meaning": "重叠；交叠"
+},
+{
+"id": 2147,
+"word": "overlook",
+"meaning": "忽视；俯瞰"
+},
+{
+"id": 2148,
+"word": "owe",
+"meaning": "欠；归功于"
+},
+{
+"id": 2149,
+"word": "owing",
+"meaning": "欠着的；未付的"
+},
+{
+"id": 2150,
+"word": "ownership",
+"meaning": "所有权；产权"
+},
+{
+"id": 2151,
+"word": "pace",
+"meaning": "步速；速度"
+},
+{
+"id": 2152,
+"word": "pack",
+"meaning": "打包；包装"
+},
+{
+"id": 2153,
+"word": "panel",
+"meaning": "专家组；面板"
+},
+{
+"id": 2154,
+"word": "panic",
+"meaning": "恐慌；慌乱"
+},
+{
+"id": 2155,
+"word": "paradox",
+"meaning": "悖论；自相矛盾"
+},
+{
+"id": 2156,
+"word": "parallel",
+"meaning": "平行的；相似的"
+},
+{
+"id": 2157,
+"word": "paralyze",
+"meaning": "使瘫痪；使麻痹"
+},
+{
+"id": 2158,
+"word": "parking",
+"meaning": "停车；停车场"
+},
+{
+"id": 2159,
+"word": "parliament",
+"meaning": "议会；国会"
+},
+{
+"id": 2160,
+"word": "partial",
+"meaning": "部分的；偏袒的"
+},
+{
+"id": 2161,
+"word": "participate",
+"meaning": "参与；参加"
+},
+{
+"id": 2162,
+"word": "particle",
+"meaning": "粒子；微粒"
+},
+{
+"id": 2163,
+"word": "particular",
+"meaning": "特别的；挑剔的"
+},
+{
+"id": 2164,
+"word": "partly",
+"meaning": "部分地；一定程度上"
+},
+{
+"id": 2165,
+"word": "partner",
+"meaning": "伙伴；搭档"
+},
+{
+"id": 2166,
+"word": "passage",
+"meaning": "段落；通道"
+},
+{
+"id": 2167,
+"word": "passenger",
+"meaning": "乘客；旅客"
+},
+{
+"id": 2168,
+"word": "passion",
+"meaning": "激情；热情"
+},
+{
+"id": 2169,
+"word": "passive",
+"meaning": "被动的；消极的"
+},
+{
+"id": 2170,
+"word": "passport",
+"meaning": "护照"
+},
+{
+"id": 2171,
+"word": "patience",
+"meaning": "耐心；忍耐"
+},
+{
+"id": 2172,
+"word": "pattern",
+"meaning": "模式；图案"
+},
+{
+"id": 2173,
+"word": "pave",
+"meaning": "铺（路）；铺设"
+},
+{
+"id": 2174,
+"word": "pavement",
+"meaning": "人行道"
+},
+{
+"id": 2175,
+"word": "payment",
+"meaning": "付款；支付"
+},
+{
+"id": 2176,
+"word": "peak",
+"meaning": "顶峰；峰值"
+},
+{
+"id": 2177,
+"word": "peculiar",
+"meaning": "奇怪的；特有的"
+},
+{
+"id": 2178,
+"word": "peer",
+"meaning": "同龄人；同行"
+},
+{
+"id": 2179,
+"word": "penalty",
+"meaning": "处罚；罚款"
+},
+{
+"id": 2180,
+"word": "pending",
+"meaning": "待定的；悬而未决的"
+},
+{
+"id": 2181,
+"word": "penetrate",
+"meaning": "渗透；穿透"
+},
+{
+"id": 2182,
+"word": "pension",
+"meaning": "养老金；抚恤金"
+},
+{
+"id": 2183,
+"word": "perceive",
+"meaning": "感知；认为"
+},
+{
+"id": 2184,
+"word": "percentage",
+"meaning": "百分比；比例"
+},
+{
+"id": 2185,
+"word": "perception",
+"meaning": "感知；看法"
+},
+{
+"id": 2186,
+"word": "perform",
+"meaning": "表演；执行"
+},
+{
+"id": 2187,
+"word": "perfume",
+"meaning": "香水；香气"
+},
+{
+"id": 2188,
+"word": "permanent",
+"meaning": "永久的；固定的"
+},
+{
+"id": 2189,
+"word": "permit",
+"meaning": "允许；准许"
+},
+{
+"id": 2190,
+"word": "persist",
+"meaning": "坚持；持续"
+},
+{
+"id": 2191,
+"word": "personnel",
+"meaning": "员工；人事部门"
+},
+{
+"id": 2192,
+"word": "perspective",
+"meaning": "观点；视角"
+},
+{
+"id": 2193,
+"word": "persuade",
+"meaning": "说服；劝服"
+},
+{
+"id": 2194,
+"word": "pessimistic",
+"meaning": "悲观的"
+},
+{
+"id": 2195,
+"word": "pest",
+"meaning": "害虫；讨厌的人"
+},
+{
+"id": 2196,
+"word": "pesticide",
+"meaning": "杀虫剂；农药"
+},
+{
+"id": 2197,
+"word": "phase",
+"meaning": "阶段；时期"
+},
+{
+"id": 2198,
+"word": "phenomenon",
+"meaning": "现象；非凡的人"
+},
+{
+"id": 2199,
+"word": "philosophy",
+"meaning": "哲学；理念"
+},
+{
+"id": 2200,
+"word": "phrase",
+"meaning": "短语；词组"
+},
+{
+"id": 2201,
+"word": "physical",
+"meaning": "身体的；物质的"
+},
+{
+"id": 2202,
+"word": "physician",
+"meaning": "医生；内科医生"
+},
+{
+"id": 2203,
+"word": "pile",
+"meaning": "一堆；大量"
+},
+{
+"id": 2204,
+"word": "pillar",
+"meaning": "支柱；栋梁"
+},
+{
+"id": 2205,
+"word": "pilot",
+"meaning": "飞行员；领航员"
+},
+{
+"id": 2206,
+"word": "pioneer",
+"meaning": "先锋；开拓者"
+},
+{
+"id": 2207,
+"word": "plain",
+"meaning": "简朴的；清晰的"
+},
+{
+"id": 2208,
+"word": "planet",
+"meaning": "行星；地球"
+},
+{
+"id": 2209,
+"word": "plastic",
+"meaning": "塑料；塑料制品"
+},
+{
+"id": 2210,
+"word": "platform",
+"meaning": "站台；平台"
+},
+{
+"id": 2211,
+"word": "plausible",
+"meaning": "貌似合理的；可信的"
+},
+{
+"id": 2212,
+"word": "pleasant",
+"meaning": "令人愉快的；友好的"
+},
+{
+"id": 2213,
+"word": "plot",
+"meaning": "情节；阴谋"
+},
+{
+"id": 2214,
+"word": "plural",
+"meaning": "复数的；多元的"
+},
+{
+"id": 2215,
+"word": "poison",
+"meaning": "毒药；毒物"
+},
+{
+"id": 2216,
+"word": "polar",
+"meaning": "极地的；截然不同的"
+},
+{
+"id": 2217,
+"word": "policy",
+"meaning": "政策；方针"
+},
+{
+"id": 2218,
+"word": "polish",
+"meaning": "擦亮；润色"
+},
+{
+"id": 2219,
+"word": "polite",
+"meaning": "有礼貌的；客气的"
+},
+{
+"id": 2220,
+"word": "political",
+"meaning": "政治的；政党的"
+},
+{
+"id": 2221,
+"word": "politician",
+"meaning": "政治家；政客"
+},
+{
+"id": 2222,
+"word": "poll",
+"meaning": "民意测验；投票"
+},
+{
+"id": 2223,
+"word": "pollute",
+"meaning": "污染；弄脏"
+},
+{
+"id": 2224,
+"word": "pollution",
+"meaning": "污染；污染物"
+},
+{
+"id": 2225,
+"word": "popular",
+"meaning": "受欢迎的；流行的"
+},
+{
+"id": 2226,
+"word": "population",
+"meaning": "人口；人口数量"
+},
+{
+"id": 2227,
+"word": "portion",
+"meaning": "部分；一份"
+},
+{
+"id": 2228,
+"word": "portrait",
+"meaning": "肖像；描述"
+},
+{
+"id": 2229,
+"word": "portray",
+"meaning": "描绘；扮演"
+},
+{
+"id": 2230,
+"word": "positive",
+"meaning": "积极的；肯定的"
+},
+{
+"id": 2231,
+"word": "possess",
+"meaning": "拥有；具有"
+},
+{
+"id": 2232,
+"word": "possibility",
+"meaning": "可能性；潜在可能"
+},
+{
+"id": 2233,
+"word": "postage",
+"meaning": "邮资；邮费"
+},
+{
+"id": 2234,
+"word": "postpone",
+"meaning": "推迟；延期"
+},
+{
+"id": 2235,
+"word": "potential",
+"meaning": "潜在的；可能的"
+},
+{
+"id": 2236,
+"word": "pour",
+"meaning": "倒；灌"
+},
+{
+"id": 2237,
+"word": "poverty",
+"meaning": "贫穷；贫困"
+},
+{
+"id": 2238,
+"word": "power",
+"meaning": "力量；权力"
+},
+{
+"id": 2239,
+"word": "practical",
+"meaning": "实际的；实用的"
+},
+{
+"id": 2240,
+"word": "practice",
+"meaning": "练习；惯例"
+},
+{
+"id": 2241,
+"word": "praise",
+"meaning": "赞扬；称赞"
+},
+{
+"id": 2242,
+"word": "precede",
+"meaning": "先于；在……之前"
+},
+{
+"id": 2243,
+"word": "precious",
+"meaning": "珍贵的；宝贵的"
+},
+{
+"id": 2244,
+"word": "precise",
+"meaning": "精确的；确切的"
+},
+{
+"id": 2245,
+"word": "predecessor",
+"meaning": "前任；前辈"
+},
+{
+"id": 2246,
+"word": "predict",
+"meaning": "预测；预言"
+},
+{
+"id": 2247,
+"word": "predominant",
+"meaning": "主要的；占优势的"
+},
+{
+"id": 2248,
+"word": "prefer",
+"meaning": "更喜欢；偏好"
+},
+{
+"id": 2249,
+"word": "preference",
+"meaning": "偏好；偏爱"
+},
+{
+"id": 2250,
+"word": "pregnant",
+"meaning": "怀孕的；富含的"
+},
+{
+"id": 2251,
+"word": "prejudice",
+"meaning": "偏见；歧视"
+},
+{
+"id": 2252,
+"word": "preliminary",
+"meaning": "初步的；预备的"
+},
+{
+"id": 2253,
+"word": "premise",
+"meaning": "前提；假设"
+},
+{
+"id": 2254,
+"word": "premium",
+"meaning": "保险费；额外费用"
+},
+{
+"id": 2255,
+"word": "prescribe",
+"meaning": "开处方；规定"
+},
+{
+"id": 2256,
+"word": "presence",
+"meaning": "出席；存在"
+},
+{
+"id": 2257,
+"word": "preserve",
+"meaning": "保护；保存"
+},
+{
+"id": 2258,
+"word": "preside",
+"meaning": "主持；担任主席"
+},
+{
+"id": 2259,
+"word": "press",
+"meaning": "按；挤压"
+},
+{
+"id": 2260,
+"word": "pressure",
+"meaning": "压力；压强"
+},
+{
+"id": 2261,
+"word": "prestige",
+"meaning": "威望；声望"
+},
+{
+"id": 2262,
+"word": "pretend",
+"meaning": "假装；伪称"
+},
+{
+"id": 2263,
+"word": "prevail",
+"meaning": "盛行；获胜"
+},
+{
+"id": 2264,
+"word": "prevent",
+"meaning": "阻止；预防"
+},
+{
+"id": 2265,
+"word": "previous",
+"meaning": "先前的；以前的"
+},
+{
+"id": 2266,
+"word": "pride",
+"meaning": "自豪；骄傲"
+},
+{
+"id": 2267,
+"word": "primary",
+"meaning": "主要的；初级的"
+},
+{
+"id": 2268,
+"word": "prime",
+"meaning": "主要的；最好的"
+},
+{
+"id": 2269,
+"word": "primitive",
+"meaning": "原始的；简陋的"
+},
+{
+"id": 2270,
+"word": "principal",
+"meaning": "主要的；首要的"
+},
+{
+"id": 2271,
+"word": "principle",
+"meaning": "原则；原理"
+},
+{
+"id": 2272,
+"word": "prior",
+"meaning": "先前的；优先的"
+},
+{
+"id": 2273,
+"word": "priority",
+"meaning": "优先事项；重点"
+},
+{
+"id": 2274,
+"word": "privacy",
+"meaning": "隐私；私密"
+},
+{
+"id": 2275,
+"word": "private",
+"meaning": "私人的；私有的"
+},
+{
+"id": 2276,
+"word": "privilege",
+"meaning": "特权；荣幸"
+},
+{
+"id": 2277,
+"word": "probable",
+"meaning": "很可能的；大概的"
+},
+{
+"id": 2278,
+"word": "procedure",
+"meaning": "程序；步骤"
+},
+{
+"id": 2279,
+"word": "proceed",
+"meaning": "继续；着手"
+},
+{
+"id": 2280,
+"word": "process",
+"meaning": "过程；工序"
+},
+{
+"id": 2281,
+"word": "product",
+"meaning": "产品；产物"
+},
+{
+"id": 2282,
+"word": "profession",
+"meaning": "职业；行业"
+},
+{
+"id": 2283,
+"word": "professional",
+"meaning": "专业的；职业的"
+},
+{
+"id": 2284,
+"word": "proficient",
+"meaning": "熟练的；精通的"
+},
+{
+"id": 2285,
+"word": "profile",
+"meaning": "简介；侧面"
+},
+{
+"id": 2286,
+"word": "profit",
+"meaning": "利润；收益"
+},
+{
+"id": 2287,
+"word": "profound",
+"meaning": "深刻的；深奥的"
+},
+{
+"id": 2288,
+"word": "progress",
+"meaning": "进步；进展"
+},
+{
+"id": 2289,
+"word": "prohibit",
+"meaning": "禁止；阻止"
+},
+{
+"id": 2290,
+"word": "project",
+"meaning": "项目；工程"
+},
+{
+"id": 2291,
+"word": "prolong",
+"meaning": "延长；拖延"
+},
+{
+"id": 2292,
+"word": "prominent",
+"meaning": "突出的；著名的"
+},
+{
+"id": 2293,
+"word": "promote",
+"meaning": "促进；晋升"
+},
+{
+"id": 2294,
+"word": "prompt",
+"meaning": "促使；提示"
+},
+{
+"id": 2295,
+"word": "proof",
+"meaning": "证据；证明"
+},
+{
+"id": 2296,
+"word": "proper",
+"meaning": "恰当的；合适的"
+},
+{
+"id": 2297,
+"word": "property",
+"meaning": "财产；房产"
+},
+{
+"id": 2298,
+"word": "proportion",
+"meaning": "比例；部分"
+},
+{
+"id": 2299,
+"word": "proposal",
+"meaning": "提议；方案"
+},
+{
+"id": 2300,
+"word": "propose",
+"meaning": "提议；建议"
+},
+{
+"id": 2301,
+"word": "prospect",
+"meaning": "前景；可能性"
+},
+{
+"id": 2302,
+"word": "prosper",
+"meaning": "繁荣；成功"
+},
+{
+"id": 2303,
+"word": "protect",
+"meaning": "保护；防护"
+},
+{
+"id": 2304,
+"word": "protein",
+"meaning": "蛋白质"
+},
+{
+"id": 2305,
+"word": "protest",
+"meaning": "抗议；反对"
+},
+{
+"id": 2306,
+"word": "proud",
+"meaning": "自豪的；骄傲的"
+},
+{
+"id": 2307,
+"word": "prove",
+"meaning": "证明；证实"
+},
+{
+"id": 2308,
+"word": "provide",
+"meaning": "提供；供给"
+},
+{
+"id": 2309,
+"word": "province",
+"meaning": "省；省份"
+},
+{
+"id": 2310,
+"word": "provision",
+"meaning": "提供；条款"
+},
+{
+"id": 2311,
+"word": "provoke",
+"meaning": "激怒；引起"
+},
+{
+"id": 2312,
+"word": "psychological",
+"meaning": "心理的；心理学的"
+},
+{
+"id": 2313,
+"word": "public",
+"meaning": "公共的；公众的"
+},
+{
+"id": 2314,
+"word": "publication",
+"meaning": "出版；出版物"
+},
+{
+"id": 2315,
+"word": "publish",
+"meaning": "出版；发表"
+},
+{
+"id": 2316,
+"word": "purchase",
+"meaning": "购买；采购"
+},
+{
+"id": 2317,
+"word": "pure",
+"meaning": "纯的；纯粹的"
+},
+{
+"id": 2318,
+"word": "purpose",
+"meaning": "目的；意图"
+},
+{
+"id": 2319,
+"word": "pursue",
+"meaning": "追求；从事"
+},
+{
+"id": 2320,
+"word": "puzzle",
+"meaning": "谜题；困惑"
+},
+{
+"id": 2321,
+"word": "qualification",
+"meaning": "资格；资历"
+},
+{
+"id": 2322,
+"word": "qualify",
+"meaning": "使合格；限定"
+},
+{
+"id": 2323,
+"word": "quality",
+"meaning": "质量；品质"
+},
+{
+"id": 2324,
+"word": "quantity",
+"meaning": "数量；大量"
+},
+{
+"id": 2325,
+"word": "quarrel",
+"meaning": "争吵；吵架"
+},
+{
+"id": 2326,
+"word": "quarter",
+"meaning": "四分之一；季度"
+},
+{
+"id": 2327,
+"word": "query",
+"meaning": "疑问；查询"
+},
+{
+"id": 2328,
+"word": "quest",
+"meaning": "探索；追求"
+},
+{
+"id": 2329,
+"word": "questionnaire",
+"meaning": "问卷；调查表"
+},
+{
+"id": 2330,
+"word": "queue",
+"meaning": "队列；长队"
+},
+{
+"id": 2331,
+"word": "quit",
+"meaning": "放弃；停止"
+},
+{
+"id": 2332,
+"word": "quite",
+"meaning": "相当；十分"
+},
+{
+"id": 2333,
+"word": "quota",
+"meaning": "配额；限额"
+},
+{
+"id": 2334,
+"word": "quotation",
+"meaning": "引用；报价"
+},
+{
+"id": 2335,
+"word": "quote",
+"meaning": "引用；援引"
+},
+{
+"id": 2336,
+"word": "race",
+"meaning": "比赛；种族"
+},
+{
+"id": 2337,
+"word": "radar",
+"meaning": "雷达"
+},
+{
+"id": 2338,
+"word": "radiate",
+"meaning": "辐射；发散"
+},
+{
+"id": 2339,
+"word": "radiation",
+"meaning": "辐射；放射物"
+},
+{
+"id": 2340,
+"word": "radical",
+"meaning": "激进的；根本的"
+},
+{
+"id": 2341,
+"word": "radioactive",
+"meaning": "放射性的；有辐射的"
+},
+{
+"id": 2342,
+"word": "rainfall",
+"meaning": "降雨；降雨量"
+},
+{
+"id": 2343,
+"word": "raise",
+"meaning": "提高；筹集"
+},
+{
+"id": 2344,
+"word": "random",
+"meaning": "随机的；任意的"
+},
+{
+"id": 2345,
+"word": "range",
+"meaning": "范围；山脉"
+},
+{
+"id": 2346,
+"word": "rank",
+"meaning": "等级；地位"
+},
+{
+"id": 2347,
+"word": "rapid",
+"meaning": "快速的；迅速的"
+},
+{
+"id": 2348,
+"word": "rare",
+"meaning": "稀有的；稀薄的"
+},
+{
+"id": 2349,
+"word": "rarely",
+"meaning": "很少；难得"
+},
+{
+"id": 2350,
+"word": "rate",
+"meaning": "比率；速度"
+},
+{
+"id": 2351,
+"word": "rather",
+"meaning": "相当；宁愿"
+},
+{
+"id": 2352,
+"word": "ratify",
+"meaning": "正式批准；认可"
+},
+{
+"id": 2353,
+"word": "ratio",
+"meaning": "比；比率"
+},
+{
+"id": 2354,
+"word": "rational",
+"meaning": "理性的；合理的"
+},
+{
+"id": 2355,
+"word": "raw",
+"meaning": "生的；未加工的"
+},
+{
+"id": 2356,
+"word": "ray",
+"meaning": "光线；射线"
+},
+{
+"id": 2357,
+"word": "reach",
+"meaning": "到达；达成"
+},
+{
+"id": 2358,
+"word": "react",
+"meaning": "反应；起作用"
+},
+{
+"id": 2359,
+"word": "readily",
+"meaning": "容易地；乐意地"
+},
+{
+"id": 2360,
+"word": "realistic",
+"meaning": "现实的；逼真的"
+},
+{
+"id": 2361,
+"word": "reality",
+"meaning": "现实；实际"
+},
+{
+"id": 2362,
+"word": "realize",
+"meaning": "意识到；实现"
+},
+{
+"id": 2363,
+"word": "realm",
+"meaning": "领域；王国"
+},
+{
+"id": 2364,
+"word": "rear",
+"meaning": "后部；背面"
+},
+{
+"id": 2365,
+"word": "rearrange",
+"meaning": "重新排列；重排"
+},
+{
+"id": 2366,
+"word": "reason",
+"meaning": "原因；理由"
+},
+{
+"id": 2367,
+"word": "reasonable",
+"meaning": "合理的；公道的"
+},
+{
+"id": 2368,
+"word": "rebel",
+"meaning": "反叛；反抗"
+},
+{
+"id": 2369,
+"word": "rebellion",
+"meaning": "叛乱；反抗"
+},
+{
+"id": 2370,
+"word": "recall",
+"meaning": "回忆起；召回"
+},
+{
+"id": 2371,
+"word": "receipt",
+"meaning": "收据；接收"
+},
+{
+"id": 2372,
+"word": "receive",
+"meaning": "收到；接待"
+},
+{
+"id": 2373,
+"word": "recent",
+"meaning": "最近的；近来的"
+},
+{
+"id": 2374,
+"word": "reception",
+"meaning": "接待；招待会"
+},
+{
+"id": 2375,
+"word": "recipe",
+"meaning": "食谱；方法"
+},
+{
+"id": 2376,
+"word": "recipient",
+"meaning": "接受者；收件人"
+},
+{
+"id": 2377,
+"word": "reciprocal",
+"meaning": "互惠的；相互的"
+},
+{
+"id": 2378,
+"word": "reckless",
+"meaning": "鲁莽的；不顾后果的"
+},
+{
+"id": 2379,
+"word": "reckon",
+"meaning": "认为；估算"
+},
+{
+"id": 2380,
+"word": "reclaim",
+"meaning": "收回；开垦"
+},
+{
+"id": 2381,
+"word": "recognition",
+"meaning": "认可；认出"
+},
+{
+"id": 2382,
+"word": "recognize",
+"meaning": "认出；承认"
+},
+{
+"id": 2383,
+"word": "recommend",
+"meaning": "推荐；建议"
+},
+{
+"id": 2384,
+"word": "recommendation",
+"meaning": "推荐；建议"
+},
+{
+"id": 2385,
+"word": "reconcile",
+"meaning": "调和；和解"
+},
+{
+"id": 2386,
+"word": "recover",
+"meaning": "恢复；找回"
+},
+{
+"id": 2387,
+"word": "recreation",
+"meaning": "娱乐；消遣"
+},
+{
+"id": 2388,
+"word": "recruit",
+"meaning": "招募；招聘"
+},
+{
+"id": 2389,
+"word": "recruitment",
+"meaning": "招募；招聘"
+},
+{
+"id": 2390,
+"word": "recycle",
+"meaning": "回收；再利用"
+},
+{
+"id": 2391,
+"word": "reduce",
+"meaning": "减少；降低"
+},
+{
+"id": 2392,
+"word": "redundancy",
+"meaning": "裁员；冗余"
+},
+{
+"id": 2393,
+"word": "redundant",
+"meaning": "多余的；被裁减的"
+},
+{
+"id": 2394,
+"word": "refer",
+"meaning": "提及；查阅"
+},
+{
+"id": 2395,
+"word": "referee",
+"meaning": "裁判员；推荐人"
+},
+{
+"id": 2396,
+"word": "reference",
+"meaning": "参考；推荐信"
+},
+{
+"id": 2397,
+"word": "referral",
+"meaning": "转介；介绍"
+},
+{
+"id": 2398,
+"word": "refine",
+"meaning": "提炼；改进"
+},
+{
+"id": 2399,
+"word": "reflect",
+"meaning": "反射；反映"
+},
+{
+"id": 2400,
+"word": "reflection",
+"meaning": "反射；反思"
+}
+]
