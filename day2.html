@@ -42,6 +42,35 @@
   nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
   nav.bottom a:hover { background:#eff6ff; }
 </style>
+<!--DAY-ENHANCE-CSS--><style>
+  .phrase { background: #eff6ff; border-bottom: 2px dotted #2563eb; cursor: pointer; border-radius: 3px; padding: 0 2px; }
+  .phrase:hover { background: #dbeafe; }
+  #phrasePop { position: absolute; display: none; z-index: 99; background: #1e293b; color: #fff;
+    border-radius: 10px; padding: 10px 14px; font-size: 13px; max-width: 300px; box-shadow: 0 8px 20px rgba(0,0,0,.25); }
+  #phrasePop .p-en { font-weight: 700; color: #93c5fd; margin-bottom: 2px; }
+  #phrasePop .p-voice { background: #334155; border: none; color: #fff; border-radius: 50%; width: 26px; height: 26px; cursor: pointer; margin-top: 6px; }
+  .dlg-audio { display: inline-flex; gap: 8px; margin-left: 10px; }
+  .dlg-audio button { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; border-radius: 999px;
+    padding: 3px 12px; font-size: 12px; cursor: pointer; font-family: inherit; }
+  .dlg-audio button:hover { background: #dbeafe; }
+  .dlg-audio button.playing { background: #1d4ed8; color: #fff; }
+  .line { position: relative; }
+  .line .line-voice { background: none; border: none; cursor: pointer; font-size: 12px; padding: 0 4px; opacity: .55; }
+  .line .line-voice:hover { opacity: 1; }
+  .line.speaking .en { background: #fef3c7 !important; }
+  .shadow-tip { font-size: 12px; color: #b45309; background: #fffbeb; border-radius: 6px; padding: 2px 8px; display: none; margin-left: 8px; }
+  .quiz-q { border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 18px; margin: 12px 0; background: #fff; }
+  .quiz-q .q-title { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+  .quiz-q label { display: block; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; margin: 6px 0;
+    cursor: pointer; font-size: 14px; }
+  .quiz-q label:hover { border-color: var(--primary); }
+  .quiz-q label.correct { background: #ecfdf5; border-color: #a7f3d0; color: #047857; }
+  .quiz-q label.wrong { background: #fef2f2; border-color: #fecaca; color: #b91c1c; }
+  .quiz-q label.disabled { cursor: default; opacity: .75; }
+  .quiz-q .explain { display: none; margin-top: 8px; font-size: 13px; color: var(--muted); background: #f8fafc; border-radius: 6px; padding: 6px 10px; }
+  .quiz-q.done .explain { display: block; }
+  .quiz-score { font-size: 15px; font-weight: 600; color: var(--primary-dark); margin-top: 8px; }
+</style><!--/DAY-ENHANCE-CSS-->
 </head>
 <body>
 <div class="container">
@@ -70,24 +99,24 @@
   <h2 class="section">核心句型</h2>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 描述 Bug / 问题</h2>
-  <div class="sent"><div class="en">I'm running into an issue with the checkout flow — the page freezes after I click "Pay".</div><div class="zh">结账流程有个问题——点「支付」之后页面就卡死了。</div><span class="scene">遇到问题 · run into an issue</span></div>
-  <div class="sent"><div class="en">I can reproduce it consistently on Chrome, but not on Safari.</div><div class="zh">在 Chrome 上每次都能复现，Safari 上不行。</div><span class="scene">复现 · reproduce consistently</span></div>
+  <div class="sent"><div class="en">I'm <span class="phrase" data-ph="running into an issue">running into an issue</span> with the checkout flow — the page freezes after I click "Pay".</div><div class="zh">结账流程有个问题——点「支付」之后页面就卡死了。</div><span class="scene">遇到问题 · run into an issue</span></div>
+  <div class="sent"><div class="en">I can <span class="phrase" data-ph="reproduce it consistently">reproduce it consistently</span> on Chrome, but not on Safari.</div><div class="zh">在 Chrome 上每次都能复现，Safari 上不行。</div><span class="scene">复现 · reproduce consistently</span></div>
   <div class="sent"><div class="en">It happens intermittently — maybe one in five times.</div><div class="zh">它是偶发的——大概五次里出现一次。</div><span class="scene">偶发 · intermittent</span></div>
   <div class="sent"><div class="en">The error message says "connection timed out", but the network looks fine.</div><div class="zh">报错信息是「连接超时」，但网络看起来正常。</div><span class="scene">引用报错信息</span></div>
   <div class="sent"><div class="en">It only affects users on the legacy version, so the impact is limited.</div><div class="zh">只影响旧版本用户，所以影响范围有限。</div><span class="scene">影响范围 · impact</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 澄清需求（Clarifying Questions）</h2>
-  <div class="sent"><div class="en">Just to clarify — do you mean we should support both formats, or just the new one?</div><div class="zh">确认一下——你的意思是两种格式都要支持，还是只支持新的？</div><span class="scene">二选一确认 · Just to clarify</span></div>
-  <div class="sent"><div class="en">Could you walk me through the expected behavior step by step?</div><div class="zh">你能一步步给我讲讲期望的行为吗？</div><span class="scene">请对方演示 · walk me through</span></div>
-  <div class="sent"><div class="en">What should happen if the user loses connection midway?</div><div class="zh">如果用户中途断网，应该怎么处理？</div><span class="scene">边界情况 · edge case</span></div>
-  <div class="sent"><div class="en">When you say "fast", what kind of latency are we targeting?</div><div class="zh">你说「快」，我们的目标延迟是多少？</div><span class="scene">量化模糊需求 · 典型工程师问法</span></div>
-  <div class="sent"><div class="en">Is this a must-have for the launch, or can it wait until the next release?</div><div class="zh">这是上线的硬性要求，还是可以等下个版本？</div><span class="scene">优先级 · must-have vs nice-to-have</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="just to clarify">Just to clarify</span> — do you mean we should support both formats, or just the new one?</div><div class="zh">确认一下——你的意思是两种格式都要支持，还是只支持新的？</div><span class="scene">二选一确认 · <span class="phrase" data-ph="just to clarify">Just to clarify</span></span></div>
+  <div class="sent"><div class="en">Could you <span class="phrase" data-ph="walk me through">walk me through</span> the expected behavior step by step?</div><div class="zh">你能一步步给我讲讲期望的行为吗？</div><span class="scene">请对方演示 · <span class="phrase" data-ph="walk me through">walk me through</span></span></div>
+  <div class="sent"><div class="en">What should happen if the user loses connection midway?</div><div class="zh">如果用户中途断网，应该怎么处理？</div><span class="scene">边界情况 · <span class="phrase" data-ph="edge case">edge case</span></span></div>
+  <div class="sent"><div class="en">When you say "fast", what kind of latency are we <span class="phrase" data-ph="targeting">targeting</span>?</div><div class="zh">你说「快」，我们的目标延迟是多少？</div><span class="scene">量化模糊需求 · 典型工程师问法</span></div>
+  <div class="sent"><div class="en">Is this a must-have for the launch, or can it wait until the next release?</div><div class="zh">这是上线的硬性要求，还是可以等下个版本？</div><span class="scene">优先级 · must-have vs <span class="phrase" data-ph="nice-to-have">nice-to-have</span></span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 确认理解（Confirming Understanding）</h2>
   <div class="sent"><div class="en">So if I understand correctly, we need to migrate the data before the schema change. Is that right?</div><div class="zh">所以我理解得对的话，我们需要在改表结构之前迁移数据，对吗？</div><span class="scene">复述确认 · If I understand correctly</span></div>
-  <div class="sent"><div class="en">Just to make sure we're on the same page — the deadline is the 15th, not the 20th?</div><div class="zh">确认下我们理解一致——截止日期是 15 号，不是 20 号吧？</div><span class="scene">on the same page 最常用</span></div>
-  <div class="sent"><div class="en">Let me play that back to you to make sure I got it right.</div><div class="zh">我复述一遍，确认我没理解错。</div><span class="scene">play back = 复述</span></div>
-  <div class="sent"><div class="en">Does that make sense, or should I explain it differently?</div><div class="zh">这样讲清楚吗？还是我换个方式解释？</div><span class="scene">讲完后确认对方理解</span></div>
+  <div class="sent"><div class="en">Just to make sure we're <span class="phrase" data-ph="on the same page">on the same page</span> — the deadline is the 15th, not the 20th?</div><div class="zh">确认下我们理解一致——截止日期是 15 号，不是 20 号吧？</div><span class="scene"><span class="phrase" data-ph="on the same page">on the same page</span> 最常用</span></div>
+  <div class="sent"><div class="en">Let me <span class="phrase" data-ph="play that back">play that back</span> to you to make sure I got it right.</div><div class="zh">我复述一遍，确认我没理解错。</div><span class="scene">play back = 复述</span></div>
+  <div class="sent"><div class="en">Does that <span class="phrase" data-ph="make sense">make sense</span>, or should I explain it differently?</div><div class="zh">这样讲清楚吗？还是我换个方式解释？</div><span class="scene">讲完后确认对方理解</span></div>
 
   <h2 class="section">情景对话</h2>
 
@@ -95,12 +124,12 @@
     <h3>场景一：向资深同事求助一个 bug（详细描述问题）</h3>
     <div class="line me"><span class="who">你</span><span class="en">Hey Sarah, do you have a minute? I'm running into a weird issue with the export feature, and I've been staring at it for two hours.</span><span class="zh">Sarah，有空吗？导出功能有个奇怪的问题，我盯着看了两个小时了。</span></div>
     <div class="line"><span class="who">Sarah</span><span class="en">Sure, what's going on?</span><span class="zh">可以，什么情况？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">So when a user exports a report larger than 10,000 rows, the request times out after 30 seconds. Small reports work fine. I can reproduce it consistently in staging, but the logs don't show any exceptions — the process just gets killed.</span><span class="zh">就是当用户导出超过一万行的报表时，请求 30 秒后超时。小报表没问题。测试环境每次都能复现，但日志里没有任何异常——进程直接被杀掉了。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">So when a user exports a report larger than 10,000 rows, the request times out after 30 seconds. Small reports work fine. I can <span class="phrase" data-ph="reproduce it consistently">reproduce it consistently</span> in staging, but the logs don't show any exceptions — the process just gets killed.</span><span class="zh">就是当用户导出超过一万行的报表时，请求 30 秒后超时。小报表没问题。测试环境每次都能复现，但日志里没有任何异常——进程直接被杀掉了。</span></div>
     <div class="line"><span class="who">Sarah</span><span class="en">Hmm, no exceptions but the process dies... That sounds like the gateway timeout rather than an app issue. What's the gateway timeout configured to?</span><span class="zh">嗯，没有异常但进程挂了……听起来像网关超时，不是应用的问题。网关超时配的多少？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Good point — I haven't checked that. Let me look... you're right, it's set to 30 seconds. So the fix would be either to increase the timeout or make the export async?</span><span class="zh">有道理——我还没查这个。我看一下……你是对的，配的是 30 秒。那修复方案要么调大超时时间，要么把导出改成异步？</span></div>
-    <div class="line"><span class="who">Sarah</span><span class="en">Increasing the timeout is a band-aid. For reports that big, async with a notification when it's done is the cleaner approach. But that's a product decision too — worth checking with your PM.</span><span class="zh">调超时只是权宜之计。这么大的报表，做成异步、完成后发通知更干净。不过这也是产品决策——值得和你的 PM 确认一下。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en"><span class="phrase" data-ph="good point">Good point</span> — I haven't checked that. Let me look... you're right, it's set to 30 seconds. So the fix would be either to increase the timeout or make the export async?</span><span class="zh">有道理——我还没查这个。我看一下……你是对的，配的是 30 秒。那修复方案要么调大超时时间，要么把导出改成异步？</span></div>
+    <div class="line"><span class="who">Sarah</span><span class="en">Increasing the timeout is a <span class="phrase" data-ph="band-aid">band-aid</span>. For reports that big, async with a notification when it's done is the cleaner approach. But that's a product decision too — worth checking with your PM.</span><span class="zh">调超时只是权宜之计。这么大的报表，做成异步、完成后发通知更干净。不过这也是产品决策——值得和你的 PM 确认一下。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">That makes sense. So if I understand correctly, the short-term fix is bumping the timeout, and the long-term fix is moving to an async job. I'll confirm the priority with the PM today.</span><span class="zh">有道理。那我理解对的话，短期方案是调大超时，长期方案是改成异步任务。我今天和 PM 确认优先级。</span></div>
-    <div class="line"><span class="who">Sarah</span><span class="en">Exactly. Nice job narrowing it down, by the way.</span><span class="zh">完全正确。顺便说一句，你能定位到这一步做得很不错。</span></div>
+    <div class="line"><span class="who">Sarah</span><span class="en">Exactly. Nice job <span class="phrase" data-ph="narrowing it down">narrowing it down</span>, by the way.</span><span class="zh">完全正确。顺便说一句，你能定位到这一步做得很不错。</span></div>
   </div>
 
   <div class="dialog">
@@ -108,11 +137,11 @@
     <div class="line"><span class="who">PM</span><span class="en">For the new dashboard, we want the page to load fast. Users are complaining about the current one.</span><span class="zh">新仪表盘希望页面加载快。用户对现在这个抱怨很多。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">Sure. When you say "fast", what kind of target are we aiming for? For example, first load under two seconds?</span><span class="zh">好的。你说「快」，具体目标是什么？比如首次加载两秒以内？</span></div>
     <div class="line"><span class="who">PM</span><span class="en">Two to three seconds sounds right. Oh, and we also want real-time data on it.</span><span class="zh">两到三秒差不多。哦对了，上面还要展示实时数据。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Just to clarify — "real-time" meaning updates every few seconds, or truly live streaming? That changes the architecture quite a bit.</span><span class="zh">确认一下——「实时」是指每隔几秒刷新，还是真正的实时流？这对架构影响很大。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en"><span class="phrase" data-ph="just to clarify">Just to clarify</span> — "real-time" meaning updates every few seconds, or truly live streaming? That changes the architecture quite a bit.</span><span class="zh">确认一下——「实时」是指每隔几秒刷新，还是真正的实时流？这对架构影响很大。</span></div>
     <div class="line"><span class="who">PM</span><span class="en">Every minute would probably be fine. Nothing that fancy.</span><span class="zh">每分钟刷新一次应该就够了，不用那么复杂。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">OK, that's much more doable. What about historical data — how far back do we need to go?</span><span class="zh">好，那就可行多了。那历史数据呢——需要追溯到多久以前？</span></div>
     <div class="line"><span class="who">PM</span><span class="en">The last 30 days should cover it.</span><span class="zh">最近 30 天就够了。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Great. Let me play that back to you: a dashboard loading within 3 seconds, refreshing every minute, with 30 days of history. Is that right?</span><span class="zh">好。我复述一下：一个 3 秒内加载、每分钟刷新、包含 30 天历史的仪表盘。对吗？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Great. Let me <span class="phrase" data-ph="play that back">play that back</span> to you: a dashboard loading within 3 seconds, refreshing every minute, with 30 days of history. Is that right?</span><span class="zh">好。我复述一下：一个 3 秒内加载、每分钟刷新、包含 30 天历史的仪表盘。对吗？</span></div>
     <div class="line"><span class="who">PM</span><span class="en">Exactly. Glad we talked this through.</span><span class="zh">完全正确。很高兴我们把这事聊透了。</span></div>
   </div>
 
@@ -123,7 +152,7 @@
     <div class="line"><span class="who">Kevin</span><span class="en">Good question. Yes, the order flow doesn't depend on the queue. Notifications would just be delayed until it recovers.</span><span class="zh">问得好。是的，下单流程不依赖队列。通知只是延迟，等队列恢复再发。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">OK. And what about duplicate messages? If a notification gets delivered twice, that's a bad user experience.</span><span class="zh">好。那重复消息呢？如果通知发两次，用户体验会很差。</span></div>
     <div class="line"><span class="who">Kevin</span><span class="en">We'd handle that with idempotency keys on the consumer side.</span><span class="zh">我们会在消费端用幂等键来处理。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Makes sense. I'm on board then — the design looks solid to me.</span><span class="zh">有道理。那我同意了——我觉得这个设计挺稳的。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Makes sense. <span class="phrase" data-ph="i'm on board">I'm on board</span> then — the design looks solid to me.</span><span class="zh">有道理。那我同意了——我觉得这个设计挺稳的。</span></div>
   </div>
 
   <h2 class="section">发音与连读提示</h2>
@@ -193,10 +222,244 @@
     <tr><td>10 分钟</td><td>复述练习：play back 一个需求</td></tr>
   </table>
 
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
   <nav class="bottom">
     <a href="day1.html">← Day 1 · 站会</a>
     <a href="day3.html">Day 3 · 代码评审 →</a>
   </nav>
 </div>
+<!--DAY-ENHANCE-JS--><script>
+var DAY_PHRASES = [["running into an issue", "遇到问题"], ["reproduce it consistently", "每次都能复现"], ["walk me through", "给我逐步讲一遍"], ["Just to clarify", "确认一下"], ["on the same page", "理解一致"], ["play that back", "复述一遍（确认理解）"], ["make sense", "讲得通、清楚吗"], ["What's going on", "怎么回事"], ["staring at it", "盯着看了很久"], ["good point", "有道理"], ["band-aid", "权宜之计、创可贴式修法"], ["edge case", "边界情况"], ["must-have", "硬性要求"], ["nice-to-have", "有最好、没有也行"], ["targeting", "以……为目标"], ["I'm on board", "我同意、加入"], ["narrowing it down", "缩小范围定位"], ["hop on a call", "打个电话/开个短会"]];
+var DAY_QUIZ = [["向同事描述「这个问题偶发，五次里出现一次」：", ["It happens intermittently — maybe one in five times.", "It happens every time, maybe five.", "It never happens, one of five.", "It happens continuous, one in five times."], 0, "intermittently = 偶发地；one in five times 表示概率。"], ["没听清对方的解释，想请他再讲一遍：", ["Sorry, I didn't quite catch that — could you say it again?", "Sorry, I didn't take that — speak again?", "I caught nothing, repeat now.", "Your words escaped me, again please."], 0, "I didn't quite catch that 是没听清的地道说法。"], ["想确认双方理解一致，用：", ["Just to make sure we're on the same page —", "Just to make us in one page —", "Ensure our pages are same —", "Let's page each other —"], 0, "on the same page 固定搭配，表示理解一致。"], ["复述对方需求确认没理解错，开头说：", ["Let me play that back to you.", "Let me play that ball to you.", "Let me replay you that.", "Let me return your play."], 0, "play back 在沟通里表示「复述一遍」。"], ["前辈说你的修法只是权宜之计，他会说：", ["Increasing the timeout is a band-aid.", "Increasing the timeout is a band.", "The timeout is band-aiding you.", "This timeout band is aid."], 0, "band-aid 本义创可贴，引申为「权宜之计」。"]];
+var DAY_NO = 2;
+
+/* ---------- 语音（与词汇页共用偏好） ---------- */
+var __voice = null;
+function resolveVoice() {
+  var vs = window.speechSynthesis.getVoices() || [];
+  var saved = '';
+  try { saved = localStorage.getItem('ielts-voice') || ''; } catch (e) {}
+  if (saved) {
+    var hit = vs.filter(function (v) { return v.name === saved; });
+    if (hit.length) return hit[0];
+  }
+  var pref = ['Ava (Premium)', 'Ava (Enhanced)', 'Zoe (Premium)', 'Samantha', 'Google UK English Female', 'Google US English', 'Microsoft Aria'];
+  for (var i = 0; i < pref.length; i++) {
+    for (var j = 0; j < vs.length; j++) {
+      if (vs[j].name.indexOf(pref[i]) !== -1) return vs[j];
+    }
+  }
+  var en = vs.filter(function (v) { return (v.lang || '').toLowerCase().indexOf('en') === 0; });
+  return en[0] || null;
+}
+function speakText(text, onend) {
+  if (!('speechSynthesis' in window)) return;
+  var synth = window.speechSynthesis;
+  synth.cancel();
+  if (!__voice) {
+    __voice = resolveVoice();
+    synth.onvoiceschanged = function () { __voice = resolveVoice(); };
+  }
+  var u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  if (__voice) u.voice = __voice;
+  if (onend) u.onend = onend;
+  synth.speak(u);
+}
+
+/* ---------- 对话音频 + 跟读 ---------- */
+var playState = null; /* {dialog, lines, idx, shadow, timer} */
+
+function collectLines(dialog) {
+  return Array.prototype.map.call(dialog.querySelectorAll('.line'), function (line) {
+    return { el: line, text: (line.querySelector('.en') || {}).textContent || '' };
+  }).filter(function (l) { return l.text.trim(); });
+}
+
+function stopPlayback() {
+  if (!playState) return;
+  if (playState.timer) clearTimeout(playState.timer);
+  window.speechSynthesis.cancel();
+  playState.lines.forEach(function (l) {
+    l.el.classList.remove('speaking');
+    var b = l.el.querySelector('.line-voice');
+    if (b) b.textContent = '🔊';
+  });
+  var btns = playState.dialog.querySelectorAll('.dlg-audio button');
+  btns.forEach(function (b) { b.classList.remove('playing'); });
+  var tip = playState.dialog.querySelector('.shadow-tip');
+  if (tip) tip.style.display = 'none';
+  playState = null;
+}
+
+function playFrom(dialog, startIdx, shadow) {
+  stopPlayback();
+  playState = { dialog: dialog, lines: collectLines(dialog), idx: startIdx, shadow: shadow, timer: null };
+  var btns = dialog.querySelectorAll('.dlg-audio button');
+  if (btns[shadow ? 1 : 0]) btns[shadow ? 1 : 0].classList.add('playing');
+  var tip = dialog.querySelector('.shadow-tip');
+  if (shadow && tip) tip.style.display = '';
+  playNextLine();
+}
+
+function playNextLine() {
+  if (!playState) return;
+  var s = playState;
+  if (s.idx >= s.lines.length) { stopPlayback(); return; }
+  var line = s.lines[s.idx];
+  line.el.classList.add('speaking');
+  var vb = line.el.querySelector('.line-voice');
+  if (vb) vb.textContent = '🔈';
+  line.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  speakText(line.text, function () {
+    if (!playState) return;
+    if (vb) vb.textContent = '🔊';
+    var wait = s.shadow ? 4000 : 350;
+    s.timer = setTimeout(function () {
+      if (!playState) return;
+      line.el.classList.remove('speaking');
+      s.idx++;
+      playNextLine();
+    }, wait);
+  });
+}
+
+function togglePlay(dialog, shadow, btn) {
+  if (playState && playState.dialog === dialog && playState.shadow === shadow) { stopPlayback(); return; }
+  playFrom(dialog, 0, shadow);
+}
+
+function injectAudio() {
+  document.querySelectorAll('.dialog').forEach(function (dialog, di) {
+    var h3 = dialog.querySelector('h3');
+    if (!h3) return;
+    var wrap = document.createElement('span');
+    wrap.className = 'dlg-audio';
+    wrap.innerHTML =
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), false, this)">▶️ 播放对话</button>' +
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), true, this)">🎧 跟读模式</button>' +
+      '<span class="shadow-tip">跟读中：每句读完请大声复述</span>';
+    h3.appendChild(wrap);
+    dialog.querySelectorAll('.line').forEach(function (line) {
+      var en = line.querySelector('.en');
+      if (!en) return;
+      var b = document.createElement('button');
+      b.className = 'line-voice';
+      b.textContent = '🔊';
+      b.title = '播放这句';
+      b.onclick = function () {
+        var wasPlaying = playState && playState.dialog === dialog;
+        stopPlayback();
+        if (wasPlaying) return;
+        line.classList.add('speaking');
+        b.textContent = '🔈';
+        speakText(en.textContent, function () {
+          line.classList.remove('speaking');
+          b.textContent = '🔊';
+        });
+      };
+      en.appendChild(b);
+    });
+  });
+}
+
+/* ---------- 短语高亮 + 释义气泡 ---------- */
+var DAY_PHRASES_DICT = {};
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+function highlightPhrases() {
+  var phrases = DAY_PHRASES.map(function (p) { return p[0]; });
+  phrases.sort(function (a, b) { return b.length - a.length; });
+  DAY_PHRASES.forEach(function (p) { DAY_PHRASES_DICT[p[0].toLowerCase()] = p[1]; });
+  document.querySelectorAll('.dialog .line .en, .sent .en').forEach(function (el) {
+    var html = el.innerHTML;
+    if (html.indexOf('class="phrase"') !== -1) return;
+    phrases.forEach(function (phrase) {
+      if (html.indexOf('class="phrase"') !== -1) return;
+      var re = new RegExp(escapeRegExp(phrase).replace(/ /g, '(?:\\s|&nbsp;)+'), 'gi');
+      html = html.replace(re, function (m) {
+        return '<span class="phrase" data-ph="' + phrase.toLowerCase() + '">' + m + '</span>';
+      });
+    });
+    el.innerHTML = html;
+  });
+}
+
+function setupPhrasePop() {
+  var pop = document.createElement('div');
+  pop.id = 'phrasePop';
+  document.body.appendChild(pop);
+  document.addEventListener('click', function (e) {
+    var voiceBtn = e.target.closest('.p-voice');
+    if (voiceBtn) {
+      speakText(voiceBtn.getAttribute('data-say'));
+      e.stopPropagation();
+      return;
+    }
+    var ph = e.target.closest('.phrase');
+    if (ph) {
+      var key = ph.getAttribute('data-ph');
+      pop.innerHTML = '<div class="p-en">' + key + '</div><div>' + (DAY_PHRASES_DICT[key] || '') + '</div>' +
+        '<button class="p-voice" data-say="' + key + '">🔊</button>';
+      var r = ph.getBoundingClientRect();
+      pop.style.display = 'block';
+      var top = r.bottom + window.scrollY + 8;
+      var left = Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - 320);
+      pop.style.top = top + 'px';
+      pop.style.left = Math.max(8, left) + 'px';
+      e.stopPropagation();
+      return;
+    }
+    pop.style.display = 'none';
+  });
+}
+
+/* ---------- 课后小练习 ---------- */
+function renderQuiz() {
+  var host = document.getElementById('dayQuiz');
+  if (!host) return;
+  var items = DAY_QUIZ;
+  var html = '';
+  items.forEach(function (q, qi) {
+    html += '<div class="quiz-q" data-answer="' + q[2] + '"><div class="q-title">' + (qi + 1) + '. ' + q[0] + '</div>';
+    q[1].forEach(function (opt, oi) {
+      html += '<label data-oi="' + oi + '"><input type="radio" name="q' + qi + '" style="margin-right:8px" onclick="answerQuiz(this)">' + opt + '</label>';
+    });
+    html += '<div class="explain">💡 ' + q[3] + '</div></div>';
+  });
+  html += '<div class="quiz-score" id="quizScore"></div><button class="btn ghost" onclick="renderQuiz()" style="margin-top:10px">🔄 重做</button>';
+  host.innerHTML = html;
+}
+
+function answerQuiz(input) {
+  var qdiv = input.closest('.quiz-q');
+  if (qdiv.classList.contains('done')) return;
+  qdiv.classList.add('done');
+  var answer = parseInt(qdiv.getAttribute('data-answer'), 10);
+  qdiv.querySelectorAll('label').forEach(function (label) {
+    var oi = parseInt(label.getAttribute('data-oi'), 10);
+    label.classList.add('disabled');
+    if (oi === answer) label.classList.add('correct');
+    else if (label.querySelector('input').checked) label.classList.add('wrong');
+  });
+  var done = document.querySelectorAll('.quiz-q.done').length;
+  var right = 0;
+  document.querySelectorAll('.quiz-q').forEach(function (q) {
+    if (q.classList.contains('done') && q.querySelector('label.correct input').checked) right++;
+  });
+  document.getElementById('quizScore').textContent = '已完成 ' + done + '/' + DAY_QUIZ.length + ' 题 · 答对 ' + right + ' 题';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  injectAudio();
+  highlightPhrases();
+  setupPhrasePop();
+  renderQuiz();
+});
+</script><!--/DAY-ENHANCE-JS-->
 </body>
 </html>

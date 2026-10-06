@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>雅思核心 3000 词 · 10 册高频词库</title>
+<style>
+  :root {
+    --primary: #8b5cf6;
+    --primary-dark: #6d28d9;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --text: #1e293b;
+    --muted: #64748b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7;
+  }
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+  .top-nav { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; font-size: 14px; }
+  .top-nav a { color: var(--primary); text-decoration: none; }
+  .top-nav a:hover { text-decoration: underline; }
+  .top-nav .sep { color: #cbd5e1; }
+  header.hero {
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+    color: #fff; border-radius: 16px; padding: 40px 32px; margin-bottom: 32px;
+  }
+  header.hero h1 { font-size: 28px; margin-bottom: 8px; }
+  header.hero p { opacity: .92; font-size: 15px; }
+  h2.section {
+    font-size: 20px; margin: 32px 0 16px; padding-left: 12px;
+    border-left: 4px solid var(--primary);
+  }
+  .day-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 640px) { .day-grid { grid-template-columns: 1fr; } }
+  a.day-card {
+    display: block; background: var(--card); border-radius: 12px; padding: 18px 20px;
+    text-decoration: none; color: var(--text); border: 1px solid #e2e8f0;
+    border-left: 4px solid var(--primary);
+    transition: transform .15s, box-shadow .15s;
+  }
+  a.day-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(139,92,246,.14); border-color: var(--primary); }
+  .day-card .tag {
+    display: inline-block; background: var(--primary); color: #fff; font-size: 12px;
+    padding: 2px 10px; border-radius: 999px; margin-bottom: 8px;
+  }
+  .day-card h3 { font-size: 16px; margin-bottom: 4px; }
+  .day-card h3 .en { color: var(--primary); font-weight: 600; }
+  .day-card p { font-size: 13px; color: var(--muted); }
+  a.day-card.quiz { border-left: 4px solid #ef4444; }
+  a.day-card.quiz:hover { border-color: #ef4444; box-shadow: 0 6px 18px rgba(239,68,68,.14); }
+  a.day-card.quiz .tag { background: #ef4444; }
+  a.day-card.quiz h3 .en { color: #ef4444; }
+  .tip-box {
+    background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: 12px;
+    padding: 16px 20px; font-size: 14px;
+  }
+  .tip-box strong { color: var(--primary-dark); }
+  .user-bar { display: flex; justify-content: flex-end; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); margin-bottom: 12px; min-height: 34px; flex-wrap: wrap; }
+  .user-bar button { padding: 7px 16px; border: 1px solid var(--primary); background: var(--primary); color: #fff; border-radius: 8px; font-size: 13px; cursor: pointer; font-family: inherit; }
+  .user-bar button.ghost { background: #fff; color: var(--primary); }
+  .user-bar a.login-link { padding: 7px 16px; border: 1px solid var(--primary); border-radius: 8px; font-size: 13px; text-decoration: none; margin-left: 4px; }
+  .user-bar a.login-link.main { background: var(--primary); color: #fff; }
+  .user-bar a.login-link.main:hover { background: var(--primary-dark); }
+  .user-bar a.login-link:not(.main) { background: #fff; color: var(--primary); }
+  .user-bar a.login-link:not(.main):hover { background: #f5f3ff; }
+  .user-bar b { color: var(--primary-dark); }
+  .progress-box { background: var(--card); border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 20px; font-size: 14px; }
+  .progress-box .login-hint { color: var(--muted); }
+  .progress-box .login-hint a { color: var(--primary); font-weight: 600; text-decoration: none; }
+  .progress-total { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+  .progress-total b { font-size: 22px; color: var(--primary-dark); }
+  .progress-total .pct { color: var(--muted); font-size: 13px; }
+  .vol-bars { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; }
+  @media (max-width: 640px) { .vol-bars { grid-template-columns: 1fr; } }
+  .vol-row { display: flex; align-items: center; gap: 10px; font-size: 12px; }
+  .vol-row .vol-name { width: 96px; flex: none; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .vol-row .bar { flex: 1; height: 8px; background: #ede9fe; border-radius: 999px; overflow: hidden; }
+  .vol-row .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--primary), var(--primary-dark)); border-radius: 999px; transition: width .3s; }
+  .vol-row .cnt { width: 68px; flex: none; text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  footer { margin-top: 48px; text-align: center; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="top-nav">
+    <a href="index.html">← 返回主页</a><span class="sep">|</span><a href="it.html">IT 职场口语 →</a>
+  </div>
+
+  <div class="user-bar" id="userBar"></div>
+
+  <header class="hero">
+    <h1>📖 雅思核心 3000 词 · 10 册高频词库</h1>
+    <p>每册 300 词，按主题与字母段编排，全部配例句与真人发音，掌握进度自动保存。</p>
+  </header>
+
+  <h2 class="section">🎲 随机单词小测验</h2>
+  <a class="day-card quiz" href="ielts/quiz.html">
+    <span class="tag">每日一测</span>
+    <h3>随机 10 词 · 填中文释义 <span class="en">Quick Quiz</span></h3>
+    <p>从 3000 个雅思核心词随机抽 10 个，填中文意思即时判分——意思相近就算对，错词自动汇总，测完再来一轮。</p>
+  </a>
+
+  <h2 class="section">我的掌握进度</h2>
+  <div class="progress-box" id="progressBox">
+    <span class="login-hint">登录后可在这里查看各册掌握进度，<a href="login.html">去登录 →</a></span>
+  </div>
+
+  <h2 class="section">词汇库 (10 册 · 每册 300 词)</h2>
+  <div class="day-grid">
+    <a class="day-card" href="ielts/ielts_part1a.html">
+      <span class="tag">Part 1a (0001 - 0300)</span>
+      <h3>学术研究与逻辑论证核心词 <span class="en">A 字母段</span></h3>
+      <p>abandon → artery · AWL 学术词表、因果论证、实验逻辑高频词。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part1b.html">
+      <span class="tag">Part 1b (0301 - 0600)</span>
+      <h3>学术研究与逻辑论证核心词 <span class="en">A ~ C 字母段</span></h3>
+      <p>article → climate · 承接上册，覆盖论证与基础考点词汇。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part2a.html">
+      <span class="tag">Part 2a (0601 - 0900)</span>
+      <h3>教育学习与自然地理生态 <span class="en">C ~ D 字母段</span></h3>
+      <p>climb → desirable · 大学校园、教学科研、气候地质高频词。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part2b.html">
+      <span class="tag">Part 2b (0901 - 1200)</span>
+      <h3>教育学习与自然地理生态 <span class="en">D ~ E 字母段</span></h3>
+      <p>desire → explicit · 动植物环保与考核评估核心词汇。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part3a.html">
+      <span class="tag">Part 3a (1201 - 1500)</span>
+      <h3>科技工程、建筑与社会文化 <span class="en">E ~ G 字母段</span></h3>
+      <p>explode → groundwater · 信息科技、人工智能、工程制造高频词。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part3b.html">
+      <span class="tag">Part 3b (1501 - 1800)</span>
+      <h3>科技工程、建筑与社会文化 <span class="en">G ~ L 字母段</span></h3>
+      <p>growth → light · 建筑空间、人口结构与多元文化高频词。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part4a.html">
+      <span class="tag">Part 4a (1801 - 2100)</span>
+      <h3>经济商业、职业发展与政府法律 <span class="en">L ~ O 字母段</span></h3>
+      <p>lighten → odd · 宏观经济、国际贸易、企业管理高频词。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part4b.html">
+      <span class="tag">Part 4b (2101 - 2400)</span>
+      <h3>经济商业、职业发展与政府法律 <span class="en">O ~ R 字母段</span></h3>
+      <p>offend → reflection · 求职招聘、公共政策与社会正义高频词。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part5a.html">
+      <span class="tag">Part 5a (2401 - 2700)</span>
+      <h3>医药健康、艺术传媒与核心替换 <span class="en">R ~ S 字母段</span></h3>
+      <p>reform → suppress · 生理心理、大众传媒、艺术审美高频词。</p>
+    </a>
+    <a class="day-card" href="ielts/ielts_part5b.html">
+      <span class="tag">Part 5b (2701 - 3000)</span>
+      <h3>医药健康、艺术传媒与核心替换 <span class="en">S ~ Z 字母段</span></h3>
+      <p>surge → zoom · 写作 Task 2 高分连接与阅读同义替换词库。</p>
+    </a>
+  </div>
+
+  <h2 class="section">刷词技巧</h2>
+  <div class="tip-box">
+    <strong>雅思 3000 词库刷词技巧：</strong><br>
+    1. <strong>先认后拼</strong> —— 点击各册顶部「🧠 刷词自测」隐藏中文，看英文测主动提取，想不起来再看释义。<br>
+    2. <strong>发音纠音</strong> —— 点每个单词旁的发音按钮跟读，可在页面工具栏选择偏好的发音人。<br>
+    3. <strong>例句记忆</strong> —— 每个词都配了雅思语境例句，点「显示例句」结合语境记忆比死记释义更牢。<br>
+    4. <strong>标记掌握</strong> —— 已掌握的词勾选保存，登录后进度云端同步，下次只刷没掌握的。
+  </div>
+
+  <footer>每天 10 分钟，3000 词不是终点而是起点 · Keep going! 📚<br><span id="visitStat"></span></footer>
+</div>
+<script src="userbar.js"></script>
+<script>
+(function () {
+  var box = document.getElementById('progressBox');
+  var VOLS = [
+    { name: 'Part 1a', from: 1, to: 300 },
+    { name: 'Part 1b', from: 301, to: 600 },
+    { name: 'Part 2a', from: 601, to: 900 },
+    { name: 'Part 2b', from: 901, to: 1200 },
+    { name: 'Part 3a', from: 1201, to: 1500 },
+    { name: 'Part 3b', from: 1501, to: 1800 },
+    { name: 'Part 4a', from: 1801, to: 2100 },
+    { name: 'Part 4b', from: 2101, to: 2400 },
+    { name: 'Part 5a', from: 2401, to: 2700 },
+    { name: 'Part 5b', from: 2701, to: 3000 }
+  ];
+
+  fetch('/api/progress', { credentials: 'same-origin' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('not logged in');
+      return r.json();
+    })
+    .then(function (j) {
+      var mastered = j.mastered || [];
+      var set = {};
+      for (var i = 0; i < mastered.length; i++) set[mastered[i]] = 1;
+      var total = mastered.length;
+      var rows = VOLS.map(function (v) {
+        var n = 0;
+        for (var id = v.from; id <= v.to; id++) if (set[id]) n++;
+        var pct = Math.round(n / (v.to - v.from + 1) * 100);
+        return '<div class="vol-row"><span class="vol-name">' + v.name + '</span>'
+          + '<span class="bar"><i style="width:' + pct + '%"></i></span>'
+          + '<span class="cnt">' + n + ' / 300</span></div>';
+      }).join('');
+      var pctAll = Math.round(total / 3000 * 100);
+      box.innerHTML =
+        '<div class="progress-total"><b>' + total + ' / 3000</b>'
+        + '<span class="pct">已掌握 · ' + pctAll + '%</span></div>'
+        + '<div class="vol-bars">' + rows + '</div>';
+    })
+    .catch(function () {
+      /* 未登录或后端未启动：保留登录提示 */
+    });
+})();
+</script>
+</body>
+</html>

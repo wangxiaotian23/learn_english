@@ -100,6 +100,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div class="score-num" id="finalScore">0 / 10</div>
     <div id="finalNote" style="font-size:14px;color:var(--muted)"></div>
     <div class="missed" id="missedList" style="display:none"></div>
+    <div id="quizHistory" style="display:none;margin-top:18px;font-size:13px;color:var(--muted);text-align:left"></div>
     <button class="btn-main" style="margin-top:22px" onclick="startRound()">再来一轮</button>
   </div>
 
@@ -328,7 +329,35 @@ function submitAll() {
     m.style.display = 'none';
   }
   document.getElementById('scoreBox').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+  /* 登录用户：上报成绩并显示最近历史 */
+  fetch('/api/me', { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (me) {
+    if (!me.ok) return;
+    return fetch('/api/quiz/result', {
+      method: 'POST',
+      credentials: 'same-origin',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        score: score, total: queue.length,
+        wrong_ids: missed.map(function (w) { return VOCAB_WORD_ID[w.word]; })
+      })
+    }).then(function () { return fetch('/api/quiz/history', { credentials: 'same-origin' }); })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (!j.ok || !j.history.length) return;
+        var box = document.getElementById('quizHistory');
+        box.style.display = 'block';
+        box.innerHTML = '<b>最近几轮成绩</b>：' + j.history.map(function (h) {
+          return h.score + '/' + h.total + '（' + h.created_at + '）';
+        }).join(' · ');
+      });
+  }).catch(function () {});
 }
+
+var VOCAB_WORD_ID = {};
+(function () {
+  for (var i = 0; i < VOCAB.length; i++) VOCAB_WORD_ID[VOCAB[i].word] = i + 1;
+})();
 </script>
 </body>
 </html>

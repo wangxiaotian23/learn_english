@@ -42,6 +42,35 @@
   nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
   nav.bottom a:hover { background:#eff6ff; }
 </style>
+<!--DAY-ENHANCE-CSS--><style>
+  .phrase { background: #eff6ff; border-bottom: 2px dotted #2563eb; cursor: pointer; border-radius: 3px; padding: 0 2px; }
+  .phrase:hover { background: #dbeafe; }
+  #phrasePop { position: absolute; display: none; z-index: 99; background: #1e293b; color: #fff;
+    border-radius: 10px; padding: 10px 14px; font-size: 13px; max-width: 300px; box-shadow: 0 8px 20px rgba(0,0,0,.25); }
+  #phrasePop .p-en { font-weight: 700; color: #93c5fd; margin-bottom: 2px; }
+  #phrasePop .p-voice { background: #334155; border: none; color: #fff; border-radius: 50%; width: 26px; height: 26px; cursor: pointer; margin-top: 6px; }
+  .dlg-audio { display: inline-flex; gap: 8px; margin-left: 10px; }
+  .dlg-audio button { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; border-radius: 999px;
+    padding: 3px 12px; font-size: 12px; cursor: pointer; font-family: inherit; }
+  .dlg-audio button:hover { background: #dbeafe; }
+  .dlg-audio button.playing { background: #1d4ed8; color: #fff; }
+  .line { position: relative; }
+  .line .line-voice { background: none; border: none; cursor: pointer; font-size: 12px; padding: 0 4px; opacity: .55; }
+  .line .line-voice:hover { opacity: 1; }
+  .line.speaking .en { background: #fef3c7 !important; }
+  .shadow-tip { font-size: 12px; color: #b45309; background: #fffbeb; border-radius: 6px; padding: 2px 8px; display: none; margin-left: 8px; }
+  .quiz-q { border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 18px; margin: 12px 0; background: #fff; }
+  .quiz-q .q-title { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+  .quiz-q label { display: block; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; margin: 6px 0;
+    cursor: pointer; font-size: 14px; }
+  .quiz-q label:hover { border-color: var(--primary); }
+  .quiz-q label.correct { background: #ecfdf5; border-color: #a7f3d0; color: #047857; }
+  .quiz-q label.wrong { background: #fef2f2; border-color: #fecaca; color: #b91c1c; }
+  .quiz-q label.disabled { cursor: default; opacity: .75; }
+  .quiz-q .explain { display: none; margin-top: 8px; font-size: 13px; color: var(--muted); background: #f8fafc; border-radius: 6px; padding: 6px 10px; }
+  .quiz-q.done .explain { display: block; }
+  .quiz-score { font-size: 15px; font-weight: 600; color: var(--primary-dark); margin-top: 8px; }
+</style><!--/DAY-ENHANCE-CSS-->
 </head>
 <body>
 <div class="container">
@@ -70,36 +99,36 @@
   <h2 class="section">核心句型</h2>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 开场（周一最常用：聊周末）</h2>
-  <div class="sent"><div class="en">Morning! How was your weekend?</div><div class="zh">早上好！周末过得怎么样？</div><span class="scene">周一万能开场</span></div>
+  <div class="sent"><div class="en">Morning! <span class="phrase" data-ph="how was your weekend">How was your weekend</span>?</div><div class="zh">早上好！周末过得怎么样？</div><span class="scene">周一万能开场</span></div>
   <div class="sent"><div class="en">Did you do anything fun over the weekend?</div><div class="zh">周末有没有做什么好玩的事？</div><span class="scene">更轻快的版本</span></div>
   <div class="sent"><div class="en">Any plans for the long weekend?</div><div class="zh">小长假有什么安排吗？</div><span class="scene">周五问计划 · plans for the weekend</span></div>
   <div class="sent"><div class="en">Getting ready for the holidays?</div><div class="zh">在为假期做准备吗？</div><span class="scene">节日季通用</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 分享与接话（回应 + 追问）</h2>
-  <div class="sent"><div class="en">I mostly took it easy — caught up on some sleep and went for a hike on Sunday.</div><div class="zh">我主要就是休息——补了点觉，周日去徒步了。</div><span class="scene">take it easy = 放松休息</span></div>
+  <div class="sent"><div class="en">I mostly <span class="phrase" data-ph="took it easy">took it easy</span> — caught up on some sleep and went for a hike on Sunday.</div><div class="zh">我主要就是休息——补了点觉，周日去徒步了。</div><span class="scene">take it easy = 放松休息</span></div>
   <div class="sent"><div class="en">Oh nice! Where did you go hiking?</div><div class="zh">不错啊！去哪里徒步了？</div><span class="scene">接话公式：评价 + 追问</span></div>
   <div class="sent"><div class="en">That sounds exhausting — in a good way! How long have you been into rock climbing?</div><div class="zh">听起来很累——累得值！你玩攀岩多久了？</div><span class="scene">How long have you been into...? 问爱好</span></div>
-  <div class="sent"><div class="en">Same here, honestly. I can't remember the last time I watched a full movie.</div><div class="zh">说实话我也一样。我都记不清上次看完一整部电影是什么时候了。</div><span class="scene">表达共鸣 · Same here</span></div>
-  <div class="sent"><div class="en">No way! I've been meaning to try that place. Is it good?</div><div class="zh">不会吧！我一直想去那家试试。好吃吗？</div><span class="scene">No way! = 不会吧（惊讶，非否定）</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="same here">Same here</span>, honestly. I can't remember the last time I watched a full movie.</div><div class="zh">说实话我也一样。我都记不清上次看完一整部电影是什么时候了。</div><span class="scene">表达共鸣 · <span class="phrase" data-ph="same here">Same here</span></span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="no way">No way</span>! I've <span class="phrase" data-ph="been meaning to">been meaning to</span> try that place. Is it good?</div><div class="zh">不会吧！我一直想去那家试试。好吃吗？</div><span class="scene"><span class="phrase" data-ph="no way">No way</span>! = 不会吧（惊讶，非否定）</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 工作话题的闲聊与收尾</h2>
-  <div class="sent"><div class="en">How's that migration project coming along?</div><div class="zh">迁移项目进展怎么样？</div><span class="scene">关心对方项目 · come along</span></div>
-  <div class="sent"><div class="en">Busy, but the good kind of busy, you know?</div><div class="zh">挺忙的，但是是那种良性的忙，你懂的？</div><span class="scene">被问近况时的标准回答</span></div>
-  <div class="sent"><div class="en">Anyway, I should get going — great running into you!</div><div class="zh">好了，我该走了——很高兴碰到你！</div><span class="scene">优雅收尾 · great running into you</span></div>
-  <div class="sent"><div class="en">Let's grab a coffee sometime next week and catch up properly.</div><div class="zh">下周找时间喝杯咖啡，好好聊聊。</div><span class="scene">留下后续 · grab a coffee</span></div>
-  <div class="sent"><div class="en">Say hi to the team for me!</div><div class="zh">替我向你们团队问好！</div><span class="scene">礼貌结束语 · say hi to...for me</span></div>
+  <div class="sent"><div class="en">How's that migration project <span class="phrase" data-ph="coming along">coming along</span>?</div><div class="zh">迁移项目进展怎么样？</div><span class="scene">关心对方项目 · come along</span></div>
+  <div class="sent"><div class="en">Busy, but <span class="phrase" data-ph="the good kind of busy">the good kind of busy</span>, you know?</div><div class="zh">挺忙的，但是是那种良性的忙，你懂的？</div><span class="scene">被问近况时的标准回答</span></div>
+  <div class="sent"><div class="en">Anyway, <span class="phrase" data-ph="i should get going">I should get going</span> — great running into you!</div><div class="zh">好了，我该走了——很高兴碰到你！</div><span class="scene">优雅收尾 · great running into you</span></div>
+  <div class="sent"><div class="en">Let's grab a coffee sometime next week and <span class="phrase" data-ph="catch up properly">catch up properly</span>.</div><div class="zh">下周找时间喝杯咖啡，好好聊聊。</div><span class="scene">留下后续 · grab a coffee</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="say hi to">Say hi to</span> the team for me!</div><div class="zh">替我向你们团队问好！</div><span class="scene">礼貌结束语 · <span class="phrase" data-ph="say hi to">say hi to</span>...for me</span></div>
 
   <h2 class="section">情景对话</h2>
 
   <div class="dialog">
     <h3>场景一：周一早上的咖啡机旁（经典周末三部曲）</h3>
-    <div class="line"><span class="who">Emma</span><span class="en">Morning! How was your weekend?</span><span class="zh">早上好！周末怎么样？</span></div>
+    <div class="line"><span class="who">Emma</span><span class="en">Morning! <span class="phrase" data-ph="how was your weekend">How was your weekend</span>?</span><span class="zh">早上好！周末怎么样？</span></div>
     <div class="line me"><span class="who">你</span><span class="en">Pretty good, thanks! I finally checked out that new ramen place downtown. A bit pricey, but totally worth it. How about you?</span><span class="zh">挺好的，谢谢！我终于去吃了市中心那家新拉面店。有点贵，但绝对值。你呢？</span></div>
-    <div class="line"><span class="who">Emma</span><span class="en">Oh nice, I've been meaning to try that one! I mostly stayed in and binge-watched a series. Felt guilty on Sunday night, but honestly, I needed the rest.</span><span class="zh">哦不错，我一直想去试试！我基本宅在家刷剧。周日晚上还有点负罪感，但说实话，我确实需要休息。</span></div>
+    <div class="line"><span class="who">Emma</span><span class="en">Oh nice, I've <span class="phrase" data-ph="been meaning to">been meaning to</span> try that one! I mostly stayed in and binge-watched a series. Felt guilty on Sunday night, but honestly, I needed the rest.</span><span class="zh">哦不错，我一直想去试试！我基本宅在家刷剧。周日晚上还有点负罪感，但说实话，我确实需要休息。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">No guilt needed — rest is productive! What series were you watching?</span><span class="zh">不用负罪感——休息也是生产力！你在看什么剧？</span></div>
     <div class="line"><span class="who">Emma</span><span class="en">This sci-fi show about a tech company gone wrong. You'd probably love it — very "AI taking over" vibes.</span><span class="zh">一部关于科技公司失控的科幻剧。你可能会喜欢——很有「AI 统治世界」的味道。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Ha, given what we do for a living, that hits close to home. What's it called?</span><span class="zh">哈，以我们的职业来说，这可太贴近现实了。叫什么名字？</span></div>
-    <div class="line"><span class="who">Emma</span><span class="en">I'll send you the name. Anyway, I should get going — standup starts in five. Great chatting with you!</span><span class="zh">我把名字发你。好了，我得走了——五分钟后站会。和你聊天很开心！</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Ha, given what we do for a living, that <span class="phrase" data-ph="hits close to home">hits close to home</span>. What's it called?</span><span class="zh">哈，以我们的职业来说，这可太贴近现实了。叫什么名字？</span></div>
+    <div class="line"><span class="who">Emma</span><span class="en">I'll send you the name. Anyway, <span class="phrase" data-ph="i should get going">I should get going</span> — standup starts in five. Great chatting with you!</span><span class="zh">我把名字发你。好了，我得走了——五分钟后站会。和你聊天很开心！</span></div>
     <div class="line me"><span class="who">你</span><span class="en">You too! Enjoy your coffee.</span><span class="zh">我也是！咖啡慢慢喝。</span></div>
   </div>
 
@@ -119,7 +148,7 @@
     <div class="line"><span class="who">Rachel</span><span class="en">Hi Alex, I'm Rachel, from the data platform team. Nice to meet you!</span><span class="zh">你好 Alex，我是 Rachel，数据平台团队的。很高兴认识你！</span></div>
     <div class="line me"><span class="who">你</span><span class="en">Nice to meet you too. So you're on the data platform side — we've actually been using your event pipeline for the fraud detection project. It's been rock solid.</span><span class="zh">我也很高兴认识你。你是数据平台这边的——我们的反欺诈项目其实一直在用你们的事件管道。一直很稳。</span></div>
     <div class="line"><span class="who">Rachel</span><span class="en">Oh good to hear! That pipeline went through a rough patch last year, so it's nice to know it's holding up. How's the fraud detection coming along?</span><span class="zh">那太好了！那条管道去年出过一阵问题，知道它现在很稳我很欣慰。反欺诈项目进展如何？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Making good progress — we cut false positives by forty percent last quarter. Anyway, I should let you mingle, but I'd love to pick your brain about the streaming metrics sometime. Could I shoot you an email?</span><span class="zh">进展不错——上个季度误报率降低了 40%。好了，不打扰你社交了，不过改天很想请教一下流式指标的问题。我能给你发个邮件吗？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Making good progress — we cut false positives by forty percent last quarter. Anyway, I should let you mingle, but I'd love to <span class="phrase" data-ph="pick your brain">pick your brain</span> about the streaming metrics sometime. Could I shoot you an email?</span><span class="zh">进展不错——上个季度误报率降低了 40%。好了，不打扰你社交了，不过改天很想请教一下流式指标的问题。我能给你发个邮件吗？</span></div>
     <div class="line"><span class="who">Rachel</span><span class="en">Absolutely, just ping me on Slack. It was great meeting you, Alex!</span><span class="zh">当然，Slack 上找我就行。很高兴认识你，Alex！</span></div>
     <div class="line me"><span class="who">你</span><span class="en">You too. Enjoy the rest of the event!</span><span class="zh">我也是。活动玩得开心！</span></div>
   </div>
@@ -191,10 +220,244 @@
     <tr><td>10 分钟</td><td>30 秒 networking 自我介绍 + 录音</td></tr>
   </table>
 
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
   <nav class="bottom">
     <a href="day5.html">← Day 5 · Demo</a>
     <a href="day7.html">Day 7 · 周会总结与复盘 →</a>
   </nav>
 </div>
+<!--DAY-ENHANCE-JS--><script>
+var DAY_PHRASES = [["How was your weekend", "周末过得怎么样"], ["checked out", "去看了/试了（新店等）"], ["been meaning to", "一直想去（还没去）"], ["took it easy", "放松休息"], ["caught up on", "补上（睡眠/剧）"], ["No way", "不会吧！（惊讶）"], ["hits close to home", "太贴近现实了"], ["Same here", "我也一样"], ["coming along", "进展（如何）"], ["the good kind of busy", "良性的忙"], ["I should get going", "我该走了"], ["running into you", "碰到你（很巧）"], ["grab a coffee", "喝杯咖啡、约咖啡"], ["catch up properly", "好好聊聊"], ["pick your brain", "请教一下你"], ["Say hi to", "替我向……问好"], ["Nothing that fancy", "没那么复杂"]];
+var DAY_QUIZ = [["周一早上和同事寒暄，最自然的开场：", ["Morning! How was your weekend?", "Morning! How was your weekend going?", "Hello, weekend was what?", "Good Monday, did you weekend?"], 0, "How was your weekend? 是周一万能开场。"], ["同事问你周末干嘛了，你休息补觉去了：", ["I mostly took it easy — caught up on some sleep.", "I took easy and caught my sleep up totally.", "I was easy, sleeping caught me.", "My sleep was caught up by me easily."], 0, "take it easy + catch up on sleep 都是地道口语。"], ["朋友说要去一家你想去没去过的店：", ["No way! I've been meaning to try that place!", "No way! I am meaning that place to try!", "No road! That place means to me!", "No method! I mean trying there!"], 0, "No way! 表示惊讶「不会吧」；have been meaning to 表示一直想做。"], ["电梯里碰见想深聊的同事，要走了想留个后续：", ["Let's grab a coffee sometime next week and catch up properly.", "Let's coffee grab next week for proper catching.", "Coffee will be grabbed by us next week.", "Next week coffee catches us properly."], 0, "grab a coffee + catch up 是收尾留后续的标配。"], ["结束闲聊时表达「很高兴碰到你」：", ["Great running into you!", "Great run into you!", "Running into you greatly!", "The run into you is great!"], 0, "great running into you 是偶遇道别的固定表达。"]];
+var DAY_NO = 6;
+
+/* ---------- 语音（与词汇页共用偏好） ---------- */
+var __voice = null;
+function resolveVoice() {
+  var vs = window.speechSynthesis.getVoices() || [];
+  var saved = '';
+  try { saved = localStorage.getItem('ielts-voice') || ''; } catch (e) {}
+  if (saved) {
+    var hit = vs.filter(function (v) { return v.name === saved; });
+    if (hit.length) return hit[0];
+  }
+  var pref = ['Ava (Premium)', 'Ava (Enhanced)', 'Zoe (Premium)', 'Samantha', 'Google UK English Female', 'Google US English', 'Microsoft Aria'];
+  for (var i = 0; i < pref.length; i++) {
+    for (var j = 0; j < vs.length; j++) {
+      if (vs[j].name.indexOf(pref[i]) !== -1) return vs[j];
+    }
+  }
+  var en = vs.filter(function (v) { return (v.lang || '').toLowerCase().indexOf('en') === 0; });
+  return en[0] || null;
+}
+function speakText(text, onend) {
+  if (!('speechSynthesis' in window)) return;
+  var synth = window.speechSynthesis;
+  synth.cancel();
+  if (!__voice) {
+    __voice = resolveVoice();
+    synth.onvoiceschanged = function () { __voice = resolveVoice(); };
+  }
+  var u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  if (__voice) u.voice = __voice;
+  if (onend) u.onend = onend;
+  synth.speak(u);
+}
+
+/* ---------- 对话音频 + 跟读 ---------- */
+var playState = null; /* {dialog, lines, idx, shadow, timer} */
+
+function collectLines(dialog) {
+  return Array.prototype.map.call(dialog.querySelectorAll('.line'), function (line) {
+    return { el: line, text: (line.querySelector('.en') || {}).textContent || '' };
+  }).filter(function (l) { return l.text.trim(); });
+}
+
+function stopPlayback() {
+  if (!playState) return;
+  if (playState.timer) clearTimeout(playState.timer);
+  window.speechSynthesis.cancel();
+  playState.lines.forEach(function (l) {
+    l.el.classList.remove('speaking');
+    var b = l.el.querySelector('.line-voice');
+    if (b) b.textContent = '🔊';
+  });
+  var btns = playState.dialog.querySelectorAll('.dlg-audio button');
+  btns.forEach(function (b) { b.classList.remove('playing'); });
+  var tip = playState.dialog.querySelector('.shadow-tip');
+  if (tip) tip.style.display = 'none';
+  playState = null;
+}
+
+function playFrom(dialog, startIdx, shadow) {
+  stopPlayback();
+  playState = { dialog: dialog, lines: collectLines(dialog), idx: startIdx, shadow: shadow, timer: null };
+  var btns = dialog.querySelectorAll('.dlg-audio button');
+  if (btns[shadow ? 1 : 0]) btns[shadow ? 1 : 0].classList.add('playing');
+  var tip = dialog.querySelector('.shadow-tip');
+  if (shadow && tip) tip.style.display = '';
+  playNextLine();
+}
+
+function playNextLine() {
+  if (!playState) return;
+  var s = playState;
+  if (s.idx >= s.lines.length) { stopPlayback(); return; }
+  var line = s.lines[s.idx];
+  line.el.classList.add('speaking');
+  var vb = line.el.querySelector('.line-voice');
+  if (vb) vb.textContent = '🔈';
+  line.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  speakText(line.text, function () {
+    if (!playState) return;
+    if (vb) vb.textContent = '🔊';
+    var wait = s.shadow ? 4000 : 350;
+    s.timer = setTimeout(function () {
+      if (!playState) return;
+      line.el.classList.remove('speaking');
+      s.idx++;
+      playNextLine();
+    }, wait);
+  });
+}
+
+function togglePlay(dialog, shadow, btn) {
+  if (playState && playState.dialog === dialog && playState.shadow === shadow) { stopPlayback(); return; }
+  playFrom(dialog, 0, shadow);
+}
+
+function injectAudio() {
+  document.querySelectorAll('.dialog').forEach(function (dialog, di) {
+    var h3 = dialog.querySelector('h3');
+    if (!h3) return;
+    var wrap = document.createElement('span');
+    wrap.className = 'dlg-audio';
+    wrap.innerHTML =
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), false, this)">▶️ 播放对话</button>' +
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), true, this)">🎧 跟读模式</button>' +
+      '<span class="shadow-tip">跟读中：每句读完请大声复述</span>';
+    h3.appendChild(wrap);
+    dialog.querySelectorAll('.line').forEach(function (line) {
+      var en = line.querySelector('.en');
+      if (!en) return;
+      var b = document.createElement('button');
+      b.className = 'line-voice';
+      b.textContent = '🔊';
+      b.title = '播放这句';
+      b.onclick = function () {
+        var wasPlaying = playState && playState.dialog === dialog;
+        stopPlayback();
+        if (wasPlaying) return;
+        line.classList.add('speaking');
+        b.textContent = '🔈';
+        speakText(en.textContent, function () {
+          line.classList.remove('speaking');
+          b.textContent = '🔊';
+        });
+      };
+      en.appendChild(b);
+    });
+  });
+}
+
+/* ---------- 短语高亮 + 释义气泡 ---------- */
+var DAY_PHRASES_DICT = {};
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+function highlightPhrases() {
+  var phrases = DAY_PHRASES.map(function (p) { return p[0]; });
+  phrases.sort(function (a, b) { return b.length - a.length; });
+  DAY_PHRASES.forEach(function (p) { DAY_PHRASES_DICT[p[0].toLowerCase()] = p[1]; });
+  document.querySelectorAll('.dialog .line .en, .sent .en').forEach(function (el) {
+    var html = el.innerHTML;
+    if (html.indexOf('class="phrase"') !== -1) return;
+    phrases.forEach(function (phrase) {
+      if (html.indexOf('class="phrase"') !== -1) return;
+      var re = new RegExp(escapeRegExp(phrase).replace(/ /g, '(?:\\s|&nbsp;)+'), 'gi');
+      html = html.replace(re, function (m) {
+        return '<span class="phrase" data-ph="' + phrase.toLowerCase() + '">' + m + '</span>';
+      });
+    });
+    el.innerHTML = html;
+  });
+}
+
+function setupPhrasePop() {
+  var pop = document.createElement('div');
+  pop.id = 'phrasePop';
+  document.body.appendChild(pop);
+  document.addEventListener('click', function (e) {
+    var voiceBtn = e.target.closest('.p-voice');
+    if (voiceBtn) {
+      speakText(voiceBtn.getAttribute('data-say'));
+      e.stopPropagation();
+      return;
+    }
+    var ph = e.target.closest('.phrase');
+    if (ph) {
+      var key = ph.getAttribute('data-ph');
+      pop.innerHTML = '<div class="p-en">' + key + '</div><div>' + (DAY_PHRASES_DICT[key] || '') + '</div>' +
+        '<button class="p-voice" data-say="' + key + '">🔊</button>';
+      var r = ph.getBoundingClientRect();
+      pop.style.display = 'block';
+      var top = r.bottom + window.scrollY + 8;
+      var left = Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - 320);
+      pop.style.top = top + 'px';
+      pop.style.left = Math.max(8, left) + 'px';
+      e.stopPropagation();
+      return;
+    }
+    pop.style.display = 'none';
+  });
+}
+
+/* ---------- 课后小练习 ---------- */
+function renderQuiz() {
+  var host = document.getElementById('dayQuiz');
+  if (!host) return;
+  var items = DAY_QUIZ;
+  var html = '';
+  items.forEach(function (q, qi) {
+    html += '<div class="quiz-q" data-answer="' + q[2] + '"><div class="q-title">' + (qi + 1) + '. ' + q[0] + '</div>';
+    q[1].forEach(function (opt, oi) {
+      html += '<label data-oi="' + oi + '"><input type="radio" name="q' + qi + '" style="margin-right:8px" onclick="answerQuiz(this)">' + opt + '</label>';
+    });
+    html += '<div class="explain">💡 ' + q[3] + '</div></div>';
+  });
+  html += '<div class="quiz-score" id="quizScore"></div><button class="btn ghost" onclick="renderQuiz()" style="margin-top:10px">🔄 重做</button>';
+  host.innerHTML = html;
+}
+
+function answerQuiz(input) {
+  var qdiv = input.closest('.quiz-q');
+  if (qdiv.classList.contains('done')) return;
+  qdiv.classList.add('done');
+  var answer = parseInt(qdiv.getAttribute('data-answer'), 10);
+  qdiv.querySelectorAll('label').forEach(function (label) {
+    var oi = parseInt(label.getAttribute('data-oi'), 10);
+    label.classList.add('disabled');
+    if (oi === answer) label.classList.add('correct');
+    else if (label.querySelector('input').checked) label.classList.add('wrong');
+  });
+  var done = document.querySelectorAll('.quiz-q.done').length;
+  var right = 0;
+  document.querySelectorAll('.quiz-q').forEach(function (q) {
+    if (q.classList.contains('done') && q.querySelector('label.correct input').checked) right++;
+  });
+  document.getElementById('quizScore').textContent = '已完成 ' + done + '/' + DAY_QUIZ.length + ' 题 · 答对 ' + right + ' 题';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  injectAudio();
+  highlightPhrases();
+  setupPhrasePop();
+  renderQuiz();
+});
+</script><!--/DAY-ENHANCE-JS-->
 </body>
 </html>

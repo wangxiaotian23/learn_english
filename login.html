@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>登录 / 注册 · IT 职场英语</title>
+<style>
+  :root { --primary:#2563eb; --primary-dark:#1e40af; --bg:#f8fafc; --card:#fff; --text:#1e293b; --muted:#64748b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .container { max-width:420px; margin:0 auto; padding:48px 16px 60px; }
+  nav.top { display:flex; justify-content:space-between; padding:0 0 16px; font-size:14px; }
+  nav.top a { color:var(--primary); text-decoration:none; padding:6px 14px; border:1px solid #dbeafe; border-radius:8px; background:var(--card); }
+  header.hero { background:linear-gradient(135deg,var(--primary-dark),var(--primary)); color:#fff; border-radius:16px; padding:28px 28px; margin-bottom:24px; text-align:center; }
+  header.hero h1 { font-size:22px; margin-bottom:6px; }
+  header.hero p { opacity:.92; font-size:13px; }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:14px; padding:26px; }
+  .tabs { display:flex; background:#f1f5f9; border-radius:10px; padding:4px; margin-bottom:22px; }
+  .tabs button { flex:1; border:none; background:transparent; padding:9px 0; border-radius:8px; font-size:14px; cursor:pointer; font-family:inherit; color:var(--muted); }
+  .tabs button.active { background:#fff; color:var(--primary-dark); font-weight:600; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+  .field { margin-bottom:14px; }
+  .field label { display:block; font-size:13px; color:var(--muted); margin-bottom:4px; }
+  .field input {
+    width:100%; padding:11px 14px; font-size:15px; border:2px solid #dbeafe; border-radius:10px;
+    outline:none; font-family:inherit; background:#fff;
+  }
+  .field input:focus { border-color:var(--primary); }
+  .btn-main { width:100%; background:var(--primary); color:#fff; border:none; border-radius:10px; padding:12px 0; font-size:15px; cursor:pointer; font-family:inherit; margin-top:6px; }
+  .btn-main:hover { background:var(--primary-dark); }
+  .msg { min-height:20px; font-size:13px; margin-top:12px; text-align:center; }
+  .msg.err { color:#b91c1c; }
+  .msg.good { color:#047857; }
+  .logged-in { text-align:center; padding:10px 0 4px; }
+  .logged-in .avatar { font-size:40px; }
+  .logged-in .email { font-size:16px; font-weight:600; color:var(--primary-dark); margin:6px 0 2px; }
+  .logged-in .tip { font-size:13px; color:var(--muted); margin-bottom:18px; }
+  .btn-ghost { background:#fff; color:var(--primary); border:1px solid var(--primary); border-radius:10px; padding:9px 24px; font-size:14px; cursor:pointer; font-family:inherit; margin:0 6px; text-decoration:none; display:inline-block; }
+  .btn-ghost:hover { background:#eff6ff; }
+  .benefits { margin-top:18px; font-size:13px; color:var(--muted); background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:12px 16px; }
+  .benefits li { margin-left:16px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="top">
+    <a href="index.html">← 返回主页</a>
+    <a href="ielts/quiz.html">去测验 →</a>
+  </nav>
+
+  <header class="hero">
+    <h1>登录 / 注册</h1>
+    <p>登录后学习进度按账号保存，换设备不丢失</p>
+  </header>
+
+  <div class="card">
+    <div id="authBox">
+      <div class="tabs">
+        <button id="tabLogin" class="active" onclick="switchTab('login')">登录</button>
+        <button id="tabRegister" onclick="switchTab('register')">注册</button>
+      </div>
+      <div class="field">
+        <label>邮箱</label>
+        <input type="email" id="email" placeholder="you@example.com" autocomplete="email">
+      </div>
+      <div class="field">
+        <label>密码（至少 6 位）</label>
+        <input type="password" id="password" placeholder="••••••••" autocomplete="current-password"
+               onkeydown="if(event.key==='Enter')submitAuth()">
+      </div>
+      <button class="btn-main" id="submitBtn" onclick="submitAuth()">登 录</button>
+      <div class="msg" id="msg"></div>
+    </div>
+
+    <div class="logged-in" id="loggedInBox" style="display:none">
+      <div class="avatar">👤</div>
+      <div class="email" id="userEmail"></div>
+      <div class="tip">当前已登录</div>
+      <a class="btn-ghost" href="index.html">去学习 →</a>
+      <button class="btn-ghost" onclick="doLogout()">退出登录</button>
+    </div>
+  </div>
+
+  <div class="benefits">
+    <b>登录后可以：</b>
+    <ul>
+      <li>词汇册「已掌握」进度云端保存</li>
+      <li>随机测验成绩自动记录</li>
+      <li>多设备同步（浏览器之间互通）</li>
+    </ul>
+  </div>
+
+</div>
+<script>
+var mode = 'login';
+
+function switchTab(m) {
+  mode = m;
+  document.getElementById('tabLogin').classList.toggle('active', m === 'login');
+  document.getElementById('tabRegister').classList.toggle('active', m === 'register');
+  document.getElementById('submitBtn').textContent = m === 'login' ? '登 录' : '注 册';
+  setMsg('');
+}
+
+function setMsg(text, isErr) {
+  var el = document.getElementById('msg');
+  el.textContent = text || '';
+  el.className = 'msg' + (isErr ? ' err' : ' good');
+}
+
+function api(path, body) {
+  return fetch(path, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    credentials: 'same-origin',
+    body: JSON.stringify(body)
+  }).then(function (r) { return r.json(); });
+}
+
+function submitAuth() {
+  var email = document.getElementById('email').value.trim();
+  var password = document.getElementById('password').value;
+  if (!email || !password) { setMsg('请填写邮箱和密码', true); return; }
+  api(mode === 'login' ? '/api/login' : '/api/register', { email: email, password: password })
+    .then(function (j) {
+      if (j.ok) { renderLoggedIn(j.email); }
+      else setMsg(j.error || '操作失败', true);
+    })
+    .catch(function () { setMsg('无法连接服务器，请确认后端已启动', true); });
+}
+
+function renderLoggedIn(email) {
+  document.getElementById('authBox').style.display = 'none';
+  document.getElementById('loggedInBox').style.display = 'block';
+  document.getElementById('userEmail').textContent = email;
+}
+
+function doLogout() {
+  api('/api/logout', {}).then(function () { location.reload(); });
+}
+
+fetch('/api/me', { credentials: 'same-origin' })
+  .then(function (r) { return r.json(); })
+  .then(function (j) { if (j.ok) renderLoggedIn(j.email); })
+  .catch(function () {});
+</script>
+</body>
+</html>

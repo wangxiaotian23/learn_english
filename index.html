@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IT 职场英语口语 · 一周教程</title>
+<title>英语学习中心 · IT 职场口语 &amp; 雅思核心词汇</title>
 <style>
   :root {
     --primary: #2563eb;
@@ -12,184 +12,101 @@
     --card: #ffffff;
     --text: #1e293b;
     --muted: #64748b;
-    --accent: #f59e0b;
+    --it: #2563eb;
+    --it-dark: #1e40af;
+    --ielts: #8b5cf6;
+    --ielts-dark: #6d28d9;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
     background: var(--bg); color: var(--text); line-height: 1.7;
   }
-  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+  .container { max-width: 900px; margin: 0 auto; padding: 24px 16px 60px; }
   header.hero {
-    background: linear-gradient(135deg, var(--primary-dark), var(--primary));
-    color: #fff; border-radius: 16px; padding: 40px 32px; margin-bottom: 32px;
+    background: linear-gradient(135deg, #1e3a8a, var(--primary), var(--ielts));
+    color: #fff; border-radius: 16px; padding: 44px 32px; margin-bottom: 32px; text-align: center;
   }
-  header.hero h1 { font-size: 28px; margin-bottom: 8px; }
+  header.hero h1 { font-size: 30px; margin-bottom: 8px; }
   header.hero p { opacity: .92; font-size: 15px; }
-  h2.section {
-    font-size: 20px; margin: 32px 0 16px; padding-left: 12px;
-    border-left: 4px solid var(--primary);
-  }
-  .day-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-  @media (max-width: 640px) { .day-grid { grid-template-columns: 1fr; } }
-  a.day-card {
-    display: block; background: var(--card); border-radius: 12px; padding: 18px 20px;
-    text-decoration: none; color: var(--text); border: 1px solid #e2e8f0;
+  .hub-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 640px) { .hub-grid { grid-template-columns: 1fr; } }
+  a.hub-card {
+    display: flex; flex-direction: column; background: var(--card); border-radius: 16px;
+    padding: 28px 26px; text-decoration: none; color: var(--text); border: 1px solid #e2e8f0;
+    border-top: 5px solid var(--it);
     transition: transform .15s, box-shadow .15s;
   }
-  a.day-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(37,99,235,.12); border-color: var(--primary); }
-  .day-card .tag {
-    display: inline-block; background: var(--primary); color: #fff; font-size: 12px;
-    padding: 2px 10px; border-radius: 999px; margin-bottom: 8px;
+  a.hub-card.ielts { border-top-color: var(--ielts); }
+  a.hub-card:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(30,58,138,.14); }
+  .hub-emoji { font-size: 34px; margin-bottom: 10px; }
+  .hub-card h2 { font-size: 20px; margin-bottom: 8px; }
+  a.hub-card.it h2 { color: var(--it-dark); }
+  a.hub-card.ielts h2 { color: var(--ielts-dark); }
+  .hub-card .desc { font-size: 14px; color: var(--muted); margin-bottom: 14px; }
+  .hub-card ul { list-style: none; font-size: 13px; color: var(--text); margin-bottom: 18px; }
+  .hub-card ul li { padding: 3px 0; }
+  .hub-card ul li::before { content: "✓ "; color: var(--it); font-weight: 700; }
+  a.hub-card.ielts ul li::before { color: var(--ielts); }
+  .hub-card .cta {
+    margin-top: auto; align-self: flex-start;
+    display: inline-block; padding: 9px 22px; border-radius: 999px;
+    background: var(--it); color: #fff; font-size: 14px; font-weight: 600;
   }
-  .day-card h3 { font-size: 16px; margin-bottom: 4px; }
-  .day-card h3 .en { color: var(--primary); font-weight: 600; }
-  .day-card p { font-size: 13px; color: var(--muted); }
-  .tip-box {
-    background: #fffbeb; border: 1px solid #fde68a; border-radius: 12px;
-    padding: 16px 20px; font-size: 14px;
-  }
-  .tip-box strong { color: #b45309; }
-  table.schedule { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; font-size: 14px; }
-  table.schedule th, table.schedule td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; }
-  table.schedule th { background: var(--primary); color: #fff; font-weight: 500; }
-  table.schedule tr:last-child td { border-bottom: none; }
+  a.hub-card.ielts .cta { background: var(--ielts); }
+  a.hub-card:hover .cta { filter: brightness(1.08); }
+  .user-bar { display: flex; justify-content: flex-end; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); margin-bottom: 12px; min-height: 34px; flex-wrap: wrap; }
+  .user-bar button { padding: 7px 16px; border: 1px solid var(--primary); background: var(--primary); color: #fff; border-radius: 8px; font-size: 13px; cursor: pointer; font-family: inherit; }
+  .user-bar button.ghost { background: #fff; color: var(--primary); }
+  .user-bar a.login-link { padding: 7px 16px; border: 1px solid var(--primary); border-radius: 8px; font-size: 13px; text-decoration: none; margin-left: 4px; }
+  .user-bar a.login-link.main { background: var(--primary); color: #fff; }
+  .user-bar a.login-link.main:hover { background: var(--primary-dark); }
+  .user-bar a.login-link:not(.main) { background: #fff; color: var(--primary); }
+  .user-bar a.login-link:not(.main):hover { background: #eff6ff; }
+  .user-bar b { color: var(--primary-dark); }
   footer { margin-top: 48px; text-align: center; color: var(--muted); font-size: 13px; }
 </style>
 </head>
 <body>
 <div class="container">
 
+  <div class="user-bar" id="userBar"></div>
+
   <header class="hero">
-    <h1>IT 职场英语口语 · 一周教程</h1>
-    <p>7 天 × 每天 30–60 分钟，覆盖站会、技术讨论、代码评审、会议、Demo、社交、周会复盘七大高频场景。</p>
+    <h1>📚 英语学习中心</h1>
+    <p>IT 职场口语 · 雅思核心词汇 —— 两条学习线，一个入口，进度云端同步</p>
   </header>
 
-  <h2 class="section">每日 30–60 分钟怎么练</h2>
-  <table class="schedule">
-    <tr><th>时间段</th><th>内容</th><th>方法</th></tr>
-    <tr><td>15 分钟</td><td>跟读 Shadowing</td><td>朗读当日句型和对话，模仿语音语调，先慢后快</td></tr>
-    <tr><td>15 分钟</td><td>造句替换</td><td>把句型中的关键词换成自己项目里的真实内容，说出 5–10 个变体</td></tr>
-    <tr><td>10 分钟</td><td>模拟对话 / 自我录音</td><td>一人分饰两角演完当日情景，或录音回听找问题</td></tr>
-    <tr><td>碎片时间</td><td>场景预演</td><td>开会前 2 分钟，在心里用当日句型过一遍自己要说的内容</td></tr>
-  </table>
+  <div class="hub-grid">
+    <a class="hub-card it" href="it.html">
+      <div class="hub-emoji">💼</div>
+      <h2>IT 职场口语</h2>
+      <p class="desc">7 天 × 每天 30–60 分钟，覆盖站会、技术讨论、代码评审、会议、Demo、社交、周会复盘七大高频场景。</p>
+      <ul>
+        <li>90+ 个可直接套用的职场句型</li>
+        <li>多轮双语情景对话，逐句跟读</li>
+        <li>每日 50 个高频 IT 单词</li>
+        <li>每课附 5 题随堂小测</li>
+      </ul>
+      <span class="cta">开始学习 →</span>
+    </a>
 
-  <h2 class="section">七天课程</h2>
-  <div class="day-grid">
-    <a class="day-card" href="day1.html">
-      <span class="tag">Day 1</span>
-      <h3>每日站会 <span class="en">Daily Standup</span></h3>
-      <p>用 yesterday–today–blockers 三段式汇报进展、计划和阻塞。</p>
-    </a>
-    <a class="day-card" href="day2.html">
-      <span class="tag">Day 2</span>
-      <h3>技术讨论与提问 <span class="en">Tech Discussion</span></h3>
-      <p>描述 bug、澄清需求、确认理解，把问题问清楚。</p>
-    </a>
-    <a class="day-card" href="day3.html">
-      <span class="tag">Day 3</span>
-      <h3>代码评审 <span class="en">Code Review</span></h3>
-      <p>礼貌提建议、回应他人反馈，对事不对人的表达方式。</p>
-    </a>
-    <a class="day-card" href="day4.html">
-      <span class="tag">Day 4</span>
-      <h3>会议中表达观点 <span class="en">Meetings</span></h3>
-      <p>同意、反对、打断、总结，学会用软化语气 (softening) 表达异议。</p>
-    </a>
-    <a class="day-card" href="day5.html">
-      <span class="tag">Day 5</span>
-      <h3>讲解方案与演示 <span class="en">Demo &amp; Presentation</span></h3>
-      <p>向非技术人员解释技术方案，Demo 时的过渡语和收尾。</p>
-    </a>
-    <a class="day-card" href="day6.html">
-      <span class="tag">Day 6</span>
-      <h3>职场社交 <span class="en">Small Talk</span></h3>
-      <p>电梯闲聊、茶水间对话、跨团队 networking 的开场与收尾。</p>
-    </a>
-    <a class="day-card" href="day7.html">
-      <span class="tag">Day 7</span>
-      <h3>周会总结与复盘 <span class="en">Weekly Report &amp; Retro</span></h3>
-      <p>口头周报、回顾会表达，以及一周学习的自测清单。</p>
-    </a>
-    <a class="day-card" href="day7.html#checklist">
-      <span class="tag">自测</span>
-      <h3>周末自查清单 <span class="en">Self Check</span></h3>
-      <p>Day 7 文档末尾附带一周成果自测表，检验学习效果。</p>
+    <a class="hub-card ielts" href="ielts.html">
+      <div class="hub-emoji">📖</div>
+      <h2>雅思核心 3000 词</h2>
+      <p class="desc">10 册高频词库，按主题与字母段编排，从 abandon 到 zoom 逐册刷完，登录后掌握进度自动保存。</p>
+      <ul>
+        <li>3000 词全部配例句 + 一键发音</li>
+        <li>「刷词自测」隐藏中文测主动提取</li>
+        <li>随机 10 词每日一测，错词自动汇总</li>
+        <li>掌握进度按册统计、多设备同步</li>
+      </ul>
+      <span class="cta">开始背词 →</span>
     </a>
   </div>
 
-  <h2 class="section">🎲 随机单词小测验</h2>
-  <a class="day-card" href="ielts/quiz.html" style="border-left: 4px solid #ef4444;">
-    <span class="tag" style="background:#ef4444;">每日一测</span>
-    <h3>随机 10 词 · 填中文释义 <span class="en">Quick Quiz</span></h3>
-    <p>从 3000 个雅思核心词随机抽 10 个，填中文意思即时判分——意思相近就算对，错词自动汇总，测完再来一轮。</p>
-  </a>
-
-  <h2 class="section">雅思 3000 高频核心词汇库 (10 册 · 每册 300 词)</h2>
-  <div class="day-grid">
-    <a class="day-card" href="ielts/ielts_part1a.html" style="border-left: 4px solid #2563eb;">
-      <span class="tag" style="background:#2563eb;">Part 1a (0001 - 0300)</span>
-      <h3>学术研究与逻辑论证核心词 <span class="en">A 字母段</span></h3>
-      <p>abandon → artery · AWL 学术词表、因果论证、实验逻辑高频词。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part1b.html" style="border-left: 4px solid #2563eb;">
-      <span class="tag" style="background:#2563eb;">Part 1b (0301 - 0600)</span>
-      <h3>学术研究与逻辑论证核心词 <span class="en">A ~ C 字母段</span></h3>
-      <p>article → climate · 承接上册，覆盖论证与基础考点词汇。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part2a.html" style="border-left: 4px solid #0284c7;">
-      <span class="tag" style="background:#0284c7;">Part 2a (0601 - 0900)</span>
-      <h3>教育学习与自然地理生态 <span class="en">C ~ D 字母段</span></h3>
-      <p>climb → desirable · 大学校园、教学科研、气候地质高频词。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part2b.html" style="border-left: 4px solid #0284c7;">
-      <span class="tag" style="background:#0284c7;">Part 2b (0901 - 1200)</span>
-      <h3>教育学习与自然地理生态 <span class="en">D ~ E 字母段</span></h3>
-      <p>desire → explicit · 动植物环保与考核评估核心词汇。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part3a.html" style="border-left: 4px solid #0d9488;">
-      <span class="tag" style="background:#0d9488;">Part 3a (1201 - 1500)</span>
-      <h3>科技工程、建筑与社会文化 <span class="en">E ~ G 字母段</span></h3>
-      <p>explode → groundwater · 信息科技、人工智能、工程制造高频词。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part3b.html" style="border-left: 4px solid #0d9488;">
-      <span class="tag" style="background:#0d9488;">Part 3b (1501 - 1800)</span>
-      <h3>科技工程、建筑与社会文化 <span class="en">G ~ L 字母段</span></h3>
-      <p>growth → light · 建筑空间、人口结构与多元文化高频词。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part4a.html" style="border-left: 4px solid #f59e0b;">
-      <span class="tag" style="background:#f59e0b;">Part 4a (1801 - 2100)</span>
-      <h3>经济商业、职业发展与政府法律 <span class="en">L ~ O 字母段</span></h3>
-      <p>lighten → odd · 宏观经济、国际贸易、企业管理高频词。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part4b.html" style="border-left: 4px solid #f59e0b;">
-      <span class="tag" style="background:#f59e0b;">Part 4b (2101 - 2400)</span>
-      <h3>经济商业、职业发展与政府法律 <span class="en">O ~ R 字母段</span></h3>
-      <p>offend → reflection · 求职招聘、公共政策与社会正义高频词。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part5a.html" style="border-left: 4px solid #8b5cf6;">
-      <span class="tag" style="background:#8b5cf6;">Part 5a (2401 - 2700)</span>
-      <h3>医药健康、艺术传媒与核心替换 <span class="en">R ~ S 字母段</span></h3>
-      <p>reform → suppress · 生理心理、大众传媒、艺术审美高频词。</p>
-    </a>
-    <a class="day-card" href="ielts/ielts_part5b.html" style="border-left: 4px solid #8b5cf6;">
-      <span class="tag" style="background:#8b5cf6;">Part 5b (2701 - 3000)</span>
-      <h3>医药健康、艺术传媒与核心替换 <span class="en">S ~ Z 字母段</span></h3>
-      <p>surge → zoom · 写作 Task 2 高分连接与阅读同义替换词库。</p>
-    </a>
-  </div>
-
-  <h2 class="section">使用建议</h2>
-  <div class="tip-box">
-    <strong>三个原则：</strong><br>
-    1. <strong>开口优先</strong> —— 每个句型至少大声说出 3 遍，看懂 ≠ 会说。<br>
-    2. <strong>用自己的内容替换</strong> —— 把例句里的 "the login feature" 换成你手头真实的项目，第二天上班直接就能用。<br>
-    3. <strong>录音回听</strong> —— 每天最后 10 分钟录一段自己的模拟汇报，回听时重点听：语速是否过快、有没有吞音、停顿位置是否自然。<br>
-    4. <strong>词汇不求拼写，只求认识 + 会说</strong> —— 每天附 50 个高频 IT 词汇，先快速过一遍，认识的跳过，不认识的读出声 2 遍；本周在对话或工作中遇到就算掌握。<br>
-    5. <strong>雅思 3000 词库刷词技巧</strong> —— 点击顶部「🧠 刷词自测」隐藏中文，看英文测主动提取；点击发音按钮纠音，已掌握的勾选保存进度。
-  </div>
-
-  <footer>坚持练习，让英语开口成为工作流的自然部分 · Good luck! 🚀</footer>
+  <footer>坚持练习，让英语开口成为工作流的自然部分 · Good luck! 🚀<br><span id="visitStat"></span></footer>
 </div>
+<script src="userbar.js"></script>
 </body>
 </html>

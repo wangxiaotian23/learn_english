@@ -1,2 +1,4 @@
 .DS_Store
 .zcode/
+users.db
+.secret_key

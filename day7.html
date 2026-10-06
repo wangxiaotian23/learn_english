@@ -46,6 +46,35 @@
   nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
   nav.bottom a:hover { background:#eff6ff; }
 </style>
+<!--DAY-ENHANCE-CSS--><style>
+  .phrase { background: #eff6ff; border-bottom: 2px dotted #2563eb; cursor: pointer; border-radius: 3px; padding: 0 2px; }
+  .phrase:hover { background: #dbeafe; }
+  #phrasePop { position: absolute; display: none; z-index: 99; background: #1e293b; color: #fff;
+    border-radius: 10px; padding: 10px 14px; font-size: 13px; max-width: 300px; box-shadow: 0 8px 20px rgba(0,0,0,.25); }
+  #phrasePop .p-en { font-weight: 700; color: #93c5fd; margin-bottom: 2px; }
+  #phrasePop .p-voice { background: #334155; border: none; color: #fff; border-radius: 50%; width: 26px; height: 26px; cursor: pointer; margin-top: 6px; }
+  .dlg-audio { display: inline-flex; gap: 8px; margin-left: 10px; }
+  .dlg-audio button { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; border-radius: 999px;
+    padding: 3px 12px; font-size: 12px; cursor: pointer; font-family: inherit; }
+  .dlg-audio button:hover { background: #dbeafe; }
+  .dlg-audio button.playing { background: #1d4ed8; color: #fff; }
+  .line { position: relative; }
+  .line .line-voice { background: none; border: none; cursor: pointer; font-size: 12px; padding: 0 4px; opacity: .55; }
+  .line .line-voice:hover { opacity: 1; }
+  .line.speaking .en { background: #fef3c7 !important; }
+  .shadow-tip { font-size: 12px; color: #b45309; background: #fffbeb; border-radius: 6px; padding: 2px 8px; display: none; margin-left: 8px; }
+  .quiz-q { border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 18px; margin: 12px 0; background: #fff; }
+  .quiz-q .q-title { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+  .quiz-q label { display: block; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; margin: 6px 0;
+    cursor: pointer; font-size: 14px; }
+  .quiz-q label:hover { border-color: var(--primary); }
+  .quiz-q label.correct { background: #ecfdf5; border-color: #a7f3d0; color: #047857; }
+  .quiz-q label.wrong { background: #fef2f2; border-color: #fecaca; color: #b91c1c; }
+  .quiz-q label.disabled { cursor: default; opacity: .75; }
+  .quiz-q .explain { display: none; margin-top: 8px; font-size: 13px; color: var(--muted); background: #f8fafc; border-radius: 6px; padding: 6px 10px; }
+  .quiz-q.done .explain { display: block; }
+  .quiz-score { font-size: 15px; font-weight: 600; color: var(--primary-dark); margin-top: 8px; }
+</style><!--/DAY-ENHANCE-CSS-->
 </head>
 <body>
 <div class="container">
@@ -74,18 +103,18 @@
   <h2 class="section">核心句型</h2>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 口头周报（Weekly Update）</h2>
-  <div class="sent"><div class="en">This week, the team shipped three features and closed eleven tickets.</div><div class="zh">本周团队上线了三个功能，关闭了十一个工单。</div><span class="scene">数字开头，最有说服力</span></div>
-  <div class="sent"><div class="en">The highlight of the week was getting the new search feature into production.</div><div class="zh">本周的亮点是新搜索功能上线生产环境。</div><span class="scene">the highlight of the week = 本周亮点</span></div>
-  <div class="sent"><div class="en">We're currently at 90% completion, and we're on track to finish by next Friday.</div><div class="zh">目前完成度 90%，有望下周五之前完成。</div><span class="scene">on track = 进度正常</span></div>
-  <div class="sent"><div class="en">The migration is slightly behind schedule due to the vendor outage earlier this week.</div><div class="zh">由于本周初供应商故障，迁移进度稍有延迟。</div><span class="scene">behind schedule + 说明原因</span></div>
-  <div class="sent"><div class="en">To get back on track, we're bringing in one more engineer next week.</div><div class="zh">为了赶上进度，我们下周会增派一名工程师。</div><span class="scene">落后时给出行动 · get back on track</span></div>
-  <div class="sent"><div class="en">One risk to flag: if the load test surfaces issues, we may need to push the launch by a few days.</div><div class="zh">有一个风险要提：如果压测发现问题，上线可能要推迟几天。</div><span class="scene">提前预警 · flag a risk</span></div>
+  <div class="sent"><div class="en">This week, the team shipped three features and <span class="phrase" data-ph="closed eleven tickets">closed eleven tickets</span>.</div><div class="zh">本周团队上线了三个功能，关闭了十一个工单。</div><span class="scene">数字开头，最有说服力</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="the highlight of the week">The highlight of the week</span> was getting the new search feature into production.</div><div class="zh">本周的亮点是新搜索功能上线生产环境。</div><span class="scene"><span class="phrase" data-ph="the highlight of the week">the highlight of the week</span> = 本周亮点</span></div>
+  <div class="sent"><div class="en">We're currently at 90% completion, and we're <span class="phrase" data-ph="on track">on track</span> to finish by next Friday.</div><div class="zh">目前完成度 90%，有望下周五之前完成。</div><span class="scene"><span class="phrase" data-ph="on track">on track</span> = 进度正常</span></div>
+  <div class="sent"><div class="en">The migration is slightly <span class="phrase" data-ph="behind schedule">behind schedule</span> due to the vendor outage earlier this week.</div><div class="zh">由于本周初供应商故障，迁移进度稍有延迟。</div><span class="scene"><span class="phrase" data-ph="behind schedule">behind schedule</span> + 说明原因</span></div>
+  <div class="sent"><div class="en">To get <span class="phrase" data-ph="back on track">back on track</span>, we're bringing in one more engineer next week.</div><div class="zh">为了赶上进度，我们下周会增派一名工程师。</div><span class="scene">落后时给出行动 · get <span class="phrase" data-ph="back on track">back on track</span></span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="one risk to flag">One risk to flag</span>: if the load test surfaces issues, we may need to push the launch by a few days.</div><div class="zh">有一个风险要提：如果压测发现问题，上线可能要推迟几天。</div><span class="scene">提前预警 · flag a risk</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 回顾会（Retrospective）</h2>
-  <div class="sent"><div class="en">What went well: the pairing sessions really sped up the onboarding.</div><div class="zh">做得好的：结对环节大大加快了新人上手速度。</div><span class="scene">What went well = 做得好的</span></div>
-  <div class="sent"><div class="en">What didn't go so well: we spent too long on requirements that changed anyway.</div><div class="zh">不太好的：我们在后来反正会变的需求上花了太多时间。</div><span class="scene">What didn't go well = 需改进</span></div>
-  <div class="sent"><div class="en">Going forward, let's agree on a cutoff for requirement changes within a sprint.</div><div class="zh">往后，我们约定一个迭代内需求变更的截止点吧。</div><span class="scene">going forward = 往后（提行动）</span></div>
-  <div class="sent"><div class="en">My action item is to document the deployment process by Wednesday.</div><div class="zh">我的行动项是周三之前把部署流程写成文档。</div><span class="scene">action item = 行动项（要认领）</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="what went well">What went well</span>: the pairing sessions really sped up the onboarding.</div><div class="zh">做得好的：结对环节大大加快了新人上手速度。</div><span class="scene"><span class="phrase" data-ph="what went well">What went well</span> = 做得好的</span></div>
+  <div class="sent"><div class="en">What <span class="phrase" data-ph="didn't go so well">didn't go so well</span>: we spent too long on requirements that changed anyway.</div><div class="zh">不太好的：我们在后来反正会变的需求上花了太多时间。</div><span class="scene">What didn't go well = 需改进</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="going forward">Going forward</span>, let's agree on a cutoff for requirement changes within a sprint.</div><div class="zh">往后，我们约定一个迭代内需求变更的截止点吧。</div><span class="scene"><span class="phrase" data-ph="going forward">going forward</span> = 往后（提行动）</span></div>
+  <div class="sent"><div class="en">My <span class="phrase" data-ph="action item">action item</span> is to document the deployment process by Wednesday.</div><div class="zh">我的行动项是周三之前把部署流程写成文档。</div><span class="scene"><span class="phrase" data-ph="action item">action item</span> = 行动项（要认领）</span></div>
   <div class="sent"><div class="en">Can we make retro action items visible on the board so they don't get lost?</div><div class="zh">能不能把 retro 的行动项放到看板上，免得被遗忘？</div><span class="scene">让改进落地</span></div>
 
   <h2 class="section">情景对话</h2>
@@ -93,21 +122,21 @@
   <div class="dialog">
     <h3>场景一：周五周会，你代表小组做口头周报</h3>
     <div class="line"><span class="who">Manager</span><span class="en">OK, let's do the weekly round-up. Alex, can you give us the platform team update?</span><span class="zh">好，我们来过一遍本周总结。Alex，你来说说平台团队的情况？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Sure. This week we shipped the new search feature and closed eleven tickets. The highlight was definitely the search launch — it went out on Wednesday with zero incidents, and early metrics show a thirty percent increase in search usage.</span><span class="zh">好的。本周我们上线了新搜索功能，关闭了十一个工单。亮点肯定是搜索上线——周三发布，零故障，早期数据显示搜索使用量增长了 30%。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sure. This week we shipped the new search feature and <span class="phrase" data-ph="closed eleven tickets">closed eleven tickets</span>. The highlight was definitely the search launch — it went out on Wednesday with zero incidents, and early metrics show a thirty percent increase in search usage.</span><span class="zh">好的。本周我们上线了新搜索功能，关闭了十一个工单。亮点肯定是搜索上线——周三发布，零故障，早期数据显示搜索使用量增长了 30%。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">The data migration is slightly behind schedule — we're at 80% instead of the planned 90% — mainly due to the vendor outage on Tuesday. To get back on track, we're moving the remaining cleanup scripts to a separate workstream so they don't block the main path.</span><span class="zh">数据迁移稍有延迟——目前完成 80%，原计划是 90%——主要是周二供应商故障导致的。为了赶上进度，我们把剩下的清理脚本挪到单独的工作流，不再阻塞主路径。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Looking ahead: the load test is scheduled for Tuesday. One risk to flag — if it surfaces issues, the launch may need to slip by a few days. We'll know more by Wednesday and will update everyone then.</span><span class="zh">展望下周：压测定在周二。提一个风险——如果压测发现问题，上线可能要推迟几天。周三前会有更明确的结论，届时同步给大家。</span></div>
-    <div class="line"><span class="who">Manager</span><span class="en">That's a solid update — clear numbers and a plan for the risk. Thanks, Alex.</span><span class="zh">汇报很扎实——数字清楚，风险也有预案。谢谢 Alex。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Looking ahead: the load test is scheduled for Tuesday. <span class="phrase" data-ph="one risk to flag">One risk to flag</span> — if it surfaces issues, the launch may need to slip by a few days. We'll know more by Wednesday and will update everyone then.</span><span class="zh">展望下周：压测定在周二。提一个风险——如果压测发现问题，上线可能要推迟几天。周三前会有更明确的结论，届时同步给大家。</span></div>
+    <div class="line"><span class="who">Manager</span><span class="en"><span class="phrase" data-ph="that's a solid update">That's a solid update</span> — clear numbers and a plan for the risk. Thanks, Alex.</span><span class="zh">汇报很扎实——数字清楚，风险也有预案。谢谢 Alex。</span></div>
   </div>
 
   <div class="dialog">
     <h3>场景二：迭代回顾会（retro），你主动发言</h3>
-    <div class="line"><span class="who">Scrum Master</span><span class="en">Retro time. Let's start with what went well this sprint.</span><span class="zh">回顾会时间。先说说这个迭代做得好的地方。</span></div>
+    <div class="line"><span class="who">Scrum Master</span><span class="en">Retro time. Let's start with <span class="phrase" data-ph="what went well">what went well</span> this sprint.</span><span class="zh">回顾会时间。先说说这个迭代做得好的地方。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">I'll start — the pairing sessions on the migration really worked. New team members got up to speed twice as fast as usual, and we caught two design issues early because four eyes were on the code.</span><span class="zh">我先说——迁移的结对方式很有效。新人上手速度比平时快了一倍，而且因为多双眼睛盯着代码，我们提前发现了两个设计问题。</span></div>
-    <div class="line"><span class="who">Kevin</span><span class="en">Agreed. On the "didn't go so well" side: mid-sprint requirement changes. We rebuilt the export UI twice because the spec kept moving.</span><span class="zh">同意。不太好的方面：迭代中途需求变更。需求一直变，导出界面我们重做了两次。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Yeah, that cost us at least two days. Going forward, could we agree on a cutoff point — say, no requirement changes in the last three days of a sprint unless it's a production issue?</span><span class="zh">是的，那至少让我们损失了两天。往后我们能不能定一个截止点——比如迭代最后三天不接受需求变更，除非是生产问题？</span></div>
+    <div class="line"><span class="who">Kevin</span><span class="en">Agreed. On the "<span class="phrase" data-ph="didn't go so well">didn't go so well</span>" side: mid-sprint requirement changes. We rebuilt the export UI twice because the spec kept moving.</span><span class="zh">同意。不太好的方面：迭代中途需求变更。需求一直变，导出界面我们重做了两次。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Yeah, that cost us at least two days. <span class="phrase" data-ph="going forward">Going forward</span>, could we agree on a cutoff point — say, no requirement changes in the last three days of a sprint unless it's a production issue?</span><span class="zh">是的，那至少让我们损失了两天。往后我们能不能定一个截止点——比如迭代最后三天不接受需求变更，除非是生产问题？</span></div>
     <div class="line"><span class="who">PM</span><span class="en">That's reasonable. I'll commit to finalizing specs earlier — that's on me as much as anyone.</span><span class="zh">合理。我承诺更早把需求定稿——这方面我的责任不比任何人小。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Appreciate that. My action item: I'll draft the cutoff rule and share it in the channel by Monday. And can we track retro action items on the board? Last sprint's items quietly disappeared.</span><span class="zh">谢谢。我的行动项：周一之前把截止规则写出来发到频道。另外能把 retro 的行动项放到看板上吗？上个迭代的行动项就悄悄消失了。</span></div>
-    <div class="line"><span class="who">Scrum Master</span><span class="en">Good call. I'll add a column for them today. Great retro, everyone.</span><span class="zh">好主意。我今天就在看板上加一列。这次回顾会很有收获，大家。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Appreciate that. My <span class="phrase" data-ph="action item">action item</span>: I'll draft the cutoff rule and share it in the channel by Monday. And can we track retro action items on the board? Last sprint's items quietly disappeared.</span><span class="zh">谢谢。我的行动项：周一之前把截止规则写出来发到频道。另外能把 retro 的行动项放到看板上吗？上个迭代的行动项就悄悄消失了。</span></div>
+    <div class="line"><span class="who">Scrum Master</span><span class="en"><span class="phrase" data-ph="good call">Good call</span>. I'll add a column for them today. Great retro, everyone.</span><span class="zh">好主意。我今天就在看板上加一列。这次回顾会很有收获，大家。</span></div>
   </div>
 
   <div class="dialog">
@@ -116,7 +145,7 @@
     <div class="line me"><span class="who">你</span><span class="en">Great, thanks — went hiking on Saturday. You?</span><span class="zh">（Day 6）很好，谢谢——周六去徒步了。你呢？</span></div>
     <div class="line"><span class="who">站会上</span><span class="en">Yesterday I finished the export tests; today I'm on the load test prep. No blockers.</span><span class="zh">（Day 1）昨天完成导出测试；今天准备压测。无阻塞。</span></div>
     <div class="line"><span class="who">评审时</span><span class="en">Good catch! I'll fix that right away. / Might it be cleaner to extract this into a helper?</span><span class="zh">（Day 3）发现得好，马上改。／抽成工具函数会不会更清晰？</span></div>
-    <div class="line"><span class="who">周会上</span><span class="en">The highlight of the week was the search launch — usage is up thirty percent.</span><span class="zh">（Day 7）本周亮点是搜索上线——使用量增长 30%。</span></div>
+    <div class="line"><span class="who">周会上</span><span class="en"><span class="phrase" data-ph="the highlight of the week">The highlight of the week</span> was the search launch — usage is up thirty percent.</span><span class="zh">（Day 7）本周亮点是搜索上线——使用量增长 30%。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">That's my week! Anyway, I should get going — great running into you. Let's grab a coffee sometime and catch up properly.</span><span class="zh">（Day 6 收尾）我这周就是这样！好了，先走了——很高兴碰到你。改天喝杯咖啡好好聊。</span></div>
   </div>
 
@@ -206,10 +235,244 @@
     <strong>复盘节奏：</strong>每周五花 15 分钟做一次口头周报（Day 7 结构），这就是你雷打不动的每周实战。
   </div>
 
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
   <nav class="bottom">
     <a href="day6.html">← Day 6 · 职场社交</a>
     <a href="index.html">返回目录 · 一周完成 🎉</a>
   </nav>
 </div>
+<!--DAY-ENHANCE-JS--><script>
+var DAY_PHRASES = [["shipped", "上线了（功能）"], ["closed eleven tickets", "关闭了十一个工单"], ["the highlight of the week", "本周亮点"], ["went out", "发布出去"], ["zero incidents", "零故障"], ["on track", "进度正常"], ["behind schedule", "进度落后"], ["back on track", "赶上进度"], ["One risk to flag", "有一个风险要提"], ["What went well", "做得好的地方"], ["didn't go so well", "不太顺利的地方"], ["Going forward", "往后、今后"], ["action item", "行动项"], ["cutoff", "截止点"], ["Good call", "好主意、说得对"], ["get up to speed", "快速上手"], ["That's a solid update", "这个汇报很扎实"], ["we'll revisit", "我们再回顾/重新评估"]];
+var DAY_QUIZ = [["周会汇报本周亮点，用：", ["The highlight of the week was getting the search feature into production.", "The high light of week was search produced.", "This week's light was high: search in production.", "The week highlighted my production search."], 0, "the highlight of the week 是周报亮点句。"], ["说明进度正常，用：", ["We're currently at 90% completion, and we're on track to finish by Friday.", "We are 90% done and on the track until Friday.", "Our completion is 90%, tracking Friday well.", "90% finished, the track is Friday."], 0, "on track to do 表示进度正常、有望按时。"], ["retro 里说「做得好的地方」，用：", ["What went well: the pairing sessions really sped things up.", "What goed well: pairing speeds.", "The well things went to pairing.", "Good went what: pairing sped."], 0, "What went well 是回顾会第一问的标准句式。"], ["认领一个行动项，用：", ["My action item is to document the deployment process by Wednesday.", "My action item documents deployment Wednesday-ly.", "The action item of me is documenting Wednesday.", "I action the item: document deployment by Wednesday."], 0, "action item 是回顾会认领任务的固定说法。"], ["提前预警上线风险，用：", ["One risk to flag: if the load test surfaces issues, we may need to push the launch.", "One risk to wave: load test issues push the launch.", "A flag of risk: the launch tests loading issues.", "Risk flagged: launch may push the test."], 0, "flag a risk 表示「提出风险」，push the launch 表示推迟上线。"]];
+var DAY_NO = 7;
+
+/* ---------- 语音（与词汇页共用偏好） ---------- */
+var __voice = null;
+function resolveVoice() {
+  var vs = window.speechSynthesis.getVoices() || [];
+  var saved = '';
+  try { saved = localStorage.getItem('ielts-voice') || ''; } catch (e) {}
+  if (saved) {
+    var hit = vs.filter(function (v) { return v.name === saved; });
+    if (hit.length) return hit[0];
+  }
+  var pref = ['Ava (Premium)', 'Ava (Enhanced)', 'Zoe (Premium)', 'Samantha', 'Google UK English Female', 'Google US English', 'Microsoft Aria'];
+  for (var i = 0; i < pref.length; i++) {
+    for (var j = 0; j < vs.length; j++) {
+      if (vs[j].name.indexOf(pref[i]) !== -1) return vs[j];
+    }
+  }
+  var en = vs.filter(function (v) { return (v.lang || '').toLowerCase().indexOf('en') === 0; });
+  return en[0] || null;
+}
+function speakText(text, onend) {
+  if (!('speechSynthesis' in window)) return;
+  var synth = window.speechSynthesis;
+  synth.cancel();
+  if (!__voice) {
+    __voice = resolveVoice();
+    synth.onvoiceschanged = function () { __voice = resolveVoice(); };
+  }
+  var u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  if (__voice) u.voice = __voice;
+  if (onend) u.onend = onend;
+  synth.speak(u);
+}
+
+/* ---------- 对话音频 + 跟读 ---------- */
+var playState = null; /* {dialog, lines, idx, shadow, timer} */
+
+function collectLines(dialog) {
+  return Array.prototype.map.call(dialog.querySelectorAll('.line'), function (line) {
+    return { el: line, text: (line.querySelector('.en') || {}).textContent || '' };
+  }).filter(function (l) { return l.text.trim(); });
+}
+
+function stopPlayback() {
+  if (!playState) return;
+  if (playState.timer) clearTimeout(playState.timer);
+  window.speechSynthesis.cancel();
+  playState.lines.forEach(function (l) {
+    l.el.classList.remove('speaking');
+    var b = l.el.querySelector('.line-voice');
+    if (b) b.textContent = '🔊';
+  });
+  var btns = playState.dialog.querySelectorAll('.dlg-audio button');
+  btns.forEach(function (b) { b.classList.remove('playing'); });
+  var tip = playState.dialog.querySelector('.shadow-tip');
+  if (tip) tip.style.display = 'none';
+  playState = null;
+}
+
+function playFrom(dialog, startIdx, shadow) {
+  stopPlayback();
+  playState = { dialog: dialog, lines: collectLines(dialog), idx: startIdx, shadow: shadow, timer: null };
+  var btns = dialog.querySelectorAll('.dlg-audio button');
+  if (btns[shadow ? 1 : 0]) btns[shadow ? 1 : 0].classList.add('playing');
+  var tip = dialog.querySelector('.shadow-tip');
+  if (shadow && tip) tip.style.display = '';
+  playNextLine();
+}
+
+function playNextLine() {
+  if (!playState) return;
+  var s = playState;
+  if (s.idx >= s.lines.length) { stopPlayback(); return; }
+  var line = s.lines[s.idx];
+  line.el.classList.add('speaking');
+  var vb = line.el.querySelector('.line-voice');
+  if (vb) vb.textContent = '🔈';
+  line.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  speakText(line.text, function () {
+    if (!playState) return;
+    if (vb) vb.textContent = '🔊';
+    var wait = s.shadow ? 4000 : 350;
+    s.timer = setTimeout(function () {
+      if (!playState) return;
+      line.el.classList.remove('speaking');
+      s.idx++;
+      playNextLine();
+    }, wait);
+  });
+}
+
+function togglePlay(dialog, shadow, btn) {
+  if (playState && playState.dialog === dialog && playState.shadow === shadow) { stopPlayback(); return; }
+  playFrom(dialog, 0, shadow);
+}
+
+function injectAudio() {
+  document.querySelectorAll('.dialog').forEach(function (dialog, di) {
+    var h3 = dialog.querySelector('h3');
+    if (!h3) return;
+    var wrap = document.createElement('span');
+    wrap.className = 'dlg-audio';
+    wrap.innerHTML =
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), false, this)">▶️ 播放对话</button>' +
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), true, this)">🎧 跟读模式</button>' +
+      '<span class="shadow-tip">跟读中：每句读完请大声复述</span>';
+    h3.appendChild(wrap);
+    dialog.querySelectorAll('.line').forEach(function (line) {
+      var en = line.querySelector('.en');
+      if (!en) return;
+      var b = document.createElement('button');
+      b.className = 'line-voice';
+      b.textContent = '🔊';
+      b.title = '播放这句';
+      b.onclick = function () {
+        var wasPlaying = playState && playState.dialog === dialog;
+        stopPlayback();
+        if (wasPlaying) return;
+        line.classList.add('speaking');
+        b.textContent = '🔈';
+        speakText(en.textContent, function () {
+          line.classList.remove('speaking');
+          b.textContent = '🔊';
+        });
+      };
+      en.appendChild(b);
+    });
+  });
+}
+
+/* ---------- 短语高亮 + 释义气泡 ---------- */
+var DAY_PHRASES_DICT = {};
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+function highlightPhrases() {
+  var phrases = DAY_PHRASES.map(function (p) { return p[0]; });
+  phrases.sort(function (a, b) { return b.length - a.length; });
+  DAY_PHRASES.forEach(function (p) { DAY_PHRASES_DICT[p[0].toLowerCase()] = p[1]; });
+  document.querySelectorAll('.dialog .line .en, .sent .en').forEach(function (el) {
+    var html = el.innerHTML;
+    if (html.indexOf('class="phrase"') !== -1) return;
+    phrases.forEach(function (phrase) {
+      if (html.indexOf('class="phrase"') !== -1) return;
+      var re = new RegExp(escapeRegExp(phrase).replace(/ /g, '(?:\\s|&nbsp;)+'), 'gi');
+      html = html.replace(re, function (m) {
+        return '<span class="phrase" data-ph="' + phrase.toLowerCase() + '">' + m + '</span>';
+      });
+    });
+    el.innerHTML = html;
+  });
+}
+
+function setupPhrasePop() {
+  var pop = document.createElement('div');
+  pop.id = 'phrasePop';
+  document.body.appendChild(pop);
+  document.addEventListener('click', function (e) {
+    var voiceBtn = e.target.closest('.p-voice');
+    if (voiceBtn) {
+      speakText(voiceBtn.getAttribute('data-say'));
+      e.stopPropagation();
+      return;
+    }
+    var ph = e.target.closest('.phrase');
+    if (ph) {
+      var key = ph.getAttribute('data-ph');
+      pop.innerHTML = '<div class="p-en">' + key + '</div><div>' + (DAY_PHRASES_DICT[key] || '') + '</div>' +
+        '<button class="p-voice" data-say="' + key + '">🔊</button>';
+      var r = ph.getBoundingClientRect();
+      pop.style.display = 'block';
+      var top = r.bottom + window.scrollY + 8;
+      var left = Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - 320);
+      pop.style.top = top + 'px';
+      pop.style.left = Math.max(8, left) + 'px';
+      e.stopPropagation();
+      return;
+    }
+    pop.style.display = 'none';
+  });
+}
+
+/* ---------- 课后小练习 ---------- */
+function renderQuiz() {
+  var host = document.getElementById('dayQuiz');
+  if (!host) return;
+  var items = DAY_QUIZ;
+  var html = '';
+  items.forEach(function (q, qi) {
+    html += '<div class="quiz-q" data-answer="' + q[2] + '"><div class="q-title">' + (qi + 1) + '. ' + q[0] + '</div>';
+    q[1].forEach(function (opt, oi) {
+      html += '<label data-oi="' + oi + '"><input type="radio" name="q' + qi + '" style="margin-right:8px" onclick="answerQuiz(this)">' + opt + '</label>';
+    });
+    html += '<div class="explain">💡 ' + q[3] + '</div></div>';
+  });
+  html += '<div class="quiz-score" id="quizScore"></div><button class="btn ghost" onclick="renderQuiz()" style="margin-top:10px">🔄 重做</button>';
+  host.innerHTML = html;
+}
+
+function answerQuiz(input) {
+  var qdiv = input.closest('.quiz-q');
+  if (qdiv.classList.contains('done')) return;
+  qdiv.classList.add('done');
+  var answer = parseInt(qdiv.getAttribute('data-answer'), 10);
+  qdiv.querySelectorAll('label').forEach(function (label) {
+    var oi = parseInt(label.getAttribute('data-oi'), 10);
+    label.classList.add('disabled');
+    if (oi === answer) label.classList.add('correct');
+    else if (label.querySelector('input').checked) label.classList.add('wrong');
+  });
+  var done = document.querySelectorAll('.quiz-q.done').length;
+  var right = 0;
+  document.querySelectorAll('.quiz-q').forEach(function (q) {
+    if (q.classList.contains('done') && q.querySelector('label.correct input').checked) right++;
+  });
+  document.getElementById('quizScore').textContent = '已完成 ' + done + '/' + DAY_QUIZ.length + ' 题 · 答对 ' + right + ' 题';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  injectAudio();
+  highlightPhrases();
+  setupPhrasePop();
+  renderQuiz();
+});
+</script><!--/DAY-ENHANCE-JS-->
 </body>
 </html>

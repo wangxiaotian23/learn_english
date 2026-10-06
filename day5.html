@@ -42,6 +42,35 @@
   nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
   nav.bottom a:hover { background:#eff6ff; }
 </style>
+<!--DAY-ENHANCE-CSS--><style>
+  .phrase { background: #eff6ff; border-bottom: 2px dotted #2563eb; cursor: pointer; border-radius: 3px; padding: 0 2px; }
+  .phrase:hover { background: #dbeafe; }
+  #phrasePop { position: absolute; display: none; z-index: 99; background: #1e293b; color: #fff;
+    border-radius: 10px; padding: 10px 14px; font-size: 13px; max-width: 300px; box-shadow: 0 8px 20px rgba(0,0,0,.25); }
+  #phrasePop .p-en { font-weight: 700; color: #93c5fd; margin-bottom: 2px; }
+  #phrasePop .p-voice { background: #334155; border: none; color: #fff; border-radius: 50%; width: 26px; height: 26px; cursor: pointer; margin-top: 6px; }
+  .dlg-audio { display: inline-flex; gap: 8px; margin-left: 10px; }
+  .dlg-audio button { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; border-radius: 999px;
+    padding: 3px 12px; font-size: 12px; cursor: pointer; font-family: inherit; }
+  .dlg-audio button:hover { background: #dbeafe; }
+  .dlg-audio button.playing { background: #1d4ed8; color: #fff; }
+  .line { position: relative; }
+  .line .line-voice { background: none; border: none; cursor: pointer; font-size: 12px; padding: 0 4px; opacity: .55; }
+  .line .line-voice:hover { opacity: 1; }
+  .line.speaking .en { background: #fef3c7 !important; }
+  .shadow-tip { font-size: 12px; color: #b45309; background: #fffbeb; border-radius: 6px; padding: 2px 8px; display: none; margin-left: 8px; }
+  .quiz-q { border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 18px; margin: 12px 0; background: #fff; }
+  .quiz-q .q-title { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+  .quiz-q label { display: block; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; margin: 6px 0;
+    cursor: pointer; font-size: 14px; }
+  .quiz-q label:hover { border-color: var(--primary); }
+  .quiz-q label.correct { background: #ecfdf5; border-color: #a7f3d0; color: #047857; }
+  .quiz-q label.wrong { background: #fef2f2; border-color: #fecaca; color: #b91c1c; }
+  .quiz-q label.disabled { cursor: default; opacity: .75; }
+  .quiz-q .explain { display: none; margin-top: 8px; font-size: 13px; color: var(--muted); background: #f8fafc; border-radius: 6px; padding: 6px 10px; }
+  .quiz-q.done .explain { display: block; }
+  .quiz-score { font-size: 15px; font-weight: 600; color: var(--primary-dark); margin-top: 8px; }
+</style><!--/DAY-ENHANCE-CSS-->
 </head>
 <body>
 <div class="container">
@@ -70,23 +99,23 @@
   <h2 class="section">核心句型</h2>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 向非技术人员解释技术（用类比）</h2>
-  <div class="sent"><div class="en">Think of it like a post office: the message queue holds letters until the recipient is ready to pick them up.</div><div class="zh">把它想象成邮局：消息队列把信件存着，等收件人方便时再取。</div><span class="scene">Think of it like... 万能类比开头</span></div>
-  <div class="sent"><div class="en">In simple terms, the cache is a notepad where we keep answers we've already calculated.</div><div class="zh">简单来说，缓存就是一个便签本，记着我们已经算过的答案。</div><span class="scene">In simple terms = 简单来说</span></div>
-  <div class="sent"><div class="en">The short version is: users will see results twice as fast, and we'll cut server costs by a third.</div><div class="zh">长话短说：用户看到结果的速度翻倍，服务器成本降低三分之一。</div><span class="scene">The short version is... 给结论</span></div>
-  <div class="sent"><div class="en">I'll skip the technical details — the key takeaway is that this scales to ten times our current traffic.</div><div class="zh">技术细节我就跳过了——关键要点是它能支撑十倍于现在的流量。</div><span class="scene">key takeaway = 关键要点</span></div>
-  <div class="sent"><div class="en">What that means for the business is faster releases and fewer outages.</div><div class="zh">这对业务意味着更快的发布速度和更少的故障。</div><span class="scene">翻译成业务价值 · What that means for...</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="think of it like">Think of it like</span> a post office: the message queue holds letters until the recipient is ready to pick them up.</div><div class="zh">把它想象成邮局：消息队列把信件存着，等收件人方便时再取。</div><span class="scene"><span class="phrase" data-ph="think of it like">Think of it like</span>... 万能类比开头</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="in simple terms">In simple terms</span>, the cache is a notepad where we keep answers we've already calculated.</div><div class="zh">简单来说，缓存就是一个便签本，记着我们已经算过的答案。</div><span class="scene"><span class="phrase" data-ph="in simple terms">In simple terms</span> = 简单来说</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="the short version is">The short version is</span>: users will see results twice as fast, and we'll cut server costs by a third.</div><div class="zh">长话短说：用户看到结果的速度翻倍，服务器成本降低三分之一。</div><span class="scene"><span class="phrase" data-ph="the short version is">The short version is</span>... 给结论</span></div>
+  <div class="sent"><div class="en">I'll skip the technical details — the <span class="phrase" data-ph="key takeaway">key takeaway</span> is that this scales to ten times our current traffic.</div><div class="zh">技术细节我就跳过了——关键要点是它能支撑十倍于现在的流量。</div><span class="scene"><span class="phrase" data-ph="key takeaway">key takeaway</span> = 关键要点</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="what that means for">What that means for</span> the business is faster releases and fewer outages.</div><div class="zh">这对业务意味着更快的发布速度和更少的故障。</div><span class="scene">翻译成业务价值 · <span class="phrase" data-ph="what that means for">What that means for</span>...</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② Demo 演示流程</h2>
-  <div class="sent"><div class="en">Thanks everyone. Today I'll walk you through the new reporting dashboard.</div><div class="zh">谢谢大家。今天我来带大家看一下新的报表仪表盘。</div><span class="scene">开场 · walk you through</span></div>
-  <div class="sent"><div class="en">I'll keep it to about ten minutes, and then we'll have time for questions.</div><div class="zh">我会控制在十分钟左右，之后留时间给大家提问。</div><span class="scene">预告时长与 Q&amp;A</span></div>
-  <div class="sent"><div class="en">Let's start with the most common use case: a manager checking weekly sales.</div><div class="zh">我们从最常见的场景开始：经理查看每周销售。</div><span class="scene">从典型场景切入</span></div>
-  <div class="sent"><div class="en">As you can see here, the report generates in under two seconds.</div><div class="zh">正如你在这里看到的，报表两秒内就生成了。</div><span class="scene">演示中 · As you can see</span></div>
-  <div class="sent"><div class="en">Now, moving on to the export feature — this is where it gets interesting.</div><div class="zh">接下来看导出功能——有意思的部分来了。</div><span class="scene">过渡句 · moving on to</span></div>
-  <div class="sent"><div class="en">And that brings us to the end of the demo. To recap, we saw three things today...</div><div class="zh">演示到这里就结束了。回顾一下，我们今天看了三件事……</div><span class="scene">收尾 · to recap</span></div>
-  <div class="sent"><div class="en">That's a great question. The short answer is yes — let me show you the details after the demo.</div><div class="zh">这个问题很好。简短的回答是肯定的——细节我在演示结束后给你看。</div><span class="scene">Q&amp;A 应对 · 不被问题带跑节奏</span></div>
+  <div class="sent"><div class="en">Thanks everyone. Today I'll <span class="phrase" data-ph="walk you through">walk you through</span> the new reporting dashboard.</div><div class="zh">谢谢大家。今天我来带大家看一下新的报表仪表盘。</div><span class="scene">开场 · <span class="phrase" data-ph="walk you through">walk you through</span></span></div>
+  <div class="sent"><div class="en">I'll <span class="phrase" data-ph="keep it to">keep it to</span> about ten minutes, and then we'll have time for questions.</div><div class="zh">我会控制在十分钟左右，之后留时间给大家提问。</div><span class="scene">预告时长与 Q&amp;A</span></div>
+  <div class="sent"><div class="en">Let's start with the most common <span class="phrase" data-ph="use case">use case</span>: a manager checking weekly sales.</div><div class="zh">我们从最常见的场景开始：经理查看每周销售。</div><span class="scene">从典型场景切入</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="as you can see">As you can see</span> here, the report generates in under two seconds.</div><div class="zh">正如你在这里看到的，报表两秒内就生成了。</div><span class="scene">演示中 · <span class="phrase" data-ph="as you can see">As you can see</span></span></div>
+  <div class="sent"><div class="en">Now, moving on to the export feature — this is <span class="phrase" data-ph="where it gets interesting">where it gets interesting</span>.</div><div class="zh">接下来看导出功能——有意思的部分来了。</div><span class="scene">过渡句 · moving on to</span></div>
+  <div class="sent"><div class="en">And that brings us to the end of the demo. <span class="phrase" data-ph="to recap">To recap</span>, we saw three things today...</div><div class="zh">演示到这里就结束了。回顾一下，我们今天看了三件事……</div><span class="scene">收尾 · <span class="phrase" data-ph="to recap">to recap</span></span></div>
+  <div class="sent"><div class="en">That's a great question. <span class="phrase" data-ph="the short answer is">The short answer is</span> yes — let me show you the details after the demo.</div><div class="zh">这个问题很好。简短的回答是肯定的——细节我在演示结束后给你看。</div><span class="scene">Q&amp;A 应对 · 不被问题带跑节奏</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ Demo 翻车自救</h2>
-  <div class="sent"><div class="en">Looks like the staging environment is a bit slow today — bear with me for a second.</div><div class="zh">测试环境今天好像有点慢——稍等一下。</div><span class="scene">环境慢 · bear with me</span></div>
+  <div class="sent"><div class="en">Looks like the staging environment is a bit slow today — <span class="phrase" data-ph="bear with me">bear with me</span> for a second.</div><div class="zh">测试环境今天好像有点慢——稍等一下。</div><span class="scene">环境慢 · <span class="phrase" data-ph="bear with me">bear with me</span></span></div>
   <div class="sent"><div class="en">Of course it breaks during the demo! Let me try that one more time.</div><div class="zh">偏偏演示的时候出问题！让我再试一次。</div><span class="scene">自嘲化解尴尬（英语区会议很受用）</span></div>
   <div class="sent"><div class="en">While this loads, let me show you the architecture diagram instead.</div><div class="zh">趁它加载的时间，我先给大家看架构图。</div><span class="scene">用备胎内容填充等待</span></div>
 
@@ -96,12 +125,12 @@
     <h3>场景一：向管理层汇报技术方案（把技术翻译成价值）</h3>
     <div class="line me"><span class="who">你</span><span class="en">Thanks for making time. In the next ten minutes I'll cover the migration plan, the cost, and the risks — and you can interrupt me anytime.</span><span class="zh">感谢大家抽时间。接下来十分钟我会讲迁移计划、成本和风险——随时可以打断我。</span></div>
     <div class="line"><span class="who">CTO</span><span class="en">Sounds good. Start with why we need this at all.</span><span class="zh">好。先说为什么我们需要做这件事。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Sure. Right now, every deployment requires thirty minutes of downtime. That's thirty minutes where customers can't place orders. Think of it like renovating a store while customers are still inside — the new monolith design forces us to close the whole store every time.</span><span class="zh">好的。现在每次部署需要 30 分钟停机。也就是客户有 30 分钟不能下单。把它想象成顾客还在店里的时候装修店面——现在的单体架构让我们每次都得把整家店关了。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">The proposed design splits the system into independent services. In simple terms: we renovate one aisle at a time, and the store stays open.</span><span class="zh">提议的方案是把系统拆成独立服务。简单来说：我们一次装修一个货架，店始终营业。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sure. Right now, every deployment requires thirty minutes of downtime. That's thirty minutes where customers can't place orders. <span class="phrase" data-ph="think of it like">Think of it like</span> renovating a store while customers are still inside — the new monolith design forces us to close the whole store every time.</span><span class="zh">好的。现在每次部署需要 30 分钟停机。也就是客户有 30 分钟不能下单。把它想象成顾客还在店里的时候装修店面——现在的单体架构让我们每次都得把整家店关了。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">The proposed design splits the system into independent services. <span class="phrase" data-ph="in simple terms">In simple terms</span>: we renovate one aisle at a time, and the store stays open.</span><span class="zh">提议的方案是把系统拆成独立服务。简单来说：我们一次装修一个货架，店始终营业。</span></div>
     <div class="line"><span class="who">CTO</span><span class="en">I like the analogy. What does the migration look like in terms of effort?</span><span class="zh">这个类比很好。迁移的工作量是什么情况？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Roughly three engineers for two months. The short version is: we'll cut deployment downtime from thirty minutes to under one, and we can scale the checkout service independently during sales events.</span><span class="zh">大约三个工程师两个月。长话短说：部署停机从 30 分钟降到 1 分钟以内，而且大促期间可以单独扩展结账服务。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Roughly three engineers for two months. <span class="phrase" data-ph="the short version is">The short version is</span>: we'll cut deployment downtime from thirty minutes to under one, and we can scale the checkout service independently during sales events.</span><span class="zh">大约三个工程师两个月。长话短说：部署停机从 30 分钟降到 1 分钟以内，而且大促期间可以单独扩展结账服务。</span></div>
     <div class="line"><span class="who">CTO</span><span class="en">What are the risks?</span><span class="zh">风险呢？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">The main risk is data consistency during the transition. I'll skip the technical details, but the key takeaway is: we'll run both systems in parallel for two weeks and compare results before switching over. That gives us a safety net.</span><span class="zh">主要风险是过渡期的数据一致性。技术细节我就跳过了，关键要点是：我们会让两套系统并行运行两周，对比结果之后再切换。这相当于加了安全网。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">The main risk is data consistency during the transition. I'll skip the technical details, but the <span class="phrase" data-ph="key takeaway">key takeaway</span> is: we'll run both systems in parallel for two weeks and compare results before switching over. That gives us a safety net.</span><span class="zh">主要风险是过渡期的数据一致性。技术细节我就跳过了，关键要点是：我们会让两套系统并行运行两周，对比结果之后再切换。这相当于加了安全网。</span></div>
     <div class="line"><span class="who">CTO</span><span class="en">Good. Send me the one-pager and we'll green-light it this week.</span><span class="zh">好。给我发一页纸的摘要，这周我们就批准。</span></div>
   </div>
 
@@ -109,17 +138,17 @@
     <h3>场景二：产品 Demo 现场演示（含翻车自救）</h3>
     <div class="line me"><span class="who">你</span><span class="en">Thanks everyone for joining. I'll keep it to ten minutes, then we'll have time for questions. Let's start with the most common use case.</span><span class="zh">感谢大家参加。我会控制在十分钟内，之后留时间提问。我们从最常见的场景开始。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">Here I'm logged in as a sales manager. I want last week's numbers, so I click "Weekly Report"... and, as you can see, it generates in under two seconds. Previously this took about thirty.</span><span class="zh">这里我以销售经理身份登录。我想要上周的数据，点「周报」……正如你看到的，两秒内就生成了。以前大概要 30 秒。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Now, moving on to the export feature — this is where it gets interesting. I'll click "Export to Excel"... hmm, looks like the staging environment is being slow today. Bear with me for a second.</span><span class="zh">接下来看导出功能——有意思的来了。我点「导出到 Excel」……嗯，测试环境今天有点慢。稍等一下。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Now, moving on to the export feature — this is <span class="phrase" data-ph="where it gets interesting">where it gets interesting</span>. I'll click "Export to Excel"... hmm, looks like the staging environment is being slow today. <span class="phrase" data-ph="bear with me">Bear with me</span> for a second.</span><span class="zh">接下来看导出功能——有意思的来了。我点「导出到 Excel」……嗯，测试环境今天有点慢。稍等一下。</span></div>
     <div class="line"><span class="who">Attendee</span><span class="en">No worries. While we wait — does the export include the charts too?</span><span class="zh">没关系。等它的时候顺便问下——导出也包含图表吗？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Great question — the short answer is yes. Charts come through as images, and I'll show you the details after the demo. Meanwhile, let me switch to the architecture slide while this loads.</span><span class="zh">好问题——简短的回答是包含。图表会以图片形式导出，细节我演示完给你看。趁它加载，我先切到架构页。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en"><span class="phrase" data-ph="great question">Great question</span> — <span class="phrase" data-ph="the short answer is">the short answer is</span> yes. Charts come through as images, and I'll show you the details after the demo. Meanwhile, let me switch to the architecture slide while this loads.</span><span class="zh">好问题——简短的回答是包含。图表会以图片形式导出，细节我演示完给你看。趁它加载，我先切到架构页。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">...and it's back. Of course it breaks during the demo! There we go — the export completed, charts included.</span><span class="zh">……回来了。偏偏演示的时候卡一下！好了——导出完成，图表也包含在内。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">And that brings us to the end. To recap: reports now load in two seconds, exports include charts, and everything works on mobile. That's about ten minutes — what questions do you have?</span><span class="zh">演示到这里结束。回顾一下：报表现在 2 秒加载、导出含图表、移动端全支持。正好十分钟——大家有什么问题？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">And that brings us to the end. <span class="phrase" data-ph="to recap">To recap</span>: reports now load in two seconds, exports include charts, and everything works on mobile. That's about ten minutes — what questions do you have?</span><span class="zh">演示到这里结束。回顾一下：报表现在 2 秒加载、导出含图表、移动端全支持。正好十分钟——大家有什么问题？</span></div>
   </div>
 
   <div class="dialog">
     <h3>场景三：演讲后 Q&amp;A（被问到没准备的问题）</h3>
     <div class="line"><span class="who">Audience</span><span class="en">How does this hold up if we onboard a client with ten times the data volume?</span><span class="zh">如果我们接入一个数据量大十倍的客户，这个方案还撑得住吗？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">That's a great question, and honestly, I don't have exact numbers for that scale. What I can say is the architecture is horizontally scalable — we add nodes rather than bigger machines. I'd want to run a load test before promising anything. Can I follow up with you by email this week?</span><span class="zh">问得很好，说实话，这个量级我没有精确数据。我能说的是架构支持横向扩展——我们加节点而不是换更大的机器。在给出承诺之前我想先做一次压测。这周我邮件回复你可以吗？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">That's a <span class="phrase" data-ph="great question">great question</span>, and honestly, I don't have exact numbers for that scale. What I can say is the architecture is horizontally scalable — we add nodes rather than bigger machines. I'd want to run a load test before promising anything. Can I follow up with you by email this week?</span><span class="zh">问得很好，说实话，这个量级我没有精确数据。我能说的是架构支持横向扩展——我们加节点而不是换更大的机器。在给出承诺之前我想先做一次压测。这周我邮件回复你可以吗？</span></div>
     <div class="line"><span class="who">Audience</span><span class="en">Sure, that works.</span><span class="zh">可以，没问题。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">Appreciate it. Any other questions? ... Looks like we're done. Thanks again, everyone — I'll share the slides in the channel.</span><span class="zh">谢谢。还有其他问题吗？……看来没有了。再次感谢大家——幻灯片我会发到频道里。</span></div>
   </div>
@@ -191,10 +220,244 @@
     <tr><td>10 分钟</td><td>90 秒 Demo 完整模拟 + 录音回听</td></tr>
   </table>
 
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
   <nav class="bottom">
     <a href="day4.html">← Day 4 · 会议</a>
     <a href="day6.html">Day 6 · 职场社交 →</a>
   </nav>
 </div>
+<!--DAY-ENHANCE-JS--><script>
+var DAY_PHRASES = [["walk you through", "带你逐步看一遍"], ["keep it to", "控制在（时间内）"], ["use case", "使用场景"], ["As you can see", "如你所见"], ["moving on to", "接下来看"], ["where it gets interesting", "有意思的部分来了"], ["To recap", "回顾一下"], ["Think of it like", "把它想象成……（类比）"], ["In simple terms", "简单来说"], ["The short version is", "长话短说"], ["key takeaway", "关键要点"], ["What that means for", "这对……意味着"], ["bear with me", "稍等一下、包容一下"], ["great question", "问得真好"], ["The short answer is", "简短回答是"], ["follow up with", "事后跟进（邮件/电话）"], ["safety net", "安全网、兜底"], ["green-light", "批准、放行"]];
+var DAY_QUIZ = [["演示开场，告诉大家你会带大家看新报表：", ["Today I'll walk you through the new reporting dashboard.", "Today I walk you and the dashboard reports.", "Today the dashboard walks you.", "I will show-walk the report dashboard."], 0, "walk you through 是演示开场标准句。"], ["用类比向非技术同事解释消息队列：", ["Think of it like a post office: the queue holds letters until recipients pick them up.", "The queue is a post office that thinks.", "Queues are letters mailed to offices.", "Imagine the queue being postal."], 0, "Think of it like... 是万能类比开头。"], ["演示中页面卡了，请听众稍等：", ["Looks like staging is a bit slow today — bear with me for a second.", "Staging is slow, bear on me a second.", "The staging bear is slow today.", "Wait here while staging suffers."], 0, "bear with me = 请稍等/包容，注意不是 bare。"], ["把技术改进翻译成业务价值：", ["What that means for the business is faster releases and fewer outages.", "The business means faster releases outaging less.", "Businessly, releases are faster and outages fewer.", "The business will mean outage fast releases."], 0, "What that means for... 是「翻译成业务价值」的固定句式。"], ["Q&A 被问到没准备的问题，得体的回应是：", ["That's a great question — I don't have exact numbers, but I'll follow up by email.", "I don't know. Next question, please.", "That question is not in my slides.", "Ask me anything easier, please."], 0, "承认不知道 + 给出跟进承诺，比硬编答案专业得多。"]];
+var DAY_NO = 5;
+
+/* ---------- 语音（与词汇页共用偏好） ---------- */
+var __voice = null;
+function resolveVoice() {
+  var vs = window.speechSynthesis.getVoices() || [];
+  var saved = '';
+  try { saved = localStorage.getItem('ielts-voice') || ''; } catch (e) {}
+  if (saved) {
+    var hit = vs.filter(function (v) { return v.name === saved; });
+    if (hit.length) return hit[0];
+  }
+  var pref = ['Ava (Premium)', 'Ava (Enhanced)', 'Zoe (Premium)', 'Samantha', 'Google UK English Female', 'Google US English', 'Microsoft Aria'];
+  for (var i = 0; i < pref.length; i++) {
+    for (var j = 0; j < vs.length; j++) {
+      if (vs[j].name.indexOf(pref[i]) !== -1) return vs[j];
+    }
+  }
+  var en = vs.filter(function (v) { return (v.lang || '').toLowerCase().indexOf('en') === 0; });
+  return en[0] || null;
+}
+function speakText(text, onend) {
+  if (!('speechSynthesis' in window)) return;
+  var synth = window.speechSynthesis;
+  synth.cancel();
+  if (!__voice) {
+    __voice = resolveVoice();
+    synth.onvoiceschanged = function () { __voice = resolveVoice(); };
+  }
+  var u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  if (__voice) u.voice = __voice;
+  if (onend) u.onend = onend;
+  synth.speak(u);
+}
+
+/* ---------- 对话音频 + 跟读 ---------- */
+var playState = null; /* {dialog, lines, idx, shadow, timer} */
+
+function collectLines(dialog) {
+  return Array.prototype.map.call(dialog.querySelectorAll('.line'), function (line) {
+    return { el: line, text: (line.querySelector('.en') || {}).textContent || '' };
+  }).filter(function (l) { return l.text.trim(); });
+}
+
+function stopPlayback() {
+  if (!playState) return;
+  if (playState.timer) clearTimeout(playState.timer);
+  window.speechSynthesis.cancel();
+  playState.lines.forEach(function (l) {
+    l.el.classList.remove('speaking');
+    var b = l.el.querySelector('.line-voice');
+    if (b) b.textContent = '🔊';
+  });
+  var btns = playState.dialog.querySelectorAll('.dlg-audio button');
+  btns.forEach(function (b) { b.classList.remove('playing'); });
+  var tip = playState.dialog.querySelector('.shadow-tip');
+  if (tip) tip.style.display = 'none';
+  playState = null;
+}
+
+function playFrom(dialog, startIdx, shadow) {
+  stopPlayback();
+  playState = { dialog: dialog, lines: collectLines(dialog), idx: startIdx, shadow: shadow, timer: null };
+  var btns = dialog.querySelectorAll('.dlg-audio button');
+  if (btns[shadow ? 1 : 0]) btns[shadow ? 1 : 0].classList.add('playing');
+  var tip = dialog.querySelector('.shadow-tip');
+  if (shadow && tip) tip.style.display = '';
+  playNextLine();
+}
+
+function playNextLine() {
+  if (!playState) return;
+  var s = playState;
+  if (s.idx >= s.lines.length) { stopPlayback(); return; }
+  var line = s.lines[s.idx];
+  line.el.classList.add('speaking');
+  var vb = line.el.querySelector('.line-voice');
+  if (vb) vb.textContent = '🔈';
+  line.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  speakText(line.text, function () {
+    if (!playState) return;
+    if (vb) vb.textContent = '🔊';
+    var wait = s.shadow ? 4000 : 350;
+    s.timer = setTimeout(function () {
+      if (!playState) return;
+      line.el.classList.remove('speaking');
+      s.idx++;
+      playNextLine();
+    }, wait);
+  });
+}
+
+function togglePlay(dialog, shadow, btn) {
+  if (playState && playState.dialog === dialog && playState.shadow === shadow) { stopPlayback(); return; }
+  playFrom(dialog, 0, shadow);
+}
+
+function injectAudio() {
+  document.querySelectorAll('.dialog').forEach(function (dialog, di) {
+    var h3 = dialog.querySelector('h3');
+    if (!h3) return;
+    var wrap = document.createElement('span');
+    wrap.className = 'dlg-audio';
+    wrap.innerHTML =
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), false, this)">▶️ 播放对话</button>' +
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), true, this)">🎧 跟读模式</button>' +
+      '<span class="shadow-tip">跟读中：每句读完请大声复述</span>';
+    h3.appendChild(wrap);
+    dialog.querySelectorAll('.line').forEach(function (line) {
+      var en = line.querySelector('.en');
+      if (!en) return;
+      var b = document.createElement('button');
+      b.className = 'line-voice';
+      b.textContent = '🔊';
+      b.title = '播放这句';
+      b.onclick = function () {
+        var wasPlaying = playState && playState.dialog === dialog;
+        stopPlayback();
+        if (wasPlaying) return;
+        line.classList.add('speaking');
+        b.textContent = '🔈';
+        speakText(en.textContent, function () {
+          line.classList.remove('speaking');
+          b.textContent = '🔊';
+        });
+      };
+      en.appendChild(b);
+    });
+  });
+}
+
+/* ---------- 短语高亮 + 释义气泡 ---------- */
+var DAY_PHRASES_DICT = {};
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+function highlightPhrases() {
+  var phrases = DAY_PHRASES.map(function (p) { return p[0]; });
+  phrases.sort(function (a, b) { return b.length - a.length; });
+  DAY_PHRASES.forEach(function (p) { DAY_PHRASES_DICT[p[0].toLowerCase()] = p[1]; });
+  document.querySelectorAll('.dialog .line .en, .sent .en').forEach(function (el) {
+    var html = el.innerHTML;
+    if (html.indexOf('class="phrase"') !== -1) return;
+    phrases.forEach(function (phrase) {
+      if (html.indexOf('class="phrase"') !== -1) return;
+      var re = new RegExp(escapeRegExp(phrase).replace(/ /g, '(?:\\s|&nbsp;)+'), 'gi');
+      html = html.replace(re, function (m) {
+        return '<span class="phrase" data-ph="' + phrase.toLowerCase() + '">' + m + '</span>';
+      });
+    });
+    el.innerHTML = html;
+  });
+}
+
+function setupPhrasePop() {
+  var pop = document.createElement('div');
+  pop.id = 'phrasePop';
+  document.body.appendChild(pop);
+  document.addEventListener('click', function (e) {
+    var voiceBtn = e.target.closest('.p-voice');
+    if (voiceBtn) {
+      speakText(voiceBtn.getAttribute('data-say'));
+      e.stopPropagation();
+      return;
+    }
+    var ph = e.target.closest('.phrase');
+    if (ph) {
+      var key = ph.getAttribute('data-ph');
+      pop.innerHTML = '<div class="p-en">' + key + '</div><div>' + (DAY_PHRASES_DICT[key] || '') + '</div>' +
+        '<button class="p-voice" data-say="' + key + '">🔊</button>';
+      var r = ph.getBoundingClientRect();
+      pop.style.display = 'block';
+      var top = r.bottom + window.scrollY + 8;
+      var left = Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - 320);
+      pop.style.top = top + 'px';
+      pop.style.left = Math.max(8, left) + 'px';
+      e.stopPropagation();
+      return;
+    }
+    pop.style.display = 'none';
+  });
+}
+
+/* ---------- 课后小练习 ---------- */
+function renderQuiz() {
+  var host = document.getElementById('dayQuiz');
+  if (!host) return;
+  var items = DAY_QUIZ;
+  var html = '';
+  items.forEach(function (q, qi) {
+    html += '<div class="quiz-q" data-answer="' + q[2] + '"><div class="q-title">' + (qi + 1) + '. ' + q[0] + '</div>';
+    q[1].forEach(function (opt, oi) {
+      html += '<label data-oi="' + oi + '"><input type="radio" name="q' + qi + '" style="margin-right:8px" onclick="answerQuiz(this)">' + opt + '</label>';
+    });
+    html += '<div class="explain">💡 ' + q[3] + '</div></div>';
+  });
+  html += '<div class="quiz-score" id="quizScore"></div><button class="btn ghost" onclick="renderQuiz()" style="margin-top:10px">🔄 重做</button>';
+  host.innerHTML = html;
+}
+
+function answerQuiz(input) {
+  var qdiv = input.closest('.quiz-q');
+  if (qdiv.classList.contains('done')) return;
+  qdiv.classList.add('done');
+  var answer = parseInt(qdiv.getAttribute('data-answer'), 10);
+  qdiv.querySelectorAll('label').forEach(function (label) {
+    var oi = parseInt(label.getAttribute('data-oi'), 10);
+    label.classList.add('disabled');
+    if (oi === answer) label.classList.add('correct');
+    else if (label.querySelector('input').checked) label.classList.add('wrong');
+  });
+  var done = document.querySelectorAll('.quiz-q.done').length;
+  var right = 0;
+  document.querySelectorAll('.quiz-q').forEach(function (q) {
+    if (q.classList.contains('done') && q.querySelector('label.correct input').checked) right++;
+  });
+  document.getElementById('quizScore').textContent = '已完成 ' + done + '/' + DAY_QUIZ.length + ' 题 · 答对 ' + right + ' 题';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  injectAudio();
+  highlightPhrases();
+  setupPhrasePop();
+  renderQuiz();
+});
+</script><!--/DAY-ENHANCE-JS-->
 </body>
 </html>

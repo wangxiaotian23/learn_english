@@ -42,6 +42,35 @@
   nav.bottom a { color:var(--primary); text-decoration:none; padding:10px 18px; border:1px solid #dbeafe; border-radius:10px; background:var(--card); font-size:14px; }
   nav.bottom a:hover { background:#eff6ff; }
 </style>
+<!--DAY-ENHANCE-CSS--><style>
+  .phrase { background: #eff6ff; border-bottom: 2px dotted #2563eb; cursor: pointer; border-radius: 3px; padding: 0 2px; }
+  .phrase:hover { background: #dbeafe; }
+  #phrasePop { position: absolute; display: none; z-index: 99; background: #1e293b; color: #fff;
+    border-radius: 10px; padding: 10px 14px; font-size: 13px; max-width: 300px; box-shadow: 0 8px 20px rgba(0,0,0,.25); }
+  #phrasePop .p-en { font-weight: 700; color: #93c5fd; margin-bottom: 2px; }
+  #phrasePop .p-voice { background: #334155; border: none; color: #fff; border-radius: 50%; width: 26px; height: 26px; cursor: pointer; margin-top: 6px; }
+  .dlg-audio { display: inline-flex; gap: 8px; margin-left: 10px; }
+  .dlg-audio button { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; border-radius: 999px;
+    padding: 3px 12px; font-size: 12px; cursor: pointer; font-family: inherit; }
+  .dlg-audio button:hover { background: #dbeafe; }
+  .dlg-audio button.playing { background: #1d4ed8; color: #fff; }
+  .line { position: relative; }
+  .line .line-voice { background: none; border: none; cursor: pointer; font-size: 12px; padding: 0 4px; opacity: .55; }
+  .line .line-voice:hover { opacity: 1; }
+  .line.speaking .en { background: #fef3c7 !important; }
+  .shadow-tip { font-size: 12px; color: #b45309; background: #fffbeb; border-radius: 6px; padding: 2px 8px; display: none; margin-left: 8px; }
+  .quiz-q { border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 18px; margin: 12px 0; background: #fff; }
+  .quiz-q .q-title { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+  .quiz-q label { display: block; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; margin: 6px 0;
+    cursor: pointer; font-size: 14px; }
+  .quiz-q label:hover { border-color: var(--primary); }
+  .quiz-q label.correct { background: #ecfdf5; border-color: #a7f3d0; color: #047857; }
+  .quiz-q label.wrong { background: #fef2f2; border-color: #fecaca; color: #b91c1c; }
+  .quiz-q label.disabled { cursor: default; opacity: .75; }
+  .quiz-q .explain { display: none; margin-top: 8px; font-size: 13px; color: var(--muted); background: #f8fafc; border-radius: 6px; padding: 6px 10px; }
+  .quiz-q.done .explain { display: block; }
+  .quiz-score { font-size: 15px; font-weight: 600; color: var(--primary-dark); margin-top: 8px; }
+</style><!--/DAY-ENHANCE-CSS-->
 </head>
 <body>
 <div class="container">
@@ -70,51 +99,51 @@
   <h2 class="section">核心句型</h2>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">① 进入讨论（拿到发言权）</h2>
-  <div class="sent"><div class="en">Can I jump in here for a second?</div><div class="zh">我能插句话吗？</div><span class="scene">最自然的插话 · jump in</span></div>
-  <div class="sent"><div class="en">Sorry to interrupt, but I think there's an important angle we're missing.</div><div class="zh">抱歉打断一下，我觉得我们漏了一个重要的角度。</div><span class="scene">打断但有事要说</span></div>
-  <div class="sent"><div class="en">Building on what Sarah said, I think we could also...</div><div class="zh">接着 Sarah 说的，我觉得我们还可以……</div><span class="scene">接话 · building on，显得在听</span></div>
+  <div class="sent"><div class="en">Can I <span class="phrase" data-ph="jump in">jump in</span> here for a second?</div><div class="zh">我能插句话吗？</div><span class="scene">最自然的插话 · <span class="phrase" data-ph="jump in">jump in</span></span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="sorry to interrupt">Sorry to interrupt</span>, but I think there's an important angle we're missing.</div><div class="zh">抱歉打断一下，我觉得我们漏了一个重要的角度。</div><span class="scene">打断但有事要说</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="building on what">Building on what</span> Sarah said, I think we could also...</div><div class="zh">接着 Sarah 说的，我觉得我们还可以……</div><span class="scene">接话 · building on，显得在听</span></div>
   <div class="sent"><div class="en">I'd like to add one more thing before we move on.</div><div class="zh">在我们继续之前，我想再补充一点。</div><span class="scene">话题切换前争取发言</span></div>
-  <div class="sent"><div class="en">From the engineering side, I see a couple of risks worth flagging.</div><div class="zh">从工程角度，我看到了几个值得提出来的风险。</div><span class="scene">以角色身份发言 · flag a risk</span></div>
+  <div class="sent"><div class="en">From the engineering side, I see a couple of risks worth <span class="phrase" data-ph="flagging">flagging</span>.</div><div class="zh">从工程角度，我看到了几个值得提出来的风险。</div><span class="scene">以角色身份发言 · flag a risk</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">② 表达观点：同意 / 反对（软化语气）</h2>
   <div class="sent"><div class="en">I totally agree with that approach.</div><div class="zh">我完全同意这个方案。</div><span class="scene">强烈同意</span></div>
-  <div class="sent"><div class="en">That's a fair point, but have we considered the maintenance cost?</div><div class="zh">有道理，但我们考虑过维护成本吗？</div><span class="scene">部分同意 + 抛出新问题</span></div>
-  <div class="sent"><div class="en">I see it a bit differently. My concern is mainly about the timeline.</div><div class="zh">我的看法略有不同。我主要担心的是时间安排。</div><span class="scene">委婉反对 · I see it a bit differently</span></div>
+  <div class="sent"><div class="en">That's a <span class="phrase" data-ph="fair point">fair point</span>, but have we considered the maintenance cost?</div><div class="zh">有道理，但我们考虑过维护成本吗？</div><span class="scene">部分同意 + 抛出新问题</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="i see it a bit differently">I see it a bit differently</span>. My concern is mainly about the timeline.</div><div class="zh">我的看法略有不同。我主要担心的是时间安排。</div><span class="scene">委婉反对 · <span class="phrase" data-ph="i see it a bit differently">I see it a bit differently</span></span></div>
   <div class="sent"><div class="en">I'm not sure that would work in practice, because our data volume is 10x bigger.</div><div class="zh">我不确定这在实际中可行，因为我们的数据量是它的十倍。</div><span class="scene">用事实反对 · not sure...because</span></div>
-  <div class="sent"><div class="en">Maybe we could try a middle ground — pilot it with one team first?</div><div class="zh">也许我们可以折中一下——先在一个团队试点？</div><span class="scene">提出折中 · middle ground</span></div>
-  <div class="sent"><div class="en">Just to play devil's advocate — what if the vendor raises prices next year?</div><div class="zh">让我唱个反调——如果供应商明年涨价怎么办？</div><span class="scene">play devil's advocate = 唱反调（对事不对人的免责声明）</span></div>
+  <div class="sent"><div class="en">Maybe we could try a <span class="phrase" data-ph="middle ground">middle ground</span> — pilot it with one team first?</div><div class="zh">也许我们可以折中一下——先在一个团队试点？</div><span class="scene">提出折中 · <span class="phrase" data-ph="middle ground">middle ground</span></span></div>
+  <div class="sent"><div class="en">Just to <span class="phrase" data-ph="play devil's advocate">play devil's advocate</span> — what if the vendor raises prices next year?</div><div class="zh">让我唱个反调——如果供应商明年涨价怎么办？</div><span class="scene"><span class="phrase" data-ph="play devil's advocate">play devil's advocate</span> = 唱反调（对事不对人的免责声明）</span></div>
 
   <h2 class="section" style="font-size:15px;color:var(--muted);border-color:#94a3b8;">③ 请澄清与推进会议</h2>
-  <div class="sent"><div class="en">Sorry, I didn't quite catch that — could you say it again?</div><div class="zh">抱歉，我没太听清——能再说一遍吗？</div><span class="scene">没听清 · I didn't quite catch that</span></div>
-  <div class="sent"><div class="en">Could you elaborate on the migration plan a bit more?</div><div class="zh">关于迁移方案，你能再展开讲讲吗？</div><span class="scene">请展开 · elaborate</span></div>
-  <div class="sent"><div class="en">Let's take this offline — this is getting into the weeds.</div><div class="zh">这个我们线下再聊——现在有点陷入细节了。</div><span class="scene">把细节移出会议 · take it offline</span></div>
-  <div class="sent"><div class="en">To sum up: we'll go with option B, Sarah will own the migration, and we'll revisit the timeline on Friday.</div><div class="zh">总结一下：我们选方案 B，Sarah 负责迁移，周五再看时间安排。</div><span class="scene">会议收尾总结 · to sum up</span></div>
-  <div class="sent"><div class="en">Are we all aligned on this? Great, let's move on to the next item.</div><div class="zh">这点大家都一致吗？好，我们进入下一项。</div><span class="scene">对齐确认 · are we aligned</span></div>
+  <div class="sent"><div class="en">Sorry, I <span class="phrase" data-ph="didn't quite catch">didn't quite catch</span> that — could you say it again?</div><div class="zh">抱歉，我没太听清——能再说一遍吗？</div><span class="scene">没听清 · I <span class="phrase" data-ph="didn't quite catch">didn't quite catch</span> that</span></div>
+  <div class="sent"><div class="en">Could you <span class="phrase" data-ph="elaborate">elaborate</span> on the migration plan a bit more?</div><div class="zh">关于迁移方案，你能再展开讲讲吗？</div><span class="scene">请展开 · <span class="phrase" data-ph="elaborate">elaborate</span></span></div>
+  <div class="sent"><div class="en">Let's <span class="phrase" data-ph="take this offline">take this offline</span> — this is getting into the weeds.</div><div class="zh">这个我们线下再聊——现在有点陷入细节了。</div><span class="scene">把细节移出会议 · take it offline</span></div>
+  <div class="sent"><div class="en"><span class="phrase" data-ph="to sum up">To sum up</span>: we'll go with option B, Sarah will own the migration, and we'll revisit the timeline on Friday.</div><div class="zh">总结一下：我们选方案 B，Sarah 负责迁移，周五再看时间安排。</div><span class="scene">会议收尾总结 · <span class="phrase" data-ph="to sum up">to sum up</span></span></div>
+  <div class="sent"><div class="en">Are we all aligned on this? Great, let's move on to the next item.</div><div class="zh">这点大家都一致吗？好，我们进入下一项。</div><span class="scene">对齐确认 · <span class="phrase" data-ph="are we aligned">are we aligned</span></span></div>
 
   <h2 class="section">情景对话</h2>
 
   <div class="dialog">
     <h3>场景一：技术选型讨论会（多轮观点交锋）</h3>
-    <div class="line"><span class="who">Kevin</span><span class="en">To kick things off: we need to pick a message broker for the new event pipeline. I've shortlisted Kafka and RabbitMQ. My vote goes to RabbitMQ — it's simpler to operate.</span><span class="zh">先开个头：我们要为新的事件管道选一个消息中间件。我筛选了 Kafka 和 RabbitMQ。我投 RabbitMQ——运维更简单。</span></div>
+    <div class="line"><span class="who">Kevin</span><span class="en">To <span class="phrase" data-ph="kick things off">kick things off</span>: we need to pick a message broker for the new event pipeline. I've shortlisted Kafka and RabbitMQ. My vote goes to RabbitMQ — it's simpler to operate.</span><span class="zh">先开个头：我们要为新的事件管道选一个消息中间件。我筛选了 Kafka 和 RabbitMQ。我投 RabbitMQ——运维更简单。</span></div>
     <div class="line"><span class="who">Sarah</span><span class="en">I agree RabbitMQ is easier, but we're projecting 50,000 events per second at peak. That's Kafka territory.</span><span class="zh">我同意 RabbitMQ 更简单，但我们预计峰值每秒五万条事件。那是 Kafka 的领域。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Can I jump in here? I see it a bit differently. Our peak is high, but the average load is only around 2,000 per second. And the replay feature matters more to us than raw throughput — if we need to reprocess last week's events, Kafka makes that trivial.</span><span class="zh">我能插句话吗？我的看法不太一样。峰值是高，但平均负载只有每秒两千左右。而且对我们来说，消息回放比裸吞吐量更重要——如果需要重新处理上周的事件，Kafka 做起来轻而易举。</span></div>
-    <div class="line"><span class="who">Kevin</span><span class="en">That's a fair point about replay, but Kafka operations aren't trivial. Who's going to own the cluster?</span><span class="zh">回放这点有道理，但 Kafka 的运维不简单。谁来负责这个集群？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Can I jump in here? <span class="phrase" data-ph="i see it a bit differently">I see it a bit differently</span>. Our peak is high, but the average load is only around 2,000 per second. And the replay feature matters more to us than raw throughput — if we need to reprocess last week's events, Kafka makes that trivial.</span><span class="zh">我能插句话吗？我的看法不太一样。峰值是高，但平均负载只有每秒两千左右。而且对我们来说，消息回放比裸吞吐量更重要——如果需要重新处理上周的事件，Kafka 做起来轻而易举。</span></div>
+    <div class="line"><span class="who">Kevin</span><span class="en">That's a <span class="phrase" data-ph="fair point">fair point</span> about replay, but Kafka operations aren't trivial. Who's going to own the cluster?</span><span class="zh">回放这点有道理，但 Kafka 的运维不简单。谁来负责这个集群？</span></div>
     <div class="line me"><span class="who">你</span><span class="en">Good question. What if we use a managed service? Then the operational burden sits with the vendor, and we just handle the application side.</span><span class="zh">问得好。如果用托管服务呢？运维负担就归供应商，我们只管应用层。</span></div>
-    <div class="line"><span class="who">Sarah</span><span class="en">Just to play devil's advocate — managed Kafka costs roughly four times more per month. Is the replay feature worth that budget?</span><span class="zh">让我唱个反调——托管的 Kafka 每月成本大概是四倍。回放功能值这个预算吗？</span></div>
+    <div class="line"><span class="who">Sarah</span><span class="en">Just to <span class="phrase" data-ph="play devil's advocate">play devil's advocate</span> — managed Kafka costs roughly four times more per month. Is the replay feature worth that budget?</span><span class="zh">让我唱个反调——托管的 Kafka 每月成本大概是四倍。回放功能值这个预算吗？</span></div>
     <div class="line me"><span class="who">你</span><span class="en">Honestly, maybe we could try a middle ground: start with managed RabbitMQ since it fits our current volume, and design the event schema so switching to Kafka later isn't painful. We'd revisit if we grow past the limits.</span><span class="zh">说实话，也许可以折中：先用托管的 RabbitMQ，它符合我们当前的量；同时把事件 schema 设计成以后切换到 Kafka 也不痛苦。超过承载上限再重新评估。</span></div>
-    <div class="line"><span class="who">Kevin</span><span class="en">I can get behind that. Pragmatic and reversible.</span><span class="zh">我可以接受。务实而且可逆。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">To sum up then: managed RabbitMQ for launch, schema designed for portability, and we'll revisit at 10,000 events per second sustained. Are we all aligned?</span><span class="zh">那总结一下：上线用托管 RabbitMQ，schema 保证可迁移性，持续每秒一万条时再评估。大家都同意吗？</span></div>
+    <div class="line"><span class="who">Kevin</span><span class="en"><span class="phrase" data-ph="i can get behind">I can get behind</span> that. Pragmatic and reversible.</span><span class="zh">我可以接受。务实而且可逆。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en"><span class="phrase" data-ph="to sum up">To sum up</span> then: managed RabbitMQ for launch, schema designed for portability, and we'll revisit at 10,000 events per second sustained. Are we all aligned?</span><span class="zh">那总结一下：上线用托管 RabbitMQ，schema 保证可迁移性，持续每秒一万条时再评估。大家都同意吗？</span></div>
     <div class="line"><span class="who">Everyone</span><span class="en">Aligned.</span><span class="zh">一致。</span></div>
   </div>
 
   <div class="dialog">
     <h3>场景二：跨部门会议，你没听清且被赶进度（应对技巧）</h3>
     <div class="line"><span class="who">PM</span><span class="en">...so with the new rate-limiting in place, the integration should be seamless. Any concerns from engineering?</span><span class="zh">……所以新的限流上线后，集成会很顺畅。工程这边有顾虑吗？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Sorry, I didn't quite catch the part about rate limiting — could you elaborate? Which endpoints does it apply to?</span><span class="zh">抱歉，限流那部分我没听太清——能展开讲讲吗？作用于哪些接口？</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Sorry, I <span class="phrase" data-ph="didn't quite catch">didn't quite catch</span> the part about rate limiting — could you elaborate? Which endpoints does it apply to?</span><span class="zh">抱歉，限流那部分我没听太清——能展开讲讲吗？作用于哪些接口？</span></div>
     <div class="line"><span class="who">PM</span><span class="en">Sure — it applies to the public API, 100 requests per minute per client.</span><span class="zh">当然——作用于公开 API，每个客户端每分钟 100 次请求。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">OK, that's what I thought. One concern from the engineering side: our batch sync job currently makes around 300 requests per minute. We'd need to redesign it, which adds about a week of work.</span><span class="zh">好，和我理解的一样。工程这边一个顾虑：我们的批量同步任务目前每分钟大约发 300 次请求。得重新设计，大概要多花一周。</span></div>
     <div class="line"><span class="who">PM</span><span class="en">Hmm, I hadn't thought about the batch job. That's a good catch.</span><span class="zh">嗯，我没想到批量任务。这个发现很重要。</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">This is getting into the weeds, though — maybe we take it offline? I'll write up the options and share them by tomorrow, then we can decide async.</span><span class="zh">不过这块越来越细了——要不线下聊？我把几个方案写出来明天发出来，我们异步决定就行。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">This is getting <span class="phrase" data-ph="into the weeds">into the weeds</span>, though — maybe we take it offline? I'll write up the options and share them by tomorrow, then we can decide async.</span><span class="zh">不过这块越来越细了——要不线下聊？我把几个方案写出来明天发出来，我们异步决定就行。</span></div>
     <div class="line"><span class="who">PM</span><span class="en">Yes, let's do that. Moving on to the next topic...</span><span class="zh">好，就这么办。进入下一个话题……</span></div>
   </div>
 
@@ -123,8 +152,8 @@
     <div class="line"><span class="who">Tech Lead</span><span class="en">I think we should ship the feature on Friday as planned, even without full test coverage. The business pressure is real.</span><span class="zh">我觉得周五按计划上线，即使测试覆盖不全。业务的压力是实打实的。</span></div>
     <div class="line me"><span class="who">你</span><span class="en">I understand the pressure, and I do want us to hit the date. My concern is mainly about the payment path — if it breaks in production, the rollback and customer support cost would outweigh the week we'd gain.</span><span class="zh">我理解压力，我也想按时完成。我主要担心的是支付链路——如果生产上出问题，回滚加客服成本会超过我们抢回来的这一周。</span></div>
     <div class="line"><span class="who">Tech Lead</span><span class="en">That's a fair point, but can we scope it down somehow?</span><span class="zh">有道理，但能不能缩小范围？</span></div>
-    <div class="line me"><span class="who">你</span><span class="en">Maybe a middle ground: we ship everything except the payment refactor, and that one piece goes out next Tuesday with full coverage. The business value ships Friday either way.</span><span class="zh">也许可以折中：除了支付重构，其他都周五上线，支付那一块下周二带着完整测试发。无论如何，业务价值周五就能交付。</span></div>
-    <div class="line"><span class="who">Tech Lead</span><span class="en">I can sell that to the business team. Good, let's go with that.</span><span class="zh">这个说法我能跟业务团队交代。好，就这么定。</span></div>
+    <div class="line me"><span class="who">你</span><span class="en">Maybe a <span class="phrase" data-ph="middle ground">middle ground</span>: we ship everything except the payment refactor, and that one piece goes out next Tuesday with full coverage. The business value ships Friday either way.</span><span class="zh">也许可以折中：除了支付重构，其他都周五上线，支付那一块下周二带着完整测试发。无论如何，业务价值周五就能交付。</span></div>
+    <div class="line"><span class="who">Tech Lead</span><span class="en">I can <span class="phrase" data-ph="sell that to">sell that to</span> the business team. Good, let's go with that.</span><span class="zh">这个说法我能跟业务团队交代。好，就这么定。</span></div>
   </div>
 
   <h2 class="section">发音与连读提示</h2>
@@ -194,10 +223,244 @@
     <tr><td>10 分钟</td><td>真实会议 30 秒口头总结练习</td></tr>
   </table>
 
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
+  <h2 class="section">📝 课后小练习</h2><div class="card" id="dayQuiz"></div>
   <nav class="bottom">
     <a href="day3.html">← Day 3 · 代码评审</a>
     <a href="day5.html">Day 5 · 讲解方案与 Demo →</a>
   </nav>
 </div>
+<!--DAY-ENHANCE-JS--><script>
+var DAY_PHRASES = [["jump in", "插句话"], ["Sorry to interrupt", "抱歉打断一下"], ["Building on what", "接着（某人）说的"], ["flagging", "提出来（风险等）"], ["I see it a bit differently", "我的看法略有不同"], ["fair point", "有道理"], ["play devil's advocate", "唱个反调（对事不对人）"], ["middle ground", "折中方案"], ["take this offline", "线下再聊、会后单聊"], ["into the weeds", "陷入细节"], ["To sum up", "总结一下"], ["Are we aligned", "大家一致吗"], ["I can get behind", "我可以支持"], ["kick things off", "先开个头"], ["elaborate", "展开讲讲"], ["didn't quite catch", "没太听清"], ["short-term fix", "短期方案"], ["sell that to", "让……接受这个说法"]];
+var DAY_QUIZ = [["会议上想插一句话，最自然的是：", ["Can I jump in here for a second?", "Can I jump this meeting?", "May I jump the words?", "Let me jump into you."], 0, "jump in 表示插入讨论，非常口语自然。"], ["委婉表达不同意见：", ["I see it a bit differently. My concern is the timeline.", "You are wrong. The timeline is bad.", "I see you differently. Timeline!", "My opinion differs from yours strongly."], 0, "I see it a bit differently 软化语气，对事不对人。"], ["故意唱个反调检查方案漏洞，先声明：", ["Just to play devil's advocate — what if the vendor raises prices?", "Let me play the devil — prices up?", "I will be a devil about prices.", "Devil says: prices up next year."], 0, "play devil's advocate 表示「唱反调」，避免显得针对个人。"], ["讨论陷入细节，提议会后单聊：", ["Let's take this offline — this is getting into the weeds.", "Let's take this to offline-land, weeds are here.", "Go offline with the weeds, please.", "This weed is offline, discuss later."], 0, "take it offline + into the weeds 都是会议高频表达。"], ["会议收尾做总结，用：", ["To sum up: we'll go with option B, and revisit the timeline on Friday.", "Summing all: B option we go, Friday timeline we see.", "In sum-up of B, Friday revisits us.", "To summary, B is going on Friday."], 0, "To sum up + go with + revisit 是会议收尾三件套。"]];
+var DAY_NO = 4;
+
+/* ---------- 语音（与词汇页共用偏好） ---------- */
+var __voice = null;
+function resolveVoice() {
+  var vs = window.speechSynthesis.getVoices() || [];
+  var saved = '';
+  try { saved = localStorage.getItem('ielts-voice') || ''; } catch (e) {}
+  if (saved) {
+    var hit = vs.filter(function (v) { return v.name === saved; });
+    if (hit.length) return hit[0];
+  }
+  var pref = ['Ava (Premium)', 'Ava (Enhanced)', 'Zoe (Premium)', 'Samantha', 'Google UK English Female', 'Google US English', 'Microsoft Aria'];
+  for (var i = 0; i < pref.length; i++) {
+    for (var j = 0; j < vs.length; j++) {
+      if (vs[j].name.indexOf(pref[i]) !== -1) return vs[j];
+    }
+  }
+  var en = vs.filter(function (v) { return (v.lang || '').toLowerCase().indexOf('en') === 0; });
+  return en[0] || null;
+}
+function speakText(text, onend) {
+  if (!('speechSynthesis' in window)) return;
+  var synth = window.speechSynthesis;
+  synth.cancel();
+  if (!__voice) {
+    __voice = resolveVoice();
+    synth.onvoiceschanged = function () { __voice = resolveVoice(); };
+  }
+  var u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  if (__voice) u.voice = __voice;
+  if (onend) u.onend = onend;
+  synth.speak(u);
+}
+
+/* ---------- 对话音频 + 跟读 ---------- */
+var playState = null; /* {dialog, lines, idx, shadow, timer} */
+
+function collectLines(dialog) {
+  return Array.prototype.map.call(dialog.querySelectorAll('.line'), function (line) {
+    return { el: line, text: (line.querySelector('.en') || {}).textContent || '' };
+  }).filter(function (l) { return l.text.trim(); });
+}
+
+function stopPlayback() {
+  if (!playState) return;
+  if (playState.timer) clearTimeout(playState.timer);
+  window.speechSynthesis.cancel();
+  playState.lines.forEach(function (l) {
+    l.el.classList.remove('speaking');
+    var b = l.el.querySelector('.line-voice');
+    if (b) b.textContent = '🔊';
+  });
+  var btns = playState.dialog.querySelectorAll('.dlg-audio button');
+  btns.forEach(function (b) { b.classList.remove('playing'); });
+  var tip = playState.dialog.querySelector('.shadow-tip');
+  if (tip) tip.style.display = 'none';
+  playState = null;
+}
+
+function playFrom(dialog, startIdx, shadow) {
+  stopPlayback();
+  playState = { dialog: dialog, lines: collectLines(dialog), idx: startIdx, shadow: shadow, timer: null };
+  var btns = dialog.querySelectorAll('.dlg-audio button');
+  if (btns[shadow ? 1 : 0]) btns[shadow ? 1 : 0].classList.add('playing');
+  var tip = dialog.querySelector('.shadow-tip');
+  if (shadow && tip) tip.style.display = '';
+  playNextLine();
+}
+
+function playNextLine() {
+  if (!playState) return;
+  var s = playState;
+  if (s.idx >= s.lines.length) { stopPlayback(); return; }
+  var line = s.lines[s.idx];
+  line.el.classList.add('speaking');
+  var vb = line.el.querySelector('.line-voice');
+  if (vb) vb.textContent = '🔈';
+  line.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  speakText(line.text, function () {
+    if (!playState) return;
+    if (vb) vb.textContent = '🔊';
+    var wait = s.shadow ? 4000 : 350;
+    s.timer = setTimeout(function () {
+      if (!playState) return;
+      line.el.classList.remove('speaking');
+      s.idx++;
+      playNextLine();
+    }, wait);
+  });
+}
+
+function togglePlay(dialog, shadow, btn) {
+  if (playState && playState.dialog === dialog && playState.shadow === shadow) { stopPlayback(); return; }
+  playFrom(dialog, 0, shadow);
+}
+
+function injectAudio() {
+  document.querySelectorAll('.dialog').forEach(function (dialog, di) {
+    var h3 = dialog.querySelector('h3');
+    if (!h3) return;
+    var wrap = document.createElement('span');
+    wrap.className = 'dlg-audio';
+    wrap.innerHTML =
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), false, this)">▶️ 播放对话</button>' +
+      '<button onclick="togglePlay(this.closest(\'.dialog\'), true, this)">🎧 跟读模式</button>' +
+      '<span class="shadow-tip">跟读中：每句读完请大声复述</span>';
+    h3.appendChild(wrap);
+    dialog.querySelectorAll('.line').forEach(function (line) {
+      var en = line.querySelector('.en');
+      if (!en) return;
+      var b = document.createElement('button');
+      b.className = 'line-voice';
+      b.textContent = '🔊';
+      b.title = '播放这句';
+      b.onclick = function () {
+        var wasPlaying = playState && playState.dialog === dialog;
+        stopPlayback();
+        if (wasPlaying) return;
+        line.classList.add('speaking');
+        b.textContent = '🔈';
+        speakText(en.textContent, function () {
+          line.classList.remove('speaking');
+          b.textContent = '🔊';
+        });
+      };
+      en.appendChild(b);
+    });
+  });
+}
+
+/* ---------- 短语高亮 + 释义气泡 ---------- */
+var DAY_PHRASES_DICT = {};
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+function highlightPhrases() {
+  var phrases = DAY_PHRASES.map(function (p) { return p[0]; });
+  phrases.sort(function (a, b) { return b.length - a.length; });
+  DAY_PHRASES.forEach(function (p) { DAY_PHRASES_DICT[p[0].toLowerCase()] = p[1]; });
+  document.querySelectorAll('.dialog .line .en, .sent .en').forEach(function (el) {
+    var html = el.innerHTML;
+    if (html.indexOf('class="phrase"') !== -1) return;
+    phrases.forEach(function (phrase) {
+      if (html.indexOf('class="phrase"') !== -1) return;
+      var re = new RegExp(escapeRegExp(phrase).replace(/ /g, '(?:\\s|&nbsp;)+'), 'gi');
+      html = html.replace(re, function (m) {
+        return '<span class="phrase" data-ph="' + phrase.toLowerCase() + '">' + m + '</span>';
+      });
+    });
+    el.innerHTML = html;
+  });
+}
+
+function setupPhrasePop() {
+  var pop = document.createElement('div');
+  pop.id = 'phrasePop';
+  document.body.appendChild(pop);
+  document.addEventListener('click', function (e) {
+    var voiceBtn = e.target.closest('.p-voice');
+    if (voiceBtn) {
+      speakText(voiceBtn.getAttribute('data-say'));
+      e.stopPropagation();
+      return;
+    }
+    var ph = e.target.closest('.phrase');
+    if (ph) {
+      var key = ph.getAttribute('data-ph');
+      pop.innerHTML = '<div class="p-en">' + key + '</div><div>' + (DAY_PHRASES_DICT[key] || '') + '</div>' +
+        '<button class="p-voice" data-say="' + key + '">🔊</button>';
+      var r = ph.getBoundingClientRect();
+      pop.style.display = 'block';
+      var top = r.bottom + window.scrollY + 8;
+      var left = Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - 320);
+      pop.style.top = top + 'px';
+      pop.style.left = Math.max(8, left) + 'px';
+      e.stopPropagation();
+      return;
+    }
+    pop.style.display = 'none';
+  });
+}
+
+/* ---------- 课后小练习 ---------- */
+function renderQuiz() {
+  var host = document.getElementById('dayQuiz');
+  if (!host) return;
+  var items = DAY_QUIZ;
+  var html = '';
+  items.forEach(function (q, qi) {
+    html += '<div class="quiz-q" data-answer="' + q[2] + '"><div class="q-title">' + (qi + 1) + '. ' + q[0] + '</div>';
+    q[1].forEach(function (opt, oi) {
+      html += '<label data-oi="' + oi + '"><input type="radio" name="q' + qi + '" style="margin-right:8px" onclick="answerQuiz(this)">' + opt + '</label>';
+    });
+    html += '<div class="explain">💡 ' + q[3] + '</div></div>';
+  });
+  html += '<div class="quiz-score" id="quizScore"></div><button class="btn ghost" onclick="renderQuiz()" style="margin-top:10px">🔄 重做</button>';
+  host.innerHTML = html;
+}
+
+function answerQuiz(input) {
+  var qdiv = input.closest('.quiz-q');
+  if (qdiv.classList.contains('done')) return;
+  qdiv.classList.add('done');
+  var answer = parseInt(qdiv.getAttribute('data-answer'), 10);
+  qdiv.querySelectorAll('label').forEach(function (label) {
+    var oi = parseInt(label.getAttribute('data-oi'), 10);
+    label.classList.add('disabled');
+    if (oi === answer) label.classList.add('correct');
+    else if (label.querySelector('input').checked) label.classList.add('wrong');
+  });
+  var done = document.querySelectorAll('.quiz-q.done').length;
+  var right = 0;
+  document.querySelectorAll('.quiz-q').forEach(function (q) {
+    if (q.classList.contains('done') && q.querySelector('label.correct input').checked) right++;
+  });
+  document.getElementById('quizScore').textContent = '已完成 ' + done + '/' + DAY_QUIZ.length + ' 题 · 答对 ' + right + ' 题';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  injectAudio();
+  highlightPhrases();
+  setupPhrasePop();
+  renderQuiz();
+});
+</script><!--/DAY-ENHANCE-JS-->
 </body>
 </html>

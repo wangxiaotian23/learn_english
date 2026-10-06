@@ -17790,7 +17790,16 @@
 </div>
 
 <script>
-  const STORAGE_KEY = 'ielts_mastered_part2';
+  const STORAGE_KEY = 'ielts_mastered_part2a';
+  (function migrateSharedKey() {
+    try {
+      if (localStorage.getItem(STORAGE_KEY) !== null) return;
+      var old = JSON.parse(localStorage.getItem('ielts_mastered_part2') || '[]');
+      var lo = 601, hi = 900;
+      var mine = old.filter(function (x) { return x >= lo && x <= hi; });
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(mine));
+    } catch (e) {}
+  })();
   let curBand = 'all';
   let curCat = 'all';
   let isQuiz = true;
@@ -18076,5 +18085,44 @@
     }
   }
 </script><!--/SENT-JS-->
+<!--USER-SYNC--><script>
+(function () {
+  function api(path, body) {
+    return fetch(path, {
+      method: body ? 'POST' : 'GET',
+      headers: body ? { 'Content-Type': 'application/json' } : undefined,
+      credentials: 'same-origin',
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function (r) { return r.json(); });
+  }
+
+  /* 登录时：服务端进度 ∪ 本地进度，合并渲染 */
+  api('/api/me').then(function (me) {
+    if (!me.ok) return null;
+    return api('/api/progress');
+  }).then(function (j) {
+    if (!j || !j.ok) return;
+    var server = new Set(j.mastered);
+    var local = getSet();
+    var changed = false;
+    local.forEach(function (wid) {
+      if (!server.has(wid)) { server.add(wid); changed = true; }
+    });
+    server.forEach(function (wid) { setRowMastered(wid, true); });
+    renderProg();
+    if (changed) {
+      api('/api/progress', { add: Array.from(local) });
+    }
+  }).catch(function () {});
+
+  /* 勾选/取消勾选时同步到服务端（静默降级） */
+  var origToggle = window.toggleMaster;
+  window.toggleMaster = function (wid) {
+    origToggle(wid);
+    var add = getSet().has(wid);
+    api('/api/progress', add ? { add: [wid] } : { remove: [wid] }).catch(function () {});
+  };
+})();
+</script><!--/USER-SYNC-->
 </body>
 </html>
